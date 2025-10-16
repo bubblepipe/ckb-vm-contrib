@@ -20,6 +20,11 @@ const BINARY_PATH_RSA: &str = "../ckb-vm-bench-scripts/build/release/rsa";
 const BINARY_PATH_SECP256K1_ECDSA: &str = "../ckb-vm-bench-scripts/build/release/secp256k1_ecdsa";
 const BINARY_PATH_SECP256K1_SCHNORR: &str = "../ckb-vm-bench-scripts/build/release/secp256k1_schnorr";
 
+const BINARY_PATH_BENCH_DIV: &str = "../ckb-vm-bench-scripts/build/release/bench_div";
+const BINARY_PATH_BENCH_DIVW: &str = "../ckb-vm-bench-scripts/build/release/bench_divw";
+const BINARY_PATH_BENCH_REM: &str = "../ckb-vm-bench-scripts/build/release/bench_rem";
+const BINARY_PATH_BENCH_REMW: &str = "../ckb-vm-bench-scripts/build/release/bench_remw";
+
 fn asm_ed25519(c: &mut Criterion) {
     c.bench_function("asm_ed25519", |b| {
         let buffer = fs::read(BINARY_PATH_ED25519).unwrap().into();
@@ -183,28 +188,61 @@ fn run_mop(program: &Bytes) {
     machine.run().unwrap();
 }
 
+fn asm_bench_div(c: &mut Criterion) {
+    c.bench_function("asm_bench_div", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIV).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_divw(c: &mut Criterion) {
+    c.bench_function("asm_bench_divw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIVW).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_rem(c: &mut Criterion) {
+    c.bench_function("asm_bench_rem", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REM).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_remw(c: &mut Criterion) {
+    c.bench_function("asm_bench_remw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REMW).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
 criterion_group!(
     benches,
-    asm_ed25519,
-    asm_k256_ecdsa,
-    asm_k256_schnorr,
-    asm_p256,
-    asm_rsa,
-    asm_secp256k1_ecdsa,
-    asm_secp256k1_schnorr,
-    interpret_ed25519,
-    interpret_k256_ecdsa,
-    interpret_k256_schnorr,
-    interpret_p256,
-    interpret_rsa,
-    interpret_secp256k1_ecdsa,
-    interpret_secp256k1_schnorr,
-    mop_ed25519,
-    mop_k256_ecdsa,
-    mop_k256_schnorr,
-    mop_p256,
-    mop_rsa,
-    mop_secp256k1_ecdsa,
-    mop_secp256k1_schnorr,
+    asm_bench_div,
+    asm_bench_divw,
+    asm_bench_rem,
+    asm_bench_remw,
+
+    // asm_ed25519,
+    // asm_k256_ecdsa,
+    // asm_k256_schnorr,
+    // asm_p256,
+    // asm_rsa,
+    // asm_secp256k1_ecdsa,
+    // asm_secp256k1_schnorr,
+    // // interpret_ed25519,
+    // // interpret_k256_ecdsa,
+    // // interpret_k256_schnorr,
+    // // interpret_p256,
+    // // interpret_rsa,
+    // // interpret_secp256k1_ecdsa,
+    // // interpret_secp256k1_schnorr,
+    // mop_ed25519,
+    // mop_k256_ecdsa,
+    // mop_k256_schnorr,
+    // mop_p256,
+    // mop_rsa,
+    // mop_secp256k1_ecdsa,
+    // mop_secp256k1_schnorr,
 );
 criterion_main!(benches);

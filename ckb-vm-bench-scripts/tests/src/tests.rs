@@ -368,3 +368,315 @@ fn test_rsa() {
         .expect("pass verification");
     println!("consume cycles: {}", cycles);
 }
+
+// generated unit test for contract bench_div
+#[test]
+fn test_bench_div() {
+    // deploy contract
+    let mut context = Context::default();
+    let contract_bin: Bytes = Loader::default().load_binary("bench_div");
+    let out_point = context.deploy_cell(contract_bin);
+
+    // prepare scripts
+    let lock_script = context
+        .build_script(&out_point, Bytes::from(vec![42]))
+        .expect("script");
+
+    // prepare cells
+    let input_out_point = context.create_cell(
+        CellOutput::new_builder()
+            .capacity(1000u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        Bytes::new(),
+    );
+    let input = CellInput::new_builder()
+        .previous_output(input_out_point)
+        .build();
+    let outputs = vec![
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script)
+            .build(),
+    ];
+
+    let outputs_data = vec![Bytes::new(); 2];
+
+    // build transaction
+    let tx = TransactionBuilder::default()
+        .input(input)
+        .outputs(outputs)
+        .outputs_data(outputs_data.pack())
+        .build();
+    let tx = context.complete_tx(tx);
+
+    // run
+    let cycles = context
+        .verify_tx(&tx, 10_000_000)
+        .expect("pass verification");
+    println!("consume cycles: {}", cycles);
+}
+
+// generated unit test for contract bench_divw
+#[test]
+fn test_bench_divw() {
+    // deploy contract
+    let mut context = Context::default();
+    let contract_bin: Bytes = Loader::default().load_binary("bench_divw");
+    let out_point = context.deploy_cell(contract_bin);
+
+    // prepare scripts
+    let lock_script = context
+        .build_script(&out_point, Bytes::from(vec![42]))
+        .expect("script");
+
+    // prepare cells
+    let input_out_point = context.create_cell(
+        CellOutput::new_builder()
+            .capacity(1000u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        Bytes::new(),
+    );
+    let input = CellInput::new_builder()
+        .previous_output(input_out_point)
+        .build();
+    let outputs = vec![
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script)
+            .build(),
+    ];
+
+    let outputs_data = vec![Bytes::new(); 2];
+
+    // build transaction
+    let tx = TransactionBuilder::default()
+        .input(input)
+        .outputs(outputs)
+        .outputs_data(outputs_data.pack())
+        .build();
+    let tx = context.complete_tx(tx);
+
+    // run
+    let cycles = context
+        .verify_tx(&tx, 10_000_000)
+        .expect("pass verification");
+    println!("consume cycles: {}", cycles);
+}
+
+// generated unit test for contract bench_rem
+#[test]
+fn test_bench_rem() {
+    // deploy contract
+    let mut context = Context::default();
+    let contract_bin: Bytes = Loader::default().load_binary("bench_rem");
+    let out_point = context.deploy_cell(contract_bin);
+
+    // prepare scripts
+    let lock_script = context
+        .build_script(&out_point, Bytes::from(vec![42]))
+        .expect("script");
+
+    // prepare cells
+    let input_out_point = context.create_cell(
+        CellOutput::new_builder()
+            .capacity(1000u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        Bytes::new(),
+    );
+    let input = CellInput::new_builder()
+        .previous_output(input_out_point)
+        .build();
+    let outputs = vec![
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script)
+            .build(),
+    ];
+
+    let outputs_data = vec![Bytes::new(); 2];
+
+    // build transaction
+    let tx = TransactionBuilder::default()
+        .input(input)
+        .outputs(outputs)
+        .outputs_data(outputs_data.pack())
+        .build();
+    let tx = context.complete_tx(tx);
+
+    // run
+    let cycles = context
+        .verify_tx(&tx, 10_000_000)
+        .expect("pass verification");
+    println!("consume cycles: {}", cycles);
+}
+
+// generated unit test for contract bench_remw
+#[test]
+fn test_bench_remw() {
+    // deploy contract
+    let mut context = Context::default();
+    let contract_bin: Bytes = Loader::default().load_binary("bench_remw");
+    let out_point = context.deploy_cell(contract_bin);
+
+    // prepare scripts
+    let lock_script = context
+        .build_script(&out_point, Bytes::from(vec![42]))
+        .expect("script");
+
+    // prepare cells
+    let input_out_point = context.create_cell(
+        CellOutput::new_builder()
+            .capacity(1000u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        Bytes::new(),
+    );
+    let input = CellInput::new_builder()
+        .previous_output(input_out_point)
+        .build();
+    let outputs = vec![
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script)
+            .build(),
+    ];
+
+    let outputs_data = vec![Bytes::new(); 2];
+
+    // build transaction
+    let tx = TransactionBuilder::default()
+        .input(input)
+        .outputs(outputs)
+        .outputs_data(outputs_data.pack())
+        .build();
+    let tx = context.complete_tx(tx);
+
+    // run
+    let cycles = context
+        .verify_tx(&tx, 10_000_000)
+        .expect("pass verification");
+    println!("consume cycles: {}", cycles);
+}
+
+// generated unit test for contract bench_rev8
+#[test]
+fn test_bench_rev8() {
+    // deploy contract
+    let mut context = Context::default();
+    let contract_bin: Bytes = Loader::default().load_binary("bench_rev8");
+    let out_point = context.deploy_cell(contract_bin);
+
+    // prepare scripts
+    let lock_script = context
+        .build_script(&out_point, Bytes::from(vec![42]))
+        .expect("script");
+
+    // prepare cells
+    let input_out_point = context.create_cell(
+        CellOutput::new_builder()
+            .capacity(1000u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        Bytes::new(),
+    );
+    let input = CellInput::new_builder()
+        .previous_output(input_out_point)
+        .build();
+    let outputs = vec![
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script)
+            .build(),
+    ];
+
+    let outputs_data = vec![Bytes::new(); 2];
+
+    // build transaction
+    let tx = TransactionBuilder::default()
+        .input(input)
+        .outputs(outputs)
+        .outputs_data(outputs_data.pack())
+        .build();
+    let tx = context.complete_tx(tx);
+
+    // run
+    let cycles = context
+        .verify_tx(&tx, 10_000_000)
+        .expect("pass verification");
+    println!("consume cycles: {}", cycles);
+}
+
+// generated unit test for contract bench_wide_div
+#[test]
+fn test_bench_wide_div() {
+    // deploy contract
+    let mut context = Context::default();
+    let contract_bin: Bytes = Loader::default().load_binary("bench_wide_div");
+    let out_point = context.deploy_cell(contract_bin);
+
+    // prepare scripts
+    let lock_script = context
+        .build_script(&out_point, Bytes::from(vec![42]))
+        .expect("script");
+
+    // prepare cells
+    let input_out_point = context.create_cell(
+        CellOutput::new_builder()
+            .capacity(1000u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        Bytes::new(),
+    );
+    let input = CellInput::new_builder()
+        .previous_output(input_out_point)
+        .build();
+    let outputs = vec![
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script.clone())
+            .build(),
+        CellOutput::new_builder()
+            .capacity(500u64.pack())
+            .lock(lock_script)
+            .build(),
+    ];
+
+    let outputs_data = vec![Bytes::new(); 2];
+
+    // build transaction
+    let tx = TransactionBuilder::default()
+        .input(input)
+        .outputs(outputs)
+        .outputs_data(outputs_data.pack())
+        .build();
+    let tx = context.complete_tx(tx);
+
+    // run
+    let cycles = context
+        .verify_tx(&tx, 10_000_000)
+        .expect("pass verification");
+    println!("consume cycles: {}", cycles);
+}
