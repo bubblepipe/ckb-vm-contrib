@@ -10,11 +10,11 @@ import argparse
 import random
 import sys
 
-# RISC-V register names (excluding x0/zero, x1/ra, x2/sp)
+# RISC-V register names (excluding x0/zero, x1/ra, x2/sp, t0 reserved for loop counter)
 TEMP_REGS = [
-    "t0", "t1", "t2", "t3", "t4", "t5", "t6", 
-    "a0", "a1", "a2", "a3", "a4", "a5", "a6", "a7", 
-    "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10", "s11", 
+    "t1", "t2", "t3", "t4", "t5", "t6",
+    "a0", "a1", "a2", "a3", "a4", "a5", "a6", "a7",
+    "s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10", "s11",
 ]
 
 INT64_MIN = -9223372036854775808
@@ -91,7 +91,7 @@ def generate_instruction(instruction, div_by_zero_rate, overflow_rate):
 
     return "\n".join(lines)
 
-def generate_benchmark(instruction, count, div_by_zero_rate, overflow_rate):
+def generate_benchmark(instruction, count, div_by_zero_rate, overflow_rate, iterations=1):
     """
     Generate complete assembly benchmark.
 
@@ -100,6 +100,7 @@ def generate_benchmark(instruction, count, div_by_zero_rate, overflow_rate):
         count: number of instructions to generate
         div_by_zero_rate: fraction of div-by-zero cases (e.g., 0.005 for 0.5%)
         overflow_rate: fraction of overflow cases (e.g., 0.001 for 0.1%)
+        iterations: number of times to loop over the instructions (default: 1)
 
     Returns:
         Complete assembly code as string
@@ -110,6 +111,8 @@ def generate_benchmark(instruction, count, div_by_zero_rate, overflow_rate):
     lines.append("# Auto-generated RISC-V assembly microbenchmark")
     lines.append(f"# Instruction: {instruction.upper()}")
     lines.append(f"# Count: {count}")
+    lines.append(f"# Iterations: {iterations}")
+    lines.append(f"# Total instructions: {count * iterations}")
     lines.append(f"# Div-by-zero rate: {div_by_zero_rate * 100:.2f}%")
     if is_signed:
         lines.append(f"# Overflow rate: {overflow_rate * 100:.2f}%")
@@ -118,9 +121,22 @@ def generate_benchmark(instruction, count, div_by_zero_rate, overflow_rate):
     lines.append("_start:")
     lines.append("")
 
+    # Add loop setup if iterations > 1
+    if iterations > 1:
+        lines.append(f"  li t0, {iterations}  # loop counter")
+        lines.append(".loop:")
+        lines.append("")
+
+    # Generate instructions
     for i in range(count):
         code = generate_instruction(instruction, div_by_zero_rate, overflow_rate)
         lines.append(code)
+        lines.append("")
+
+    # Add loop end if iterations > 1
+    if iterations > 1:
+        lines.append("  addi t0, t0, -1      # decrement counter")
+        lines.append("  bnez t0, .loop       # branch if not zero")
         lines.append("")
 
     lines.append("  # Exit with success")
@@ -170,6 +186,12 @@ def main():
         default=None,
         help="Random seed for reproducibility"
     )
+    parser.add_argument(
+        "--iterations", "-n",
+        type=int,
+        default=1,
+        help="Number of times to loop over the instructions (default: 1)"
+    )
 
     args = parser.parse_args()
 
@@ -180,7 +202,8 @@ def main():
         args.instruction,
         args.count,
         args.div_by_zero,
-        args.overflow
+        args.overflow,
+        args.iterations
     )
 
     with open(args.output, "w") as f:
@@ -189,6 +212,9 @@ def main():
     is_signed = 'u' not in args.instruction
 
     print(f"Generated {args.count} {args.instruction.upper()} instructions")
+    if args.iterations > 1:
+        print(f"Iterations: {args.iterations}")
+        print(f"Total instructions executed: {args.count * args.iterations}")
     print(f"Output: {args.output}")
     print(f"Div-by-zero: {args.div_by_zero * 100:.2f}% (~{int(args.count * args.div_by_zero)} instructions)")
     if is_signed:
