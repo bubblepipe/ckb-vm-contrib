@@ -24,6 +24,7 @@ const BINARY_PATH_BENCH_DIV: &str = "../ckb-vm-bench-scripts/build/release/bench
 const BINARY_PATH_BENCH_DIVW: &str = "../ckb-vm-bench-scripts/build/release/bench_divw";
 const BINARY_PATH_BENCH_REM: &str = "../ckb-vm-bench-scripts/build/release/bench_rem";
 const BINARY_PATH_BENCH_REMW: &str = "../ckb-vm-bench-scripts/build/release/bench_remw";
+const BINARY_PATH_BENCH_WIDE_DIV: &str = "../ckb-vm-bench-scripts/build/release/bench_wide_div";
 
 fn asm_ed25519(c: &mut Criterion) {
     c.bench_function("asm_ed25519", |b| {
@@ -216,13 +217,60 @@ fn asm_bench_remw(c: &mut Criterion) {
     });
 }
 
+fn asm_bench_wide_div(c: &mut Criterion) {
+    c.bench_function("asm_bench_wide_div", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_WIDE_DIV).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn mop_bench_div(c: &mut Criterion) {
+    c.bench_function("mop_bench_div", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIV).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_divw(c: &mut Criterion) {
+    c.bench_function("mop_bench_divw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIVW).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_rem(c: &mut Criterion) {
+    c.bench_function("mop_bench_rem", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REM).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_remw(c: &mut Criterion) {
+    c.bench_function("mop_bench_remw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REMW).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_wide_div(c: &mut Criterion) {
+    c.bench_function("mop_bench_wide_div", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_WIDE_DIV).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
 criterion_group!(
     benches,
     asm_bench_div,
     asm_bench_divw,
     asm_bench_rem,
     asm_bench_remw,
-
+    asm_bench_wide_div,
+    mop_bench_div,
+    mop_bench_divw,
+    mop_bench_rem,
+    mop_bench_remw,
+    mop_bench_wide_div,
     // asm_ed25519,
     // asm_k256_ecdsa,
     // asm_k256_schnorr,
