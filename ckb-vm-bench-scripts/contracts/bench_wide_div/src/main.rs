@@ -74,23 +74,22 @@ pub fn program_entry() -> i8 {
         let low = DIVIDEND_LOW[dividend_idx];
         let divisor = DIVISORS[divisor_idx];
 
-        // unsafe {
-        //     // WIDE_DIV instruction (MOP extension)
-        //     // Encoding: custom encoding for CKB-VM MOP extension
-        //     // Input: a0 (high), a1 (low), a2 (divisor)
-        //     // Output: a0 (quotient), a1 (remainder)
-        //     core::arch::asm!(
-        //         ".insn r 0x0B, 0x6, 0x61, {q}, {h}, {d}",  // WIDE_DIV encoding
-        //         "mv {r}, a1",  // Get remainder from a1
-        //         q = out(reg) quotient,
-        //         r = out(reg) remainder,
-        //         h = in(reg) high,
-        //         d = in(reg) divisor,
-        //         in("a1") low,
-        //         clobber_abi("C"),
-        //     );
-        // }
-        // accumulator = accumulator.wrapping_add(quotient).wrapping_add(remainder);
+        // WIDE_DIV is created by MOP fusion when CKB-VM detects:
+        // DIV rd1, rs1, rs2
+        // REM rd2, rs1, rs2  (same rs1, rs2 operands)
+        // This gets fused into a single WIDE_DIV operation
+
+        unsafe {
+            core::arch::asm!(
+                "div {q}, {dividend}, {divisor}",
+                "rem {r}, {dividend}, {divisor}",
+                q = out(reg) quotient,
+                r = out(reg) remainder,
+                dividend = in(reg) low,  // Use low part as dividend
+                divisor = in(reg) divisor,
+            );
+        }
+        accumulator = accumulator.wrapping_add(quotient).wrapping_add(remainder);
     }
 
     if accumulator == 0 {
