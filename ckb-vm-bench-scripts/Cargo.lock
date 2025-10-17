@@ -80,41 +80,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "89e25b6adfb930f02d1981565a6e5d9c547ac15a96606256d3b59040e5cd4ca3"
 
 [[package]]
-name = "bench_div"
-version = "0.1.0"
-dependencies = [
- "ckb-std",
-]
-
-[[package]]
-name = "bench_divw"
-version = "0.1.0"
-dependencies = [
- "ckb-std",
-]
-
-[[package]]
-name = "bench_rem"
-version = "0.1.0"
-dependencies = [
- "ckb-std",
-]
-
-[[package]]
-name = "bench_remw"
-version = "0.1.0"
-dependencies = [
- "ckb-std",
-]
-
-[[package]]
-name = "bench_wide_div"
-version = "0.1.0"
-dependencies = [
- "ckb-std",
-]
-
-[[package]]
 name = "bit-vec"
 version = "0.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -534,7 +499,6 @@ dependencies = [
  "buddy-alloc",
  "cc",
  "ckb-gen-types",
- "ckb-x64-simulator",
  "gcd",
 ]
 
@@ -675,24 +639,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "95db407ba457416941e70dbaa28fb546d94a4f55be623316d24fb750320b1f45"
 dependencies = [
  "paste",
-]
-
-[[package]]
-name = "ckb-x64-simulator"
-version = "0.11.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5cdf527e21bda1003b49f71533a1f2db8780e151ae518916763e133514a0f5c7"
-dependencies = [
- "cc",
- "ckb-mock-tx-types",
- "ckb-types",
- "faster-hex",
- "lazy_static",
- "libc",
- "libloading",
- "serde",
- "serde_derive",
- "serde_json",
 ]
 
 [[package]]
