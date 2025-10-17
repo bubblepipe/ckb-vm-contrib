@@ -14,7 +14,7 @@ authors = ["Nervos Core Dev <dev@nervos.org>"]
 ckb-jsonrpc-types = "=0.200.0"
 ckb-traits = "=0.200.0"
 ckb-types = "=0.200.0"
-ckb-vm = "=0.24.13"
+ckb-vm = { path = "../ckb-vm" }
 
 # Crates defined in current workspace
 ckb-mock-tx-types = { path = "ckb-mock-tx-types", version = "0.200.1" }

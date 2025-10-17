@@ -2,10 +2,11 @@
 extern crate criterion;
 
 use ckb_vm::{
-    Bytes, ISA_B, ISA_IMC, ISA_MOP, RISCV_MAX_MEMORY, SparseMemory,
+    Bytes, DEFAULT_MEMORY_SIZE, DefaultMachineRunner, ISA_B, ISA_IMC, ISA_MOP, SparseMemory,
+    SupportMachine,
     machine::{
-        DefaultMachineBuilder, VERSION2,
-        asm::{AsmCoreMachine, AsmMachine},
+        VERSION2,
+        asm::{AsmCoreMachine, AsmDefaultMachineBuilder, AsmMachine},
     },
     run,
 };
@@ -78,49 +79,49 @@ fn asm_secp256k1_schnorr(c: &mut Criterion) {
 fn interpret_ed25519(c: &mut Criterion) {
     c.bench_function("interpret_ed25519", |b| {
         let buffer = fs::read(BINARY_PATH_ED25519).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
 fn interpret_k256_ecdsa(c: &mut Criterion) {
     c.bench_function("interpret_k256_ecdsa", |b| {
         let buffer = fs::read(BINARY_PATH_K256_ECDSA).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
 fn interpret_k256_schnorr(c: &mut Criterion) {
     c.bench_function("interpret_k256_schnorr", |b| {
         let buffer = fs::read(BINARY_PATH_K256_SCHNORR).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
 fn interpret_p256(c: &mut Criterion) {
     c.bench_function("interpret_p256", |b| {
         let buffer = fs::read(BINARY_PATH_P256).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
 fn interpret_rsa(c: &mut Criterion) {
     c.bench_function("interpret_rsa", |b| {
         let buffer = fs::read(BINARY_PATH_RSA).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
 fn interpret_secp256k1_ecdsa(c: &mut Criterion) {
     c.bench_function("interpret_secp256k1_ecdsa", |b| {
         let buffer = fs::read(BINARY_PATH_SECP256K1_ECDSA).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
 fn interpret_secp256k1_schnorr(c: &mut Criterion) {
     c.bench_function("interpret_secp256k1_schnorr", |b| {
         let buffer = fs::read(BINARY_PATH_SECP256K1_SCHNORR).unwrap().into();
-        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[], RISCV_MAX_MEMORY).unwrap());
+        b.iter(|| run::<u64, SparseMemory<u64>>(&buffer, &[]).unwrap());
     });
 }
 
@@ -175,7 +176,7 @@ fn mop_secp256k1_schnorr(c: &mut Criterion) {
 
 fn run_asm(program: &Bytes) {
     let asm_core = AsmCoreMachine::new(ISA_IMC | ISA_B, VERSION2, u64::MAX);
-    let core = DefaultMachineBuilder::new(asm_core).build();
+    let core = AsmDefaultMachineBuilder::new(asm_core).build();
     let mut machine = AsmMachine::new(core);
     machine.load_program(&program, [].into_iter()).unwrap();
     machine.run().unwrap();
@@ -183,7 +184,7 @@ fn run_asm(program: &Bytes) {
 
 fn run_mop(program: &Bytes) {
     let asm_core = AsmCoreMachine::new(ISA_IMC | ISA_B | ISA_MOP, VERSION2, u64::MAX);
-    let core = DefaultMachineBuilder::new(asm_core).build();
+    let core = AsmDefaultMachineBuilder::new(asm_core).build();
     let mut machine = AsmMachine::new(core);
     machine.load_program(&program, [].into_iter()).unwrap();
     machine.run().unwrap();
