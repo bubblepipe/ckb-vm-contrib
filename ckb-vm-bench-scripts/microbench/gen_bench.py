@@ -22,6 +22,10 @@ INT64_MAX = 9223372036854775807
 INT32_MIN = -2147483648
 INT32_MAX = 2147483647
 
+# RISC-V 12-bit signed immediate range (for single-instruction li)
+IMM12_MIN = -2048
+IMM12_MAX = 2047
+
 def generate_instruction(instruction, div_by_zero_rate, overflow_rate):
     """
     Generate a single division/remainder instruction with controlled error distribution.
@@ -44,20 +48,13 @@ def generate_instruction(instruction, div_by_zero_rate, overflow_rate):
     is_unsigned = instruction in ['divu', 'remu', 'divuw', 'remuw', 'wide_divu']
     is_word = instruction in ['divw', 'divuw', 'remw', 'remuw']
 
-    if is_word:
-        if is_unsigned:
-            min_val, max_val = 0, 2**32 - 1
-            overflow_min = None  # No overflow for unsigned
-        else:
-            min_val, max_val = INT32_MIN, INT32_MAX
-            overflow_min = INT32_MIN
+    # Limit to 12-bit immediate range for single-instruction li
+    if is_unsigned:
+        min_val, max_val = 0, IMM12_MAX
+        overflow_min = None  # No overflow for unsigned
     else:
-        if is_unsigned:
-            min_val, max_val = 0, 2**64 - 1
-            overflow_min = None
-        else:
-            min_val, max_val = INT64_MIN + 1, INT64_MAX
-            overflow_min = INT64_MIN
+        min_val, max_val = IMM12_MIN, IMM12_MAX
+        overflow_min = IMM12_MIN  # Changed from INT32_MIN/INT64_MIN
 
     roll = random.random()
 

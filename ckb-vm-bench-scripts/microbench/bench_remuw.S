@@ -3,7 +3,7 @@
 # Count: 1000
 # Iterations: 100
 # Total instructions: 100000
-# Div-by-zero rate: 5.00%
+# Div-by-zero rate: 0.50%
 
 .global _start
 _start:
@@ -11,4005 +11,4005 @@ _start:
   li t0, 100  # loop counter
 .loop:
 
-  li t4, 1051802512
-  li t1, 2342331444
+  li t4, 1003
+  li t1, 914
   remuw s8, t4, t1  # normal
 
-  li a7, 939042955
-  li t2, 0
-  remuw s6, a7, t2  # div-by-zero
+  li s11, 356
+  li t4, 1728
+  remuw t5, s11, t4  # normal
 
-  li s7, 1801823908
-  li t1, 3733616459
-  remuw s4, s7, t1  # normal
+  li t1, 108
+  li t3, 814
+  remuw t2, t1, t3  # normal
 
-  li s10, 667779376
-  li a7, 1445662585
-  remuw t6, s10, a7  # normal
+  li s8, 902
+  li s10, 1839
+  remuw s10, s8, s10  # normal
 
-  li a6, 3961228449
-  li t4, 298737106
+  li a2, 653
+  li t1, 1731
+  remuw s6, a2, t1  # normal
+
+  li a2, 1378
+  li t5, 418
+  remuw a4, a2, t5  # normal
+
+  li a6, 1408
+  li t4, 1083
   remuw t3, a6, t4  # normal
 
-  li a1, 3673561638
-  li a3, 3721519026
-  remuw s9, a1, a3  # normal
+  li s11, 1550
+  li s2, 322
+  remuw t2, s11, s2  # normal
 
-  li a2, 1566942273
-  li s2, 1589915144
-  remuw a6, a2, s2  # normal
+  li a3, 1481
+  li s8, 787
+  remuw s5, a3, s8  # normal
 
-  li s9, 2727210979
-  li a2, 1051454923
-  remuw a0, s9, a2  # normal
+  li t3, 1185
+  li t2, 326
+  remuw s10, t3, t2  # normal
 
-  li a6, 2392080953
-  li a2, 2940395823
-  remuw s2, a6, a2  # normal
+  li t4, 1494
+  li a6, 666
+  remuw a1, t4, a6  # normal
 
-  li a1, 1722989659
-  li t2, 284277889
-  remuw t2, a1, t2  # normal
+  li a5, 292
+  li a0, 700
+  remuw a5, a5, a0  # normal
 
-  li s10, 2144181937
-  li a4, 2761027762
+  li s11, 1554
+  li a1, 1105
+  remuw s5, s11, a1  # normal
+
+  li s10, 1328
+  li s5, 229
+  remuw s8, s10, s5  # normal
+
+  li t2, 271
+  li a4, 864
+  remuw a1, t2, a4  # normal
+
+  li s10, 2044
+  li a4, 1620
   remuw s6, s10, a4  # normal
 
-  li a2, 2510777721
-  li t5, 1715412119
-  remuw t5, a2, t5  # normal
+  li s2, 1010
+  li t5, 1076
+  remuw s8, s2, t5  # normal
 
-  li t5, 3246059658
-  li s4, 3698408854
+  li s6, 1635
+  li a7, 1482
+  remuw s11, s6, a7  # normal
+
+  li t5, 192
+  li s4, 449
   remuw a1, t5, s4  # normal
 
-  li s8, 272849424
-  li t6, 4278308761
+  li s8, 1729
+  li t6, 260
   remuw t5, s8, t6  # normal
 
-  li a2, 3095476665
-  li s5, 2752909971
-  remuw s4, a2, s5  # normal
+  li a6, 1029
+  li s7, 47
+  remuw a6, a6, s7  # normal
 
-  li a3, 3091004939
-  li a7, 3272602734
+  li s11, 1092
+  li t4, 1393
+  remuw s9, s11, t4  # normal
+
+  li a3, 13
+  li a7, 1078
   remuw t4, a3, a7  # normal
 
-  li t4, 2615507143
-  li s8, 656439677
-  remuw s4, t4, s8  # normal
+  li t6, 1222
+  li s4, 814
+  remuw s4, t6, s4  # normal
 
-  li s5, 2572447412
-  li s4, 2098545541
-  remuw t6, s5, s4  # normal
+  li a5, 2
+  li t6, 1327
+  remuw t5, a5, t6  # normal
 
-  li a5, 338258951
-  li a3, 3143519183
-  remuw t4, a5, a3  # normal
+  li t1, 1259
+  li t4, 980
+  remuw s3, t1, t4  # normal
 
-  li s5, 2361388464
-  li t5, 1338811290
+  li a1, 350
+  li s6, 1990
+  remuw t2, a1, s6  # normal
+
+  li s5, 1946
+  li t5, 676
   remuw t3, s5, t5  # normal
 
-  li s8, 2222971316
-  li a5, 519709079
-  remuw s9, s8, a5  # normal
-
-  li t3, 2379074819
-  li a4, 0
-  remuw a1, t3, a4  # div-by-zero
-
-  li a1, 2710566582
-  li t1, 983297492
-  remuw s6, a1, t1  # normal
-
-  li a4, 2084839399
-  li t3, 2315992115
-  remuw t2, a4, t3  # normal
-
-  li s6, 3369914783
-  li s6, 3468173213
-  remuw s11, s6, s6  # normal
-
-  li t4, 1521696479
-  li t4, 1765670844
-  remuw a0, t4, t4  # normal
-
-  li t2, 2775320897
-  li s9, 260329455
-  remuw s11, t2, s9  # normal
-
-  li a4, 1926780541
-  li t4, 1811967841
-  remuw s11, a4, t4  # normal
-
-  li s2, 323775634
-  li a1, 420514789
-  remuw a2, s2, a1  # normal
-
-  li s5, 3645120421
-  li t1, 714300770
-  remuw s8, s5, t1  # normal
-
-  li s3, 3875962612
-  li a0, 707111048
-  remuw s3, s3, a0  # normal
-
-  li a6, 3372104909
-  li a2, 1225136114
-  remuw t1, a6, a2  # normal
-
-  li s11, 2090237817
-  li s5, 815605132
-  remuw s10, s11, s5  # normal
-
-  li t2, 1346922426
-  li s6, 2281169403
-  remuw a0, t2, s6  # normal
-
-  li s4, 3701485292
-  li t3, 1734202799
-  remuw t2, s4, t3  # normal
-
-  li a1, 2660223333
-  li s6, 2245334677
-  remuw s6, a1, s6  # normal
-
-  li a0, 1025148381
-  li s9, 1699887270
-  remuw a2, a0, s9  # normal
-
-  li s8, 4018948187
-  li a3, 40009587
-  remuw s9, s8, a3  # normal
-
-  li s6, 1139027119
-  li t4, 4008318526
-  remuw s7, s6, t4  # normal
-
-  li a1, 2271782991
-  li a5, 2381998678
-  remuw t3, a1, a5  # normal
-
-  li t4, 3821286999
-  li t5, 667643690
-  remuw s9, t4, t5  # normal
-
-  li s7, 2098228320
-  li a0, 3633987776
-  remuw a3, s7, a0  # normal
-
-  li s8, 189351213
-  li a7, 4208200162
-  remuw t3, s8, a7  # normal
-
-  li s11, 41531046
-  li s2, 3882343658
-  remuw t6, s11, s2  # normal
-
-  li t2, 636057975
-  li a5, 547374338
-  remuw s5, t2, a5  # normal
-
-  li a5, 441495235
-  li t2, 3993808565
-  remuw a3, a5, t2  # normal
-
-  li t6, 3997823785
-  li a7, 0
-  remuw t6, t6, a7  # div-by-zero
-
-  li s11, 464267175
-  li a1, 3745927824
-  remuw s9, s11, a1  # normal
-
-  li a1, 1976987348
-  li a0, 977515194
-  remuw s3, a1, a0  # normal
-
-  li s9, 3321412630
-  li a0, 2187880715
-  remuw t1, s9, a0  # normal
-
-  li s5, 4167838882
-  li a4, 1140169349
-  remuw s9, s5, a4  # normal
-
-  li s7, 3377683299
-  li a7, 496694873
-  remuw t4, s7, a7  # normal
-
-  li a0, 1872852789
-  li a2, 0
-  remuw s6, a0, a2  # div-by-zero
-
-  li s5, 2880327491
-  li s9, 1564319318
-  remuw s4, s5, s9  # normal
-
-  li s9, 3865671731
-  li a4, 2178074590
-  remuw t3, s9, a4  # normal
-
-  li a7, 546696950
-  li a4, 4038831207
-  remuw s9, a7, a4  # normal
-
-  li s11, 1292569882
-  li t6, 1743499
-  remuw s9, s11, t6  # normal
-
-  li a0, 1384049914
-  li a7, 1897456484
-  remuw a3, a0, a7  # normal
-
-  li a0, 364194056
-  li s4, 1439622619
-  remuw s9, a0, s4  # normal
-
-  li s9, 855256552
-  li a3, 104906255
-  remuw a1, s9, a3  # normal
-
-  li s3, 312794864
-  li s7, 2990818727
-  remuw a1, s3, s7  # normal
-
-  li a6, 2953315788
-  li a1, 3803044105
-  remuw s3, a6, a1  # normal
-
-  li a1, 1995226582
-  li t6, 2394039673
-  remuw a7, a1, t6  # normal
-
-  li s2, 2557448229
-  li t5, 3828645201
-  remuw t4, s2, t5  # normal
-
-  li s11, 3700092464
-  li s4, 1933034905
-  remuw s7, s11, s4  # normal
-
-  li s8, 2238965651
-  li a2, 2691864041
-  remuw a1, s8, a2  # normal
-
-  li s2, 1007142260
-  li t3, 1442454200
-  remuw a2, s2, t3  # normal
-
-  li t3, 918920620
-  li t5, 1781844052
-  remuw s5, t3, t5  # normal
-
-  li s5, 1804502687
-  li s2, 2987248494
-  remuw a4, s5, s2  # normal
-
-  li a6, 1510792572
-  li s3, 0
-  remuw s6, a6, s3  # div-by-zero
-
-  li a7, 947206476
-  li s5, 942408767
-  remuw a6, a7, s5  # normal
-
-  li s3, 3427995190
-  li t1, 3110335359
-  remuw a7, s3, t1  # normal
-
-  li t5, 3895229819
-  li s7, 2847562279
-  remuw s2, t5, s7  # normal
-
-  li s8, 1982979741
-  li a7, 215970859
-  remuw t3, s8, a7  # normal
-
-  li a4, 3778024983
-  li a0, 1810607153
-  remuw a6, a4, a0  # normal
-
-  li s3, 4088463963
-  li t1, 1062073697
-  remuw t3, s3, t1  # normal
-
-  li s7, 4070585433
-  li t5, 1584392711
-  remuw t1, s7, t5  # normal
-
-  li s7, 1335901990
-  li s11, 2485432021
-  remuw s7, s7, s11  # normal
-
-  li s6, 1611931113
-  li s9, 851819913
-  remuw a3, s6, s9  # normal
-
-  li s10, 3459716271
-  li s8, 176390590
-  remuw s6, s10, s8  # normal
-
-  li a7, 1465576748
-  li s9, 3648899533
-  remuw s5, a7, s9  # normal
-
-  li t4, 3559270786
-  li a7, 3037867512
-  remuw s3, t4, a7  # normal
-
-  li t6, 2793693337
-  li s11, 3327059683
-  remuw a7, t6, s11  # normal
-
-  li a7, 4014170428
-  li s11, 1936179853
-  remuw s2, a7, s11  # normal
-
-  li s6, 1444812497
-  li s7, 1395925222
-  remuw s2, s6, s7  # normal
-
-  li a0, 1461744198
-  li a5, 4071897791
-  remuw s3, a0, a5  # normal
-
-  li a1, 3057339843
-  li s11, 74059253
-  remuw t3, a1, s11  # normal
-
-  li a1, 2497762234
-  li a6, 2280292341
-  remuw a3, a1, a6  # normal
-
-  li s11, 3018739003
-  li s5, 1163577186
-  remuw a7, s11, s5  # normal
-
-  li a1, 1355268102
-  li t4, 2964229896
-  remuw a2, a1, t4  # normal
-
-  li a0, 833728665
-  li s11, 977032766
-  remuw a0, a0, s11  # normal
-
-  li a3, 543669676
-  li t1, 4054834021
-  remuw t6, a3, t1  # normal
-
-  li s3, 2465587067
-  li t4, 2016044512
-  remuw s8, s3, t4  # normal
-
-  li a4, 3701071948
-  li t6, 280647907
-  remuw s2, a4, t6  # normal
-
-  li t3, 230249217
-  li s6, 1304963614
-  remuw s3, t3, s6  # normal
-
-  li t4, 2244431947
-  li s5, 1901472238
-  remuw a1, t4, s5  # normal
-
-  li a7, 3275930923
-  li a3, 2686566602
-  remuw s6, a7, a3  # normal
-
-  li s9, 322401182
-  li t3, 11492154
-  remuw a2, s9, t3  # normal
-
-  li s10, 140187131
-  li s7, 3691982799
-  remuw s2, s10, s7  # normal
-
-  li s9, 4010075517
-  li a1, 1825957977
-  remuw t3, s9, a1  # normal
-
-  li a1, 610900200
-  li s8, 256143439
-  remuw s5, a1, s8  # normal
-
-  li s7, 3956491798
-  li s11, 1886149718
-  remuw a3, s7, s11  # normal
-
-  li s10, 4048763624
-  li a3, 2120834317
-  remuw s2, s10, a3  # normal
-
-  li s7, 3154799197
-  li t2, 2592930364
-  remuw t3, s7, t2  # normal
-
-  li t3, 4083595988
-  li a1, 3248149900
-  remuw t1, t3, a1  # normal
-
-  li s4, 1194673401
-  li s8, 3497155420
-  remuw s3, s4, s8  # normal
-
-  li s3, 690737494
-  li a5, 2128023255
-  remuw t3, s3, a5  # normal
-
-  li a6, 378213925
-  li s5, 0
-  remuw s9, a6, s5  # div-by-zero
-
-  li a4, 4243939720
-  li t4, 2330421741
-  remuw a2, a4, t4  # normal
-
-  li t2, 221670908
-  li a0, 1237075775
-  remuw a7, t2, a0  # normal
-
-  li s3, 3433026356
-  li t4, 0
-  remuw s10, s3, t4  # div-by-zero
-
-  li t6, 2371901750
-  li a3, 400330495
-  remuw s10, t6, a3  # normal
-
-  li s2, 661300942
-  li t4, 3029719886
-  remuw t4, s2, t4  # normal
-
-  li s3, 2367665472
-  li s3, 1647489402
-  remuw a7, s3, s3  # normal
-
-  li s4, 3710967433
-  li s11, 1782164134
-  remuw s7, s4, s11  # normal
-
-  li a2, 638212450
-  li t1, 2313185971
-  remuw s4, a2, t1  # normal
-
-  li a4, 1620104855
-  li s5, 4006569938
-  remuw a5, a4, s5  # normal
-
-  li s10, 3330938159
-  li a1, 187463722
-  remuw a0, s10, a1  # normal
-
-  li s3, 1637375316
-  li s10, 653287375
-  remuw s11, s3, s10  # normal
-
-  li t5, 3629416688
-  li s4, 3910317247
-  remuw t2, t5, s4  # normal
-
-  li s11, 662976399
-  li t5, 4162697889
-  remuw t1, s11, t5  # normal
-
-  li s7, 2291890389
-  li s10, 4097998347
-  remuw a4, s7, s10  # normal
-
-  li s10, 293864877
-  li s3, 3955360367
-  remuw s8, s10, s3  # normal
-
-  li s11, 3747699292
-  li t3, 1905584866
-  remuw a1, s11, t3  # normal
-
-  li a3, 3419410162
-  li t1, 0
-  remuw s10, a3, t1  # div-by-zero
-
-  li a5, 773338452
-  li a5, 751917162
-  remuw a3, a5, a5  # normal
-
-  li a6, 2504640817
-  li s7, 997241761
-  remuw s7, a6, s7  # normal
-
-  li a2, 3455872736
-  li s2, 3870665004
-  remuw s8, a2, s2  # normal
-
-  li s5, 4059756133
-  li t6, 4131883398
-  remuw s9, s5, t6  # normal
-
-  li a2, 2075362821
-  li s2, 1018790736
-  remuw s10, a2, s2  # normal
-
-  li a5, 3003380792
-  li s6, 1699972733
-  remuw s6, a5, s6  # normal
-
-  li s6, 4181592277
-  li s9, 3200490039
-  remuw t1, s6, s9  # normal
-
-  li a1, 169318686
-  li s7, 3387056244
-  remuw a3, a1, s7  # normal
-
-  li s6, 1267489756
-  li a5, 3210405862
-  remuw t2, s6, a5  # normal
-
-  li a0, 706712922
-  li t5, 4055255806
-  remuw t6, a0, t5  # normal
-
-  li s11, 323408297
-  li a4, 2393639475
-  remuw a3, s11, a4  # normal
-
-  li a6, 530809576
-  li t1, 1595467139
-  remuw t3, a6, t1  # normal
-
-  li a1, 2411226340
-  li s3, 0
-  remuw s9, a1, s3  # div-by-zero
-
-  li a1, 3538431800
-  li s8, 1753617371
-  remuw s7, a1, s8  # normal
-
-  li t2, 2115806625
-  li t2, 417436465
-  remuw t5, t2, t2  # normal
-
-  li t5, 4086753847
-  li a6, 1591414076
-  remuw s5, t5, a6  # normal
-
-  li s2, 2944974316
-  li a1, 1540492440
-  remuw s2, s2, a1  # normal
-
-  li a2, 3539873758
-  li a0, 4170814022
-  remuw a6, a2, a0  # normal
-
-  li a4, 881351238
-  li a1, 2380304322
-  remuw t2, a4, a1  # normal
-
-  li a0, 12178595
-  li a1, 749459431
-  remuw s6, a0, a1  # normal
-
-  li t1, 1390587865
-  li t5, 0
-  remuw s9, t1, t5  # div-by-zero
-
-  li a2, 272979685
-  li t2, 2549776132
-  remuw t6, a2, t2  # normal
-
-  li s4, 2239615923
-  li a1, 4140460939
-  remuw s2, s4, a1  # normal
-
-  li s3, 463692519
-  li a6, 1905085701
-  remuw t2, s3, a6  # normal
-
-  li a4, 541988748
-  li s7, 3058672970
-  remuw t3, a4, s7  # normal
-
-  li s7, 1847692041
-  li s4, 3717261214
-  remuw a6, s7, s4  # normal
-
-  li s2, 3553738511
-  li a1, 1712533097
-  remuw a7, s2, a1  # normal
-
-  li t4, 2856616537
-  li a4, 3964190549
-  remuw s11, t4, a4  # normal
-
-  li t3, 3173104657
-  li t3, 3486522557
-  remuw t3, t3, t3  # normal
-
-  li t2, 2412411754
-  li s6, 2877685081
-  remuw s5, t2, s6  # normal
-
-  li a5, 1341957809
-  li s9, 2179320310
-  remuw a7, a5, s9  # normal
-
-  li s9, 464794418
-  li s3, 1578662692
-  remuw t5, s9, s3  # normal
-
-  li s6, 1148679234
-  li a1, 774881143
-  remuw a2, s6, a1  # normal
-
-  li a3, 2823273703
-  li a4, 298867122
-  remuw s10, a3, a4  # normal
-
-  li s8, 2278405793
-  li t1, 1615742667
-  remuw s11, s8, t1  # normal
-
-  li a4, 3099231080
-  li t6, 225953184
-  remuw s2, a4, t6  # normal
-
-  li s7, 1168672809
-  li t2, 2843005049
-  remuw t6, s7, t2  # normal
-
-  li s7, 2200510647
-  li s2, 1482506118
-  remuw s3, s7, s2  # normal
-
-  li a3, 2865312534
-  li s9, 195066088
-  remuw t4, a3, s9  # normal
-
-  li s7, 1097447932
-  li t2, 0
-  remuw a6, s7, t2  # div-by-zero
-
-  li t4, 1849649210
-  li t1, 554848380
-  remuw a4, t4, t1  # normal
-
-  li s10, 3462603446
-  li a1, 309561891
-  remuw s5, s10, a1  # normal
-
-  li t2, 3956362540
-  li a7, 0
-  remuw s11, t2, a7  # div-by-zero
-
-  li s6, 1793981895
-  li a7, 494665880
-  remuw a4, s6, a7  # normal
-
-  li a4, 2654827789
-  li t6, 3950381001
-  remuw t1, a4, t6  # normal
-
-  li a7, 2529182928
-  li t4, 2250402001
-  remuw t3, a7, t4  # normal
-
-  li a3, 722124509
-  li s11, 2190227431
-  remuw a6, a3, s11  # normal
-
-  li a5, 634323009
-  li s11, 441542090
-  remuw a5, a5, s11  # normal
-
-  li a0, 2815389788
-  li t6, 2122216473
-  remuw a2, a0, t6  # normal
-
-  li s6, 1357806226
-  li s2, 1888766939
-  remuw s6, s6, s2  # normal
-
-  li s2, 241257421
-  li s8, 2178995337
-  remuw s3, s2, s8  # normal
-
-  li s2, 1232986477
-  li s2, 0
-  remuw a3, s2, s2  # div-by-zero
-
-  li t3, 1651339677
-  li s7, 176191212
-  remuw s8, t3, s7  # normal
-
-  li s8, 265745534
-  li a0, 3067961943
-  remuw s6, s8, a0  # normal
-
-  li s8, 3039212077
-  li t6, 0
-  remuw s4, s8, t6  # div-by-zero
-
-  li s4, 1562929828
-  li s4, 3942508505
-  remuw s2, s4, s4  # normal
-
-  li a7, 1437308013
-  li a4, 1416011033
-  remuw a6, a7, a4  # normal
-
-  li s9, 3750707607
-  li a6, 1431779064
-  remuw s5, s9, a6  # normal
-
-  li s9, 2843848856
-  li t5, 363865392
-  remuw s6, s9, t5  # normal
-
-  li a6, 3492602049
-  li s8, 2260842187
-  remuw s5, a6, s8  # normal
-
-  li s9, 78299575
-  li a7, 1326569692
-  remuw s8, s9, a7  # normal
-
-  li a4, 4294866888
-  li s3, 665484476
-  remuw a0, a4, s3  # normal
-
-  li t4, 1617999521
-  li s4, 696846464
-  remuw a3, t4, s4  # normal
-
-  li s7, 187657564
-  li t6, 3090596936
-  remuw s10, s7, t6  # normal
-
-  li s7, 3366396905
-  li a3, 1027220866
-  remuw s2, s7, a3  # normal
-
-  li a0, 1892351448
-  li a5, 3304713421
-  remuw s3, a0, a5  # normal
-
-  li s4, 2597009738
-  li s4, 3749514711
-  remuw a6, s4, s4  # normal
-
-  li s8, 3655730355
-  li s3, 1224336336
-  remuw t2, s8, s3  # normal
-
-  li a2, 1878930355
-  li s2, 114547603
-  remuw t6, a2, s2  # normal
-
-  li a6, 350492684
-  li s4, 964386641
-  remuw t2, a6, s4  # normal
-
-  li t4, 3398953973
-  li s10, 590985753
-  remuw a4, t4, s10  # normal
-
-  li s3, 2014812671
-  li s10, 2642900640
-  remuw a3, s3, s10  # normal
-
-  li t1, 1817865363
-  li a2, 3333636070
-  remuw t3, t1, a2  # normal
-
-  li a3, 1963288053
-  li t4, 0
-  remuw a1, a3, t4  # div-by-zero
-
-  li s3, 2469810046
-  li s7, 3086124402
-  remuw t4, s3, s7  # normal
-
-  li a7, 1789144223
-  li t1, 4186109152
-  remuw a3, a7, t1  # normal
-
-  li s4, 2380064537
-  li s5, 2019214800
-  remuw t3, s4, s5  # normal
-
-  li a6, 69759864
-  li a5, 3386667704
-  remuw s8, a6, a5  # normal
-
-  li a1, 3249911242
-  li s11, 572989855
-  remuw a5, a1, s11  # normal
-
-  li s5, 2986674107
-  li a4, 2713284816
-  remuw a5, s5, a4  # normal
-
-  li t3, 1965718821
-  li s10, 1260326267
-  remuw t5, t3, s10  # normal
-
-  li a0, 2033236512
-  li t2, 2778416511
-  remuw t2, a0, t2  # normal
-
-  li a5, 1425605673
-  li t2, 1580630311
-  remuw a3, a5, t2  # normal
-
-  li s11, 1660626647
-  li s2, 4182110973
-  remuw a6, s11, s2  # normal
-
-  li s10, 1823212172
-  li s3, 1261717180
-  remuw s3, s10, s3  # normal
-
-  li t3, 1316389690
-  li a4, 1830154607
-  remuw t4, t3, a4  # normal
-
-  li s2, 3915323244
-  li a5, 1868055235
-  remuw s10, s2, a5  # normal
-
-  li t2, 1744659652
-  li t3, 133747952
-  remuw s8, t2, t3  # normal
-
-  li s9, 288765093
-  li s2, 0
-  remuw s7, s9, s2  # div-by-zero
-
-  li a5, 2436297208
-  li a5, 2598862507
-  remuw s8, a5, a5  # normal
-
-  li s2, 3277422858
-  li a5, 2464975279
-  remuw s9, s2, a5  # normal
-
-  li a5, 1196963451
-  li a6, 4125402225
-  remuw s4, a5, a6  # normal
-
-  li s11, 2412365931
-  li t6, 1916728422
-  remuw t1, s11, t6  # normal
-
-  li a3, 2109688769
-  li s10, 526723719
-  remuw s7, a3, s10  # normal
-
-  li s2, 2328608265
-  li t6, 3828240439
-  remuw t3, s2, t6  # normal
-
-  li s10, 2738900744
-  li s10, 3408900003
-  remuw t6, s10, s10  # normal
-
-  li a1, 3401896171
-  li t4, 2121808073
-  remuw s4, a1, t4  # normal
-
-  li s5, 2369305560
-  li s6, 370292681
-  remuw a5, s5, s6  # normal
-
-  li a6, 2257845661
-  li s10, 3303536605
-  remuw a3, a6, s10  # normal
-
-  li t3, 2758823240
-  li t5, 1932625737
-  remuw s6, t3, t5  # normal
-
-  li s4, 2524521602
-  li a5, 554192345
-  remuw s9, s4, a5  # normal
-
-  li t2, 1306204982
-  li t4, 695642802
-  remuw s4, t2, t4  # normal
-
-  li a1, 338700713
-  li a5, 1178758213
-  remuw s10, a1, a5  # normal
-
-  li a3, 662259333
-  li s7, 2599051823
-  remuw s8, a3, s7  # normal
-
-  li t2, 2457310580
-  li t1, 130076950
-  remuw s6, t2, t1  # normal
-
-  li s5, 1297484349
-  li a3, 1744154114
-  remuw s8, s5, a3  # normal
-
-  li t3, 1888091245
-  li s10, 2079842771
-  remuw s2, t3, s10  # normal
-
-  li a4, 1712474804
-  li s7, 3267031264
-  remuw a0, a4, s7  # normal
-
-  li s5, 2003484425
-  li t4, 1148782098
-  remuw s4, s5, t4  # normal
-
-  li t5, 4060397193
-  li t4, 1795875043
-  remuw a1, t5, t4  # normal
-
-  li a4, 684370461
-  li s6, 2004955678
-  remuw t6, a4, s6  # normal
-
-  li s3, 1033921654
-  li t1, 2505443885
-  remuw a3, s3, t1  # normal
-
-  li t2, 2021155136
-  li a3, 2305069227
-  remuw t2, t2, a3  # normal
-
-  li a7, 3124623359
-  li t5, 3280739820
-  remuw t4, a7, t5  # normal
-
-  li t2, 2412985084
-  li a6, 1239534867
-  remuw a5, t2, a6  # normal
-
-  li s4, 510289448
-  li s2, 4187948804
-  remuw a6, s4, s2  # normal
-
-  li a5, 619623590
-  li a4, 172893522
-  remuw a6, a5, a4  # normal
-
-  li t5, 1962750929
-  li s10, 2214080278
-  remuw t2, t5, s10  # normal
-
-  li s7, 2286382166
-  li a4, 1287590685
-  remuw a4, s7, a4  # normal
-
-  li a5, 4208630005
-  li a4, 2506981604
-  remuw t1, a5, a4  # normal
-
-  li s10, 2038349447
-  li s8, 0
-  remuw s11, s10, s8  # div-by-zero
-
-  li s6, 2063511828
-  li s6, 1632905061
-  remuw s8, s6, s6  # normal
-
-  li a1, 3008714405
-  li t2, 819412471
-  remuw s9, a1, t2  # normal
-
-  li a4, 2965676060
-  li a7, 3953607378
-  remuw s2, a4, a7  # normal
-
-  li s11, 2227727430
-  li t2, 2408990341
-  remuw s11, s11, t2  # normal
-
-  li s3, 4108932916
-  li s4, 2289763301
-  remuw s9, s3, s4  # normal
-
-  li a5, 2977757985
-  li s9, 2620258967
-  remuw s5, a5, s9  # normal
-
-  li a1, 3027901531
-  li a2, 1361679629
-  remuw a0, a1, a2  # normal
-
-  li s5, 4209757465
-  li s11, 3514904439
-  remuw a5, s5, s11  # normal
-
-  li a3, 3067213499
-  li t2, 2057629778
-  remuw t5, a3, t2  # normal
-
-  li s5, 2990032969
-  li a2, 589582865
-  remuw a0, s5, a2  # normal
-
-  li s11, 1000025413
-  li s6, 430346953
-  remuw s7, s11, s6  # normal
-
-  li s10, 3310415016
-  li s3, 3990452762
-  remuw a4, s10, s3  # normal
-
-  li s8, 4139979288
-  li s3, 1379404786
-  remuw a7, s8, s3  # normal
-
-  li t2, 3957687327
-  li t3, 3597485607
-  remuw s8, t2, t3  # normal
-
-  li a6, 160916026
-  li s3, 2588933132
-  remuw t2, a6, s3  # normal
-
-  li a3, 4031086659
-  li s2, 2010133918
-  remuw a4, a3, s2  # normal
-
-  li t4, 799718923
-  li a4, 3163749761
-  remuw a0, t4, a4  # normal
-
-  li s6, 3852769339
-  li s9, 3551894263
-  remuw a3, s6, s9  # normal
-
-  li a4, 409675904
-  li t3, 4216305802
-  remuw s4, a4, t3  # normal
-
-  li a4, 1647439475
-  li a1, 0
-  remuw s3, a4, a1  # div-by-zero
-
-  li a2, 49116110
-  li a4, 2807548688
-  remuw s2, a2, a4  # normal
-
-  li a1, 1998856257
-  li t2, 685978550
-  remuw s10, a1, t2  # normal
-
-  li s4, 2964774623
-  li s10, 4039999237
-  remuw s9, s4, s10  # normal
-
-  li s7, 573673552
-  li a1, 657926994
-  remuw a5, s7, a1  # normal
-
-  li s7, 3022652502
-  li a5, 2423086220
-  remuw s11, s7, a5  # normal
-
-  li s5, 2304937838
-  li s4, 706681697
-  remuw t2, s5, s4  # normal
-
-  li s2, 2099500153
-  li t4, 238953970
+  li s4, 867
+  li s7, 823
+  remuw a2, s4, s7  # normal
+
+  li a3, 1529
+  li a6, 1794
+  remuw s10, a3, a6  # normal
+
+  li s2, 262
+  li t4, 1384
   remuw s4, s2, t4  # normal
 
-  li s4, 3465675062
-  li a7, 3106464319
-  remuw t5, s4, a7  # normal
+  li s6, 902
+  li s5, 29
+  remuw t1, s6, s5  # normal
 
-  li a2, 2483827971
-  li t1, 194518221
-  remuw a6, a2, t1  # normal
+  li s10, 276
+  li s8, 128
+  remuw t3, s10, s8  # normal
 
-  li s10, 3840638976
-  li t3, 2027530378
-  remuw a5, s10, t3  # normal
+  li t3, 1988
+  li s4, 877
+  remuw a4, t3, s4  # normal
 
-  li a7, 1805440796
-  li t6, 1642737456
-  remuw a3, a7, t6  # normal
+  li t5, 1936
+  li s11, 995
+  remuw s5, t5, s11  # normal
 
-  li a6, 2316277000
-  li t3, 1493660313
-  remuw a6, a6, t3  # normal
+  li a7, 1765
+  li a0, 1451
+  remuw s3, a7, a0  # normal
 
-  li s5, 1281459294
-  li a6, 2338374929
-  remuw t6, s5, a6  # normal
+  li a7, 221
+  li s2, 403
+  remuw a7, a7, s2  # normal
 
-  li a6, 1486744752
-  li a1, 1183906581
-  remuw s5, a6, a1  # normal
+  li a6, 447
+  li s11, 1018
+  remuw t2, a6, s11  # normal
 
-  li t4, 67198189
-  li t2, 885113834
-  remuw s11, t4, t2  # normal
+  li a0, 1728
+  li s5, 751
+  remuw a0, a0, s5  # normal
 
-  li s7, 3746123831
-  li t2, 189995314
-  remuw t4, s7, t2  # normal
+  li s2, 308
+  li a1, 1815
+  remuw a2, s2, a1  # normal
 
-  li a1, 242425303
-  li s5, 1242377075
-  remuw s2, a1, s5  # normal
+  li t4, 60
+  li t2, 382
+  remuw s5, t4, t2  # normal
 
-  li s6, 3514926033
-  li a4, 1017495081
-  remuw s11, s6, a4  # normal
+  li t6, 875
+  li a7, 1642
+  remuw a1, t6, a7  # normal
 
-  li s9, 1290641764
-  li s4, 3915196257
-  remuw t5, s9, s4  # normal
+  li t6, 1599
+  li a6, 0
+  remuw t2, t6, a6  # div-by-zero
 
-  li s9, 2252551683
-  li a7, 2990621826
+  li s2, 1993
+  li a3, 634
+  remuw a2, s2, a3  # normal
+
+  li a3, 249
+  li a0, 1284
+  remuw a0, a3, a0  # normal
+
+  li t2, 644
+  li s6, 232
+  remuw t2, t2, s6  # normal
+
+  li t3, 278
+  li t6, 963
+  remuw s4, t3, t6  # normal
+
+  li t4, 162
+  li s6, 335
+  remuw a6, t4, s6  # normal
+
+  li s9, 1295
+  li s6, 1068
+  remuw a7, s9, s6  # normal
+
+  li s9, 1087
+  li s10, 1621
+  remuw a0, s9, s10  # normal
+
+  li s9, 1295
+  li s8, 297
+  remuw t5, s9, s8  # normal
+
+  li s2, 409
+  li s7, 300
+  remuw t1, s2, s7  # normal
+
+  li a0, 1429
+  li s4, 281
+  remuw s5, a0, s4  # normal
+
+  li a5, 1239
+  li a3, 32
+  remuw a1, a5, a3  # normal
+
+  li s5, 424
+  li a3, 550
+  remuw s9, s5, a3  # normal
+
+  li t4, 636
+  li t4, 1115
+  remuw a2, t4, t4  # normal
+
+  li s7, 833
+  li a0, 1081
+  remuw a3, s7, a0  # normal
+
+  li s3, 208
+  li a2, 378
+  remuw s4, s3, a2  # normal
+
+  li a7, 1366
+  li a2, 535
+  remuw s8, a7, a2  # normal
+
+  li a2, 1751
+  li t6, 39
+  remuw s8, a2, t6  # normal
+
+  li t3, 147
+  li s10, 1512
+  remuw t4, t3, s10  # normal
+
+  li s5, 171
+  li t5, 1262
+  remuw s6, s5, t5  # normal
+
+  li t2, 1022
+  li a5, 421
+  remuw a5, t2, a5  # normal
+
+  li s5, 633
+  li a7, 969
+  remuw a5, s5, a7  # normal
+
+  li t6, 1360
+  li a7, 1686
+  remuw t6, t6, a7  # normal
+
+  li s11, 442
+  li a1, 1566
+  remuw s9, s11, a1  # normal
+
+  li s3, 1885
+  li a1, 1432
+  remuw t2, s3, a1  # normal
+
+  li a1, 791
+  li a1, 1632
+  remuw a3, a1, a1  # normal
+
+  li a2, 1143
+  li t3, 1438
+  remuw a4, a2, t3  # normal
+
+  li s4, 1356
+  li a6, 113
+  remuw s8, s4, a6  # normal
+
+  li a2, 1087
+  li t6, 156
+  remuw t4, a2, t6  # normal
+
+  li s7, 1284
+  li a7, 1787
+  remuw t4, s7, a7  # normal
+
+  li s4, 778
+  li t4, 1043
+  remuw s7, s4, t4  # normal
+
+  li s10, 807
+  li a7, 0
+  remuw t2, s10, a7  # div-by-zero
+
+  li a7, 1352
+  li t3, 1285
+  remuw a5, a7, t3  # normal
+
+  li t4, 1266
+  li s11, 1672
+  remuw s9, t4, s11  # normal
+
+  li a6, 521
+  li s10, 785
+  remuw a4, a6, s10  # normal
+
+  li s9, 712
+  li a6, 1232
+  remuw a7, s9, a6  # normal
+
+  li s5, 860
+  li t1, 1760
+  remuw a6, s5, t1  # normal
+
+  li s7, 1809
+  li s8, 1811
+  remuw s6, s7, s8  # normal
+
+  li a0, 695
+  li s4, 347
+  remuw s9, a0, s4  # normal
+
+  li s4, 1372
+  li s9, 382
+  remuw a3, s4, s9  # normal
+
+  li s9, 815
+  li a3, 603
+  remuw a1, s9, a3  # normal
+
+  li t2, 298
+  li a1, 1865
+  remuw t1, t2, a1  # normal
+
+  li s8, 1572
+  li s6, 2024
+  remuw a7, s8, s6  # normal
+
+  li a1, 22
+  li t5, 436
+  remuw a6, a1, t5  # normal
+
+  li a1, 1902
+  li t6, 205
+  remuw a7, a1, t6  # normal
+
+  li a1, 1903
+  li t4, 1299
+  remuw s5, a1, t4  # normal
+
+  li s7, 1747
+  li s11, 1826
+  remuw s2, s7, s11  # normal
+
+  li s11, 1012
+  li s3, 1135
+  remuw t6, s11, s3  # normal
+
+  li s3, 1801
+  li s8, 317
+  remuw s4, s3, s8  # normal
+
+  li a3, 1309
+  li a1, 330
+  remuw s10, a3, a1  # normal
+
+  li t5, 625
+  li a1, 876
+  remuw t5, t5, a1  # normal
+
+  li a7, 1908
+  li a7, 1703
+  remuw t3, a7, a7  # normal
+
+  li a0, 80
+  li a7, 1558
+  remuw t2, a0, a7  # normal
+
+  li t1, 1597
+  li a5, 1716
+  remuw s3, t1, a5  # normal
+
+  li s11, 903
+  li s11, 1999
+  remuw s5, s11, s11  # normal
+
+  li a2, 1592
+  li a7, 1376
+  remuw a1, a2, a7  # normal
+
+  li s9, 1914
+  li a6, 522
+  remuw s9, s9, a6  # normal
+
+  li s5, 111
+  li t1, 343
+  remuw s7, s5, t1  # normal
+
+  li a7, 744
+  li t5, 205
+  remuw s8, a7, t5  # normal
+
+  li a6, 1338
+  li a4, 1382
+  remuw a2, a6, a4  # normal
+
+  li a2, 335
+  li a7, 1926
+  remuw a6, a2, a7  # normal
+
+  li s11, 1433
+  li s5, 918
+  remuw t1, s11, s5  # normal
+
+  li t3, 127
+  li s8, 1012
+  remuw s8, t3, s8  # normal
+
+  li t1, 517
+  li s7, 1939
+  remuw a0, t1, s7  # normal
+
+  li t4, 1904
+  li s6, 1049
+  remuw s9, t4, s6  # normal
+
+  li t6, 469
+  li s7, 670
+  remuw a5, t6, s7  # normal
+
+  li t4, 1277
+  li s6, 1537
+  remuw a3, t4, s6  # normal
+
+  li s10, 994
+  li a0, 417
+  remuw a6, s10, a0  # normal
+
+  li a3, 495
+  li s9, 168
+  remuw s10, a3, s9  # normal
+
+  li s5, 282
+  li a7, 1397
+  remuw a5, s5, a7  # normal
+
+  li a7, 1483
+  li s3, 1883
+  remuw t1, a7, s3  # normal
+
+  li t5, 1106
+  li a7, 1980
+  remuw s10, t5, a7  # normal
+
+  li a7, 1320
+  li s11, 1005
+  remuw s2, a7, s11  # normal
+
+  li a2, 1903
+  li s2, 1552
+  remuw t3, a2, s2  # normal
+
+  li t1, 744
+  li s3, 1997
+  remuw a4, t1, s3  # normal
+
+  li a5, 1131
+  li a2, 41
+  remuw a0, a5, a2  # normal
+
+  li a0, 1664
+  li t3, 2001
+  remuw s4, a0, t3  # normal
+
+  li a1, 2010
+  li s10, 1835
+  remuw s5, a1, s10  # normal
+
+  li t3, 996
+  li a3, 1254
+  remuw t1, t3, a3  # normal
+
+  li s6, 1408
+  li a5, 1742
+  remuw s9, s6, a5  # normal
+
+  li s5, 1858
+  li a4, 1109
+  remuw s11, s5, a4  # normal
+
+  li a2, 788
+  li a1, 1292
+  remuw a3, a2, a1  # normal
+
+  li s11, 758
+  li s5, 784
+  remuw t4, s11, s5  # normal
+
+  li s11, 1159
+  li s3, 411
+  remuw a0, s11, s3  # normal
+
+  li a3, 1238
+  li a1, 57
+  remuw a0, a3, a1  # normal
+
+  li s5, 223
+  li t5, 1196
+  remuw s10, s5, t5  # normal
+
+  li t5, 2010
+  li s8, 420
+  remuw s10, t5, s8  # normal
+
+  li s6, 1804
+  li a3, 1395
+  remuw t1, s6, a3  # normal
+
+  li t2, 1956
+  li a2, 467
+  remuw t6, t2, a2  # normal
+
+  li a6, 219
+  li s3, 621
+  remuw t3, a6, s3  # normal
+
+  li s6, 1016
+  li a3, 485
+  remuw t5, s6, a3  # normal
+
+  li a7, 924
+  li s7, 1558
+  remuw s5, a7, s7  # normal
+
+  li s2, 1756
+  li a3, 1250
+  remuw s2, s2, a3  # normal
+
+  li s7, 406
+  li t2, 851
+  remuw s6, s7, t2  # normal
+
+  li a0, 643
+  li a2, 982
+  remuw s8, a0, a2  # normal
+
+  li s5, 1673
+  li t3, 1845
+  remuw t6, s5, t3  # normal
+
+  li s7, 948
+  li s3, 1180
+  remuw s10, s7, s3  # normal
+
+  li a3, 291
+  li s10, 956
+  remuw s10, a3, s10  # normal
+
+  li s8, 810
+  li s6, 1741
+  remuw a2, s8, s6  # normal
+
+  li s5, 1088
+  li a1, 582
+  remuw t4, s5, a1  # normal
+
+  li t2, 1182
+  li t6, 1798
+  remuw t3, t2, t6  # normal
+
+  li s2, 1648
+  li s10, 1115
+  remuw t4, s2, s10  # normal
+
+  li s5, 163
+  li s3, 1769
+  remuw s4, s5, s3  # normal
+
+  li a4, 374
+  li s7, 937
+  remuw s11, a4, s7  # normal
+
+  li s6, 1103
+  li s6, 164
+  remuw s9, s6, s6  # normal
+
+  li s3, 1139
+  li s4, 743
+  remuw t6, s3, s4  # normal
+
+  li a7, 373
+  li s8, 1925
+  remuw s6, a7, s8  # normal
+
+  li a7, 428
+  li a4, 658
+  remuw a5, a7, a4  # normal
+
+  li a7, 1640
+  li s10, 150
+  remuw a4, a7, s10  # normal
+
+  li t3, 474
+  li a4, 1655
+  remuw s2, t3, a4  # normal
+
+  li t1, 1892
+  li s9, 1692
+  remuw s4, t1, s9  # normal
+
+  li a0, 2041
+  li s4, 1810
+  remuw t2, a0, s4  # normal
+
+  li a0, 1179
+  li a2, 1794
+  remuw t2, a0, a2  # normal
+
+  li s3, 980
+  li t4, 648
+  remuw s10, s3, t4  # normal
+
+  li s5, 381
+  li t1, 920
+  remuw a3, s5, t1  # normal
+
+  li s2, 630
+  li t4, 2041
+  remuw t4, s2, t4  # normal
+
+  li a3, 1701
+  li s4, 1976
+  remuw s10, a3, s4  # normal
+
+  li a1, 1571
+  li s2, 780
+  remuw s3, a1, s2  # normal
+
+  li s4, 285
+  li s11, 1131
+  remuw s7, s4, s11  # normal
+
+  li a4, 10
+  li s4, 1158
+  remuw a7, a4, s4  # normal
+
+  li a3, 2005
+  li s6, 608
+  remuw s11, a3, s6  # normal
+
+  li s5, 1545
+  li s3, 1865
+  remuw s2, s5, s3  # normal
+
+  li a0, 1568
+  li s10, 956
+  remuw a4, a0, s10  # normal
+
+  li t2, 1561
+  li a4, 1581
+  remuw a7, t2, a4  # normal
+
+  li s8, 151
+  li t5, 517
+  remuw s9, s8, t5  # normal
+
+  li s6, 1803
+  li a4, 408
+  remuw s4, s6, a4  # normal
+
+  li s2, 1679
+  li t1, 632
+  remuw s4, s2, t1  # normal
+
+  li s3, 1628
+  li a2, 328
+  remuw t3, s3, a2  # normal
+
+  li s9, 1297
+  li s5, 1998
+  remuw a4, s9, s5  # normal
+
+  li t2, 1177
+  li s7, 931
+  remuw s5, t2, s7  # normal
+
+  li t3, 411
+  li a7, 1817
+  remuw s11, t3, a7  # normal
+
+  li s10, 188
+  li a3, 1328
+  remuw t6, s10, a3  # normal
+
+  li a3, 596
+  li a5, 1000
+  remuw t2, a3, a5  # normal
+
+  li a7, 737
+  li s6, 696
+  remuw s4, a7, s6  # normal
+
+  li t3, 986
+  li s7, 2038
+  remuw t6, t3, s7  # normal
+
+  li t5, 1040
+  li a1, 1882
+  remuw s6, t5, a1  # normal
+
+  li s9, 1905
+  li t1, 1178
+  remuw a2, s9, t1  # normal
+
+  li s5, 1415
+  li t6, 1225
+  remuw s9, s5, t6  # normal
+
+  li a7, 1237
+  li s10, 815
+  remuw s8, a7, s10  # normal
+
+  li s3, 1470
+  li t4, 1211
+  remuw a6, s3, t4  # normal
+
+  li a3, 1621
+  li t1, 1124
+  remuw s10, a3, t1  # normal
+
+  li s6, 200
+  li s9, 2034
+  remuw t1, s6, s9  # normal
+
+  li a1, 897
+  li s7, 778
+  remuw a3, a1, s7  # normal
+
+  li a2, 560
+  li s9, 397
+  remuw s7, a2, s9  # normal
+
+  li s8, 1805
+  li t2, 136
+  remuw s8, s8, t2  # normal
+
+  li a5, 1208
+  li s11, 1338
+  remuw s6, a5, s11  # normal
+
+  li a7, 1498
+  li t6, 1116
+  remuw s11, a7, t6  # normal
+
+  li a2, 1208
+  li s3, 1387
+  remuw t6, a2, s3  # normal
+
+  li s2, 924
+  li t3, 1627
+  remuw t4, s2, t3  # normal
+
+  li a5, 57
+  li t3, 1083
+  remuw s5, a5, t3  # normal
+
+  li t4, 1073
+  li s2, 1560
+  remuw s5, t4, s2  # normal
+
+  li a5, 1931
+  li t4, 102
+  remuw s8, a5, t4  # normal
+
+  li s5, 906
+  li a4, 258
+  remuw s7, s5, a4  # normal
+
+  li s2, 1672
+  li s10, 477
+  remuw s8, s2, s10  # normal
+
+  li t2, 2017
+  li t2, 475
+  remuw t5, t2, t2  # normal
+
+  li a1, 1858
+  li s5, 1519
+  remuw t4, a1, s5  # normal
+
+  li s11, 1716
+  li s10, 632
+  remuw s9, s11, s10  # normal
+
+  li s8, 1671
+  li t4, 1145
+  remuw a7, s8, t4  # normal
+
+  li s10, 1821
+  li a5, 967
+  remuw t2, s10, a5  # normal
+
+  li t4, 1469
+  li s9, 248
+  remuw a5, t4, s9  # normal
+
+  li a2, 1862
+  li a0, 375
+  remuw a6, a2, a0  # normal
+
+  li a0, 87
+  li s8, 207
+  remuw s9, a0, s8  # normal
+
+  li a1, 840
+  li t5, 281
+  remuw a4, a1, t5  # normal
+
+  li a0, 954
+  li s6, 1345
+  remuw s5, a0, s6  # normal
+
+  li s7, 592
+  li t1, 532
+  remuw t5, s7, t1  # normal
+
+  li a2, 105
+  li t6, 539
+  remuw s5, a2, t6  # normal
+
+  li a5, 64
+  li a1, 713
+  remuw t1, a5, a1  # normal
+
+  li t2, 465
+  li t5, 260
+  remuw a2, t2, t5  # normal
+
+  li s2, 446
+  li a5, 1851
+  remuw s3, s2, a5  # normal
+
+  li a1, 1235
+  li s7, 1876
+  remuw s4, a1, s7  # normal
+
+  li t1, 1645
+  li t2, 1746
+  remuw s8, t1, t2  # normal
+
+  li t4, 1816
+  li s3, 301
+  remuw s9, t4, s3  # normal
+
+  li a4, 516
+  li s7, 1126
+  remuw t3, a4, s7  # normal
+
+  li s8, 1331
+  li s6, 1560
+  remuw s7, s8, s6  # normal
+
+  li s4, 1762
+  li a3, 406
+  remuw s7, s4, a3  # normal
+
+  li t4, 880
+  li s8, 1761
+  remuw s10, t4, s8  # normal
+
+  li a1, 1857
+  li a7, 1633
+  remuw s2, a1, a7  # normal
+
+  li s11, 1280
+  li t4, 1044
+  remuw a7, s11, t4  # normal
+
+  li t5, 274
+  li s9, 373
+  remuw a5, t5, s9  # normal
+
+  li t3, 1526
+  li a7, 532
+  remuw t3, t3, a7  # normal
+
+  li t2, 1350
+  li s6, 500
+  remuw s5, t2, s6  # normal
+
+  li a5, 1732
+  li s9, 210
+  remuw a7, a5, s9  # normal
+
+  li s7, 871
+  li a3, 633
+  remuw a3, s7, a3  # normal
+
+  li s3, 1434
+  li a1, 1505
+  remuw s9, s3, a1  # normal
+
+  li a2, 1757
+  li s6, 107
+  remuw t4, a2, s6  # normal
+
+  li s9, 738
+  li s10, 1119
+  remuw s7, s9, s10  # normal
+
+  li a3, 743
+  li a4, 586
+  remuw s10, a3, a4  # normal
+
+  li s9, 125
+  li a6, 375
+  remuw s6, s9, a6  # normal
+
+  li s4, 1858
+  li a0, 1396
+  remuw s11, s4, a0  # normal
+
+  li a5, 347
+  li a3, 215
+  remuw t6, a5, a3  # normal
+
+  li t6, 334
+  li s7, 1114
+  remuw t5, t6, s7  # normal
+
+  li s9, 1810
+  li a7, 1696
+  remuw s2, s9, a7  # normal
+
+  li a0, 1760
+  li s4, 454
+  remuw a2, a0, s4  # normal
+
+  li s9, 1263
+  li s9, 186
+  remuw a3, s9, s9  # normal
+
+  li a6, 837
+  li s7, 1234
+  remuw a1, a6, s7  # normal
+
+  li t5, 491
+  li a2, 31
+  remuw a0, t5, a2  # normal
+
+  li s11, 1557
+  li a7, 942
+  remuw s3, s11, a7  # normal
+
+  li s5, 295
+  li s9, 1626
+  remuw s4, s5, s9  # normal
+
+  li t2, 318
+  li a7, 1282
+  remuw s11, t2, a7  # normal
+
+  li a7, 1710
+  li s6, 1185
+  remuw s6, a7, s6  # normal
+
+  li a6, 703
+  li t1, 1884
+  remuw t4, a6, t1  # normal
+
+  li a5, 433
+  li t3, 996
+  remuw s10, a5, t3  # normal
+
+  li s6, 1621
+  li a6, 1270
+  remuw a7, s6, a6  # normal
+
+  li a4, 688
+  li a1, 312
+  remuw s11, a4, a1  # normal
+
+  li s8, 794
+  li t4, 1431
+  remuw s4, s8, t4  # normal
+
+  li s11, 967
+  li s8, 421
+  remuw a5, s11, s8  # normal
+
+  li a2, 626
+  li a0, 308
+  remuw t5, a2, a0  # normal
+
+  li s8, 1838
+  li s3, 1323
+  remuw t6, s8, s3  # normal
+
+  li a4, 1920
+  li t5, 1811
+  remuw s8, a4, t5  # normal
+
+  li a3, 1441
+  li a2, 303
+  remuw s8, a3, a2  # normal
+
+  li s2, 1510
+  li s2, 1175
+  remuw a3, s2, s2  # normal
+
+  li s8, 1574
+  li t3, 1895
+  remuw t3, s8, t3  # normal
+
+  li s5, 1842
+  li s11, 771
+  remuw s6, s5, s11  # normal
+
+  li s7, 253
+  li s3, 1845
+  remuw a4, s7, s3  # normal
+
+  li a4, 706
+  li s10, 160
+  remuw t4, a4, s10  # normal
+
+  li s10, 650
+  li s2, 1490
+  remuw a1, s10, s2  # normal
+
+  li a3, 1385
+  li a6, 214
+  remuw a5, a3, a6  # normal
+
+  li s8, 387
+  li a4, 1583
+  remuw s8, s8, a4  # normal
+
+  li a2, 615
+  li s11, 1365
+  remuw a3, a2, s11  # normal
+
+  li s6, 1432
+  li s9, 1270
+  remuw t3, s6, s9  # normal
+
+  li s10, 347
+  li s9, 1268
+  remuw s8, s10, s9  # normal
+
+  li a6, 523
+  li s8, 382
+  remuw s5, a6, s8  # normal
+
+  li s9, 74
+  li a7, 1485
   remuw s8, s9, a7  # normal
 
-  li t5, 2033747850
-  li a3, 3647891535
-  remuw a7, t5, a3  # normal
+  li t6, 1991
+  li a0, 786
+  remuw a3, t6, a0  # normal
 
-  li s10, 3928783441
-  li t5, 2415429277
-  remuw a3, s10, t5  # normal
+  li t5, 414
+  li t5, 154
+  remuw a1, t5, t5  # normal
 
-  li s5, 1043069385
-  li s4, 873324617
-  remuw a7, s5, s4  # normal
+  li a4, 1543
+  li s7, 631
+  remuw s9, a4, s7  # normal
 
-  li t3, 818112342
-  li s2, 1153033730
-  remuw s8, t3, s2  # normal
+  li t6, 678
+  li s10, 1792
+  remuw t6, t6, s10  # normal
 
-  li s7, 312606333
-  li s7, 0
-  remuw s9, s7, s7  # div-by-zero
+  li a7, 972
+  li a5, 1819
+  remuw t2, a7, a5  # normal
 
-  li s11, 2058982440
-  li s9, 1430070821
-  remuw s6, s11, s9  # normal
+  li a3, 958
+  li s11, 979
+  remuw s7, a3, s11  # normal
 
-  li a0, 878377268
-  li a0, 3930438209
-  remuw t1, a0, a0  # normal
+  li s3, 1804
+  li a0, 1891
+  remuw a3, s3, a0  # normal
 
-  li a4, 1543008060
-  li a3, 1123398645
-  remuw s5, a4, a3  # normal
+  li a6, 663
+  li s4, 817
+  remuw a3, a6, s4  # normal
 
-  li s3, 3606617978
-  li s2, 3927019611
-  remuw s4, s3, s2  # normal
+  li t5, 1968
+  li a2, 1520
+  remuw s7, t5, a2  # normal
 
-  li a4, 3711216152
-  li a7, 0
-  remuw a5, a4, a7  # div-by-zero
+  li t4, 510
+  li s10, 1167
+  remuw s5, t4, s10  # normal
 
-  li t5, 1793484162
-  li t1, 654602021
-  remuw s11, t5, t1  # normal
+  li t6, 603
+  li a2, 1791
+  remuw t3, t6, a2  # normal
 
-  li a1, 1055402371
-  li a6, 1449827559
-  remuw a4, a1, a6  # normal
+  li a1, 109
+  li s2, 1699
+  remuw t3, a1, s2  # normal
 
-  li s11, 1979245480
-  li s8, 1512585138
-  remuw s3, s11, s8  # normal
+  li a6, 1581
+  li s4, 334
+  remuw t2, a6, s4  # normal
 
-  li s11, 3636537575
-  li s5, 2869963931
-  remuw t5, s11, s5  # normal
+  li a1, 405
+  li t1, 1373
+  remuw a5, a1, t1  # normal
 
-  li a7, 993998848
-  li t5, 3037270171
-  remuw t1, a7, t5  # normal
+  li t5, 1935
+  li t2, 568
+  remuw t5, t5, t2  # normal
 
-  li a0, 3920237643
-  li s4, 2831604672
-  remuw t1, a0, s4  # normal
+  li s3, 324
+  li s2, 77
+  remuw s10, s3, s2  # normal
 
-  li t1, 50899550
-  li s5, 4198241832
+  li a0, 1733
+  li t5, 455
+  remuw a2, a0, t5  # normal
+
+  li a1, 976
+  li a3, 1719
+  remuw a3, a1, a3  # normal
+
+  li s7, 2047
+  li s2, 67
+  remuw s8, s7, s2  # normal
+
+  li s4, 588
+  li s6, 1193
+  remuw s8, s4, s6  # normal
+
+  li t1, 1706
+  li s7, 767
+  remuw a7, t1, s7  # normal
+
+  li s9, 1477
+  li t3, 277
+  remuw s9, s9, t3  # normal
+
+  li s5, 83
+  li s4, 1599
+  remuw s4, s5, s4  # normal
+
+  li t2, 1529
+  li s8, 1038
+  remuw s3, t2, s8  # normal
+
+  li t1, 1412
+  li a5, 987
+  remuw s11, t1, a5  # normal
+
+  li s9, 1361
+  li s8, 546
+  remuw s11, s9, s8  # normal
+
+  li a5, 717
+  li s5, 1903
+  remuw t2, a5, s5  # normal
+
+  li s3, 552
+  li s8, 258
+  remuw s10, s3, s8  # normal
+
+  li s2, 179
+  li t2, 817
+  remuw s10, s2, t2  # normal
+
+  li a4, 1939
+  li a3, 1037
+  remuw t2, a4, a3  # normal
+
+  li s8, 195
+  li a0, 1359
+  remuw t2, s8, a0  # normal
+
+  li t4, 1638
+  li a5, 1801
+  remuw a2, t4, a5  # normal
+
+  li a4, 2037
+  li t6, 1504
+  remuw a6, a4, t6  # normal
+
+  li a2, 323
+  li t3, 1763
+  remuw s4, a2, t3  # normal
+
+  li t6, 420
+  li s5, 327
+  remuw s7, t6, s5  # normal
+
+  li s9, 1745
+  li a3, 682
+  remuw a4, s9, a3  # normal
+
+  li s2, 1444
+  li a5, 1781
+  remuw s10, s2, a5  # normal
+
+  li s8, 1663
+  li t2, 1488
+  remuw a2, s8, t2  # normal
+
+  li s11, 127
+  li s9, 584
+  remuw s4, s11, s9  # normal
+
+  li s9, 275
+  li s2, 966
+  remuw s7, s9, s2  # normal
+
+  li a5, 132
+  li a5, 628
+  remuw s8, a5, a5  # normal
+
+  li s2, 314
+  li a5, 563
+  remuw s9, s2, a5  # normal
+
+  li a5, 1141
+  li a6, 1022
+  remuw s4, a5, a6  # normal
+
+  li t1, 1585
+  li s11, 482
+  remuw t4, t1, s11  # normal
+
+  li a2, 1169
+  li s10, 2011
+  remuw a2, a2, s10  # normal
+
+  li t4, 1851
+  li t5, 707
+  remuw a0, t4, t5  # normal
+
+  li s2, 1309
+  li t3, 1423
+  remuw s10, s2, t3  # normal
+
+  li t3, 1228
+  li s5, 645
+  remuw s10, t3, s5  # normal
+
+  li s10, 1480
+  li s10, 918
+  remuw s10, s10, s10  # normal
+
+  li a0, 2023
+  li t5, 107
+  remuw t4, a0, t5  # normal
+
+  li s5, 531
+  li s6, 353
+  remuw a5, s5, s6  # normal
+
+  li a3, 1960
+  li a6, 1682
+  remuw t3, a3, a6  # normal
+
+  li s6, 1298
+  li t3, 303
+  remuw a7, s6, t3  # normal
+
+  li s2, 525
+  li s9, 745
+  remuw s2, s2, s9  # normal
+
+  li a7, 226
+  li s4, 508
+  remuw t5, a7, s4  # normal
+
+  li t5, 1321
+  li a3, 923
+  remuw s4, t5, a3  # normal
+
+  li s4, 1026
+  li a3, 804
+  remuw a5, s4, a3  # normal
+
+  li s5, 1240
+  li a2, 382
+  remuw s8, s5, a2  # normal
+
+  li s8, 631
+  li t6, 701
+  remuw s4, s8, t6  # normal
+
+  li s7, 1382
+  li s11, 168
+  remuw s9, s7, s11  # normal
+
+  li t3, 1084
+  li t2, 863
+  remuw t1, t3, t2  # normal
+
+  li a7, 2039
+  li s7, 1186
+  remuw s6, a7, s7  # normal
+
+  li a3, 1663
+  li s3, 1218
+  remuw s8, a3, s3  # normal
+
+  li t3, 1800
+  li s10, 1702
+  remuw s2, t3, s10  # normal
+
+  li s2, 588
+  li a0, 1280
+  remuw s3, s2, a0  # normal
+
+  li a4, 1414
+  li s11, 1633
+  remuw s10, a4, s11  # normal
+
+  li a5, 1307
+  li s4, 990
+  remuw t5, a5, s4  # normal
+
+  li t4, 577
+  li a2, 396
+  remuw s2, t4, a2  # normal
+
+  li a3, 1712
+  li a6, 1016
+  remuw t2, a3, a6  # normal
+
+  li a4, 777
+  li s6, 652
+  remuw t6, a4, s6  # normal
+
+  li s4, 1263
+  li s2, 2037
+  remuw s3, s4, s2  # normal
+
+  li t3, 986
+  li a6, 881
+  remuw t1, t3, a6  # normal
+
+  li a5, 2027
+  li t2, 1927
+  remuw s6, a5, t2  # normal
+
+  li s5, 1765
+  li t1, 548
+  remuw a3, s5, t1  # normal
+
+  li s11, 1498
+  li a5, 185
+  remuw a2, s11, a5  # normal
+
+  li t2, 1484
+  li s6, 1182
+  remuw a6, t2, s6  # normal
+
+  li a6, 1145
+  li s4, 486
+  remuw t3, a6, s4  # normal
+
+  li t4, 1388
+  li a6, 1497
+  remuw t5, t4, a6  # normal
+
+  li a0, 164
+  li s7, 185
+  remuw t5, a0, s7  # normal
+
+  li t5, 1940
+  li s10, 1871
+  remuw t2, t5, s10  # normal
+
+  li s7, 1304
+  li s4, 665
+  remuw t5, s7, s4  # normal
+
+  li s7, 1377
+  li s11, 2006
+  remuw a6, s7, s11  # normal
+
+  li s6, 68
+  li a3, 1508
+  remuw s10, s6, a3  # normal
+
+  li s9, 1260
+  li t4, 109
+  remuw a4, s9, t4  # normal
+
+  li s3, 932
+  li a2, 210
+  remuw s7, s3, a2  # normal
+
+  li s3, 1557
+  li t6, 605
+  remuw s6, s3, t6  # normal
+
+  li a1, 450
+  li t2, 781
+  remuw s9, a1, t2  # normal
+
+  li s2, 1691
+  li a4, 835
+  remuw t1, s2, a4  # normal
+
+  li s4, 255
+  li s7, 565
+  remuw a7, s4, s7  # normal
+
+  li a0, 1959
+  li s5, 1543
+  remuw s4, a0, s5  # normal
+
+  li t6, 1402
+  li s2, 1451
+  remuw a4, t6, s2  # normal
+
+  li s11, 1082
+  li s9, 1983
+  remuw s9, s11, s9  # normal
+
+  li a1, 921
+  li a2, 1219
+  remuw a0, a1, a2  # normal
+
+  li s10, 2002
+  li a0, 1298
+  remuw a3, s10, a0  # normal
+
+  li a5, 1120
+  li s5, 1178
+  remuw s3, a5, s5  # normal
+
+  li s6, 1616
+  li s9, 1413
+  remuw t4, s6, s9  # normal
+
+  li a3, 323
+  li t2, 1418
+  remuw t5, a3, t2  # normal
+
+  li s8, 876
+  li a2, 827
+  remuw s2, s8, a2  # normal
+
+  li a2, 562
+  li s5, 447
+  remuw s5, a2, s5  # normal
+
+  li s11, 207
+  li s6, 924
+  remuw s7, s11, s6  # normal
+
+  li a1, 1352
+  li t2, 1934
+  remuw s8, a1, t2  # normal
+
+  li s9, 646
+  li t5, 1666
+  remuw t4, s9, t5  # normal
+
+  li s3, 1176
+  li s3, 1315
+  remuw s8, s3, s3  # normal
+
+  li s8, 366
+  li t2, 951
+  remuw a3, s8, t2  # normal
+
+  li s11, 152
+  li s11, 717
+  remuw s5, s11, s11  # normal
+
+  li t6, 1626
+  li t2, 2029
+  remuw a7, t6, t2  # normal
+
+  li s11, 37
+  li a3, 1222
+  remuw t6, s11, a3  # normal
+
+  li s7, 1372
+  li t4, 1165
+  remuw s6, s7, t4  # normal
+
+  li s8, 549
+  li s5, 1917
+  remuw s2, s8, s5  # normal
+
+  li a0, 1879
+  li t4, 1053
+  remuw a2, a0, t4  # normal
+
+  li t6, 1208
+  li t1, 791
+  remuw s10, t6, t1  # normal
+
+  li s7, 1751
+  li s8, 1343
+  remuw t6, s7, s8  # normal
+
+  li a6, 575
+  li s9, 1955
+  remuw t3, a6, s9  # normal
+
+  li a1, 964
+  li t1, 1829
+  remuw a4, a1, t1  # normal
+
+  li a4, 46
+  li a3, 1071
+  remuw a2, a4, a3  # normal
+
+  li a5, 484
+  li s10, 1906
+  remuw s8, a5, s10  # normal
+
+  li t6, 1273
+  li a6, 480
+  remuw a3, t6, a6  # normal
+
+  li a3, 897
+  li a5, 547
+  remuw s8, a3, a5  # normal
+
+  li t5, 1530
+  li s2, 1703
+  remuw s3, t5, s2  # normal
+
+  li s5, 894
+  li s3, 1013
+  remuw s10, s5, s3  # normal
+
+  li s7, 1481
+  li t3, 319
+  remuw s9, s7, t3  # normal
+
+  li t4, 828
+  li t2, 613
+  remuw s6, t4, t2  # normal
+
+  li a4, 841
+  li s4, 2002
+  remuw t6, a4, s4  # normal
+
+  li s4, 1857
+  li s2, 540
+  remuw t3, s4, s2  # normal
+
+  li a7, 1893
+  li s2, 1262
+  remuw s4, a7, s2  # normal
+
+  li t1, 12
+  li a6, 892
+  remuw s11, t1, a6  # normal
+
+  li t3, 261
+  li t2, 246
+  remuw s6, t3, t2  # normal
+
+  li s3, 737
+  li t2, 554
+  remuw t3, s3, t2  # normal
+
+  li s11, 1533
+  li s8, 1566
+  remuw s8, s11, s8  # normal
+
+  li a6, 544
+  li a6, 1424
+  remuw s2, a6, a6  # normal
+
+  li t6, 521
+  li s5, 912
+  remuw t4, t6, s5  # normal
+
+  li t1, 1737
+  li a3, 1553
+  remuw t1, t1, a3  # normal
+
+  li a1, 1129
+  li s2, 772
+  remuw a1, a1, s2  # normal
+
+  li t4, 1717
+  li t2, 64
+  remuw s11, t4, t2  # normal
+
+  li a0, 137
+  li t3, 1828
+  remuw a1, a0, t3  # normal
+
+  li s9, 1002
+  li s10, 181
+  remuw s7, s9, s10  # normal
+
+  li s2, 231
+  li a1, 573
+  remuw a6, s2, a1  # normal
+
+  li a3, 1306
+  li a1, 1313
+  remuw s4, a3, a1  # normal
+
+  li a3, 905
+  li t5, 1693
+  remuw a1, a3, t5  # normal
+
+  li a2, 717
+  li t2, 1749
+  remuw a3, a2, t2  # normal
+
+  li s3, 1561
+  li t2, 1305
+  remuw s5, s3, t2  # normal
+
+  li a7, 1541
+  li a7, 753
+  remuw s10, a7, a7  # normal
+
+  li s3, 1231
+  li a1, 591
+  remuw s5, s3, a1  # normal
+
+  li t2, 1706
+  li s5, 549
+  remuw s2, t2, s5  # normal
+
+  li a1, 323
+  li a2, 1842
+  remuw a6, a1, a2  # normal
+
+  li t3, 780
+  li s5, 211
+  remuw a5, t3, s5  # normal
+
+  li a6, 161
+  li s9, 298
+  remuw a2, a6, s9  # normal
+
+  li s6, 888
+  li s11, 1963
+  remuw a0, s6, s11  # normal
+
+  li a4, 62
+  li a3, 867
+  remuw a0, a4, a3  # normal
+
+  li s11, 1961
+  li t4, 993
+  remuw a0, s11, t4  # normal
+
+  li s7, 980
+  li s10, 1317
+  remuw s10, s7, s10  # normal
+
+  li a6, 1471
+  li s2, 1263
+  remuw a3, a6, s2  # normal
+
+  li a5, 1908
+  li s4, 403
+  remuw a2, a5, s4  # normal
+
+  li s3, 1518
+  li a4, 1281
+  remuw s11, s3, a4  # normal
+
+  li t2, 597
+  li s6, 66
+  remuw a7, t2, s6  # normal
+
+  li s5, 1710
+  li s6, 1209
+  remuw a2, s5, s6  # normal
+
+  li a0, 1006
+  li a4, 2045
+  remuw t5, a0, a4  # normal
+
+  li s8, 2001
+  li s9, 2009
+  remuw s5, s8, s9  # normal
+
+  li t6, 693
+  li s11, 573
+  remuw s2, t6, s11  # normal
+
+  li s5, 240
+  li s3, 138
+  remuw s11, s5, s3  # normal
+
+  li s9, 1689
+  li t2, 563
+  remuw t3, s9, t2  # normal
+
+  li a1, 37
+  li t3, 895
+  remuw s8, a1, t3  # normal
+
+  li s2, 1979
+  li a5, 1998
+  remuw s4, s2, a5  # normal
+
+  li t1, 48
+  li s5, 68
   remuw t1, t1, s5  # normal
 
-  li s4, 3907446848
-  li s10, 639509845
-  remuw t1, s4, s10  # normal
+  li s11, 1174
+  li a2, 70
+  remuw s4, s11, a2  # normal
 
-  li s7, 1522312933
-  li s4, 3414225544
-  remuw a0, s7, s4  # normal
+  li s10, 734
+  li s9, 438
+  remuw s4, s10, s9  # normal
 
-  li a5, 2994607170
-  li a6, 136083924
-  remuw t3, a5, a6  # normal
+  li s4, 1033
+  li t5, 1451
+  remuw t4, s4, t5  # normal
 
-  li a6, 736086849
-  li a6, 3368870594
-  remuw a6, a6, a6  # normal
+  li a6, 1663
+  li t3, 1880
+  remuw a2, a6, t3  # normal
 
-  li t4, 986839603
-  li s4, 2434319360
-  remuw s6, t4, s4  # normal
+  li a1, 330
+  li s10, 129
+  remuw s6, a1, s10  # normal
 
-  li t2, 2826557688
-  li t3, 3652558724
-  remuw a2, t2, t3  # normal
+  li a6, 1949
+  li a6, 229
+  remuw t3, a6, a6  # normal
 
-  li a0, 3525748915
-  li s6, 3989487508
-  remuw t1, a0, s6  # normal
+  li t1, 2047
+  li s10, 1777
+  remuw s8, t1, s10  # normal
 
-  li t6, 1424768819
-  li s6, 3110258855
+  li a4, 390
+  li s6, 174
+  remuw s8, a4, s6  # normal
+
+  li a0, 1947
+  li s10, 1110
+  remuw a1, a0, s10  # normal
+
+  li t3, 134
+  li s9, 734
+  remuw t2, t3, s9  # normal
+
+  li t1, 1631
+  li a0, 315
+  remuw a4, t1, a0  # normal
+
+  li t6, 1593
+  li s6, 1358
   remuw a3, t6, s6  # normal
 
-  li s11, 1877279755
-  li a5, 3602080228
-  remuw s4, s11, a5  # normal
+  li s11, 321
+  li t5, 1416
+  remuw a6, s11, t5  # normal
 
-  li s7, 3322393065
-  li s7, 4263123881
-  remuw a4, s7, s7  # normal
+  li t4, 311
+  li a7, 1395
+  remuw t2, t4, a7  # normal
 
-  li a1, 1612446667
-  li a5, 1632399901
-  remuw s3, a1, a5  # normal
+  li s7, 1336
+  li s7, 121
+  remuw s7, s7, s7  # normal
 
-  li a3, 352350576
-  li a1, 662373991
+  li a2, 1457
+  li s2, 1537
+  remuw s8, a2, s2  # normal
+
+  li t6, 1556
+  li s9, 351
+  remuw a7, t6, s9  # normal
+
+  li a3, 336
+  li a1, 1097
   remuw s7, a3, a1  # normal
 
-  li s8, 1360122653
-  li t5, 457632732
-  remuw s10, s8, t5  # normal
+  li a6, 631
+  li s10, 1595
+  remuw t5, a6, s10  # normal
 
-  li a3, 1158638062
-  li s2, 569113257
-  remuw t1, a3, s2  # normal
+  li a5, 1262
+  li t4, 1821
+  remuw a4, a5, t4  # normal
 
-  li a7, 2200916676
-  li s2, 443639751
-  remuw t6, a7, s2  # normal
+  li a2, 767
+  li t4, 1765
+  remuw a5, a2, t4  # normal
 
-  li a5, 1654584280
-  li s5, 1253474844
+  li s5, 423
+  li s5, 107
+  remuw s2, s5, s5  # normal
+
+  li a5, 1328
+  li s5, 1577
   remuw t3, a5, s5  # normal
 
-  li t3, 4201221330
-  li s11, 1635231601
-  remuw a6, t3, s11  # normal
+  li a3, 346
+  li a7, 994
+  remuw t1, a3, a7  # normal
 
-  li a2, 626785308
-  li a3, 718150313
-  remuw t5, a2, a3  # normal
+  li s4, 694
+  li t6, 568
+  remuw s6, s4, t6  # normal
 
-  li a7, 330374745
-  li a3, 2684499242
-  remuw a2, a7, a3  # normal
+  li a3, 259
+  li a2, 684
+  remuw a2, a3, a2  # normal
 
-  li s7, 581923103
-  li a0, 1699484121
-  remuw s7, s7, a0  # normal
+  li a2, 315
+  li a7, 1479
+  remuw a7, a2, a7  # normal
 
-  li a6, 2552898167
-  li a4, 1290359719
+  li a1, 800
+  li s11, 1875
+  remuw a2, a1, s11  # normal
+
+  li t5, 1620
+  li a3, 1360
+  remuw t4, t5, a3  # normal
+
+  li a6, 1763
+  li a4, 557
   remuw s7, a6, a4  # normal
 
-  li s10, 1370685826
-  li a0, 2718295375
-  remuw s7, s10, a0  # normal
+  li a4, 822
+  li s7, 1962
+  remuw a3, a4, s7  # normal
 
-  li a1, 1687643539
-  li a4, 2421719519
+  li t6, 1193
+  li a6, 2011
+  remuw a4, t6, a6  # normal
+
+  li a1, 1609
+  li a4, 1495
   remuw s6, a1, a4  # normal
 
-  li s5, 2362657890
-  li t6, 3042413312
-  remuw s6, s5, t6  # normal
+  li s6, 736
+  li a0, 110
+  remuw t4, s6, a0  # normal
 
-  li a3, 3414694962
-  li s10, 2890416998
-  remuw s2, a3, s10  # normal
+  li s2, 1193
+  li s10, 283
+  remuw s11, s2, s10  # normal
 
-  li s8, 2828935922
-  li a3, 3071916904
-  remuw t5, s8, a3  # normal
+  li s9, 1240
+  li s3, 991
+  remuw a7, s9, s3  # normal
 
-  li t3, 2970866955
-  li s2, 2334938378
-  remuw a6, t3, s2  # normal
+  li s9, 1544
+  li t5, 302
+  remuw a2, s9, t5  # normal
 
-  li s10, 3927323476
-  li s5, 2854838525
+  li s7, 1713
+  li s3, 150
+  remuw s2, s7, s3  # normal
+
+  li s10, 348
+  li s5, 447
   remuw a5, s10, s5  # normal
 
-  li s8, 3232747923
-  li s7, 0
-  remuw t6, s8, s7  # div-by-zero
+  li s9, 181
+  li s9, 1636
+  remuw a1, s9, s9  # normal
 
-  li t4, 949324089
-  li t1, 1606831312
-  remuw a7, t4, t1  # normal
+  li a7, 1059
+  li t4, 909
+  remuw a4, a7, t4  # normal
 
-  li s9, 647444557
-  li s6, 4285100605
-  remuw s2, s9, s6  # normal
+  li s11, 905
+  li s4, 1825
+  remuw s4, s11, s4  # normal
 
-  li t4, 4130589741
-  li a3, 608490241
-  remuw s3, t4, a3  # normal
+  li a6, 617
+  li s2, 1412
+  remuw a5, a6, s2  # normal
 
-  li a4, 2238171141
-  li s2, 1495938377
-  remuw a3, a4, s2  # normal
+  li s3, 351
+  li t4, 475
+  remuw t1, s3, t4  # normal
 
-  li s2, 1369705770
-  li s11, 1289624427
-  remuw t4, s2, s11  # normal
+  li t5, 1865
+  li a5, 847
+  remuw s11, t5, a5  # normal
 
-  li t4, 2783009621
-  li t1, 687777633
-  remuw s10, t4, t1  # normal
+  li s3, 1794
+  li a5, 1853
+  remuw s4, s3, a5  # normal
 
-  li a7, 792214339
-  li s2, 1856003347
-  remuw s5, a7, s2  # normal
+  li t3, 471
+  li a3, 92
+  remuw a4, t3, a3  # normal
 
-  li s11, 1844915411
-  li s7, 922542252
+  li s8, 673
+  li t4, 999
+  remuw a4, s8, t4  # normal
+
+  li t6, 1746
+  li s5, 1892
+  remuw s4, t6, s5  # normal
+
+  li a6, 1770
+  li s8, 1620
+  remuw a1, a6, s8  # normal
+
+  li s11, 1841
+  li s7, 1759
   remuw t1, s11, s7  # normal
 
-  li s10, 2305920746
-  li t3, 1571069113
-  remuw a2, s10, t3  # normal
+  li t1, 1140
+  li s10, 256
+  remuw a6, t1, s10  # normal
 
-  li s2, 3704995758
-  li t4, 2744950470
-  remuw a0, s2, t4  # normal
+  li t4, 1335
+  li s5, 807
+  remuw s6, t4, s5  # normal
 
-  li a6, 490623034
-  li s7, 3438608304
+  li t4, 2004
+  li a2, 1283
+  remuw s2, t4, a2  # normal
+
+  li a6, 467
+  li s7, 1425
   remuw s7, a6, s7  # normal
 
-  li s6, 1345122542
-  li t3, 1024662077
-  remuw s7, s6, t3  # normal
+  li s2, 1218
+  li s7, 347
+  remuw a5, s2, s7  # normal
 
-  li t6, 2193976097
-  li a5, 1648021756
-  remuw t4, t6, a5  # normal
+  li t5, 1250
+  li a4, 479
+  remuw s9, t5, a4  # normal
 
-  li s3, 716681967
-  li s8, 1240535933
-  remuw t6, s3, s8  # normal
+  li a5, 1591
+  li s10, 1713
+  remuw t6, a5, s10  # normal
 
-  li a4, 3717389692
-  li s2, 4088130061
-  remuw t6, a4, s2  # normal
+  li t5, 760
+  li s6, 1993
+  remuw s7, t5, s6  # normal
 
-  li t5, 2125879326
-  li a0, 2940749808
-  remuw s3, t5, a0  # normal
+  li s5, 709
+  li s10, 683
+  remuw s8, s5, s10  # normal
 
-  li s10, 3268713302
-  li s2, 1254516608
-  remuw a7, s10, s2  # normal
+  li a3, 1847
+  li t5, 219
+  remuw s3, a3, t5  # normal
 
-  li a1, 3353253610
-  li s5, 2193894984
-  remuw a2, a1, s5  # normal
+  li t1, 1572
+  li s3, 2027
+  remuw a5, t1, s3  # normal
 
-  li t4, 3087996613
-  li a2, 2346569443
-  remuw s6, t4, a2  # normal
+  li s9, 1818
+  li s3, 2001
+  remuw a7, s9, s3  # normal
 
-  li t4, 3227004325
-  li s11, 4292015249
-  remuw a7, t4, s11  # normal
+  li t3, 903
+  li s6, 1196
+  remuw t6, t3, s6  # normal
 
-  li a2, 373589152
-  li a5, 3487036345
-  remuw s2, a2, a5  # normal
+  li a2, 688
+  li a1, 1873
+  remuw t2, a2, a1  # normal
 
-  li s11, 1838963536
-  li s6, 2646349248
-  remuw a0, s11, s6  # normal
+  li s11, 463
+  li s3, 467
+  remuw s6, s11, s3  # normal
 
-  li a0, 2286128610
-  li t2, 723175276
-  remuw a0, a0, t2  # normal
+  li s5, 170
+  li a5, 1807
+  remuw a2, s5, a5  # normal
 
-  li a3, 3501175349
-  li a3, 2817053070
+  li a0, 1013
+  li a7, 1219
+  remuw s5, a0, a7  # normal
+
+  li s2, 356
+  li a2, 1798
+  remuw t2, s2, a2  # normal
+
+  li a1, 1436
+  li a0, 1753
+  remuw t4, a1, a0  # normal
+
+  li s7, 847
+  li t5, 243
+  remuw t6, s7, t5  # normal
+
+  li a5, 689
+  li s5, 1325
+  remuw s6, a5, s5  # normal
+
+  li a3, 390
+  li a3, 555
   remuw s10, a3, a3  # normal
 
-  li t5, 1686636869
-  li a1, 2716145826
-  remuw s10, t5, a1  # normal
+  li t2, 519
+  li a2, 543
+  remuw a7, t2, a2  # normal
 
-  li a7, 399839065
-  li a6, 1585148616
-  remuw s8, a7, a6  # normal
+  li t5, 1013
+  li s10, 1608
+  remuw a1, t5, s10  # normal
 
-  li a4, 3147025728
+  li t5, 1696
+  li s6, 1536
+  remuw s3, t5, s6  # normal
+
+  li t3, 381
+  li s8, 1650
+  remuw s2, t3, s8  # normal
+
+  li s11, 1511
+  li a2, 1862
+  remuw s4, s11, a2  # normal
+
+  li a4, 381
   li s6, 0
   remuw s3, a4, s6  # div-by-zero
 
-  li s2, 2295335613
-  li s8, 909895115
+  li s2, 1467
+  li s8, 259
   remuw s11, s2, s8  # normal
 
-  li a4, 2482206102
-  li a3, 207916194
+  li a6, 867
+  li a0, 2026
+  remuw s5, a6, a0  # normal
+
+  li a4, 534
+  li a3, 1987
   remuw a2, a4, a3  # normal
 
-  li s8, 678534043
-  li s2, 0
-  remuw t4, s8, s2  # div-by-zero
+  li s9, 1882
+  li t2, 66
+  remuw a4, s9, t2  # normal
 
-  li t1, 2791716713
-  li a7, 1176904638
-  remuw s2, t1, a7  # normal
-
-  li a5, 2787052438
-  li a2, 222424647
-  remuw s8, a5, a2  # normal
-
-  li a3, 1005640129
-  li s11, 2815287619
-  remuw s8, a3, s11  # normal
-
-  li t4, 334744286
-  li t1, 2549834042
-  remuw s10, t4, t1  # normal
-
-  li s9, 2987566830
-  li s2, 0
-  remuw s4, s9, s2  # div-by-zero
-
-  li a7, 304205279
-  li s10, 1645272822
-  remuw t4, a7, s10  # normal
-
-  li t4, 3783818927
-  li t4, 588965831
-  remuw s11, t4, t4  # normal
-
-  li s8, 2791815554
-  li s9, 1890212621
-  remuw t5, s8, s9  # normal
-
-  li a0, 3950915172
-  li s8, 933058809
-  remuw s11, a0, s8  # normal
-
-  li t5, 1649404491
-  li t4, 4137121697
-  remuw t4, t5, t4  # normal
-
-  li t5, 361845490
-  li a1, 2609592494
-  remuw a4, t5, a1  # normal
-
-  li t1, 1682557807
-  li s9, 2775278048
-  remuw s10, t1, s9  # normal
-
-  li s3, 2550908958
-  li a6, 4199176431
-  remuw a1, s3, a6  # normal
-
-  li a4, 1807595119
-  li t5, 313497572
-  remuw a5, a4, t5  # normal
-
-  li t3, 3389974724
-  li t1, 2175875968
-  remuw s6, t3, t1  # normal
-
-  li s10, 1727768349
-  li s4, 655757505
-  remuw s8, s10, s4  # normal
-
-  li a3, 3470591645
-  li t3, 2303778262
-  remuw t3, a3, t3  # normal
-
-  li s6, 2762327862
-  li s8, 1024939794
-  remuw a6, s6, s8  # normal
-
-  li t3, 236346130
-  li a7, 754393408
-  remuw a1, t3, a7  # normal
-
-  li s10, 703655804
-  li t5, 4093173412
-  remuw t1, s10, t5  # normal
-
-  li s4, 1597167064
-  li s11, 3751482398
-  remuw s4, s4, s11  # normal
-
-  li t4, 1843934986
-  li t1, 2249936731
-  remuw s11, t4, t1  # normal
-
-  li s10, 2130937594
-  li s6, 2193791472
-  remuw a2, s10, s6  # normal
-
-  li s3, 675641216
-  li s6, 3321422584
-  remuw t2, s3, s6  # normal
-
-  li s9, 11031667
-  li s11, 52776893
-  remuw s6, s9, s11  # normal
-
-  li s3, 644608746
-  li a5, 3682870880
-  remuw t2, s3, a5  # normal
-
-  li s10, 964285941
-  li s11, 1066282253
-  remuw s5, s10, s11  # normal
-
-  li a4, 2454728281
-  li a2, 226225156
-  remuw s11, a4, a2  # normal
-
-  li s4, 3628588115
-  li t2, 1405746777
-  remuw a1, s4, t2  # normal
-
-  li s2, 3369432855
-  li t1, 1041890333
-  remuw s5, s2, t1  # normal
-
-  li s6, 3332404822
-  li s3, 3418680334
-  remuw a5, s6, s3  # normal
-
-  li t1, 2325918921
-  li a7, 0
-  remuw t5, t1, a7  # div-by-zero
-
-  li s10, 2823098529
-  li t1, 3123364825
-  remuw s8, s10, t1  # normal
-
-  li a0, 1803095297
-  li s4, 4128258411
-  remuw t4, a0, s4  # normal
-
-  li s10, 3956843441
-  li a2, 2232348845
-  remuw t5, s10, a2  # normal
-
-  li a5, 3521713809
-  li s2, 2438771483
-  remuw s10, a5, s2  # normal
-
-  li s9, 3439482075
-  li t5, 3158316538
-  remuw a7, s9, t5  # normal
-
-  li s2, 4052536540
-  li a2, 468034755
-  remuw a4, s2, a2  # normal
-
-  li t6, 1745958114
-  li s2, 2301778419
+  li t6, 1752
+  li s2, 828
   remuw t4, t6, s2  # normal
 
-  li s2, 3661383114
-  li a3, 388354759
-  remuw a0, s2, a3  # normal
+  li t5, 1122
+  li s8, 382
+  remuw s10, t5, s8  # normal
 
-  li a3, 173215225
-  li s10, 1407863065
-  remuw s9, a3, s10  # normal
+  li a5, 677
+  li a2, 212
+  remuw s8, a5, a2  # normal
 
-  li s10, 1283511098
-  li a1, 746756255
-  remuw t3, s10, a1  # normal
+  li s8, 959
+  li a3, 1758
+  remuw a6, s8, a3  # normal
 
-  li s2, 1073108894
-  li s5, 1984460654
-  remuw a6, s2, s5  # normal
+  li t3, 874
+  li s10, 1953
+  remuw s8, t3, s10  # normal
 
-  li t4, 954720281
-  li t1, 1720485787
-  remuw t5, t4, t1  # normal
+  li t5, 1822
+  li s6, 38
+  remuw t3, t5, s6  # normal
 
-  li s8, 2517360884
-  li s8, 322067505
-  remuw s9, s8, s8  # normal
+  li s10, 1729
+  li a4, 541
+  remuw t1, s10, a4  # normal
 
-  li a0, 553155490
-  li s8, 1423995953
-  remuw t3, a0, s8  # normal
+  li t3, 419
+  li a1, 422
+  remuw s3, t3, a1  # normal
 
-  li s2, 2464813860
-  li t2, 1696506450
-  remuw t2, s2, t2  # normal
+  li a5, 545
+  li a3, 585
+  remuw a4, a5, a3  # normal
 
-  li a6, 1520174713
-  li s9, 3901136913
+  li s4, 672
+  li s6, 1802
+  remuw t3, s4, s6  # normal
+
+  li s11, 620
+  li a0, 1686
+  remuw a5, s11, a0  # normal
+
+  li s9, 355
+  li s2, 411
+  remuw s7, s9, s2  # normal
+
+  li t4, 1439
+  li s6, 1758
+  remuw t5, t4, s6  # normal
+
+  li t5, 345
+  li a1, 1016
+  remuw a4, t5, a1  # normal
+
+  li s7, 1167
+  li s7, 109
+  remuw s5, s7, s7  # normal
+
+  li a3, 772
+  li a0, 1604
+  remuw s9, a3, a0  # normal
+
+  li s8, 980
+  li t2, 2027
+  remuw a3, s8, t2  # normal
+
+  li t4, 290
+  li a1, 49
+  remuw a6, t4, a1  # normal
+
+  li a4, 1723
+  li t5, 1496
+  remuw a5, a4, t5  # normal
+
+  li s9, 298
+  li t6, 68
+  remuw s5, s9, t6  # normal
+
+  li t3, 163
+  li t1, 247
+  remuw s6, t3, t1  # normal
+
+  li s4, 1701
+  li a3, 1734
+  remuw a6, s4, a3  # normal
+
+  li a6, 625
+  li t3, 1136
+  remuw s10, a6, t3  # normal
+
+  li a3, 832
+  li t3, 636
+  remuw t3, a3, t3  # normal
+
+  li a4, 270
+  li a6, 1270
+  remuw s5, a4, a6  # normal
+
+  li a7, 977
+  li s11, 237
+  remuw s10, a7, s11  # normal
+
+  li t3, 225
+  li a7, 1266
+  remuw a1, t3, a7  # normal
+
+  li s11, 489
+  li s9, 51
+  remuw s9, s11, s9  # normal
+
+  li t5, 2033
+  li s10, 1420
+  remuw s10, t5, s10  # normal
+
+  li s4, 1523
+  li s11, 519
+  remuw s4, s4, s11  # normal
+
+  li a2, 120
+  li s11, 1372
+  remuw s11, a2, s11  # normal
+
+  li a2, 315
+  li s4, 2032
+  remuw a7, a2, s4  # normal
+
+  li s4, 683
+  li a5, 1506
+  remuw s2, s4, a5  # normal
+
+  li a2, 472
+  li t4, 935
+  remuw t6, a2, t4  # normal
+
+  li s4, 50
+  li t1, 1001
+  remuw s11, s4, t1  # normal
+
+  li s3, 614
+  li a5, 733
+  remuw t2, s3, a5  # normal
+
+  li s5, 1717
+  li s10, 919
+  remuw t2, s5, s10  # normal
+
+  li a1, 1310
+  li a7, 1111
+  remuw a4, a1, a7  # normal
+
+  li s6, 215
+  li a5, 734
+  remuw t3, s6, a5  # normal
+
+  li s4, 282
+  li t2, 1905
+  remuw a1, s4, t2  # normal
+
+  li a3, 1870
+  li a4, 32
+  remuw a3, a3, a4  # normal
+
+  li a0, 1244
+  li a3, 993
+  remuw a5, a0, a3  # normal
+
+  li a5, 800
+  li s6, 1004
+  remuw s2, a5, s6  # normal
+
+  li t1, 1418
+  li a7, 39
+  remuw t5, t1, a7  # normal
+
+  li t1, 1259
+  li s9, 425
+  remuw a4, t1, s9  # normal
+
+  li s4, 245
+  li a1, 583
+  remuw a0, s4, a1  # normal
+
+  li a2, 948
+  li t3, 1691
+  remuw s10, a2, t3  # normal
+
+  li a5, 347
+  li s2, 391
+  remuw s10, a5, s2  # normal
+
+  li t5, 306
+  li s8, 255
+  remuw s4, t5, s8  # normal
+
+  li s9, 1069
+  li t5, 1290
+  remuw a7, s9, t5  # normal
+
+  li s10, 1854
+  li s11, 1113
+  remuw a6, s10, s11  # normal
+
+  li t3, 446
+  li a0, 636
+  remuw a1, t3, a0  # normal
+
+  li t6, 1665
+  li s2, 494
+  remuw t4, t6, s2  # normal
+
+  li a5, 1897
+  li a0, 1085
+  remuw s5, a5, a0  # normal
+
+  li t3, 1246
+  li t6, 165
+  remuw t4, t3, t6  # normal
+
+  li a4, 1016
+  li t5, 1457
+  remuw a0, a4, t5  # normal
+
+  li s4, 1065
+  li t2, 712
+  remuw a6, s4, t2  # normal
+
+  li a6, 1023
+  li s2, 387
+  remuw t1, a6, s2  # normal
+
+  li t4, 252
+  li t5, 910
+  remuw s2, t4, t5  # normal
+
+  li a0, 344
+  li a6, 1060
+  remuw t5, a0, a6  # normal
+
+  li t1, 1816
+  li t3, 527
+  remuw t3, t1, t3  # normal
+
+  li a4, 1888
+  li t4, 207
+  remuw t3, a4, t4  # normal
+
+  li s6, 1617
+  li a7, 2032
+  remuw t6, s6, a7  # normal
+
+  li a6, 1449
+  li s9, 879
   remuw t1, a6, s9  # normal
 
-  li a2, 1267467039
-  li s2, 2365189801
-  remuw a2, a2, s2  # normal
-
-  li t3, 1800599868
-  li a2, 3063903685
-  remuw t2, t3, a2  # normal
-
-  li s5, 1381280467
-  li s3, 1161512446
-  remuw s3, s5, s3  # normal
-
-  li a4, 3343796479
-  li s7, 4258594593
-  remuw t1, a4, s7  # normal
-
-  li a5, 4183211669
-  li s6, 430073711
-  remuw s4, a5, s6  # normal
-
-  li a1, 3165649201
-  li a2, 4070780669
-  remuw s9, a1, a2  # normal
-
-  li a6, 746087503
-  li a5, 2540741595
-  remuw s6, a6, a5  # normal
-
-  li s10, 2420671425
-  li a5, 1327372855
-  remuw s10, s10, a5  # normal
-
-  li t2, 2584122005
-  li t3, 2052947074
-  remuw s3, t2, t3  # normal
-
-  li s7, 3728964043
-  li a0, 255790920
-  remuw a4, s7, a0  # normal
-
-  li s6, 3325878813
-  li s10, 3696547227
-  remuw t5, s6, s10  # normal
-
-  li a5, 433929868
-  li s10, 1296071464
-  remuw t3, a5, s10  # normal
-
-  li t6, 4126012290
-  li s11, 2788208029
-  remuw t5, t6, s11  # normal
-
-  li s10, 3380104018
-  li s5, 753129506
-  remuw t6, s10, s5  # normal
-
-  li s11, 2460306692
-  li s10, 2437319900
-  remuw a3, s11, s10  # normal
-
-  li s7, 2429019820
-  li a4, 4023043447
-  remuw t6, s7, a4  # normal
-
-  li a4, 1372322277
-  li s11, 4136395494
-  remuw t5, a4, s11  # normal
-
-  li s9, 1442032976
-  li s8, 48943839
-  remuw s10, s9, s8  # normal
-
-  li a1, 5502537
-  li s10, 1657587204
-  remuw a0, a1, s10  # normal
-
-  li a7, 1626558140
-  li t6, 2345155074
-  remuw s11, a7, t6  # normal
-
-  li s3, 2951331472
-  li s6, 698604397
-  remuw t4, s3, s6  # normal
-
-  li t2, 449790661
-  li a3, 0
-  remuw t3, t2, a3  # div-by-zero
-
-  li t6, 4200656353
-  li a6, 3836377197
-  remuw a4, t6, a6  # normal
-
-  li t1, 3821461211
-  li a7, 674755608
-  remuw s10, t1, a7  # normal
-
-  li a4, 2319821061
-  li a0, 2837246354
-  remuw t4, a4, a0  # normal
-
-  li a1, 3607147617
-  li t4, 0
-  remuw a3, a1, t4  # div-by-zero
-
-  li t2, 376360931
-  li a5, 0
-  remuw t5, t2, a5  # div-by-zero
-
-  li s8, 416555576
-  li s7, 888856289
-  remuw s9, s8, s7  # normal
-
-  li a3, 496107065
-  li t3, 3371019229
-  remuw s8, a3, t3  # normal
-
-  li s3, 1664416298
-  li s9, 1638294596
-  remuw s3, s3, s9  # normal
-
-  li s2, 1997408731
-  li t2, 264739091
-  remuw t6, s2, t2  # normal
-
-  li s9, 2325505783
-  li t4, 2532855799
-  remuw s10, s9, t4  # normal
-
-  li t2, 3786674545
-  li a6, 2045530940
-  remuw s5, t2, a6  # normal
-
-  li a6, 633282877
-  li s10, 0
-  remuw t3, a6, s10  # div-by-zero
-
-  li t6, 3472312361
-  li t6, 541964762
-  remuw s2, t6, t6  # normal
-
-  li t3, 2693916084
-  li s9, 1107613491
-  remuw a7, t3, s9  # normal
-
-  li t3, 3751509023
-  li t3, 1802141793
-  remuw s11, t3, t3  # normal
-
-  li t5, 3348118981
-  li t5, 3374751777
-  remuw a7, t5, t5  # normal
-
-  li a5, 2812291645
-  li a7, 2031719772
-  remuw s5, a5, a7  # normal
-
-  li a2, 2979252408
-  li a6, 166569717
-  remuw t6, a2, a6  # normal
-
-  li s10, 1599620611
-  li a1, 0
-  remuw a4, s10, a1  # div-by-zero
-
-  li a3, 3731897202
-  li a3, 577181411
-  remuw a4, a3, a3  # normal
-
-  li s2, 2772636814
-  li a4, 807177651
-  remuw s11, s2, a4  # normal
-
-  li a7, 3399425369
-  li s11, 281822724
-  remuw a0, a7, s11  # normal
-
-  li s4, 124331395
-  li a6, 3577406847
-  remuw s10, s4, a6  # normal
-
-  li a1, 3942913436
-  li t2, 3026379752
-  remuw t2, a1, t2  # normal
-
-  li a5, 131267917
-  li s2, 1599732557
-  remuw a2, a5, s2  # normal
-
-  li s2, 2367960313
-  li t6, 1478538226
-  remuw s7, s2, t6  # normal
-
-  li s11, 117898946
-  li s10, 213249628
-  remuw a2, s11, s10  # normal
-
-  li a0, 2910678913
-  li a1, 38216544
-  remuw s6, a0, a1  # normal
-
-  li s8, 36351450
-  li t6, 2760548616
-  remuw t5, s8, t6  # normal
-
-  li a6, 937200760
-  li a5, 2678367783
-  remuw a7, a6, a5  # normal
-
-  li t4, 2615850281
-  li t1, 464305421
-  remuw s6, t4, t1  # normal
-
-  li a4, 3700078247
-  li a2, 1283298067
-  remuw t3, a4, a2  # normal
-
-  li s4, 2577123417
-  li a1, 2836956156
-  remuw t5, s4, a1  # normal
-
-  li t5, 1269612255
-  li s11, 0
-  remuw s9, t5, s11  # div-by-zero
-
-  li a6, 3504756453
-  li a6, 3063897771
-  remuw a7, a6, a6  # normal
-
-  li s5, 2885653126
-  li s8, 2178900724
-  remuw s9, s5, s8  # normal
-
-  li s9, 419201975
-  li s5, 383539822
-  remuw t6, s9, s5  # normal
-
-  li a1, 3808964060
-  li s11, 1596363878
-  remuw a5, a1, s11  # normal
-
-  li a3, 2020939193
-  li s2, 305869263
-  remuw s6, a3, s2  # normal
-
-  li s4, 1281428200
-  li t4, 3668931881
-  remuw a0, s4, t4  # normal
-
-  li a0, 1965254350
-  li a4, 3073772623
-  remuw t5, a0, a4  # normal
-
-  li s3, 759454456
-  li a4, 2725152347
-  remuw t3, s3, a4  # normal
-
-  li s2, 3322338756
-  li a2, 680473653
-  remuw t1, s2, a2  # normal
-
-  li t5, 1844300709
-  li s7, 2050418568
-  remuw t3, t5, s7  # normal
-
-  li t2, 818520766
-  li s5, 2906611156
-  remuw t1, t2, s5  # normal
-
-  li s11, 3766622488
-  li a1, 1340426053
-  remuw s8, s11, a1  # normal
-
-  li a6, 717346250
-  li s4, 3538382315
-  remuw t4, a6, s4  # normal
-
-  li a3, 1450990916
-  li s2, 4275521470
-  remuw a3, a3, s2  # normal
-
-  li s3, 3487549177
-  li a5, 82140117
-  remuw a4, s3, a5  # normal
-
-  li s11, 2167384632
-  li t5, 528976690
-  remuw a1, s11, t5  # normal
-
-  li s8, 2750158124
-  li t2, 2676343517
-  remuw s10, s8, t2  # normal
-
-  li t2, 3591108099
-  li s9, 497313534
-  remuw s7, t2, s9  # normal
-
-  li a6, 657675888
-  li t4, 2707166618
-  remuw s2, a6, t4  # normal
-
-  li a7, 2234711156
-  li s9, 3009596757
-  remuw a3, a7, s9  # normal
-
-  li t4, 505666123
-  li s4, 456399159
-  remuw a7, t4, s4  # normal
-
-  li s7, 4179517389
-  li a0, 1759889613
-  remuw a0, s7, a0  # normal
-
-  li t2, 4007738542
-  li s5, 1419931729
-  remuw t6, t2, s5  # normal
-
-  li t1, 2122160665
-  li s9, 4077839614
-  remuw t1, t1, s9  # normal
-
-  li t3, 3885997885
-  li s11, 2767405445
-  remuw s4, t3, s11  # normal
-
-  li a3, 1247976542
-  li a2, 1343066791
-  remuw s2, a3, a2  # normal
-
-  li t4, 3823775103
-  li t4, 2779696951
-  remuw s11, t4, t4  # normal
-
-  li a5, 3148502863
-  li s2, 1471982906
-  remuw a4, a5, s2  # normal
-
-  li a6, 3653606617
-  li a6, 3435540461
-  remuw t4, a6, a6  # normal
-
-  li t6, 3119911995
-  li t4, 3626454979
-  remuw s8, t6, t4  # normal
-
-  li a7, 1881894932
-  li s6, 2625612966
-  remuw t4, a7, s6  # normal
-
-  li s7, 3830092090
-  li t1, 2096471391
-  remuw a5, s7, t1  # normal
-
-  li s2, 2813090060
-  li t2, 3750123059
-  remuw a7, s2, t2  # normal
-
-  li s4, 409061875
-  li s10, 1067630048
-  remuw s4, s4, s10  # normal
-
-  li s9, 2632445649
-  li s9, 4013094698
-  remuw a5, s9, s9  # normal
-
-  li s3, 2111611923
-  li s3, 1034622484
-  remuw s4, s3, s3  # normal
-
-  li t2, 2763026830
-  li s4, 1009317340
-  remuw a2, t2, s4  # normal
-
-  li s2, 3679022701
-  li s6, 1920142971
-  remuw s2, s2, s6  # normal
-
-  li s3, 440849718
-  li s11, 1770980600
-  remuw t4, s3, s11  # normal
-
-  li s5, 2738205384
-  li t1, 2415200001
-  remuw s5, s5, t1  # normal
-
-  li s9, 1951890759
-  li s2, 2822511659
-  remuw s8, s9, s2  # normal
-
-  li s2, 2829998009
-  li t4, 9435833
-  remuw s10, s2, t4  # normal
-
-  li s8, 456650521
-  li a3, 3852057916
-  remuw a5, s8, a3  # normal
-
-  li t5, 1757546829
-  li s10, 841476312
-  remuw s3, t5, s10  # normal
-
-  li a6, 3356175095
-  li a0, 3078580665
-  remuw t4, a6, a0  # normal
-
-  li a7, 2528924461
-  li t2, 1934902523
-  remuw t4, a7, t2  # normal
-
-  li s6, 2142452709
-  li s4, 4017118465
-  remuw s9, s6, s4  # normal
-
-  li s3, 3909199720
-  li s4, 3501446994
-  remuw s6, s3, s4  # normal
-
-  li a6, 3791149875
-  li s9, 1652113468
-  remuw t4, a6, s9  # normal
-
-  li s10, 4138602728
-  li a1, 4168229907
-  remuw s7, s10, a1  # normal
-
-  li t5, 3696710765
-  li t5, 2716924538
-  remuw s2, t5, t5  # normal
-
-  li a0, 2948973070
-  li s7, 2735367768
-  remuw a0, a0, s7  # normal
-
-  li t4, 3049957779
-  li a5, 2293095089
-  remuw s10, t4, a5  # normal
-
-  li t1, 1635825546
-  li s4, 243115672
-  remuw a7, t1, s4  # normal
-
-  li t6, 3368789394
-  li a3, 2324316421
-  remuw a2, t6, a3  # normal
-
-  li s2, 1670255496
-  li t4, 2989849148
-  remuw a5, s2, t4  # normal
-
-  li s9, 1664534549
-  li t2, 2371357111
-  remuw s10, s9, t2  # normal
-
-  li s11, 831066348
-  li a2, 1927645417
-  remuw t1, s11, a2  # normal
-
-  li t3, 512620717
-  li t6, 174522691
-  remuw s9, t3, t6  # normal
-
-  li s5, 1095286033
-  li a2, 1419756364
-  remuw a2, s5, a2  # normal
-
-  li t5, 2842796831
-  li t2, 1537965898
-  remuw s10, t5, t2  # normal
-
-  li a4, 2169561289
-  li s4, 2306551869
-  remuw s10, a4, s4  # normal
-
-  li a5, 2848999900
-  li a1, 1421919938
-  remuw t3, a5, a1  # normal
-
-  li a0, 37811610
-  li s7, 2873068834
-  remuw a3, a0, s7  # normal
-
-  li a1, 2667740351
-  li s8, 4118430494
-  remuw s2, a1, s8  # normal
-
-  li a4, 4058691146
-  li a6, 1657324532
-  remuw s9, a4, a6  # normal
-
-  li s11, 3309247923
-  li a3, 0
-  remuw s5, s11, a3  # div-by-zero
-
-  li s4, 2798292304
-  li s2, 412129737
-  remuw s4, s4, s2  # normal
-
-  li s5, 2943792834
-  li t1, 3589154183
-  remuw s5, s5, t1  # normal
-
-  li s5, 2946534590
-  li s10, 102018113
-  remuw a0, s5, s10  # normal
-
-  li a4, 233079614
-  li t2, 3411126545
-  remuw s10, a4, t2  # normal
-
-  li t3, 3912657541
-  li s6, 1750769451
-  remuw s5, t3, s6  # normal
-
-  li s8, 72546169
-  li a6, 2891796055
-  remuw s2, s8, a6  # normal
-
-  li t1, 3643211329
-  li s8, 2159668272
-  remuw s5, t1, s8  # normal
-
-  li s9, 3980107027
-  li a3, 1638158847
-  remuw a3, s9, a3  # normal
-
-  li t1, 944316108
-  li s3, 3207283636
-  remuw s9, t1, s3  # normal
-
-  li a3, 4077921573
-  li s8, 2384006407
-  remuw s5, a3, s8  # normal
-
-  li t2, 365617071
-  li t1, 3117877161
-  remuw t4, t2, t1  # normal
-
-  li a7, 611840071
-  li s8, 790242728
-  remuw a0, a7, s8  # normal
-
-  li a2, 2357297588
-  li a0, 314153552
-  remuw s7, a2, a0  # normal
-
-  li t3, 1420993922
-  li a2, 2815235019
-  remuw s9, t3, a2  # normal
-
-  li a3, 831070024
-  li s7, 2086758111
-  remuw t4, a3, s7  # normal
-
-  li s7, 2508990774
-  li s9, 1839566253
-  remuw a4, s7, s9  # normal
-
-  li a4, 2752380581
-  li a1, 1543980627
-  remuw t1, a4, a1  # normal
-
-  li s11, 1987918631
-  li a4, 1311991364
-  remuw s9, s11, a4  # normal
-
-  li t4, 3549548567
-  li t6, 843668735
-  remuw s5, t4, t6  # normal
-
-  li s8, 3831562592
-  li t3, 2712815143
-  remuw s11, s8, t3  # normal
-
-  li s6, 2317895570
-  li a6, 638373812
-  remuw s6, s6, a6  # normal
-
-  li a1, 1249831874
-  li s6, 2192202822
-  remuw a6, a1, s6  # normal
-
-  li a5, 2938451957
-  li s4, 0
-  remuw a6, a5, s4  # div-by-zero
-
-  li t5, 3143935269
-  li s2, 4033727012
-  remuw s4, t5, s2  # normal
-
-  li a1, 1135405173
-  li s3, 1005102559
-  remuw t2, a1, s3  # normal
-
-  li a0, 1551562813
-  li s4, 199447370
-  remuw s9, a0, s4  # normal
-
-  li a4, 3563307395
-  li t4, 746679280
-  remuw s8, a4, t4  # normal
-
-  li a6, 1080555408
-  li a5, 1743078982
-  remuw s8, a6, a5  # normal
-
-  li s3, 3788308237
-  li s3, 1889350539
-  remuw a5, s3, s3  # normal
-
-  li t3, 908459040
-  li s4, 802753761
-  remuw a1, t3, s4  # normal
-
-  li s7, 2839444315
-  li s10, 486786005
-  remuw a5, s7, s10  # normal
-
-  li s3, 3579275417
-  li s3, 96405016
-  remuw s9, s3, s3  # normal
-
-  li t5, 2201784149
-  li s6, 630780803
-  remuw t2, t5, s6  # normal
-
-  li a2, 2738568701
-  li t6, 3527470850
-  remuw t6, a2, t6  # normal
-
-  li a0, 2068750029
-  li s2, 3296344958
-  remuw t3, a0, s2  # normal
-
-  li s9, 2536590481
-  li s4, 987042690
-  remuw s7, s9, s4  # normal
-
-  li t5, 2939337464
-  li t4, 0
-  remuw a6, t5, t4  # div-by-zero
-
-  li s7, 2576180666
-  li t4, 3231461054
-  remuw t5, s7, t4  # normal
-
-  li s3, 3554178984
-  li s9, 2788429082
-  remuw t3, s3, s9  # normal
-
-  li a7, 1842353139
-  li a5, 3301419700
-  remuw s4, a7, a5  # normal
-
-  li s6, 2474420092
-  li s11, 1827463042
-  remuw a5, s6, s11  # normal
-
-  li s3, 359993773
-  li a1, 2335306968
-  remuw a2, s3, a1  # normal
-
-  li a0, 3390543744
-  li t1, 30898225
-  remuw a2, a0, t1  # normal
-
-  li a0, 1755976246
-  li s10, 457771446
-  remuw s8, a0, s10  # normal
-
-  li s8, 2923179238
-  li s6, 3242579642
-  remuw a7, s8, s6  # normal
-
-  li s5, 2383326135
-  li s5, 3030076274
-  remuw a7, s5, s5  # normal
-
-  li t5, 986860232
-  li s9, 4076977004
-  remuw s11, t5, s9  # normal
-
-  li a0, 3035639663
-  li s4, 690364509
-  remuw t4, a0, s4  # normal
-
-  li t1, 2578034538
-  li t3, 378561387
-  remuw s8, t1, t3  # normal
-
-  li a1, 4228172410
-  li a5, 2237701770
-  remuw a2, a1, a5  # normal
-
-  li s7, 3522855590
-  li t2, 2750030242
-  remuw s10, s7, t2  # normal
-
-  li t1, 2225451403
-  li a0, 836429847
-  remuw s2, t1, a0  # normal
-
-  li s4, 2642220886
-  li s4, 2894912687
-  remuw s7, s4, s4  # normal
-
-  li a1, 676220116
-  li s8, 0
-  remuw a5, a1, s8  # div-by-zero
-
-  li a6, 3022033155
-  li a5, 3947836984
-  remuw a2, a6, a5  # normal
-
-  li a3, 1495057700
-  li s11, 1187592160
-  remuw s5, a3, s11  # normal
-
-  li a0, 2469205576
-  li s2, 1121448210
-  remuw s7, a0, s2  # normal
-
-  li s4, 2161095131
-  li t4, 3331171506
-  remuw a7, s4, t4  # normal
-
-  li s2, 2070046110
-  li s6, 1107327477
-  remuw s9, s2, s6  # normal
-
-  li s8, 1356052995
-  li a1, 4103607981
-  remuw a6, s8, a1  # normal
-
-  li s5, 1131078331
-  li t1, 1233899367
-  remuw s4, s5, t1  # normal
-
-  li s9, 4000316394
-  li s11, 2046790105
-  remuw a6, s9, s11  # normal
-
-  li a0, 3908108692
-  li s6, 857561275
-  remuw a5, a0, s6  # normal
-
-  li a1, 2656853453
-  li a2, 458227039
-  remuw s11, a1, a2  # normal
-
-  li s9, 4114549022
-  li s9, 3642177784
-  remuw t3, s9, s9  # normal
-
-  li s7, 3731333752
-  li a4, 2107992942
-  remuw a5, s7, a4  # normal
-
-  li a2, 2476758136
-  li a6, 3432838172
-  remuw s4, a2, a6  # normal
-
-  li s5, 750761833
-  li t2, 4194066484
-  remuw s3, s5, t2  # normal
-
-  li s4, 36157653
-  li s2, 2895250612
-  remuw s10, s4, s2  # normal
-
-  li s6, 1115406331
-  li t4, 2356061869
-  remuw a6, s6, t4  # normal
-
-  li a2, 1473588088
-  li s3, 789903223
-  remuw a1, a2, s3  # normal
-
-  li a0, 1599057680
-  li a7, 3669302613
-  remuw a7, a0, a7  # normal
-
-  li s2, 2946398734
-  li t6, 3496922300
-  remuw a2, s2, t6  # normal
-
-  li a2, 3677818023
-  li a1, 842085114
-  remuw s11, a2, a1  # normal
-
-  li t5, 758522476
-  li s3, 2145756342
-  remuw s11, t5, s3  # normal
-
-  li s4, 3372979284
-  li s5, 1288637003
-  remuw s8, s4, s5  # normal
-
-  li s6, 2965860354
-  li t2, 257854279
-  remuw s5, s6, t2  # normal
-
-  li s3, 3198003537
-  li s8, 1115699872
-  remuw a2, s3, s8  # normal
-
-  li s5, 1106876746
-  li s5, 85192104
-  remuw a5, s5, s5  # normal
-
-  li a5, 3351402058
-  li s9, 1525181720
-  remuw t4, a5, s9  # normal
-
-  li s4, 336757755
-  li s3, 2635665829
-  remuw s9, s4, s3  # normal
-
-  li s8, 3988163457
-  li t5, 3895849088
-  remuw s2, s8, t5  # normal
-
-  li t6, 2768726167
-  li a4, 4146902728
-  remuw t3, t6, a4  # normal
-
-  li t6, 3220107677
-  li t6, 904397668
-  remuw a7, t6, t6  # normal
-
-  li t4, 3773949004
-  li t4, 2355504998
-  remuw a6, t4, t4  # normal
-
-  li a6, 357561213
-  li s4, 666898313
-  remuw t1, a6, s4  # normal
-
-  li a6, 3167938795
-  li a3, 542934161
-  remuw s8, a6, a3  # normal
-
-  li t6, 3931064960
-  li t1, 0
-  remuw s4, t6, t1  # div-by-zero
-
-  li s2, 2355984014
-  li s5, 2316222488
-  remuw s3, s2, s5  # normal
-
-  li s7, 2422294927
-  li s2, 1491076495
-  remuw s6, s7, s2  # normal
-
-  li a1, 1571027407
-  li t3, 1115862756
-  remuw s5, a1, t3  # normal
-
-  li t1, 585405992
-  li t1, 1231634482
-  remuw a3, t1, t1  # normal
-
-  li t1, 2048987473
-  li s10, 1604788242
-  remuw s5, t1, s10  # normal
-
-  li s5, 1625035499
-  li a7, 1129491690
-  remuw a7, s5, a7  # normal
-
-  li s8, 1167651784
-  li a1, 1154581796
-  remuw a7, s8, a1  # normal
-
-  li t3, 1944620470
-  li t6, 2113106808
-  remuw a0, t3, t6  # normal
-
-  li t1, 2297681898
-  li t5, 0
-  remuw a4, t1, t5  # div-by-zero
-
-  li t4, 3071743181
-  li a3, 3122901114
-  remuw t6, t4, a3  # normal
-
-  li t3, 932815734
-  li t5, 0
-  remuw a1, t3, t5  # div-by-zero
-
-  li a3, 3399143287
-  li s3, 1418407139
-  remuw a7, a3, s3  # normal
-
-  li t2, 2019265031
-  li a2, 3614383717
-  remuw t5, t2, a2  # normal
-
-  li t1, 3069538076
-  li t4, 4187473785
-  remuw a6, t1, t4  # normal
-
-  li s11, 895273628
-  li t2, 4128382252
-  remuw a1, s11, t2  # normal
-
-  li t6, 524593800
-  li s8, 1283392443
-  remuw a4, t6, s8  # normal
-
-  li t2, 485024047
-  li s9, 2718323324
-  remuw a5, t2, s9  # normal
-
-  li t1, 2511253899
-  li t6, 1044060736
-  remuw a4, t1, t6  # normal
-
-  li s6, 2560712271
-  li s10, 384313264
-  remuw t2, s6, s10  # normal
-
-  li s3, 257922823
-  li t3, 461243650
-  remuw t6, s3, t3  # normal
-
-  li a1, 3249991124
-  li a4, 828779668
-  remuw s3, a1, a4  # normal
-
-  li a6, 169602003
-  li a5, 3034935482
-  remuw s10, a6, a5  # normal
-
-  li a3, 1493208421
-  li s5, 3145644409
-  remuw s5, a3, s5  # normal
-
-  li s7, 2281217890
-  li s5, 1930090462
-  remuw a2, s7, s5  # normal
-
-  li s5, 2173071915
-  li a5, 3151036012
-  remuw a2, s5, a5  # normal
-
-  li s7, 1025580463
-  li a5, 3096686730
-  remuw t1, s7, a5  # normal
-
-  li s5, 2934425509
-  li a6, 1216030167
-  remuw s9, s5, a6  # normal
-
-  li s8, 286387753
-  li a4, 557376230
-  remuw a7, s8, a4  # normal
-
-  li a0, 424143426
-  li t4, 3591879104
-  remuw t2, a0, t4  # normal
-
-  li s3, 2535323133
-  li s4, 210821160
-  remuw s9, s3, s4  # normal
-
-  li s7, 343411869
-  li s10, 260705324
-  remuw a1, s7, s10  # normal
-
-  li s11, 2649708468
-  li a7, 2272127173
-  remuw s5, s11, a7  # normal
-
-  li t3, 2231172272
-  li a3, 1654984428
-  remuw s11, t3, a3  # normal
-
-  li s4, 2857194152
-  li s9, 3791700311
-  remuw a0, s4, s9  # normal
-
-  li t6, 1596523152
-  li s5, 3117577972
-  remuw t6, t6, s5  # normal
-
-  li a1, 3197939663
-  li s6, 1943058119
-  remuw s7, a1, s6  # normal
-
-  li t1, 3823914858
-  li s11, 0
-  remuw a6, t1, s11  # div-by-zero
-
-  li a3, 1352505293
-  li a1, 3531912488
-  remuw t1, a3, a1  # normal
-
-  li s4, 2455054143
-  li s5, 404960131
-  remuw s5, s4, s5  # normal
-
-  li a5, 2500339713
-  li t5, 1000702246
-  remuw s2, a5, t5  # normal
-
-  li t3, 3942272347
-  li s6, 3153648273
-  remuw a3, t3, s6  # normal
-
-  li a4, 3898351305
-  li s3, 1290179211
-  remuw s11, a4, s3  # normal
-
-  li s6, 3310996751
-  li a6, 3509596891
-  remuw s11, s6, a6  # normal
-
-  li t4, 3988535000
-  li a1, 2715250922
-  remuw a7, t4, a1  # normal
-
-  li a3, 642441295
-  li s4, 0
-  remuw t2, a3, s4  # div-by-zero
-
-  li s10, 4283659940
-  li a1, 4170586106
-  remuw s4, s10, a1  # normal
-
-  li s6, 1855149589
-  li s4, 3377426131
-  remuw s7, s6, s4  # normal
-
-  li t5, 1714513575
-  li a4, 365411459
-  remuw t5, t5, a4  # normal
-
-  li a7, 579265528
-  li s10, 2402158803
-  remuw s4, a7, s10  # normal
-
-  li a6, 2251627092
-  li s8, 1040735415
-  remuw s3, a6, s8  # normal
-
-  li a7, 2473979489
-  li a4, 1776321392
-  remuw a2, a7, a4  # normal
-
-  li a5, 1309186996
-  li a0, 4241932686
-  remuw a5, a5, a0  # normal
-
-  li s2, 3514021643
-  li s7, 1605548088
-  remuw s7, s2, s7  # normal
-
-  li t3, 1235598059
-  li t4, 3454359624
-  remuw s11, t3, t4  # normal
-
-  li s2, 2310715848
-  li s3, 0
-  remuw a3, s2, s3  # div-by-zero
-
-  li s5, 2357078276
-  li s4, 4261905194
-  remuw a0, s5, s4  # normal
-
-  li s10, 186753800
-  li s9, 0
-  remuw s10, s10, s9  # div-by-zero
-
-  li t2, 1165144965
-  li a3, 4059502085
-  remuw t6, t2, a3  # normal
-
-  li a6, 2835109520
-  li s9, 3712064103
-  remuw t3, a6, s9  # normal
-
-  li a3, 4208178252
-  li s8, 3048090198
-  remuw t1, a3, s8  # normal
-
-  li s3, 800656591
-  li s7, 92292243
-  remuw a4, s3, s7  # normal
-
-  li s4, 674332429
-  li a3, 1511455193
-  remuw a1, s4, a3  # normal
-
-  li a3, 4253570650
-  li a1, 4076423980
-  remuw s8, a3, a1  # normal
-
-  li t5, 2821500440
-  li a4, 976795716
-  remuw a1, t5, a4  # normal
-
-  li s6, 2600039571
-  li t5, 565956995
-  remuw a1, s6, t5  # normal
-
-  li t5, 3436425084
-  li s6, 3704785815
-  remuw s8, t5, s6  # normal
-
-  li s10, 3906542112
-  li s10, 3307339566
-  remuw a3, s10, s10  # normal
-
-  li s6, 508469555
-  li t6, 3778016973
-  remuw s8, s6, t6  # normal
-
-  li t1, 1766312876
-  li a4, 1175945569
-  remuw s11, t1, a4  # normal
-
-  li t4, 997216402
-  li t5, 2952265565
-  remuw a0, t4, t5  # normal
-
-  li t3, 2789875688
-  li s10, 1664129261
-  remuw a5, t3, s10  # normal
-
-  li t5, 138424884
-  li t6, 1774010584
-  remuw s3, t5, t6  # normal
-
-  li s9, 284053367
-  li a0, 4233238476
-  remuw s11, s9, a0  # normal
-
-  li s3, 1059928520
-  li s10, 1343884495
-  remuw s7, s3, s10  # normal
-
-  li s11, 3379795093
-  li s6, 2236170837
-  remuw s7, s11, s6  # normal
-
-  li s2, 2310130385
-  li t2, 4134302513
-  remuw s2, s2, t2  # normal
-
-  li a3, 3554605180
-  li s2, 1981470996
-  remuw a0, a3, s2  # normal
-
-  li a3, 3881257367
-  li s7, 2774984836
-  remuw a7, a3, s7  # normal
-
-  li s11, 581137750
-  li s4, 1776223687
-  remuw t3, s11, s4  # normal
-
-  li t1, 3847409832
-  li t6, 3790516721
-  remuw s2, t1, t6  # normal
-
-  li a2, 3420882289
-  li a4, 530618370
-  remuw t3, a2, a4  # normal
-
-  li s10, 3037740700
-  li s2, 686763846
-  remuw t4, s10, s2  # normal
-
-  li a6, 3918095858
-  li t2, 644630523
-  remuw s5, a6, t2  # normal
-
-  li t6, 1323117098
-  li s10, 4127318021
-  remuw t5, t6, s10  # normal
-
-  li s8, 871241447
-  li t6, 1087103368
-  remuw a3, s8, t6  # normal
-
-  li s3, 3791180178
-  li s3, 1021679756
-  remuw s2, s3, s3  # normal
-
-  li s9, 1897840239
-  li s3, 28230917
-  remuw s6, s9, s3  # normal
-
-  li a2, 891796718
-  li s7, 793881710
-  remuw s5, a2, s7  # normal
-
-  li s8, 3667168880
-  li a5, 0
-  remuw t2, s8, a5  # div-by-zero
-
-  li s6, 3953022176
-  li s7, 210588114
-  remuw s9, s6, s7  # normal
-
-  li t6, 2486641280
-  li t6, 4000675383
-  remuw a7, t6, t6  # normal
-
-  li a3, 2364255319
-  li a4, 1257706935
-  remuw t3, a3, a4  # normal
-
-  li t4, 249900899
-  li s10, 376538681
-  remuw t5, t4, s10  # normal
-
-  li s10, 1233460089
-  li s7, 1359308025
-  remuw s11, s10, s7  # normal
-
-  li s6, 2416496073
-  li s7, 2713807766
-  remuw s4, s6, s7  # normal
-
-  li t6, 831314297
-  li s7, 507695800
-  remuw s3, t6, s7  # normal
-
-  li s8, 1780831278
-  li t4, 195387472
-  remuw s2, s8, t4  # normal
-
-  li s5, 2751434706
-  li s8, 2963600727
-  remuw a5, s5, s8  # normal
-
-  li t3, 2362204542
-  li a3, 3294379963
-  remuw a2, t3, a3  # normal
-
-  li s9, 754321211
-  li a4, 2888249353
-  remuw t4, s9, a4  # normal
-
-  li t2, 3847984045
-  li s8, 3496819011
-  remuw s3, t2, s8  # normal
-
-  li t2, 2301610601
-  li s4, 2944171307
-  remuw s11, t2, s4  # normal
-
-  li t3, 133887735
-  li t5, 4224610439
-  remuw a5, t3, t5  # normal
-
-  li s5, 1673174406
-  li t6, 2556329609
-  remuw s8, s5, t6  # normal
-
-  li s10, 1166072514
-  li a4, 372793655
-  remuw a3, s10, a4  # normal
-
-  li a5, 1299780396
-  li s2, 2255289131
-  remuw a1, a5, s2  # normal
-
-  li t4, 3340584292
-  li a5, 3922824898
-  remuw t6, t4, a5  # normal
-
-  li s4, 661759010
-  li t1, 1405905813
-  remuw s2, s4, t1  # normal
-
-  li s4, 156991958
-  li s9, 497511785
-  remuw t4, s4, s9  # normal
-
-  li t2, 3744675014
-  li s9, 1431468604
-  remuw a3, t2, s9  # normal
-
-  li t4, 3202133175
-  li s4, 3257706152
-  remuw t2, t4, s4  # normal
-
-  li a0, 1230797512
-  li a4, 2286107192
-  remuw s8, a0, a4  # normal
-
-  li s9, 676440254
-  li t4, 491603670
-  remuw s2, s9, t4  # normal
-
-  li s5, 2330143102
-  li s4, 2359507540
-  remuw s7, s5, s4  # normal
-
-  li t5, 2465667475
-  li s10, 735620429
-  remuw a2, t5, s10  # normal
-
-  li s7, 217867296
-  li a4, 124522637
-  remuw a3, s7, a4  # normal
-
-  li t2, 369880788
-  li t4, 1683269674
-  remuw s9, t2, t4  # normal
-
-  li s7, 1527394794
-  li s6, 3283194491
-  remuw s10, s7, s6  # normal
-
-  li t5, 2011229698
-  li t3, 1956719117
-  remuw s6, t5, t3  # normal
-
-  li s8, 2020979143
-  li s10, 4069259334
-  remuw s9, s8, s10  # normal
-
-  li s7, 1683957564
-  li a2, 2856929012
-  remuw t5, s7, a2  # normal
-
-  li s2, 2041545544
-  li s3, 0
-  remuw a4, s2, s3  # div-by-zero
-
-  li s3, 2468224333
-  li s2, 2181627202
-  remuw a5, s3, s2  # normal
-
-  li s10, 2789372578
-  li t4, 3403464975
-  remuw a6, s10, t4  # normal
-
-  li s2, 2071783372
-  li a6, 283725262
-  remuw s5, s2, a6  # normal
-
-  li s10, 4209949389
-  li s6, 2981279224
-  remuw a0, s10, s6  # normal
-
-  li s9, 2090061251
-  li s9, 1988176599
-  remuw t6, s9, s9  # normal
-
-  li t4, 4105488132
-  li s2, 1627410430
-  remuw s5, t4, s2  # normal
-
-  li s8, 3478233603
-  li s9, 3251624056
-  remuw s3, s8, s9  # normal
-
-  li t5, 2482196541
-  li s2, 840381733
-  remuw s9, t5, s2  # normal
-
-  li a4, 1263513519
-  li a3, 228180081
-  remuw s9, a4, a3  # normal
-
-  li s5, 133937440
-  li a5, 2534734556
-  remuw s10, s5, a5  # normal
-
-  li a4, 1638809377
-  li s10, 2341267390
-  remuw s8, a4, s10  # normal
-
-  li t6, 2385517516
-  li s3, 1792012815
-  remuw s9, t6, s3  # normal
-
-  li s9, 67464491
-  li t5, 4252952412
-  remuw a3, s9, t5  # normal
-
-  li t5, 3694327968
-  li s8, 3995655373
-  remuw t3, t5, s8  # normal
-
-  li t6, 1932931842
-  li s2, 1526032931
-  remuw s7, t6, s2  # normal
-
-  li a7, 3139249064
-  li s7, 0
-  remuw t6, a7, s7  # div-by-zero
-
-  li s4, 1576124271
-  li a2, 4201480686
-  remuw s10, s4, a2  # normal
-
-  li s3, 2492235444
-  li s10, 343868435
-  remuw s6, s3, s10  # normal
-
-  li s11, 3345220398
-  li s4, 379874179
-  remuw s11, s11, s4  # normal
-
-  li s8, 2872118270
-  li s11, 2489485190
-  remuw s3, s8, s11  # normal
-
-  li t2, 46314343
-  li a4, 3891476956
-  remuw s7, t2, a4  # normal
-
-  li s11, 3428342624
-  li a4, 1242140808
-  remuw s6, s11, a4  # normal
-
-  li s10, 2421100023
-  li s7, 4253584573
-  remuw t2, s10, s7  # normal
-
-  li s7, 354378489
-  li t1, 2171518770
-  remuw s11, s7, t1  # normal
-
-  li a2, 1103616435
-  li t5, 3184414029
-  remuw a2, a2, t5  # normal
-
-  li t6, 2831051904
-  li s6, 753334536
-  remuw s7, t6, s6  # normal
-
-  li a1, 142122736
-  li s3, 4226555608
-  remuw s10, a1, s3  # normal
-
-  li s7, 1645689727
-  li t5, 2837544412
-  remuw t5, s7, t5  # normal
-
-  li s8, 1482088956
-  li t6, 2758490418
-  remuw s11, s8, t6  # normal
-
-  li t2, 2045400609
-  li t6, 1003567683
-  remuw t4, t2, t6  # normal
-
-  li s10, 3737814424
-  li a6, 50951360
-  remuw s9, s10, a6  # normal
-
-  li a6, 4105433614
-  li s9, 3625980113
-  remuw s2, a6, s9  # normal
-
-  li s8, 422095589
-  li a2, 1679992638
-  remuw s7, s8, a2  # normal
-
-  li s11, 772736132
-  li a1, 2351978047
-  remuw s9, s11, a1  # normal
-
-  li t1, 1915307177
-  li t3, 0
-  remuw s9, t1, t3  # div-by-zero
-
-  li s11, 146208285
-  li a3, 2660290823
-  remuw a1, s11, a3  # normal
-
-  li s7, 4113699666
-  li s9, 2597105677
-  remuw t2, s7, s9  # normal
-
-  li s9, 4153944226
-  li s8, 3848297723
-  remuw a6, s9, s8  # normal
-
-  li t6, 4274554937
-  li a2, 3304372292
-  remuw s10, t6, a2  # normal
-
-  li s9, 3353215401
-  li a4, 267951754
-  remuw s10, s9, a4  # normal
-
-  li a4, 3490953123
-  li t2, 764201331
-  remuw a6, a4, t2  # normal
-
-  li s3, 2113370001
-  li a0, 3301572823
-  remuw t3, s3, a0  # normal
-
-  li s7, 1112380464
-  li s8, 149726408
-  remuw a0, s7, s8  # normal
-
-  li s6, 1915048861
-  li s11, 3850491393
-  remuw t3, s6, s11  # normal
-
-  li s8, 1677115255
-  li s8, 0
-  remuw t5, s8, s8  # div-by-zero
-
-  li s10, 2468061102
-  li a4, 2107452219
-  remuw t5, s10, a4  # normal
-
-  li a6, 3373188745
-  li s11, 2319835182
-  remuw a7, a6, s11  # normal
-
-  li a6, 2070459171
-  li s10, 1541542479
-  remuw t1, a6, s10  # normal
-
-  li a3, 2779163450
-  li a6, 1460558581
-  remuw s9, a3, a6  # normal
-
-  li a3, 2381454037
-  li s8, 4155436520
-  remuw s2, a3, s8  # normal
-
-  li a0, 3850269395
-  li a3, 1543014759
-  remuw s9, a0, a3  # normal
-
-  li s8, 601050402
-  li s2, 829326917
-  remuw t3, s8, s2  # normal
-
-  li s6, 1321694065
-  li a1, 4277072865
-  remuw s11, s6, a1  # normal
-
-  li a4, 3096722936
-  li t2, 1741642976
-  remuw t2, a4, t2  # normal
-
-  li s8, 2304513663
-  li s9, 309381429
-  remuw a0, s8, s9  # normal
-
-  li t5, 196716790
-  li s3, 560655311
-  remuw s11, t5, s3  # normal
-
-  li s8, 417866985
-  li t2, 2625195227
-  remuw t6, s8, t2  # normal
-
-  li t3, 2644104389
-  li t4, 870337080
-  remuw s6, t3, t4  # normal
-
-  li s11, 2344557360
-  li s9, 744951997
-  remuw a4, s11, s9  # normal
-
-  li t4, 1783074271
-  li a2, 2990567626
-  remuw t3, t4, a2  # normal
-
-  li t6, 2499610004
-  li s2, 572823571
-  remuw s5, t6, s2  # normal
-
-  li s7, 2091509391
-  li a6, 27271239
-  remuw s8, s7, a6  # normal
-
-  li t3, 3809271522
-  li s10, 3318131581
-  remuw t6, t3, s10  # normal
-
-  li t5, 1934535440
-  li a0, 2970715367
-  remuw s10, t5, a0  # normal
-
-  li t6, 4081499111
-  li s10, 3361168522
-  remuw s7, t6, s10  # normal
-
-  li a7, 824216542
-  li t1, 4195287460
-  remuw a5, a7, t1  # normal
-
-  li a5, 893820081
-  li s5, 227929714
-  remuw s7, a5, s5  # normal
-
-  li t5, 3914795562
-  li s9, 2136809970
-  remuw t4, t5, s9  # normal
-
-  li s9, 1564197331
-  li t2, 900181147
-  remuw t6, s9, t2  # normal
-
-  li a4, 3257337656
-  li s7, 186047172
-  remuw a2, a4, s7  # normal
-
-  li t2, 3373662535
-  li s5, 498495745
-  remuw s11, t2, s5  # normal
-
-  li s11, 1400040429
-  li s2, 1398806247
-  remuw a1, s11, s2  # normal
-
-  li a4, 3168602952
-  li a1, 3736133245
-  remuw t4, a4, a1  # normal
-
-  li a1, 2080515301
-  li t3, 3824620455
-  remuw a6, a1, t3  # normal
-
-  li a0, 1663571006
-  li s7, 585853361
-  remuw t5, a0, s7  # normal
-
-  li a0, 1158329197
-  li s8, 1442642321
-  remuw s11, a0, s8  # normal
-
-  li s10, 586269483
-  li s6, 3657814780
-  remuw t2, s10, s6  # normal
-
-  li a7, 3889428336
-  li t6, 986563860
-  remuw s2, a7, t6  # normal
-
-  li s4, 1987551590
-  li s3, 3747781900
-  remuw a7, s4, s3  # normal
-
-  li a4, 21808033
-  li a7, 4209858423
-  remuw a1, a4, a7  # normal
-
-  li s3, 144399177
-  li s11, 2281150458
-  remuw t2, s3, s11  # normal
-
-  li s10, 1032989010
-  li t4, 3142998155
-  remuw s3, s10, t4  # normal
-
-  li t5, 389680278
-  li a5, 1309263254
-  remuw a0, t5, a5  # normal
-
-  li s2, 1953526348
-  li s6, 3315006135
-  remuw s10, s2, s6  # normal
-
-  li a6, 2720442203
-  li t6, 303648148
-  remuw s10, a6, t6  # normal
-
-  li a4, 3412260278
-  li s4, 0
-  remuw s10, a4, s4  # div-by-zero
-
-  li t3, 2897612417
-  li s7, 3813836089
-  remuw s9, t3, s7  # normal
-
-  li a6, 175553937
-  li a5, 1573817755
-  remuw t4, a6, a5  # normal
-
-  li s5, 879233902
-  li s10, 4214443617
-  remuw s8, s5, s10  # normal
-
-  li s5, 3018690355
-  li t4, 3267980072
-  remuw a1, s5, t4  # normal
-
-  li a5, 1816466752
-  li a2, 233903914
-  remuw a4, a5, a2  # normal
-
-  li a5, 527033009
-  li s2, 1255265844
-  remuw a5, a5, s2  # normal
-
-  li a5, 281868383
-  li s9, 1966554388
-  remuw s7, a5, s9  # normal
-
-  li a6, 4108681386
-  li t6, 469718772
-  remuw t3, a6, t6  # normal
-
-  li t4, 97453982
-  li s10, 4001713266
-  remuw a2, t4, s10  # normal
-
-  li a5, 2768898601
-  li a7, 1252055106
-  remuw s3, a5, a7  # normal
-
-  li t1, 1442582315
-  li a1, 2485517370
-  remuw t3, t1, a1  # normal
-
-  li s8, 2355655182
-  li a4, 1967125474
-  remuw s8, s8, a4  # normal
-
-  li t5, 1116723521
-  li a3, 2079808343
-  remuw s6, t5, a3  # normal
-
-  li t2, 3969115197
-  li t5, 1225124755
-  remuw a3, t2, t5  # normal
-
-  li s10, 3412168053
-  li s10, 692583718
-  remuw t6, s10, s10  # normal
-
-  li t2, 1893602300
-  li a4, 1587729771
-  remuw t4, t2, a4  # normal
-
-  li s5, 1476811694
-  li s10, 0
-  remuw a0, s5, s10  # div-by-zero
-
-  li s2, 2291979069
-  li s5, 107052949
-  remuw a5, s2, s5  # normal
-
-  li t5, 670243704
-  li s2, 2179305198
-  remuw s3, t5, s2  # normal
-
-  li s10, 1898828806
-  li a3, 2959863754
-  remuw s8, s10, a3  # normal
-
-  li s3, 2366355159
-  li t2, 1323202998
-  remuw s11, s3, t2  # normal
-
-  li s7, 397203433
-  li a1, 2754416885
-  remuw a6, s7, a1  # normal
-
-  li s4, 3294648470
-  li a1, 840592447
-  remuw s6, s4, a1  # normal
-
-  li s5, 4112962480
-  li s2, 1694036518
-  remuw t3, s5, s2  # normal
-
-  li a4, 4051881463
-  li s7, 1550761818
-  remuw s3, a4, s7  # normal
-
-  li s10, 1601297604
-  li a7, 1222564030
-  remuw t5, s10, a7  # normal
-
-  li a3, 376233267
-  li s2, 4263172357
-  remuw a5, a3, s2  # normal
-
-  li a3, 3850132482
-  li t6, 369702097
-  remuw s2, a3, t6  # normal
-
-  li a3, 1440603960
-  li s3, 1613930214
-  remuw a0, a3, s3  # normal
-
-  li a7, 1780324145
-  li s8, 2387202297
-  remuw t1, a7, s8  # normal
-
-  li s6, 3574631360
-  li t5, 2107049214
-  remuw s10, s6, t5  # normal
-
-  li s6, 3177657432
-  li a3, 964307023
-  remuw a3, s6, a3  # normal
-
-  li t5, 2734007947
-  li a2, 1235614989
-  remuw t1, t5, a2  # normal
-
-  li s3, 122159993
-  li s10, 3284440326
-  remuw t6, s3, s10  # normal
-
-  li t3, 2495658464
-  li s7, 2429124352
-  remuw s3, t3, s7  # normal
-
-  li s8, 513608027
-  li s9, 2470738735
-  remuw a2, s8, s9  # normal
-
-  li t6, 1373019921
-  li s6, 581956867
-  remuw a2, t6, s6  # normal
-
-  li t2, 4102365320
-  li a2, 209228923
-  remuw t6, t2, a2  # normal
-
-  li s4, 2207039799
-  li s8, 3232514826
-  remuw a3, s4, s8  # normal
-
-  li a4, 1293095736
-  li a4, 2956426322
-  remuw s5, a4, a4  # normal
-
-  li s5, 617262027
-  li s6, 1208680095
-  remuw t4, s5, s6  # normal
-
-  li a7, 700204852
-  li a4, 935771229
-  remuw s3, a7, a4  # normal
-
-  li a1, 3447056094
-  li a0, 1792488531
-  remuw s4, a1, a0  # normal
-
-  li t4, 2059515129
-  li t5, 1557220130
-  remuw t3, t4, t5  # normal
-
-  li s7, 1469072661
-  li s4, 3048975310
-  remuw s2, s7, s4  # normal
-
-  li s11, 973129790
-  li t4, 538349165
-  remuw t1, s11, t4  # normal
-
-  li t3, 3367382040
-  li a7, 333870589
-  remuw t5, t3, a7  # normal
-
-  li a7, 2547672267
-  li t2, 2014693343
-  remuw s3, a7, t2  # normal
-
-  li t2, 2584676841
-  li t3, 859098375
-  remuw a2, t2, t3  # normal
-
-  li a5, 4045193380
-  li t1, 1493946566
-  remuw s9, a5, t1  # normal
-
-  li s4, 293505358
-  li s11, 3278108191
-  remuw t6, s4, s11  # normal
-
-  li a0, 1210565696
-  li s10, 2306940725
-  remuw s4, a0, s10  # normal
-
-  li t4, 2038887576
-  li a0, 795109167
-  remuw s11, t4, a0  # normal
-
-  li t4, 4214656244
-  li t6, 1821460610
-  remuw s9, t4, t6  # normal
-
-  li a1, 4228879565
-  li a7, 530924113
-  remuw s4, a1, a7  # normal
-
-  li s4, 3101552989
-  li t5, 353252232
-  remuw t4, s4, t5  # normal
-
-  li t4, 1906775938
-  li a6, 2379050651
-  remuw s3, t4, a6  # normal
-
-  li a7, 3446438109
-  li a0, 1578148768
-  remuw a3, a7, a0  # normal
-
-  li s9, 1702395148
-  li s3, 2905625550
-  remuw t1, s9, s3  # normal
-
-  li t5, 4199848083
-  li a6, 277929117
-  remuw t4, t5, a6  # normal
-
-  li a4, 4254857971
-  li a0, 527259496
-  remuw a0, a4, a0  # normal
-
-  li s11, 1718998498
-  li s3, 1197826153
-  remuw a7, s11, s3  # normal
-
-  li t4, 2135774649
-  li t4, 578138594
-  remuw s2, t4, t4  # normal
-
-  li s11, 769210137
-  li t2, 1404264843
-  remuw t4, s11, t2  # normal
-
-  li s7, 3296697093
-  li s7, 3404755494
-  remuw a3, s7, s7  # normal
-
-  li a3, 2168076965
-  li s9, 2329753974
-  remuw a0, a3, s9  # normal
-
-  li s5, 3929633791
-  li t1, 1647677764
-  remuw s5, s5, t1  # normal
-
-  li a6, 141131770
-  li s2, 3032501215
-  remuw a4, a6, s2  # normal
-
-  li a7, 1671087985
-  li t5, 3281402873
-  remuw s3, a7, t5  # normal
-
-  li s9, 2457624231
-  li s3, 3669411645
-  remuw s6, s9, s3  # normal
-
-  li t2, 2905492920
-  li a6, 1221649922
-  remuw s4, t2, a6  # normal
-
-  li t1, 3594604802
-  li s6, 0
-  remuw t2, t1, s6  # div-by-zero
-
-  li s11, 1465685609
-  li s6, 0
-  remuw a5, s11, s6  # div-by-zero
-
-  li a7, 1769224170
-  li a5, 1048955076
-  remuw t4, a7, a5  # normal
-
-  li s8, 1309589038
-  li a3, 1449956300
-  remuw a1, s8, a3  # normal
-
-  li s5, 1808922662
-  li a4, 0
-  remuw t1, s5, a4  # div-by-zero
-
-  li s10, 4233827517
-  li s3, 1676329121
-  remuw t1, s10, s3  # normal
-
-  li t4, 2899580938
-  li s3, 1442969253
-  remuw s6, t4, s3  # normal
-
-  li s9, 1286432453
-  li a4, 4163660504
-  remuw s4, s9, a4  # normal
-
-  li s3, 3380781824
-  li s8, 2301389619
-  remuw a0, s3, s8  # normal
-
-  li a2, 2463252622
-  li t2, 3455743663
-  remuw a3, a2, t2  # normal
-
-  li s11, 2483321097
-  li t3, 2542039357
-  remuw s7, s11, t3  # normal
-
-  li t3, 2041262104
-  li s6, 900822844
-  remuw a2, t3, s6  # normal
-
-  li s8, 1288099454
-  li a3, 1345840745
-  remuw t3, s8, a3  # normal
-
-  li a6, 3705310401
-  li a2, 2477523098
-  remuw a7, a6, a2  # normal
-
-  li s9, 3894830212
-  li s11, 861776710
-  remuw a0, s9, s11  # normal
-
-  li t5, 1869980594
-  li a1, 1771409361
-  remuw s2, t5, a1  # normal
-
-  li s8, 2582272957
-  li t6, 1743180954
-  remuw a3, s8, t6  # normal
-
-  li t5, 1333761598
-  li a0, 0
-  remuw t4, t5, a0  # div-by-zero
-
-  li s5, 3889761307
-  li a7, 867542631
-  remuw s3, s5, a7  # normal
-
-  li t5, 3451170219
-  li t1, 3661549914
-  remuw a2, t5, t1  # normal
-
-  li s3, 3850461711
-  li t1, 4102073765
-  remuw s11, s3, t1  # normal
-
-  li s9, 3619584847
-  li s9, 1013789043
-  remuw a5, s9, s9  # normal
-
-  li s11, 1081507361
-  li s4, 3799177162
-  remuw s6, s11, s4  # normal
-
-  li s7, 1346087107
-  li t4, 3166406042
-  remuw a1, s7, t4  # normal
-
-  li s11, 936338890
-  li a1, 458762697
-  remuw s11, s11, a1  # normal
-
-  li a2, 240197763
-  li s2, 2291236085
-  remuw a0, a2, s2  # normal
-
-  li t4, 622390281
-  li a4, 1323586087
-  remuw s10, t4, a4  # normal
-
-  li s7, 4040912587
-  li t2, 1029399861
-  remuw s8, s7, t2  # normal
-
-  li a6, 3009126264
-  li a3, 2943119201
-  remuw s5, a6, a3  # normal
-
-  li a1, 1097508854
-  li s2, 1011294963
-  remuw s5, a1, s2  # normal
-
-  li t6, 145520719
-  li s2, 3721351171
-  remuw a0, t6, s2  # normal
-
-  li s3, 3612769589
-  li s11, 3081149490
-  remuw s3, s3, s11  # normal
-
-  li t6, 285045092
-  li s10, 1403459353
-  remuw t4, t6, s10  # normal
-
-  li t1, 2753498424
-  li t2, 13210480
-  remuw s10, t1, t2  # normal
-
-  li s8, 353183979
-  li a3, 677842235
-  remuw a0, s8, a3  # normal
-
-  li s10, 2945288333
-  li s8, 1371808827
-  remuw s4, s10, s8  # normal
-
-  li s11, 3550944131
-  li t5, 3433949486
-  remuw s3, s11, t5  # normal
-
-  li t3, 2449808800
-  li a7, 1986099771
-  remuw a0, t3, a7  # normal
-
-  li s10, 2654307183
-  li t6, 0
-  remuw a2, s10, t6  # div-by-zero
-
-  li a2, 1580205025
-  li t5, 504016658
-  remuw s7, a2, t5  # normal
-
-  li s4, 3986953158
-  li a7, 2122353925
-  remuw s10, s4, a7  # normal
-
-  li s10, 3359188183
-  li a0, 2122436090
-  remuw a1, s10, a0  # normal
-
-  li a7, 2908503113
-  li a0, 1796717941
+  li a2, 608
+  li a2, 141
+  remuw t6, a2, a2  # normal
+
+  li s7, 1208
+  li s7, 2043
+  remuw s7, s7, s7  # normal
+
+  li s5, 1145
+  li s3, 1568
+  remuw a7, s5, s3  # normal
+
+  li a7, 1020
+  li a0, 79
   remuw t5, a7, a0  # normal
 
-  li t5, 1124420145
-  li t1, 2652916423
-  remuw a7, t5, t1  # normal
+  li s10, 1985
+  li a5, 1409
+  remuw a6, s10, a5  # normal
 
-  li a5, 1967799880
-  li s6, 44325089
-  remuw a1, a5, s6  # normal
+  li s4, 736
+  li a4, 106
+  remuw s6, s4, a4  # normal
 
-  li a4, 2564937036
-  li s10, 313771499
-  remuw t5, a4, s10  # normal
+  li s7, 1150
+  li a1, 239
+  remuw a4, s7, a1  # normal
 
-  li t2, 1008636315
-  li t2, 3900803267
-  remuw s5, t2, t2  # normal
+  li s4, 953
+  li a5, 653
+  remuw s3, s4, a5  # normal
 
-  li s9, 3478291959
-  li s7, 23025260
-  remuw s7, s9, s7  # normal
+  li a1, 229
+  li s9, 898
+  remuw t4, a1, s9  # normal
 
-  li s7, 1593008578
-  li a6, 2403293589
-  remuw s4, s7, a6  # normal
+  li a6, 711
+  li a5, 721
+  remuw s6, a6, a5  # normal
 
-  li t6, 2010409194
-  li a2, 385035155
-  remuw s6, t6, a2  # normal
+  li s6, 1469
+  li a4, 115
+  remuw a1, s6, a4  # normal
 
-  li s4, 501832818
-  li a7, 549203872
-  remuw s10, s4, a7  # normal
+  li s10, 582
+  li a5, 771
+  remuw s10, s10, a5  # normal
 
-  li s11, 3766413089
-  li a5, 1344369085
-  remuw a2, s11, a5  # normal
+  li s5, 155
+  li a3, 369
+  remuw s3, s5, a3  # normal
 
-  li a4, 3428329586
-  li s11, 228587581
-  remuw t6, a4, s11  # normal
+  li a1, 1957
+  li s7, 2
+  remuw t2, a1, s7  # normal
 
-  li t2, 2019697772
-  li a1, 2006320271
-  remuw t5, t2, a1  # normal
+  li s7, 1395
+  li a0, 726
+  remuw a4, s7, a0  # normal
 
-  li s3, 2408851831
-  li t2, 1966062974
-  remuw t4, s3, t2  # normal
+  li t2, 580
+  li t1, 454
+  remuw a4, t2, t1  # normal
 
-  li s11, 401913949
-  li t5, 3728775107
-  remuw t4, s11, t5  # normal
+  li a5, 1620
+  li t3, 413
+  remuw s4, a5, t3  # normal
 
-  li t6, 2515465308
-  li s11, 4173107724
-  remuw t6, t6, s11  # normal
+  li a3, 645
+  li a4, 1789
+  remuw a4, a3, a4  # normal
 
-  li s6, 330005804
-  li t6, 3299623349
-  remuw s4, s6, t6  # normal
+  li s3, 1461
+  li s8, 914
+  remuw s8, s3, s8  # normal
 
-  li t4, 2923324008
-  li a4, 0
-  remuw s9, t4, a4  # div-by-zero
+  li s6, 1206
+  li t6, 521
+  remuw s9, s6, t6  # normal
 
-  li a5, 1389586583
-  li s6, 124015059
-  remuw a6, a5, s6  # normal
+  li s11, 1603
+  li t1, 132
+  remuw t6, s11, t1  # normal
 
-  li s10, 2826115582
-  li s9, 1946058269
-  remuw s2, s10, s9  # normal
+  li s7, 904
+  li a4, 426
+  remuw t6, s7, a4  # normal
 
-  li s11, 3707754422
-  li s6, 1215278223
-  remuw s11, s11, s6  # normal
+  li t5, 974
+  li a4, 1420
+  remuw s3, t5, a4  # normal
 
-  li s11, 2586822401
-  li t3, 397503555
-  remuw t2, s11, t3  # normal
+  li t6, 363
+  li s8, 1375
+  remuw a4, t6, s8  # normal
 
-  li t6, 3717360831
-  li a1, 383060868
-  remuw a2, t6, a1  # normal
+  li t1, 277
+  li a2, 1435
+  remuw s2, t1, a2  # normal
 
-  li t6, 2809184791
-  li a6, 517981598
-  remuw a0, t6, a6  # normal
+  li t4, 1580
+  li s11, 0
+  remuw a2, t4, s11  # div-by-zero
 
-  li a7, 563871947
-  li s11, 2858387914
-  remuw s3, a7, s11  # normal
+  li s11, 1695
+  li a7, 2019
+  remuw s2, s11, a7  # normal
 
-  li s4, 3802820039
-  li a0, 2046292876
-  remuw a5, s4, a0  # normal
+  li a5, 1963
+  li s5, 923
+  remuw a6, a5, s5  # normal
 
-  li s7, 800392193
-  li a7, 2708776837
-  remuw s6, s7, a7  # normal
+  li s2, 136
+  li t3, 1207
+  remuw t6, s2, t3  # normal
 
-  li t2, 2253473926
-  li s4, 1248559979
-  remuw t3, t2, s4  # normal
+  li a4, 303
+  li a2, 1400
+  remuw t1, a4, a2  # normal
 
-  li t3, 4227047686
-  li s3, 1837094114
-  remuw a7, t3, s3  # normal
+  li a6, 381
+  li t6, 1384
+  remuw t6, a6, t6  # normal
 
-  li t2, 1824989680
-  li s5, 405807234
-  remuw s6, t2, s5  # normal
+  li s7, 1766
+  li s3, 675
+  remuw s7, s7, s3  # normal
 
-  li s11, 1526678932
-  li s6, 2514994916
-  remuw s9, s11, s6  # normal
+  li a7, 1356
+  li t6, 841
+  remuw s7, a7, t6  # normal
 
-  li t1, 1988049941
-  li t4, 3376604904
-  remuw s4, t1, t4  # normal
+  li a7, 1086
+  li s10, 1153
+  remuw a0, a7, s10  # normal
 
-  li t2, 3025282872
-  li t3, 3109962979
-  remuw a6, t2, t3  # normal
+  li a1, 2010
+  li t4, 629
+  remuw a3, a1, t4  # normal
 
-  li s2, 3478949331
-  li s7, 906531762
-  remuw s9, s2, s7  # normal
+  li a5, 1206
+  li t1, 1967
+  remuw t2, a5, t1  # normal
 
-  li s11, 2892268633
-  li s7, 76945301
-  remuw t3, s11, s7  # normal
+  li t4, 1195
+  li t1, 335
+  remuw a0, t4, t1  # normal
 
-  li t4, 2049214240
-  li t1, 2971285142
-  remuw a6, t4, t1  # normal
+  li t4, 1928
+  li a3, 2003
+  remuw s3, t4, a3  # normal
 
-  li s11, 2648898879
-  li s7, 2899542255
-  remuw s9, s11, s7  # normal
+  li a2, 1587
+  li t3, 757
+  remuw s9, a2, t3  # normal
 
-  li t3, 819488717
-  li t5, 3504556843
-  remuw a3, t3, t5  # normal
+  li a6, 182
+  li a5, 1078
+  remuw a5, a6, a5  # normal
 
-  li a0, 2785815533
-  li t1, 2790611308
-  remuw s10, a0, t1  # normal
+  li s2, 1100
+  li a2, 252
+  remuw s2, s2, a2  # normal
 
-  li s8, 1990397616
-  li s5, 2035767647
-  remuw a7, s8, s5  # normal
+  li s10, 1408
+  li s9, 1695
+  remuw t5, s10, s9  # normal
 
-  li t4, 2083260305
-  li t6, 1042086420
-  remuw t1, t4, t6  # normal
+  li a1, 1585
+  li s5, 1714
+  remuw s6, a1, s5  # normal
 
-  li s6, 33819777
-  li a6, 3062710327
-  remuw a3, s6, a6  # normal
+  li s9, 965
+  li s3, 1950
+  remuw s5, s9, s3  # normal
 
-  li s3, 4290785590
-  li s11, 158987731
-  remuw a7, s3, s11  # normal
+  li t3, 142
+  li a6, 603
+  remuw a3, t3, a6  # normal
 
-  li s3, 2095520970
-  li s4, 3067853612
-  remuw a6, s3, s4  # normal
+  li s2, 684
+  li t6, 867
+  remuw t4, s2, t6  # normal
 
-  li t1, 2376215097
-  li a7, 2784428542
-  remuw s4, t1, a7  # normal
+  li t5, 1783
+  li t2, 827
+  remuw a0, t5, t2  # normal
 
-  li t4, 2775321174
-  li s3, 1873593613
-  remuw s3, t4, s3  # normal
+  li t5, 274
+  li s7, 356
+  remuw s8, t5, s7  # normal
 
-  li a3, 1476813297
-  li s11, 2821613705
-  remuw t6, a3, s11  # normal
+  li s5, 1131
+  li a6, 1876
+  remuw a6, s5, a6  # normal
 
-  li a3, 4122324081
-  li s11, 3155016979
-  remuw t5, a3, s11  # normal
+  li s10, 1718
+  li s7, 460
+  remuw t1, s10, s7  # normal
 
-  li t6, 2073995755
-  li s7, 744279636
-  remuw s3, t6, s7  # normal
+  li t5, 410
+  li t5, 432
+  remuw a7, t5, t5  # normal
 
-  li s7, 4268197783
-  li s3, 1304174972
-  remuw t6, s7, s3  # normal
+  li t4, 1408
+  li a3, 1683
+  remuw s6, t4, a3  # normal
 
-  li s5, 1120161857
-  li t2, 2907383020
-  remuw a0, s5, t2  # normal
+  li a6, 1937
+  li s8, 153
+  remuw a2, a6, s8  # normal
 
-  li s4, 1450559731
-  li t2, 973627242
-  remuw t6, s4, t2  # normal
+  li a2, 1645
+  li a6, 158
+  remuw t6, a2, a6  # normal
 
-  li a1, 2875420006
-  li s3, 3033986022
-  remuw s5, a1, s3  # normal
+  li a4, 1946
+  li s10, 1100
+  remuw a6, a4, s10  # normal
 
-  li s2, 2415802569
-  li t4, 2178861531
-  remuw s2, s2, t4  # normal
+  li t1, 1241
+  li a4, 1273
+  remuw a5, t1, a4  # normal
 
-  li s8, 3912654107
-  li t4, 2172809426
-  remuw t6, s8, t4  # normal
+  li s3, 933
+  li s10, 550
+  remuw a2, s3, s10  # normal
 
-  li t4, 591728242
-  li t5, 3644688162
-  remuw s11, t4, t5  # normal
+  li s11, 1314
+  li s2, 1103
+  remuw a3, s11, s2  # normal
 
-  li a7, 3475252243
-  li t1, 1465958548
-  remuw s2, a7, t1  # normal
+  li a7, 769
+  li s7, 1809
+  remuw s11, a7, s7  # normal
 
-  li t6, 1782448387
-  li t3, 1054205230
+  li a7, 1531
+  li s11, 230
+  remuw a0, a7, s11  # normal
+
+  li t6, 1652
+  li t3, 555
   remuw s4, t6, t3  # normal
 
-  li a7, 1841780103
-  li a1, 3942866138
-  remuw s4, a7, a1  # normal
+  li s6, 822
+  li t1, 236
+  remuw s4, s6, t1  # normal
+
+  li t2, 1476
+  li s2, 815
+  remuw a1, t2, s2  # normal
+
+  li a5, 507
+  li s2, 125
+  remuw a2, a5, s2  # normal
+
+  li a5, 727
+  li s3, 1943
+  remuw a1, a5, s3  # normal
+
+  li s5, 1059
+  li a5, 370
+  remuw s6, s5, a5  # normal
+
+  li t1, 877
+  li a6, 906
+  remuw a3, t1, a6  # normal
+
+  li a1, 1677
+  li s9, 82
+  remuw s8, a1, s9  # normal
+
+  li t1, 709
+  li s3, 34
+  remuw s9, t1, s3  # normal
+
+  li a2, 1251
+  li s7, 1127
+  remuw a1, a2, s7  # normal
+
+  li a6, 893
+  li a5, 1911
+  remuw a7, a6, a5  # normal
+
+  li s9, 1626
+  li s4, 419
+  remuw a3, s9, s4  # normal
+
+  li s4, 1532
+  li s9, 1157
+  remuw t1, s4, s9  # normal
+
+  li s9, 1377
+  li t4, 1132
+  remuw a3, s9, t4  # normal
+
+  li a4, 1223
+  li a2, 771
+  remuw s8, a4, a2  # normal
+
+  li s4, 1655
+  li a1, 1309
+  remuw t5, s4, a1  # normal
+
+  li t5, 2037
+  li s11, 1210
+  remuw s9, t5, s11  # normal
+
+  li a7, 144
+  li a6, 777
+  remuw a2, a7, a6  # normal
+
+  li s11, 1948
+  li s10, 1468
+  remuw a4, s11, s10  # normal
+
+  li a3, 741
+  li t6, 1203
+  remuw s4, a3, t6  # normal
+
+  li s3, 749
+  li t5, 1374
+  remuw t4, s3, t5  # normal
+
+  li t3, 1257
+  li a1, 1722
+  remuw s8, t3, a1  # normal
+
+  li a5, 1899
+  li a2, 482
+  remuw a4, a5, a2  # normal
+
+  li t2, 291
+  li s8, 1934
+  remuw s3, t2, s8  # normal
+
+  li s4, 1563
+  li t4, 1222
+  remuw a0, s4, t4  # normal
+
+  li t2, 820
+  li t5, 1403
+  remuw a7, t2, t5  # normal
+
+  li s6, 738
+  li s2, 331
+  remuw a7, s6, s2  # normal
+
+  li a4, 1283
+  li s8, 237
+  remuw s3, a4, s8  # normal
+
+  li s2, 690
+  li a2, 648
+  remuw t1, s2, a2  # normal
+
+  li t3, 1758
+  li t5, 1652
+  remuw s3, t3, t5  # normal
+
+  li s3, 816
+  li a6, 0
+  remuw a7, s3, a6  # div-by-zero
+
+  li a5, 780
+  li t1, 73
+  remuw s11, a5, t1  # normal
+
+  li t1, 926
+  li s8, 1410
+  remuw s9, t1, s8  # normal
+
+  li t5, 1253
+  li t4, 684
+  remuw a3, t5, t4  # normal
+
+  li t2, 1867
+  li a3, 1383
+  remuw t3, t2, a3  # normal
+
+  li s9, 2007
+  li t5, 1471
+  remuw a7, s9, t5  # normal
+
+  li t6, 918
+  li a6, 537
+  remuw a0, t6, a6  # normal
+
+  li s11, 692
+  li t1, 504
+  remuw a0, s11, t1  # normal
+
+  li s10, 1536
+  li s8, 1047
+  remuw a5, s10, s8  # normal
+
+  li s7, 196
+  li t2, 442
+  remuw s5, s7, t2  # normal
+
+  li t1, 1707
+  li t2, 1819
+  remuw s8, t1, t2  # normal
+
+  li t4, 627
+  li s5, 841
+  remuw a6, t4, s5  # normal
+
+  li s9, 1723
+  li s8, 413
+  remuw s10, s9, s8  # normal
+
+  li s4, 561
+  li a2, 1715
+  remuw s9, s4, a2  # normal
+
+  li s4, 1157
+  li s11, 466
+  remuw t4, s4, s11  # normal
+
+  li s3, 1077
+  li a0, 826
+  remuw t4, s3, a0  # normal
+
+  li s10, 161
+  li a7, 2033
+  remuw a5, s10, a7  # normal
+
+  li s10, 11
+  li s3, 52
+  remuw a0, s10, s3  # normal
+
+  li t3, 2023
+  li t4, 610
+  remuw s9, t3, t4  # normal
+
+  li s4, 414
+  li t3, 1048
+  remuw t3, s4, t3  # normal
+
+  li a1, 1212
+  li s2, 1081
+  remuw s8, a1, s2  # normal
+
+  li t2, 161
+  li t4, 1190
+  remuw s2, t2, t4  # normal
+
+  li s9, 474
+  li a4, 389
+  remuw a5, s9, a4  # normal
+
+  li t1, 698
+  li t5, 1346
+  remuw t2, t1, t5  # normal
+
+  li s2, 380
+  li s7, 1526
+  remuw a5, s2, s7  # normal
+
+  li t6, 1869
+  li t4, 1113
+  remuw a4, t6, t4  # normal
+
+  li s10, 683
+  li s3, 463
+  remuw a6, s10, s3  # normal
+
+  li s10, 652
+  li s11, 424
+  remuw t5, s10, s11  # normal
+
+  li s6, 1794
+  li s3, 742
+  remuw a7, s6, s3  # normal
+
+  li a6, 535
+  li a5, 1978
+  remuw s7, a6, a5  # normal
+
+  li t4, 259
+  li a7, 1071
+  remuw s3, t4, a7  # normal
+
+  li a4, 917
+  li t1, 1385
+  remuw s8, a4, t1  # normal
+
+  li s4, 390
+  li s10, 1772
+  remuw s4, s4, s10  # normal
+
+  li s11, 1576
+  li a1, 608
+  remuw s9, s11, a1  # normal
+
+  li s7, 642
+  li t2, 1922
+  remuw s5, s7, t2  # normal
+
+  li t6, 1313
+  li t3, 986
+  remuw s3, t6, t3  # normal
+
+  li a2, 1550
+  li t2, 1651
+  remuw a4, a2, t2  # normal
+
+  li t3, 1835
+  li s2, 360
+  remuw a1, t3, s2  # normal
+
+  li s2, 2037
+  li a4, 72
+  remuw s3, s2, a4  # normal
+
+  li a6, 0
+  li a7, 372
+  remuw t4, a6, a7  # normal
+
+  li s7, 847
+  li s8, 1868
+  remuw s7, s7, s8  # normal
+
+  li a5, 1861
+  li t2, 1359
+  remuw a4, a5, t2  # normal
+
+  li s7, 1488
+  li s7, 1853
+  remuw s5, s7, s7  # normal
+
+  li t4, 1398
+  li s9, 1454
+  remuw t4, t4, s9  # normal
+
+  li a3, 435
+  li s5, 187
+  remuw s8, a3, s5  # normal
+
+  li s3, 1676
+  li t5, 438
+  remuw t6, s3, t5  # normal
+
+  li s7, 1609
+  li a0, 883
+  remuw a2, s7, a0  # normal
+
+  li a0, 1697
+  li s10, 190
+  remuw s2, a0, s10  # normal
+
+  li s9, 1845
+  li s6, 1873
+  remuw s8, s9, s6  # normal
+
+  li s6, 2043
+  li s4, 17
+  remuw s9, s6, s4  # normal
+
+  li s11, 1772
+  li t2, 1978
+  remuw s4, s11, t2  # normal
+
+  li t6, 525
+  li s10, 424
+  remuw s4, t6, s10  # normal
+
+  li s9, 1318
+  li s7, 1575
+  remuw a6, s9, s7  # normal
+
+  li s7, 1120
+  li s10, 1629
+  remuw a7, s7, s10  # normal
+
+  li a3, 565
+  li s2, 1690
+  remuw a4, a3, s2  # normal
+
+  li s10, 1285
+  li s11, 890
+  remuw s7, s10, s11  # normal
+
+  li a0, 1414
+  li s7, 543
+  remuw a0, a0, s7  # normal
+
+  li s8, 1320
+  li t6, 472
+  remuw s10, s8, t6  # normal
+
+  li s5, 1709
+  li s3, 1171
+  remuw a5, s5, s3  # normal
+
+  li t1, 1560
+  li s4, 595
+  remuw a7, t1, s4  # normal
+
+  li s9, 659
+  li t2, 1173
+  remuw t2, s9, t2  # normal
+
+  li a2, 1208
+  li t5, 835
+  remuw s9, a2, t5  # normal
+
+  li t2, 419
+  li a5, 918
+  remuw s5, t2, a5  # normal
+
+  li s8, 1178
+  li s5, 192
+  remuw s11, s8, s5  # normal
+
+  li a6, 1280
+  li a7, 220
+  remuw a6, a6, a7  # normal
+
+  li s11, 1814
+  li a2, 923
+  remuw t1, s11, a2  # normal
+
+  li s10, 804
+  li s10, 792
+  remuw s8, s10, s10  # normal
+
+  li s2, 305
+  li t6, 765
+  remuw a3, s2, t6  # normal
+
+  li s11, 166
+  li s4, 1755
+  remuw t6, s11, s4  # normal
+
+  li s5, 1044
+  li a2, 23
+  remuw a2, s5, a2  # normal
+
+  li s2, 163
+  li s10, 629
+  remuw a4, s2, s10  # normal
+
+  li s7, 1233
+  li t2, 2009
+  remuw a4, s7, t2  # normal
+
+  li s5, 1301
+  li a5, 900
+  remuw s6, s5, a5  # normal
+
+  li s4, 652
+  li t3, 1703
+  remuw t6, s4, t3  # normal
+
+  li s5, 906
+  li a6, 873
+  remuw s5, s5, a6  # normal
+
+  li a4, 894
+  li a4, 1945
+  remuw s9, a4, a4  # normal
+
+  li s8, 1417
+  li t1, 1825
+  remuw s5, s8, t1  # normal
+
+  li s8, 998
+  li s7, 163
+  remuw a1, s8, s7  # normal
+
+  li a4, 464
+  li a6, 1580
+  remuw s9, a4, a6  # normal
+
+  li s5, 1535
+  li s11, 1825
+  remuw a2, s5, s11  # normal
+
+  li t2, 788
+  li a3, 1312
+  remuw s3, t2, a3  # normal
+
+  li t3, 30
+  li t4, 268
+  remuw s4, t3, t4  # normal
+
+  li s9, 1737
+  li s8, 425
+  remuw a0, s9, s8  # normal
+
+  li s5, 1782
+  li s10, 295
+  remuw a0, s5, s10  # normal
+
+  li s9, 1358
+  li t5, 155
+  remuw s11, s9, t5  # normal
+
+  li t3, 1031
+  li t2, 288
+  remuw t3, t3, t2  # normal
+
+  li a1, 1847
+  li a2, 1656
+  remuw s6, a1, a2  # normal
+
+  li a4, 484
+  li t1, 24
+  remuw a7, a4, t1  # normal
+
+  li s11, 186
+  li s7, 297
+  remuw s8, s11, s7  # normal
+
+  li s4, 1234
+  li t4, 354
+  remuw a5, s4, t4  # normal
+
+  li s2, 126
+  li a6, 1941
+  remuw a3, s2, a6  # normal
+
+  li s5, 1601
+  li a1, 1208
+  remuw t6, s5, a1  # normal
+
+  li t5, 1528
+  li a3, 45
+  remuw s8, t5, a3  # normal
+
+  li s5, 20
+  li t5, 1614
+  remuw s5, s5, t5  # normal
+
+  li s5, 1408
+  li t3, 867
+  remuw s5, s5, t3  # normal
+
+  li s8, 753
+  li s4, 904
+  remuw a7, s8, s4  # normal
+
+  li a2, 222
+  li a0, 1889
+  remuw s7, a2, a0  # normal
+
+  li s5, 275
+  li t3, 1026
+  remuw s8, s5, t3  # normal
+
+  li a0, 1355
+  li s11, 1462
+  remuw t4, a0, s11  # normal
+
+  li s9, 1167
+  li s8, 285
+  remuw t5, s9, s8  # normal
+
+  li a4, 1252
+  li s3, 624
+  remuw a0, a4, s3  # normal
+
+  li s6, 1754
+  li a5, 690
+  remuw s6, s6, a5  # normal
+
+  li a4, 1786
+  li a1, 1133
+  remuw t1, a4, a1  # normal
+
+  li t5, 1965
+  li s9, 1895
+  remuw a5, t5, s9  # normal
+
+  li a5, 445
+  li a3, 719
+  remuw s2, a5, a3  # normal
+
+  li s7, 573
+  li t3, 804
+  remuw s8, s7, t3  # normal
+
+  li s11, 308
+  li s8, 76
+  remuw a2, s11, s8  # normal
+
+  li s8, 1659
+  li t1, 871
+  remuw s4, s8, t1  # normal
+
+  li s5, 1933
+  li a2, 608
+  remuw t2, s5, a2  # normal
+
+  li a6, 1191
+  li a1, 548
+  remuw a5, a6, a1  # normal
+
+  li s4, 1490
+  li s4, 43
+  remuw s2, s4, s4  # normal
+
+  li a1, 574
+  li s7, 1827
+  remuw s9, a1, s7  # normal
+
+  li t6, 598
+  li s6, 1980
+  remuw t6, t6, s6  # normal
+
+  li t2, 949
+  li a1, 257
+  remuw a5, t2, a1  # normal
+
+  li a5, 846
+  li a1, 1479
+  remuw a2, a5, a1  # normal
+
+  li s3, 163
+  li s2, 1327
+  remuw a6, s3, s2  # normal
+
+  li s10, 1120
+  li s4, 1078
+  remuw t4, s10, s4  # normal
+
+  li s5, 1550
+  li s6, 1496
+  remuw s6, s5, s6  # normal
+
+  li s8, 1541
+  li t3, 912
+  remuw s6, s8, t3  # normal
+
+  li a6, 1413
+  li a5, 1994
+  remuw s4, a6, a5  # normal
+
+  li s7, 569
+  li t1, 1801
+  remuw s3, s7, t1  # normal
+
+  li a1, 1150
+  li t3, 866
+  remuw t6, a1, t3  # normal
+
+  li t6, 484
+  li t6, 943
+  remuw t5, t6, t6  # normal
+
+  li a4, 1961
+  li s11, 1962
+  remuw a7, a4, s11  # normal
+
+  li s6, 1683
+  li t6, 91
+  remuw a0, s6, t6  # normal
+
+  li t2, 659
+  li t5, 551
+  remuw a1, t2, t5  # normal
+
+  li s4, 601
+  li t2, 229
+  remuw s8, s4, t2  # normal
+
+  li a2, 1660
+  li t6, 76
+  remuw t6, a2, t6  # normal
+
+  li s11, 351
+  li s9, 887
+  remuw s11, s11, s9  # normal
+
+  li s7, 698
+  li s3, 898
+  remuw s2, s7, s3  # normal
+
+  li s7, 744
+  li t5, 1083
+  remuw a7, s7, t5  # normal
+
+  li s11, 1857
+  li s9, 281
+  remuw t6, s11, s9  # normal
+
+  li a6, 67
+  li a6, 828
+  remuw a1, a6, a6  # normal
+
+  li s4, 612
+  li s9, 394
+  remuw s4, s4, s9  # normal
+
+  li s3, 481
+  li s7, 381
+  remuw t6, s3, s7  # normal
+
+  li s9, 4
+  li t5, 1767
+  remuw s3, s9, t5  # normal
+
+  li a7, 1757
+  li a5, 939
+  remuw s4, a7, a5  # normal
+
+  li a6, 400
+  li a5, 1742
+  remuw s3, a6, a5  # normal
+
+  li a2, 343
+  li s3, 1160
+  remuw t5, a2, s3  # normal
+
+  li s5, 22
+  li a7, 29
+  remuw s7, s5, a7  # normal
+
+  li s4, 1536
+  li t4, 841
+  remuw s6, s4, t4  # normal
+
+  li a4, 633
+  li a7, 1745
+  remuw s10, a4, a7  # normal
+
+  li s6, 1734
+  li a2, 1497
+  remuw s8, s6, a2  # normal
+
+  li a2, 834
+  li s9, 1692
+  remuw s7, a2, s9  # normal
+
+  li s5, 1981
+  li s3, 1039
+  remuw s5, s5, s3  # normal
+
+  li s6, 1630
+  li a5, 565
+  remuw a3, s6, a5  # normal
+
+  li t4, 662
+  li s11, 410
+  remuw s9, t4, s11  # normal
+
+  li s4, 213
+  li a6, 658
+  remuw a0, s4, a6  # normal
+
+  li s8, 595
+  li t1, 1931
+  remuw a6, s8, t1  # normal
+
+  li a7, 908
+  li t3, 1518
+  remuw s7, a7, t3  # normal
+
+  li s7, 1641
+  li t2, 1173
+  remuw t3, s7, t2  # normal
+
+  li s7, 717
+  li t2, 2024
+  remuw s10, s7, t2  # normal
+
+  li t1, 1171
+  li a0, 797
+  remuw s2, t1, a0  # normal
+
+  li s7, 948
+  li s4, 694
+  remuw t2, s7, s4  # normal
+
+  li t2, 1
+  li a5, 644
+  remuw s9, t2, a5  # normal
+
+  li a2, 1618
+  li a6, 1660
+  remuw t3, a2, a6  # normal
+
+  li a0, 281
+  li s4, 369
+  remuw s6, a0, s4  # normal
+
+  li a3, 1425
+  li s11, 1423
+  remuw s5, a3, s11  # normal
+
+  li a1, 1862
+  li s7, 1654
+  remuw a2, a1, s7  # normal
+
+  li t1, 436
+  li a2, 296
+  remuw s6, t1, a2  # normal
+
+  li a3, 1055
+  li a4, 1024
+  remuw s4, a3, a4  # normal
+
+  li s2, 996
+  li a6, 1391
+  remuw s10, s2, a6  # normal
+
+  li s9, 112
+  li s2, 1974
+  remuw s2, s9, s2  # normal
+
+  li a2, 902
+  li t3, 941
+  remuw t4, a2, t3  # normal
+
+  li a7, 39
+  li a5, 1078
+  remuw a4, a7, a5  # normal
+
+  li a3, 1400
+  li t3, 311
+  remuw a1, a3, t3  # normal
+
+  li t6, 895
+  li s3, 1102
+  remuw s5, t6, s3  # normal
+
+  li s11, 778
+  li s9, 2043
+  remuw t6, s11, s9  # normal
+
+  li a0, 1087
+  li a1, 846
+  remuw s11, a0, a1  # normal
+
+  li a0, 1458
+  li a1, 638
+  remuw a1, a0, a1  # normal
+
+  li t4, 2017
+  li t3, 27
+  remuw t4, t4, t3  # normal
+
+  li t2, 1291
+  li s3, 2016
+  remuw s5, t2, s3  # normal
+
+  li a2, 1147
+  li s3, 1629
+  remuw s6, a2, s3  # normal
+
+  li s6, 1733
+  li t5, 1959
+  remuw a1, s6, t5  # normal
+
+  li t2, 715
+  li s4, 1872
+  remuw s5, t2, s4  # normal
+
+  li s10, 34
+  li s4, 48
+  remuw t4, s10, s4  # normal
+
+  li a0, 1332
+  li a6, 1481
+  remuw s9, a0, a6  # normal
+
+  li a2, 971
+  li t6, 1103
+  remuw s7, a2, t6  # normal
+
+  li s7, 2042
+  li a4, 1736
+  remuw s3, s7, a4  # normal
+
+  li a7, 1495
+  li s10, 1640
+  remuw a0, a7, s10  # normal
+
+  li s2, 936
+  li t6, 409
+  remuw a2, s2, t6  # normal
+
+  li a2, 1560
+  li a1, 803
+  remuw s11, a2, a1  # normal
+
+  li s11, 39
+  li t5, 723
+  remuw t5, s11, t5  # normal
+
+  li s3, 1293
+  li t5, 1993
+  remuw a7, s3, t5  # normal
+
+  li a2, 195
+  li s5, 1631
+  remuw a3, a2, s5  # normal
+
+  li s10, 1041
+  li t6, 1951
+  remuw t4, s10, t6  # normal
+
+  li t4, 1064
+  li s2, 1478
+  remuw s8, t4, s2  # normal
+
+  li s5, 1055
+  li s5, 1409
+  remuw a5, s5, s5  # normal
+
+  li a7, 814
+  li t4, 714
+  remuw t1, a7, t4  # normal
+
+  li a5, 1996
+  li a4, 1830
+  remuw a3, a5, a4  # normal
+
+  li a6, 593
+  li s7, 686
+  remuw t3, a6, s7  # normal
+
+  li a4, 1657
+  li a7, 292
+  remuw s8, a4, a7  # normal
+
+  li t6, 1297
+  li a4, 1193
+  remuw t3, t6, a4  # normal
+
+  li a2, 1111
+  li s7, 1822
+  remuw s10, a2, s7  # normal
+
+  li s11, 1844
+  li s6, 1695
+  remuw a5, s11, s6  # normal
+
+  li t6, 961
+  li t1, 1030
+  remuw t6, t6, t1  # normal
+
+  li s10, 683
+  li s11, 1626
+  remuw s11, s10, s11  # normal
+
+  li t4, 1938
+  li t3, 220
+  remuw t4, t4, t3  # normal
+
+  li a6, 340
+  li s4, 425
+  remuw t1, a6, s4  # normal
+
+  li s7, 1596
+  li t5, 1267
+  remuw a2, s7, t5  # normal
+
+  li a1, 517
+  li s11, 537
+  remuw a1, a1, s11  # normal
+
+  li t6, 1461
+  li t1, 1332
+  remuw s4, t6, t1  # normal
+
+  li s2, 1822
+  li s5, 553
+  remuw s3, s2, s5  # normal
+
+  li s5, 1870
+  li t6, 1781
+  remuw s10, s5, t6  # normal
+
+  li s8, 1422
+  li s8, 1972
+  remuw s4, s8, s8  # normal
+
+  li a1, 1498
+  li t3, 1688
+  remuw s5, a1, t3  # normal
+
+  li t5, 558
+  li a3, 1408
+  remuw a2, t5, a3  # normal
+
+  li s3, 2014
+  li s5, 1954
+  remuw a3, s3, s5  # normal
+
+  li t1, 947
+  li a7, 29
+  remuw a3, t1, a7  # normal
+
+  li a5, 1790
+  li a0, 1616
+  remuw s5, a5, a0  # normal
+
+  li t6, 1596
+  li s10, 1549
+  remuw a1, t6, s10  # normal
+
+  li a2, 981
+  li t3, 1113
+  remuw a1, a2, t3  # normal
+
+  li s8, 1101
+  li s11, 1691
+  remuw a3, s8, s11  # normal
+
+  li t3, 452
+  li t6, 1865
+  remuw a0, t3, t6  # normal
+
+  li s2, 2015
+  li a2, 769
+  remuw s7, s2, a2  # normal
+
+  li t1, 90
+  li t5, 761
+  remuw a4, t1, t5  # normal
+
+  li a3, 1795
+  li a2, 33
+  remuw t4, a3, a2  # normal
+
+  li t3, 889
+  li t5, 1400
+  remuw a1, t3, t5  # normal
+
+  li a3, 1899
+  li s3, 129
+  remuw a7, a3, s3  # normal
+
+  li t3, 1607
+  li t5, 292
+  remuw a4, t3, t5  # normal
+
+  li s3, 1024
+  li t6, 1562
+  remuw s5, s3, t6  # normal
+
+  li t4, 1814
+  li s10, 1012
+  remuw t1, t4, s10  # normal
+
+  li t2, 384
+  li a0, 853
+  remuw s11, t2, a0  # normal
+
+  li a6, 1323
+  li s9, 649
+  remuw s3, a6, s9  # normal
+
+  li s11, 500
+  li t2, 1037
+  remuw s8, s11, t2  # normal
+
+  li s8, 213
+  li a3, 892
+  remuw s3, s8, a3  # normal
+
+  li a1, 61
+  li s8, 685
+  remuw t4, a1, s8  # normal
+
+  li s6, 995
+  li t4, 36
+  remuw a2, s6, t4  # normal
+
+  li s6, 634
+  li s10, 1521
+  remuw t2, s6, s10  # normal
+
+  li a1, 1386
+  li t6, 245
+  remuw t3, a1, t6  # normal
+
+  li a5, 439
+  li s8, 515
+  remuw t2, a5, s8  # normal
+
+  li a1, 1422
+  li a4, 1796
+  remuw s3, a1, a4  # normal
+
+  li a0, 1467
+  li t1, 551
+  remuw s11, a0, t1  # normal
+
+  li t2, 1207
+  li s3, 2007
+  remuw a2, t2, s3  # normal
+
+  li s6, 1325
+  li t6, 1918
+  remuw a0, s6, t6  # normal
+
+  li s7, 634
+  li s5, 1840
+  remuw a2, s7, s5  # normal
+
+  li a2, 2
+  li s5, 1552
+  remuw a3, a2, s5  # normal
+
+  li t6, 1491
+  li t1, 978
+  remuw s11, t6, t1  # normal
+
+  li s11, 1587
+  li t3, 777
+  remuw a4, s11, t3  # normal
+
+  li s9, 631
+  li s3, 1159
+  remuw s4, s9, s3  # normal
+
+  li a7, 394
+  li s8, 273
+  remuw a4, a7, s8  # normal
+
+  li t5, 827
+  li t6, 438
+  remuw t2, t5, t6  # normal
+
+  li a0, 1591
+  li t4, 2006
+  remuw s3, a0, t4  # normal
+
+  li s7, 201
+  li s10, 1500
+  remuw s4, s7, s10  # normal
+
+  li s7, 854
+  li s10, 2012
+  remuw a1, s7, s10  # normal
+
+  li s2, 1703
+  li s8, 1511
+  remuw t3, s2, s8  # normal
+
+  li t2, 166
+  li s7, 288
+  remuw s10, t2, s7  # normal
+
+  li t3, 397
+  li a0, 414
+  remuw a3, t3, a0  # normal
+
+  li a1, 791
+  li s5, 1018
+  remuw s11, a1, s5  # normal
+
+  li s8, 1700
+  li t6, 432
+  remuw s6, s8, t6  # normal
+
+  li s6, 1749
+  li a5, 426
+  remuw s8, s6, a5  # normal
+
+  li t6, 1382
+  li s5, 647
+  remuw t6, t6, s5  # normal
+
+  li s7, 1290
+  li s2, 1329
+  remuw s5, s7, s2  # normal
+
+  li a7, 1324
+  li s8, 985
+  remuw a5, a7, s8  # normal
+
+  li s5, 1040
+  li a0, 1474
+  remuw s6, s5, a0  # normal
+
+  li s2, 141
+  li a6, 0
+  remuw s2, s2, a6  # div-by-zero
+
+  li s7, 1236
+  li t1, 26
+  remuw a3, s7, t1  # normal
+
+  li a1, 88
+  li a0, 1130
+  remuw a3, a1, a0  # normal
+
+  li s4, 633
+  li s5, 386
+  remuw s5, s4, s5  # normal
+
+  li s2, 1085
+  li a5, 1503
+  remuw t2, s2, a5  # normal
+
+  li a1, 1230
+  li a1, 376
+  remuw s6, a1, a1  # normal
+
+  li a6, 316
+  li s6, 1329
+  remuw s6, a6, s6  # normal
+
+  li t6, 390
+  li s3, 1230
+  remuw s3, t6, s3  # normal
+
+  li s11, 229
+  li s6, 1369
+  remuw t2, s11, s6  # normal
+
+  li a7, 493
+  li a7, 928
+  remuw a5, a7, a7  # normal
+
+  li s8, 1566
+  li s7, 221
+  remuw s11, s8, s7  # normal
+
+  li s4, 612
+  li t2, 1338
+  remuw a3, s4, t2  # normal
+
+  li s10, 1609
+  li a1, 1825
+  remuw s4, s10, a1  # normal
+
+  li s6, 1769
+  li s4, 1186
+  remuw s7, s6, s4  # normal
+
+  li t5, 1949
+  li t5, 201
+  remuw a6, t5, t5  # normal
+
+  li a6, 1779
+  li a2, 534
+  remuw s5, a6, a2  # normal
+
+  li s3, 1619
+  li s5, 803
+  remuw t5, s3, s5  # normal
+
+  li s7, 992
+  li s11, 293
+  remuw s5, s7, s11  # normal
+
+  li a7, 366
+  li a4, 460
+  remuw a2, a7, a4  # normal
+
+  li a7, 780
+  li a7, 1313
+  remuw s9, a7, a7  # normal
+
+  li s7, 1248
+  li s8, 693
+  remuw a5, s7, s8  # normal
+
+  li s7, 1804
+  li s2, 183
+  remuw a5, s7, s2  # normal
+
+  li a0, 351
+  li s9, 460
+  remuw a1, a0, s9  # normal
+
+  li t2, 604
+  li a1, 1178
+  remuw s11, t2, a1  # normal
+
+  li a4, 1249
+  li s10, 1843
+  remuw t1, a4, s10  # normal
+
+  li t1, 867
+  li a4, 834
+  remuw s3, t1, a4  # normal
+
+  li s4, 578
+  li a2, 75
+  remuw s5, s4, a2  # normal
+
+  li s6, 1046
+  li s9, 697
+  remuw a6, s6, s9  # normal
+
+  li a3, 1111
+  li a0, 217
+  remuw t2, a3, a0  # normal
+
+  li s8, 1111
+  li t1, 1475
+  remuw s2, s8, t1  # normal
+
+  li t1, 1583
+  li a3, 946
+  remuw t4, t1, a3  # normal
+
+  li s4, 1292
+  li s10, 1985
+  remuw a6, s4, s10  # normal
+
+  li s5, 1875
+  li t3, 88
+  remuw s7, s5, t3  # normal
+
+  li a1, 2006
+  li s4, 1611
+  remuw t2, a1, s4  # normal
+
+  li t6, 1441
+  li t1, 1455
+  remuw s11, t6, t1  # normal
+
+  li a3, 1129
+  li a1, 253
+  remuw s8, a3, a1  # normal
+
+  li a2, 120
+  li a6, 1147
+  remuw s8, a2, a6  # normal
+
+  li t5, 562
+  li a4, 359
+  remuw a1, t5, a4  # normal
+
+  li a6, 931
+  li s4, 1709
+  remuw s11, a6, s4  # normal
+
+  li s6, 1279
+  li t5, 1348
+  remuw a1, s6, t5  # normal
+
+  li s5, 567
+  li t5, 828
+  remuw s2, s5, t5  # normal
+
+  li a3, 553
+  li s10, 1761
+  remuw t5, a3, s10  # normal
+
+  li s8, 1300
+  li s6, 277
+  remuw t5, s8, s6  # normal
+
+  li s5, 1300
+  li s11, 596
+  remuw s5, s5, s11  # normal
+
+  li t1, 1695
+  li a4, 1684
+  remuw s11, t1, a4  # normal
+
+  li s2, 1121
+  li s11, 622
+  remuw a3, s2, s11  # normal
+
+  li t4, 1093
+  li t5, 945
+  remuw a0, t4, t5  # normal
+
+  li a1, 1471
+  li a1, 325
+  remuw s7, a1, a1  # normal
+
+  li s3, 1920
+  li t5, 1531
+  remuw s10, s3, t5  # normal
+
+  li a6, 670
+  li s3, 791
+  remuw t6, a6, s3  # normal
+
+  li t2, 61
+  li a7, 1105
+  remuw a1, t2, a7  # normal
+
+  li a1, 830
+  li s11, 837
+  remuw a7, a1, s11  # normal
+
+  li t6, 2006
+  li s2, 1330
+  remuw t3, t6, s2  # normal
+
+  li a1, 171
+  li a7, 1558
+  remuw s2, a1, a7  # normal
+
+  li a4, 157
+  li a6, 447
+  remuw s11, a4, a6  # normal
+
+  li s2, 1006
+  li t2, 1620
+  remuw s2, s2, t2  # normal
+
+  li t2, 201
+  li s5, 777
+  remuw s11, t2, s5  # normal
+
+  li s2, 1171
+  li a6, 1889
+  remuw a3, s2, a6  # normal
+
+  li a7, 223
+  li a3, 582
+  remuw t6, a7, a3  # normal
+
+  li s8, 463
+  li s2, 736
+  remuw s2, s8, s2  # normal
+
+  li s10, 1693
+  li s5, 1324
+  remuw s6, s10, s5  # normal
+
+  li t1, 827
+  li t6, 1862
+  remuw s2, t1, t6  # normal
+
+  li a2, 671
+  li a4, 506
+  remuw t3, a2, a4  # normal
+
+  li t4, 1486
+  li s10, 349
+  remuw t3, t4, s10  # normal
+
+  li s10, 654
+  li a6, 1551
+  remuw s4, s10, a6  # normal
+
+  li a6, 1372
+  li t2, 614
+  remuw s5, a6, t2  # normal
+
+  li t5, 210
+  li t6, 1718
+  remuw t6, t5, t6  # normal
+
+  li a3, 1827
+  li s11, 1182
+  remuw a3, a3, s11  # normal
+
+  li t6, 830
+  li t4, 14
+  remuw s8, t6, t4  # normal
+
+  li a2, 2042
+  li t1, 23
+  remuw s7, a2, t1  # normal
+
+  li s3, 1948
+  li a1, 1858
+  remuw s7, s3, a1  # normal
+
+  li s2, 26
+  li t3, 1002
+  remuw a7, s2, t3  # normal
+
+  li a2, 850
+  li s7, 200
+  remuw s5, a2, s7  # normal
+
+  li t5, 150
+  li t2, 595
+  remuw t6, t5, t2  # normal
+
+  li s9, 1222
+  li s6, 1356
+  remuw t2, s9, s6  # normal
+
+  li t2, 730
+  li t4, 660
+  remuw t3, t2, t4  # normal
+
+  li a3, 726
+  li s7, 1865
+  remuw s9, a3, s7  # normal
+
+  li s6, 381
+  li a5, 1225
+  remuw s11, s6, a5  # normal
+
+  li a5, 1750
+  li a6, 265
+  remuw a4, a5, a6  # normal
 
   addi t0, t0, -1      # decrement counter
   bnez t0, .loop       # branch if not zero

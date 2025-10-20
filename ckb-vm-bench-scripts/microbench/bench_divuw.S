@@ -3,7 +3,7 @@
 # Count: 1000
 # Iterations: 100
 # Total instructions: 100000
-# Div-by-zero rate: 5.00%
+# Div-by-zero rate: 0.50%
 
 .global _start
 _start:
@@ -11,4005 +11,4005 @@ _start:
   li t0, 100  # loop counter
 .loop:
 
-  li t4, 1051802512
-  li t1, 2342331444
+  li t4, 1003
+  li t1, 914
   divuw s8, t4, t1  # normal
 
-  li a7, 939042955
-  li t2, 0
-  divuw s6, a7, t2  # div-by-zero
+  li s11, 356
+  li t4, 1728
+  divuw t5, s11, t4  # normal
 
-  li s7, 1801823908
-  li t1, 3733616459
-  divuw s4, s7, t1  # normal
+  li t1, 108
+  li t3, 814
+  divuw t2, t1, t3  # normal
 
-  li s10, 667779376
-  li a7, 1445662585
-  divuw t6, s10, a7  # normal
+  li s8, 902
+  li s10, 1839
+  divuw s10, s8, s10  # normal
 
-  li a6, 3961228449
-  li t4, 298737106
+  li a2, 653
+  li t1, 1731
+  divuw s6, a2, t1  # normal
+
+  li a2, 1378
+  li t5, 418
+  divuw a4, a2, t5  # normal
+
+  li a6, 1408
+  li t4, 1083
   divuw t3, a6, t4  # normal
 
-  li a1, 3673561638
-  li a3, 3721519026
-  divuw s9, a1, a3  # normal
+  li s11, 1550
+  li s2, 322
+  divuw t2, s11, s2  # normal
 
-  li a2, 1566942273
-  li s2, 1589915144
-  divuw a6, a2, s2  # normal
+  li a3, 1481
+  li s8, 787
+  divuw s5, a3, s8  # normal
 
-  li s9, 2727210979
-  li a2, 1051454923
-  divuw a0, s9, a2  # normal
+  li t3, 1185
+  li t2, 326
+  divuw s10, t3, t2  # normal
 
-  li a6, 2392080953
-  li a2, 2940395823
-  divuw s2, a6, a2  # normal
+  li t4, 1494
+  li a6, 666
+  divuw a1, t4, a6  # normal
 
-  li a1, 1722989659
-  li t2, 284277889
-  divuw t2, a1, t2  # normal
+  li a5, 292
+  li a0, 700
+  divuw a5, a5, a0  # normal
 
-  li s10, 2144181937
-  li a4, 2761027762
+  li s11, 1554
+  li a1, 1105
+  divuw s5, s11, a1  # normal
+
+  li s10, 1328
+  li s5, 229
+  divuw s8, s10, s5  # normal
+
+  li t2, 271
+  li a4, 864
+  divuw a1, t2, a4  # normal
+
+  li s10, 2044
+  li a4, 1620
   divuw s6, s10, a4  # normal
 
-  li a2, 2510777721
-  li t5, 1715412119
-  divuw t5, a2, t5  # normal
+  li s2, 1010
+  li t5, 1076
+  divuw s8, s2, t5  # normal
 
-  li t5, 3246059658
-  li s4, 3698408854
+  li s6, 1635
+  li a7, 1482
+  divuw s11, s6, a7  # normal
+
+  li t5, 192
+  li s4, 449
   divuw a1, t5, s4  # normal
 
-  li s8, 272849424
-  li t6, 4278308761
+  li s8, 1729
+  li t6, 260
   divuw t5, s8, t6  # normal
 
-  li a2, 3095476665
-  li s5, 2752909971
-  divuw s4, a2, s5  # normal
+  li a6, 1029
+  li s7, 47
+  divuw a6, a6, s7  # normal
 
-  li a3, 3091004939
-  li a7, 3272602734
+  li s11, 1092
+  li t4, 1393
+  divuw s9, s11, t4  # normal
+
+  li a3, 13
+  li a7, 1078
   divuw t4, a3, a7  # normal
 
-  li t4, 2615507143
-  li s8, 656439677
-  divuw s4, t4, s8  # normal
+  li t6, 1222
+  li s4, 814
+  divuw s4, t6, s4  # normal
 
-  li s5, 2572447412
-  li s4, 2098545541
-  divuw t6, s5, s4  # normal
+  li a5, 2
+  li t6, 1327
+  divuw t5, a5, t6  # normal
 
-  li a5, 338258951
-  li a3, 3143519183
-  divuw t4, a5, a3  # normal
+  li t1, 1259
+  li t4, 980
+  divuw s3, t1, t4  # normal
 
-  li s5, 2361388464
-  li t5, 1338811290
+  li a1, 350
+  li s6, 1990
+  divuw t2, a1, s6  # normal
+
+  li s5, 1946
+  li t5, 676
   divuw t3, s5, t5  # normal
 
-  li s8, 2222971316
-  li a5, 519709079
-  divuw s9, s8, a5  # normal
-
-  li t3, 2379074819
-  li a4, 0
-  divuw a1, t3, a4  # div-by-zero
-
-  li a1, 2710566582
-  li t1, 983297492
-  divuw s6, a1, t1  # normal
-
-  li a4, 2084839399
-  li t3, 2315992115
-  divuw t2, a4, t3  # normal
-
-  li s6, 3369914783
-  li s6, 3468173213
-  divuw s11, s6, s6  # normal
-
-  li t4, 1521696479
-  li t4, 1765670844
-  divuw a0, t4, t4  # normal
-
-  li t2, 2775320897
-  li s9, 260329455
-  divuw s11, t2, s9  # normal
-
-  li a4, 1926780541
-  li t4, 1811967841
-  divuw s11, a4, t4  # normal
-
-  li s2, 323775634
-  li a1, 420514789
-  divuw a2, s2, a1  # normal
-
-  li s5, 3645120421
-  li t1, 714300770
-  divuw s8, s5, t1  # normal
-
-  li s3, 3875962612
-  li a0, 707111048
-  divuw s3, s3, a0  # normal
-
-  li a6, 3372104909
-  li a2, 1225136114
-  divuw t1, a6, a2  # normal
-
-  li s11, 2090237817
-  li s5, 815605132
-  divuw s10, s11, s5  # normal
-
-  li t2, 1346922426
-  li s6, 2281169403
-  divuw a0, t2, s6  # normal
-
-  li s4, 3701485292
-  li t3, 1734202799
-  divuw t2, s4, t3  # normal
-
-  li a1, 2660223333
-  li s6, 2245334677
-  divuw s6, a1, s6  # normal
-
-  li a0, 1025148381
-  li s9, 1699887270
-  divuw a2, a0, s9  # normal
-
-  li s8, 4018948187
-  li a3, 40009587
-  divuw s9, s8, a3  # normal
-
-  li s6, 1139027119
-  li t4, 4008318526
-  divuw s7, s6, t4  # normal
-
-  li a1, 2271782991
-  li a5, 2381998678
-  divuw t3, a1, a5  # normal
-
-  li t4, 3821286999
-  li t5, 667643690
-  divuw s9, t4, t5  # normal
-
-  li s7, 2098228320
-  li a0, 3633987776
-  divuw a3, s7, a0  # normal
-
-  li s8, 189351213
-  li a7, 4208200162
-  divuw t3, s8, a7  # normal
-
-  li s11, 41531046
-  li s2, 3882343658
-  divuw t6, s11, s2  # normal
-
-  li t2, 636057975
-  li a5, 547374338
-  divuw s5, t2, a5  # normal
-
-  li a5, 441495235
-  li t2, 3993808565
-  divuw a3, a5, t2  # normal
-
-  li t6, 3997823785
-  li a7, 0
-  divuw t6, t6, a7  # div-by-zero
-
-  li s11, 464267175
-  li a1, 3745927824
-  divuw s9, s11, a1  # normal
-
-  li a1, 1976987348
-  li a0, 977515194
-  divuw s3, a1, a0  # normal
-
-  li s9, 3321412630
-  li a0, 2187880715
-  divuw t1, s9, a0  # normal
-
-  li s5, 4167838882
-  li a4, 1140169349
-  divuw s9, s5, a4  # normal
-
-  li s7, 3377683299
-  li a7, 496694873
-  divuw t4, s7, a7  # normal
-
-  li a0, 1872852789
-  li a2, 0
-  divuw s6, a0, a2  # div-by-zero
-
-  li s5, 2880327491
-  li s9, 1564319318
-  divuw s4, s5, s9  # normal
-
-  li s9, 3865671731
-  li a4, 2178074590
-  divuw t3, s9, a4  # normal
-
-  li a7, 546696950
-  li a4, 4038831207
-  divuw s9, a7, a4  # normal
-
-  li s11, 1292569882
-  li t6, 1743499
-  divuw s9, s11, t6  # normal
-
-  li a0, 1384049914
-  li a7, 1897456484
-  divuw a3, a0, a7  # normal
-
-  li a0, 364194056
-  li s4, 1439622619
-  divuw s9, a0, s4  # normal
-
-  li s9, 855256552
-  li a3, 104906255
-  divuw a1, s9, a3  # normal
-
-  li s3, 312794864
-  li s7, 2990818727
-  divuw a1, s3, s7  # normal
-
-  li a6, 2953315788
-  li a1, 3803044105
-  divuw s3, a6, a1  # normal
-
-  li a1, 1995226582
-  li t6, 2394039673
-  divuw a7, a1, t6  # normal
-
-  li s2, 2557448229
-  li t5, 3828645201
-  divuw t4, s2, t5  # normal
-
-  li s11, 3700092464
-  li s4, 1933034905
-  divuw s7, s11, s4  # normal
-
-  li s8, 2238965651
-  li a2, 2691864041
-  divuw a1, s8, a2  # normal
-
-  li s2, 1007142260
-  li t3, 1442454200
-  divuw a2, s2, t3  # normal
-
-  li t3, 918920620
-  li t5, 1781844052
-  divuw s5, t3, t5  # normal
-
-  li s5, 1804502687
-  li s2, 2987248494
-  divuw a4, s5, s2  # normal
-
-  li a6, 1510792572
-  li s3, 0
-  divuw s6, a6, s3  # div-by-zero
-
-  li a7, 947206476
-  li s5, 942408767
-  divuw a6, a7, s5  # normal
-
-  li s3, 3427995190
-  li t1, 3110335359
-  divuw a7, s3, t1  # normal
-
-  li t5, 3895229819
-  li s7, 2847562279
-  divuw s2, t5, s7  # normal
-
-  li s8, 1982979741
-  li a7, 215970859
-  divuw t3, s8, a7  # normal
-
-  li a4, 3778024983
-  li a0, 1810607153
-  divuw a6, a4, a0  # normal
-
-  li s3, 4088463963
-  li t1, 1062073697
-  divuw t3, s3, t1  # normal
-
-  li s7, 4070585433
-  li t5, 1584392711
-  divuw t1, s7, t5  # normal
-
-  li s7, 1335901990
-  li s11, 2485432021
-  divuw s7, s7, s11  # normal
-
-  li s6, 1611931113
-  li s9, 851819913
-  divuw a3, s6, s9  # normal
-
-  li s10, 3459716271
-  li s8, 176390590
-  divuw s6, s10, s8  # normal
-
-  li a7, 1465576748
-  li s9, 3648899533
-  divuw s5, a7, s9  # normal
-
-  li t4, 3559270786
-  li a7, 3037867512
-  divuw s3, t4, a7  # normal
-
-  li t6, 2793693337
-  li s11, 3327059683
-  divuw a7, t6, s11  # normal
-
-  li a7, 4014170428
-  li s11, 1936179853
-  divuw s2, a7, s11  # normal
-
-  li s6, 1444812497
-  li s7, 1395925222
-  divuw s2, s6, s7  # normal
-
-  li a0, 1461744198
-  li a5, 4071897791
-  divuw s3, a0, a5  # normal
-
-  li a1, 3057339843
-  li s11, 74059253
-  divuw t3, a1, s11  # normal
-
-  li a1, 2497762234
-  li a6, 2280292341
-  divuw a3, a1, a6  # normal
-
-  li s11, 3018739003
-  li s5, 1163577186
-  divuw a7, s11, s5  # normal
-
-  li a1, 1355268102
-  li t4, 2964229896
-  divuw a2, a1, t4  # normal
-
-  li a0, 833728665
-  li s11, 977032766
-  divuw a0, a0, s11  # normal
-
-  li a3, 543669676
-  li t1, 4054834021
-  divuw t6, a3, t1  # normal
-
-  li s3, 2465587067
-  li t4, 2016044512
-  divuw s8, s3, t4  # normal
-
-  li a4, 3701071948
-  li t6, 280647907
-  divuw s2, a4, t6  # normal
-
-  li t3, 230249217
-  li s6, 1304963614
-  divuw s3, t3, s6  # normal
-
-  li t4, 2244431947
-  li s5, 1901472238
-  divuw a1, t4, s5  # normal
-
-  li a7, 3275930923
-  li a3, 2686566602
-  divuw s6, a7, a3  # normal
-
-  li s9, 322401182
-  li t3, 11492154
-  divuw a2, s9, t3  # normal
-
-  li s10, 140187131
-  li s7, 3691982799
-  divuw s2, s10, s7  # normal
-
-  li s9, 4010075517
-  li a1, 1825957977
-  divuw t3, s9, a1  # normal
-
-  li a1, 610900200
-  li s8, 256143439
-  divuw s5, a1, s8  # normal
-
-  li s7, 3956491798
-  li s11, 1886149718
-  divuw a3, s7, s11  # normal
-
-  li s10, 4048763624
-  li a3, 2120834317
-  divuw s2, s10, a3  # normal
-
-  li s7, 3154799197
-  li t2, 2592930364
-  divuw t3, s7, t2  # normal
-
-  li t3, 4083595988
-  li a1, 3248149900
-  divuw t1, t3, a1  # normal
-
-  li s4, 1194673401
-  li s8, 3497155420
-  divuw s3, s4, s8  # normal
-
-  li s3, 690737494
-  li a5, 2128023255
-  divuw t3, s3, a5  # normal
-
-  li a6, 378213925
-  li s5, 0
-  divuw s9, a6, s5  # div-by-zero
-
-  li a4, 4243939720
-  li t4, 2330421741
-  divuw a2, a4, t4  # normal
-
-  li t2, 221670908
-  li a0, 1237075775
-  divuw a7, t2, a0  # normal
-
-  li s3, 3433026356
-  li t4, 0
-  divuw s10, s3, t4  # div-by-zero
-
-  li t6, 2371901750
-  li a3, 400330495
-  divuw s10, t6, a3  # normal
-
-  li s2, 661300942
-  li t4, 3029719886
-  divuw t4, s2, t4  # normal
-
-  li s3, 2367665472
-  li s3, 1647489402
-  divuw a7, s3, s3  # normal
-
-  li s4, 3710967433
-  li s11, 1782164134
-  divuw s7, s4, s11  # normal
-
-  li a2, 638212450
-  li t1, 2313185971
-  divuw s4, a2, t1  # normal
-
-  li a4, 1620104855
-  li s5, 4006569938
-  divuw a5, a4, s5  # normal
-
-  li s10, 3330938159
-  li a1, 187463722
-  divuw a0, s10, a1  # normal
-
-  li s3, 1637375316
-  li s10, 653287375
-  divuw s11, s3, s10  # normal
-
-  li t5, 3629416688
-  li s4, 3910317247
-  divuw t2, t5, s4  # normal
-
-  li s11, 662976399
-  li t5, 4162697889
-  divuw t1, s11, t5  # normal
-
-  li s7, 2291890389
-  li s10, 4097998347
-  divuw a4, s7, s10  # normal
-
-  li s10, 293864877
-  li s3, 3955360367
-  divuw s8, s10, s3  # normal
-
-  li s11, 3747699292
-  li t3, 1905584866
-  divuw a1, s11, t3  # normal
-
-  li a3, 3419410162
-  li t1, 0
-  divuw s10, a3, t1  # div-by-zero
-
-  li a5, 773338452
-  li a5, 751917162
-  divuw a3, a5, a5  # normal
-
-  li a6, 2504640817
-  li s7, 997241761
-  divuw s7, a6, s7  # normal
-
-  li a2, 3455872736
-  li s2, 3870665004
-  divuw s8, a2, s2  # normal
-
-  li s5, 4059756133
-  li t6, 4131883398
-  divuw s9, s5, t6  # normal
-
-  li a2, 2075362821
-  li s2, 1018790736
-  divuw s10, a2, s2  # normal
-
-  li a5, 3003380792
-  li s6, 1699972733
-  divuw s6, a5, s6  # normal
-
-  li s6, 4181592277
-  li s9, 3200490039
-  divuw t1, s6, s9  # normal
-
-  li a1, 169318686
-  li s7, 3387056244
-  divuw a3, a1, s7  # normal
-
-  li s6, 1267489756
-  li a5, 3210405862
-  divuw t2, s6, a5  # normal
-
-  li a0, 706712922
-  li t5, 4055255806
-  divuw t6, a0, t5  # normal
-
-  li s11, 323408297
-  li a4, 2393639475
-  divuw a3, s11, a4  # normal
-
-  li a6, 530809576
-  li t1, 1595467139
-  divuw t3, a6, t1  # normal
-
-  li a1, 2411226340
-  li s3, 0
-  divuw s9, a1, s3  # div-by-zero
-
-  li a1, 3538431800
-  li s8, 1753617371
-  divuw s7, a1, s8  # normal
-
-  li t2, 2115806625
-  li t2, 417436465
-  divuw t5, t2, t2  # normal
-
-  li t5, 4086753847
-  li a6, 1591414076
-  divuw s5, t5, a6  # normal
-
-  li s2, 2944974316
-  li a1, 1540492440
-  divuw s2, s2, a1  # normal
-
-  li a2, 3539873758
-  li a0, 4170814022
-  divuw a6, a2, a0  # normal
-
-  li a4, 881351238
-  li a1, 2380304322
-  divuw t2, a4, a1  # normal
-
-  li a0, 12178595
-  li a1, 749459431
-  divuw s6, a0, a1  # normal
-
-  li t1, 1390587865
-  li t5, 0
-  divuw s9, t1, t5  # div-by-zero
-
-  li a2, 272979685
-  li t2, 2549776132
-  divuw t6, a2, t2  # normal
-
-  li s4, 2239615923
-  li a1, 4140460939
-  divuw s2, s4, a1  # normal
-
-  li s3, 463692519
-  li a6, 1905085701
-  divuw t2, s3, a6  # normal
-
-  li a4, 541988748
-  li s7, 3058672970
-  divuw t3, a4, s7  # normal
-
-  li s7, 1847692041
-  li s4, 3717261214
-  divuw a6, s7, s4  # normal
-
-  li s2, 3553738511
-  li a1, 1712533097
-  divuw a7, s2, a1  # normal
-
-  li t4, 2856616537
-  li a4, 3964190549
-  divuw s11, t4, a4  # normal
-
-  li t3, 3173104657
-  li t3, 3486522557
-  divuw t3, t3, t3  # normal
-
-  li t2, 2412411754
-  li s6, 2877685081
-  divuw s5, t2, s6  # normal
-
-  li a5, 1341957809
-  li s9, 2179320310
-  divuw a7, a5, s9  # normal
-
-  li s9, 464794418
-  li s3, 1578662692
-  divuw t5, s9, s3  # normal
-
-  li s6, 1148679234
-  li a1, 774881143
-  divuw a2, s6, a1  # normal
-
-  li a3, 2823273703
-  li a4, 298867122
-  divuw s10, a3, a4  # normal
-
-  li s8, 2278405793
-  li t1, 1615742667
-  divuw s11, s8, t1  # normal
-
-  li a4, 3099231080
-  li t6, 225953184
-  divuw s2, a4, t6  # normal
-
-  li s7, 1168672809
-  li t2, 2843005049
-  divuw t6, s7, t2  # normal
-
-  li s7, 2200510647
-  li s2, 1482506118
-  divuw s3, s7, s2  # normal
-
-  li a3, 2865312534
-  li s9, 195066088
-  divuw t4, a3, s9  # normal
-
-  li s7, 1097447932
-  li t2, 0
-  divuw a6, s7, t2  # div-by-zero
-
-  li t4, 1849649210
-  li t1, 554848380
-  divuw a4, t4, t1  # normal
-
-  li s10, 3462603446
-  li a1, 309561891
-  divuw s5, s10, a1  # normal
-
-  li t2, 3956362540
-  li a7, 0
-  divuw s11, t2, a7  # div-by-zero
-
-  li s6, 1793981895
-  li a7, 494665880
-  divuw a4, s6, a7  # normal
-
-  li a4, 2654827789
-  li t6, 3950381001
-  divuw t1, a4, t6  # normal
-
-  li a7, 2529182928
-  li t4, 2250402001
-  divuw t3, a7, t4  # normal
-
-  li a3, 722124509
-  li s11, 2190227431
-  divuw a6, a3, s11  # normal
-
-  li a5, 634323009
-  li s11, 441542090
-  divuw a5, a5, s11  # normal
-
-  li a0, 2815389788
-  li t6, 2122216473
-  divuw a2, a0, t6  # normal
-
-  li s6, 1357806226
-  li s2, 1888766939
-  divuw s6, s6, s2  # normal
-
-  li s2, 241257421
-  li s8, 2178995337
-  divuw s3, s2, s8  # normal
-
-  li s2, 1232986477
-  li s2, 0
-  divuw a3, s2, s2  # div-by-zero
-
-  li t3, 1651339677
-  li s7, 176191212
-  divuw s8, t3, s7  # normal
-
-  li s8, 265745534
-  li a0, 3067961943
-  divuw s6, s8, a0  # normal
-
-  li s8, 3039212077
-  li t6, 0
-  divuw s4, s8, t6  # div-by-zero
-
-  li s4, 1562929828
-  li s4, 3942508505
-  divuw s2, s4, s4  # normal
-
-  li a7, 1437308013
-  li a4, 1416011033
-  divuw a6, a7, a4  # normal
-
-  li s9, 3750707607
-  li a6, 1431779064
-  divuw s5, s9, a6  # normal
-
-  li s9, 2843848856
-  li t5, 363865392
-  divuw s6, s9, t5  # normal
-
-  li a6, 3492602049
-  li s8, 2260842187
-  divuw s5, a6, s8  # normal
-
-  li s9, 78299575
-  li a7, 1326569692
-  divuw s8, s9, a7  # normal
-
-  li a4, 4294866888
-  li s3, 665484476
-  divuw a0, a4, s3  # normal
-
-  li t4, 1617999521
-  li s4, 696846464
-  divuw a3, t4, s4  # normal
-
-  li s7, 187657564
-  li t6, 3090596936
-  divuw s10, s7, t6  # normal
-
-  li s7, 3366396905
-  li a3, 1027220866
-  divuw s2, s7, a3  # normal
-
-  li a0, 1892351448
-  li a5, 3304713421
-  divuw s3, a0, a5  # normal
-
-  li s4, 2597009738
-  li s4, 3749514711
-  divuw a6, s4, s4  # normal
-
-  li s8, 3655730355
-  li s3, 1224336336
-  divuw t2, s8, s3  # normal
-
-  li a2, 1878930355
-  li s2, 114547603
-  divuw t6, a2, s2  # normal
-
-  li a6, 350492684
-  li s4, 964386641
-  divuw t2, a6, s4  # normal
-
-  li t4, 3398953973
-  li s10, 590985753
-  divuw a4, t4, s10  # normal
-
-  li s3, 2014812671
-  li s10, 2642900640
-  divuw a3, s3, s10  # normal
-
-  li t1, 1817865363
-  li a2, 3333636070
-  divuw t3, t1, a2  # normal
-
-  li a3, 1963288053
-  li t4, 0
-  divuw a1, a3, t4  # div-by-zero
-
-  li s3, 2469810046
-  li s7, 3086124402
-  divuw t4, s3, s7  # normal
-
-  li a7, 1789144223
-  li t1, 4186109152
-  divuw a3, a7, t1  # normal
-
-  li s4, 2380064537
-  li s5, 2019214800
-  divuw t3, s4, s5  # normal
-
-  li a6, 69759864
-  li a5, 3386667704
-  divuw s8, a6, a5  # normal
-
-  li a1, 3249911242
-  li s11, 572989855
-  divuw a5, a1, s11  # normal
-
-  li s5, 2986674107
-  li a4, 2713284816
-  divuw a5, s5, a4  # normal
-
-  li t3, 1965718821
-  li s10, 1260326267
-  divuw t5, t3, s10  # normal
-
-  li a0, 2033236512
-  li t2, 2778416511
-  divuw t2, a0, t2  # normal
-
-  li a5, 1425605673
-  li t2, 1580630311
-  divuw a3, a5, t2  # normal
-
-  li s11, 1660626647
-  li s2, 4182110973
-  divuw a6, s11, s2  # normal
-
-  li s10, 1823212172
-  li s3, 1261717180
-  divuw s3, s10, s3  # normal
-
-  li t3, 1316389690
-  li a4, 1830154607
-  divuw t4, t3, a4  # normal
-
-  li s2, 3915323244
-  li a5, 1868055235
-  divuw s10, s2, a5  # normal
-
-  li t2, 1744659652
-  li t3, 133747952
-  divuw s8, t2, t3  # normal
-
-  li s9, 288765093
-  li s2, 0
-  divuw s7, s9, s2  # div-by-zero
-
-  li a5, 2436297208
-  li a5, 2598862507
-  divuw s8, a5, a5  # normal
-
-  li s2, 3277422858
-  li a5, 2464975279
-  divuw s9, s2, a5  # normal
-
-  li a5, 1196963451
-  li a6, 4125402225
-  divuw s4, a5, a6  # normal
-
-  li s11, 2412365931
-  li t6, 1916728422
-  divuw t1, s11, t6  # normal
-
-  li a3, 2109688769
-  li s10, 526723719
-  divuw s7, a3, s10  # normal
-
-  li s2, 2328608265
-  li t6, 3828240439
-  divuw t3, s2, t6  # normal
-
-  li s10, 2738900744
-  li s10, 3408900003
-  divuw t6, s10, s10  # normal
-
-  li a1, 3401896171
-  li t4, 2121808073
-  divuw s4, a1, t4  # normal
-
-  li s5, 2369305560
-  li s6, 370292681
-  divuw a5, s5, s6  # normal
-
-  li a6, 2257845661
-  li s10, 3303536605
-  divuw a3, a6, s10  # normal
-
-  li t3, 2758823240
-  li t5, 1932625737
-  divuw s6, t3, t5  # normal
-
-  li s4, 2524521602
-  li a5, 554192345
-  divuw s9, s4, a5  # normal
-
-  li t2, 1306204982
-  li t4, 695642802
-  divuw s4, t2, t4  # normal
-
-  li a1, 338700713
-  li a5, 1178758213
-  divuw s10, a1, a5  # normal
-
-  li a3, 662259333
-  li s7, 2599051823
-  divuw s8, a3, s7  # normal
-
-  li t2, 2457310580
-  li t1, 130076950
-  divuw s6, t2, t1  # normal
-
-  li s5, 1297484349
-  li a3, 1744154114
-  divuw s8, s5, a3  # normal
-
-  li t3, 1888091245
-  li s10, 2079842771
-  divuw s2, t3, s10  # normal
-
-  li a4, 1712474804
-  li s7, 3267031264
-  divuw a0, a4, s7  # normal
-
-  li s5, 2003484425
-  li t4, 1148782098
-  divuw s4, s5, t4  # normal
-
-  li t5, 4060397193
-  li t4, 1795875043
-  divuw a1, t5, t4  # normal
-
-  li a4, 684370461
-  li s6, 2004955678
-  divuw t6, a4, s6  # normal
-
-  li s3, 1033921654
-  li t1, 2505443885
-  divuw a3, s3, t1  # normal
-
-  li t2, 2021155136
-  li a3, 2305069227
-  divuw t2, t2, a3  # normal
-
-  li a7, 3124623359
-  li t5, 3280739820
-  divuw t4, a7, t5  # normal
-
-  li t2, 2412985084
-  li a6, 1239534867
-  divuw a5, t2, a6  # normal
-
-  li s4, 510289448
-  li s2, 4187948804
-  divuw a6, s4, s2  # normal
-
-  li a5, 619623590
-  li a4, 172893522
-  divuw a6, a5, a4  # normal
-
-  li t5, 1962750929
-  li s10, 2214080278
-  divuw t2, t5, s10  # normal
-
-  li s7, 2286382166
-  li a4, 1287590685
-  divuw a4, s7, a4  # normal
-
-  li a5, 4208630005
-  li a4, 2506981604
-  divuw t1, a5, a4  # normal
-
-  li s10, 2038349447
-  li s8, 0
-  divuw s11, s10, s8  # div-by-zero
-
-  li s6, 2063511828
-  li s6, 1632905061
-  divuw s8, s6, s6  # normal
-
-  li a1, 3008714405
-  li t2, 819412471
-  divuw s9, a1, t2  # normal
-
-  li a4, 2965676060
-  li a7, 3953607378
-  divuw s2, a4, a7  # normal
-
-  li s11, 2227727430
-  li t2, 2408990341
-  divuw s11, s11, t2  # normal
-
-  li s3, 4108932916
-  li s4, 2289763301
-  divuw s9, s3, s4  # normal
-
-  li a5, 2977757985
-  li s9, 2620258967
-  divuw s5, a5, s9  # normal
-
-  li a1, 3027901531
-  li a2, 1361679629
-  divuw a0, a1, a2  # normal
-
-  li s5, 4209757465
-  li s11, 3514904439
-  divuw a5, s5, s11  # normal
-
-  li a3, 3067213499
-  li t2, 2057629778
-  divuw t5, a3, t2  # normal
-
-  li s5, 2990032969
-  li a2, 589582865
-  divuw a0, s5, a2  # normal
-
-  li s11, 1000025413
-  li s6, 430346953
-  divuw s7, s11, s6  # normal
-
-  li s10, 3310415016
-  li s3, 3990452762
-  divuw a4, s10, s3  # normal
-
-  li s8, 4139979288
-  li s3, 1379404786
-  divuw a7, s8, s3  # normal
-
-  li t2, 3957687327
-  li t3, 3597485607
-  divuw s8, t2, t3  # normal
-
-  li a6, 160916026
-  li s3, 2588933132
-  divuw t2, a6, s3  # normal
-
-  li a3, 4031086659
-  li s2, 2010133918
-  divuw a4, a3, s2  # normal
-
-  li t4, 799718923
-  li a4, 3163749761
-  divuw a0, t4, a4  # normal
-
-  li s6, 3852769339
-  li s9, 3551894263
-  divuw a3, s6, s9  # normal
-
-  li a4, 409675904
-  li t3, 4216305802
-  divuw s4, a4, t3  # normal
-
-  li a4, 1647439475
-  li a1, 0
-  divuw s3, a4, a1  # div-by-zero
-
-  li a2, 49116110
-  li a4, 2807548688
-  divuw s2, a2, a4  # normal
-
-  li a1, 1998856257
-  li t2, 685978550
-  divuw s10, a1, t2  # normal
-
-  li s4, 2964774623
-  li s10, 4039999237
-  divuw s9, s4, s10  # normal
-
-  li s7, 573673552
-  li a1, 657926994
-  divuw a5, s7, a1  # normal
-
-  li s7, 3022652502
-  li a5, 2423086220
-  divuw s11, s7, a5  # normal
-
-  li s5, 2304937838
-  li s4, 706681697
-  divuw t2, s5, s4  # normal
-
-  li s2, 2099500153
-  li t4, 238953970
+  li s4, 867
+  li s7, 823
+  divuw a2, s4, s7  # normal
+
+  li a3, 1529
+  li a6, 1794
+  divuw s10, a3, a6  # normal
+
+  li s2, 262
+  li t4, 1384
   divuw s4, s2, t4  # normal
 
-  li s4, 3465675062
-  li a7, 3106464319
-  divuw t5, s4, a7  # normal
+  li s6, 902
+  li s5, 29
+  divuw t1, s6, s5  # normal
 
-  li a2, 2483827971
-  li t1, 194518221
-  divuw a6, a2, t1  # normal
+  li s10, 276
+  li s8, 128
+  divuw t3, s10, s8  # normal
 
-  li s10, 3840638976
-  li t3, 2027530378
-  divuw a5, s10, t3  # normal
+  li t3, 1988
+  li s4, 877
+  divuw a4, t3, s4  # normal
 
-  li a7, 1805440796
-  li t6, 1642737456
-  divuw a3, a7, t6  # normal
+  li t5, 1936
+  li s11, 995
+  divuw s5, t5, s11  # normal
 
-  li a6, 2316277000
-  li t3, 1493660313
-  divuw a6, a6, t3  # normal
+  li a7, 1765
+  li a0, 1451
+  divuw s3, a7, a0  # normal
 
-  li s5, 1281459294
-  li a6, 2338374929
-  divuw t6, s5, a6  # normal
+  li a7, 221
+  li s2, 403
+  divuw a7, a7, s2  # normal
 
-  li a6, 1486744752
-  li a1, 1183906581
-  divuw s5, a6, a1  # normal
+  li a6, 447
+  li s11, 1018
+  divuw t2, a6, s11  # normal
 
-  li t4, 67198189
-  li t2, 885113834
-  divuw s11, t4, t2  # normal
+  li a0, 1728
+  li s5, 751
+  divuw a0, a0, s5  # normal
 
-  li s7, 3746123831
-  li t2, 189995314
-  divuw t4, s7, t2  # normal
+  li s2, 308
+  li a1, 1815
+  divuw a2, s2, a1  # normal
 
-  li a1, 242425303
-  li s5, 1242377075
-  divuw s2, a1, s5  # normal
+  li t4, 60
+  li t2, 382
+  divuw s5, t4, t2  # normal
 
-  li s6, 3514926033
-  li a4, 1017495081
-  divuw s11, s6, a4  # normal
+  li t6, 875
+  li a7, 1642
+  divuw a1, t6, a7  # normal
 
-  li s9, 1290641764
-  li s4, 3915196257
-  divuw t5, s9, s4  # normal
+  li t6, 1599
+  li a6, 0
+  divuw t2, t6, a6  # div-by-zero
 
-  li s9, 2252551683
-  li a7, 2990621826
+  li s2, 1993
+  li a3, 634
+  divuw a2, s2, a3  # normal
+
+  li a3, 249
+  li a0, 1284
+  divuw a0, a3, a0  # normal
+
+  li t2, 644
+  li s6, 232
+  divuw t2, t2, s6  # normal
+
+  li t3, 278
+  li t6, 963
+  divuw s4, t3, t6  # normal
+
+  li t4, 162
+  li s6, 335
+  divuw a6, t4, s6  # normal
+
+  li s9, 1295
+  li s6, 1068
+  divuw a7, s9, s6  # normal
+
+  li s9, 1087
+  li s10, 1621
+  divuw a0, s9, s10  # normal
+
+  li s9, 1295
+  li s8, 297
+  divuw t5, s9, s8  # normal
+
+  li s2, 409
+  li s7, 300
+  divuw t1, s2, s7  # normal
+
+  li a0, 1429
+  li s4, 281
+  divuw s5, a0, s4  # normal
+
+  li a5, 1239
+  li a3, 32
+  divuw a1, a5, a3  # normal
+
+  li s5, 424
+  li a3, 550
+  divuw s9, s5, a3  # normal
+
+  li t4, 636
+  li t4, 1115
+  divuw a2, t4, t4  # normal
+
+  li s7, 833
+  li a0, 1081
+  divuw a3, s7, a0  # normal
+
+  li s3, 208
+  li a2, 378
+  divuw s4, s3, a2  # normal
+
+  li a7, 1366
+  li a2, 535
+  divuw s8, a7, a2  # normal
+
+  li a2, 1751
+  li t6, 39
+  divuw s8, a2, t6  # normal
+
+  li t3, 147
+  li s10, 1512
+  divuw t4, t3, s10  # normal
+
+  li s5, 171
+  li t5, 1262
+  divuw s6, s5, t5  # normal
+
+  li t2, 1022
+  li a5, 421
+  divuw a5, t2, a5  # normal
+
+  li s5, 633
+  li a7, 969
+  divuw a5, s5, a7  # normal
+
+  li t6, 1360
+  li a7, 1686
+  divuw t6, t6, a7  # normal
+
+  li s11, 442
+  li a1, 1566
+  divuw s9, s11, a1  # normal
+
+  li s3, 1885
+  li a1, 1432
+  divuw t2, s3, a1  # normal
+
+  li a1, 791
+  li a1, 1632
+  divuw a3, a1, a1  # normal
+
+  li a2, 1143
+  li t3, 1438
+  divuw a4, a2, t3  # normal
+
+  li s4, 1356
+  li a6, 113
+  divuw s8, s4, a6  # normal
+
+  li a2, 1087
+  li t6, 156
+  divuw t4, a2, t6  # normal
+
+  li s7, 1284
+  li a7, 1787
+  divuw t4, s7, a7  # normal
+
+  li s4, 778
+  li t4, 1043
+  divuw s7, s4, t4  # normal
+
+  li s10, 807
+  li a7, 0
+  divuw t2, s10, a7  # div-by-zero
+
+  li a7, 1352
+  li t3, 1285
+  divuw a5, a7, t3  # normal
+
+  li t4, 1266
+  li s11, 1672
+  divuw s9, t4, s11  # normal
+
+  li a6, 521
+  li s10, 785
+  divuw a4, a6, s10  # normal
+
+  li s9, 712
+  li a6, 1232
+  divuw a7, s9, a6  # normal
+
+  li s5, 860
+  li t1, 1760
+  divuw a6, s5, t1  # normal
+
+  li s7, 1809
+  li s8, 1811
+  divuw s6, s7, s8  # normal
+
+  li a0, 695
+  li s4, 347
+  divuw s9, a0, s4  # normal
+
+  li s4, 1372
+  li s9, 382
+  divuw a3, s4, s9  # normal
+
+  li s9, 815
+  li a3, 603
+  divuw a1, s9, a3  # normal
+
+  li t2, 298
+  li a1, 1865
+  divuw t1, t2, a1  # normal
+
+  li s8, 1572
+  li s6, 2024
+  divuw a7, s8, s6  # normal
+
+  li a1, 22
+  li t5, 436
+  divuw a6, a1, t5  # normal
+
+  li a1, 1902
+  li t6, 205
+  divuw a7, a1, t6  # normal
+
+  li a1, 1903
+  li t4, 1299
+  divuw s5, a1, t4  # normal
+
+  li s7, 1747
+  li s11, 1826
+  divuw s2, s7, s11  # normal
+
+  li s11, 1012
+  li s3, 1135
+  divuw t6, s11, s3  # normal
+
+  li s3, 1801
+  li s8, 317
+  divuw s4, s3, s8  # normal
+
+  li a3, 1309
+  li a1, 330
+  divuw s10, a3, a1  # normal
+
+  li t5, 625
+  li a1, 876
+  divuw t5, t5, a1  # normal
+
+  li a7, 1908
+  li a7, 1703
+  divuw t3, a7, a7  # normal
+
+  li a0, 80
+  li a7, 1558
+  divuw t2, a0, a7  # normal
+
+  li t1, 1597
+  li a5, 1716
+  divuw s3, t1, a5  # normal
+
+  li s11, 903
+  li s11, 1999
+  divuw s5, s11, s11  # normal
+
+  li a2, 1592
+  li a7, 1376
+  divuw a1, a2, a7  # normal
+
+  li s9, 1914
+  li a6, 522
+  divuw s9, s9, a6  # normal
+
+  li s5, 111
+  li t1, 343
+  divuw s7, s5, t1  # normal
+
+  li a7, 744
+  li t5, 205
+  divuw s8, a7, t5  # normal
+
+  li a6, 1338
+  li a4, 1382
+  divuw a2, a6, a4  # normal
+
+  li a2, 335
+  li a7, 1926
+  divuw a6, a2, a7  # normal
+
+  li s11, 1433
+  li s5, 918
+  divuw t1, s11, s5  # normal
+
+  li t3, 127
+  li s8, 1012
+  divuw s8, t3, s8  # normal
+
+  li t1, 517
+  li s7, 1939
+  divuw a0, t1, s7  # normal
+
+  li t4, 1904
+  li s6, 1049
+  divuw s9, t4, s6  # normal
+
+  li t6, 469
+  li s7, 670
+  divuw a5, t6, s7  # normal
+
+  li t4, 1277
+  li s6, 1537
+  divuw a3, t4, s6  # normal
+
+  li s10, 994
+  li a0, 417
+  divuw a6, s10, a0  # normal
+
+  li a3, 495
+  li s9, 168
+  divuw s10, a3, s9  # normal
+
+  li s5, 282
+  li a7, 1397
+  divuw a5, s5, a7  # normal
+
+  li a7, 1483
+  li s3, 1883
+  divuw t1, a7, s3  # normal
+
+  li t5, 1106
+  li a7, 1980
+  divuw s10, t5, a7  # normal
+
+  li a7, 1320
+  li s11, 1005
+  divuw s2, a7, s11  # normal
+
+  li a2, 1903
+  li s2, 1552
+  divuw t3, a2, s2  # normal
+
+  li t1, 744
+  li s3, 1997
+  divuw a4, t1, s3  # normal
+
+  li a5, 1131
+  li a2, 41
+  divuw a0, a5, a2  # normal
+
+  li a0, 1664
+  li t3, 2001
+  divuw s4, a0, t3  # normal
+
+  li a1, 2010
+  li s10, 1835
+  divuw s5, a1, s10  # normal
+
+  li t3, 996
+  li a3, 1254
+  divuw t1, t3, a3  # normal
+
+  li s6, 1408
+  li a5, 1742
+  divuw s9, s6, a5  # normal
+
+  li s5, 1858
+  li a4, 1109
+  divuw s11, s5, a4  # normal
+
+  li a2, 788
+  li a1, 1292
+  divuw a3, a2, a1  # normal
+
+  li s11, 758
+  li s5, 784
+  divuw t4, s11, s5  # normal
+
+  li s11, 1159
+  li s3, 411
+  divuw a0, s11, s3  # normal
+
+  li a3, 1238
+  li a1, 57
+  divuw a0, a3, a1  # normal
+
+  li s5, 223
+  li t5, 1196
+  divuw s10, s5, t5  # normal
+
+  li t5, 2010
+  li s8, 420
+  divuw s10, t5, s8  # normal
+
+  li s6, 1804
+  li a3, 1395
+  divuw t1, s6, a3  # normal
+
+  li t2, 1956
+  li a2, 467
+  divuw t6, t2, a2  # normal
+
+  li a6, 219
+  li s3, 621
+  divuw t3, a6, s3  # normal
+
+  li s6, 1016
+  li a3, 485
+  divuw t5, s6, a3  # normal
+
+  li a7, 924
+  li s7, 1558
+  divuw s5, a7, s7  # normal
+
+  li s2, 1756
+  li a3, 1250
+  divuw s2, s2, a3  # normal
+
+  li s7, 406
+  li t2, 851
+  divuw s6, s7, t2  # normal
+
+  li a0, 643
+  li a2, 982
+  divuw s8, a0, a2  # normal
+
+  li s5, 1673
+  li t3, 1845
+  divuw t6, s5, t3  # normal
+
+  li s7, 948
+  li s3, 1180
+  divuw s10, s7, s3  # normal
+
+  li a3, 291
+  li s10, 956
+  divuw s10, a3, s10  # normal
+
+  li s8, 810
+  li s6, 1741
+  divuw a2, s8, s6  # normal
+
+  li s5, 1088
+  li a1, 582
+  divuw t4, s5, a1  # normal
+
+  li t2, 1182
+  li t6, 1798
+  divuw t3, t2, t6  # normal
+
+  li s2, 1648
+  li s10, 1115
+  divuw t4, s2, s10  # normal
+
+  li s5, 163
+  li s3, 1769
+  divuw s4, s5, s3  # normal
+
+  li a4, 374
+  li s7, 937
+  divuw s11, a4, s7  # normal
+
+  li s6, 1103
+  li s6, 164
+  divuw s9, s6, s6  # normal
+
+  li s3, 1139
+  li s4, 743
+  divuw t6, s3, s4  # normal
+
+  li a7, 373
+  li s8, 1925
+  divuw s6, a7, s8  # normal
+
+  li a7, 428
+  li a4, 658
+  divuw a5, a7, a4  # normal
+
+  li a7, 1640
+  li s10, 150
+  divuw a4, a7, s10  # normal
+
+  li t3, 474
+  li a4, 1655
+  divuw s2, t3, a4  # normal
+
+  li t1, 1892
+  li s9, 1692
+  divuw s4, t1, s9  # normal
+
+  li a0, 2041
+  li s4, 1810
+  divuw t2, a0, s4  # normal
+
+  li a0, 1179
+  li a2, 1794
+  divuw t2, a0, a2  # normal
+
+  li s3, 980
+  li t4, 648
+  divuw s10, s3, t4  # normal
+
+  li s5, 381
+  li t1, 920
+  divuw a3, s5, t1  # normal
+
+  li s2, 630
+  li t4, 2041
+  divuw t4, s2, t4  # normal
+
+  li a3, 1701
+  li s4, 1976
+  divuw s10, a3, s4  # normal
+
+  li a1, 1571
+  li s2, 780
+  divuw s3, a1, s2  # normal
+
+  li s4, 285
+  li s11, 1131
+  divuw s7, s4, s11  # normal
+
+  li a4, 10
+  li s4, 1158
+  divuw a7, a4, s4  # normal
+
+  li a3, 2005
+  li s6, 608
+  divuw s11, a3, s6  # normal
+
+  li s5, 1545
+  li s3, 1865
+  divuw s2, s5, s3  # normal
+
+  li a0, 1568
+  li s10, 956
+  divuw a4, a0, s10  # normal
+
+  li t2, 1561
+  li a4, 1581
+  divuw a7, t2, a4  # normal
+
+  li s8, 151
+  li t5, 517
+  divuw s9, s8, t5  # normal
+
+  li s6, 1803
+  li a4, 408
+  divuw s4, s6, a4  # normal
+
+  li s2, 1679
+  li t1, 632
+  divuw s4, s2, t1  # normal
+
+  li s3, 1628
+  li a2, 328
+  divuw t3, s3, a2  # normal
+
+  li s9, 1297
+  li s5, 1998
+  divuw a4, s9, s5  # normal
+
+  li t2, 1177
+  li s7, 931
+  divuw s5, t2, s7  # normal
+
+  li t3, 411
+  li a7, 1817
+  divuw s11, t3, a7  # normal
+
+  li s10, 188
+  li a3, 1328
+  divuw t6, s10, a3  # normal
+
+  li a3, 596
+  li a5, 1000
+  divuw t2, a3, a5  # normal
+
+  li a7, 737
+  li s6, 696
+  divuw s4, a7, s6  # normal
+
+  li t3, 986
+  li s7, 2038
+  divuw t6, t3, s7  # normal
+
+  li t5, 1040
+  li a1, 1882
+  divuw s6, t5, a1  # normal
+
+  li s9, 1905
+  li t1, 1178
+  divuw a2, s9, t1  # normal
+
+  li s5, 1415
+  li t6, 1225
+  divuw s9, s5, t6  # normal
+
+  li a7, 1237
+  li s10, 815
+  divuw s8, a7, s10  # normal
+
+  li s3, 1470
+  li t4, 1211
+  divuw a6, s3, t4  # normal
+
+  li a3, 1621
+  li t1, 1124
+  divuw s10, a3, t1  # normal
+
+  li s6, 200
+  li s9, 2034
+  divuw t1, s6, s9  # normal
+
+  li a1, 897
+  li s7, 778
+  divuw a3, a1, s7  # normal
+
+  li a2, 560
+  li s9, 397
+  divuw s7, a2, s9  # normal
+
+  li s8, 1805
+  li t2, 136
+  divuw s8, s8, t2  # normal
+
+  li a5, 1208
+  li s11, 1338
+  divuw s6, a5, s11  # normal
+
+  li a7, 1498
+  li t6, 1116
+  divuw s11, a7, t6  # normal
+
+  li a2, 1208
+  li s3, 1387
+  divuw t6, a2, s3  # normal
+
+  li s2, 924
+  li t3, 1627
+  divuw t4, s2, t3  # normal
+
+  li a5, 57
+  li t3, 1083
+  divuw s5, a5, t3  # normal
+
+  li t4, 1073
+  li s2, 1560
+  divuw s5, t4, s2  # normal
+
+  li a5, 1931
+  li t4, 102
+  divuw s8, a5, t4  # normal
+
+  li s5, 906
+  li a4, 258
+  divuw s7, s5, a4  # normal
+
+  li s2, 1672
+  li s10, 477
+  divuw s8, s2, s10  # normal
+
+  li t2, 2017
+  li t2, 475
+  divuw t5, t2, t2  # normal
+
+  li a1, 1858
+  li s5, 1519
+  divuw t4, a1, s5  # normal
+
+  li s11, 1716
+  li s10, 632
+  divuw s9, s11, s10  # normal
+
+  li s8, 1671
+  li t4, 1145
+  divuw a7, s8, t4  # normal
+
+  li s10, 1821
+  li a5, 967
+  divuw t2, s10, a5  # normal
+
+  li t4, 1469
+  li s9, 248
+  divuw a5, t4, s9  # normal
+
+  li a2, 1862
+  li a0, 375
+  divuw a6, a2, a0  # normal
+
+  li a0, 87
+  li s8, 207
+  divuw s9, a0, s8  # normal
+
+  li a1, 840
+  li t5, 281
+  divuw a4, a1, t5  # normal
+
+  li a0, 954
+  li s6, 1345
+  divuw s5, a0, s6  # normal
+
+  li s7, 592
+  li t1, 532
+  divuw t5, s7, t1  # normal
+
+  li a2, 105
+  li t6, 539
+  divuw s5, a2, t6  # normal
+
+  li a5, 64
+  li a1, 713
+  divuw t1, a5, a1  # normal
+
+  li t2, 465
+  li t5, 260
+  divuw a2, t2, t5  # normal
+
+  li s2, 446
+  li a5, 1851
+  divuw s3, s2, a5  # normal
+
+  li a1, 1235
+  li s7, 1876
+  divuw s4, a1, s7  # normal
+
+  li t1, 1645
+  li t2, 1746
+  divuw s8, t1, t2  # normal
+
+  li t4, 1816
+  li s3, 301
+  divuw s9, t4, s3  # normal
+
+  li a4, 516
+  li s7, 1126
+  divuw t3, a4, s7  # normal
+
+  li s8, 1331
+  li s6, 1560
+  divuw s7, s8, s6  # normal
+
+  li s4, 1762
+  li a3, 406
+  divuw s7, s4, a3  # normal
+
+  li t4, 880
+  li s8, 1761
+  divuw s10, t4, s8  # normal
+
+  li a1, 1857
+  li a7, 1633
+  divuw s2, a1, a7  # normal
+
+  li s11, 1280
+  li t4, 1044
+  divuw a7, s11, t4  # normal
+
+  li t5, 274
+  li s9, 373
+  divuw a5, t5, s9  # normal
+
+  li t3, 1526
+  li a7, 532
+  divuw t3, t3, a7  # normal
+
+  li t2, 1350
+  li s6, 500
+  divuw s5, t2, s6  # normal
+
+  li a5, 1732
+  li s9, 210
+  divuw a7, a5, s9  # normal
+
+  li s7, 871
+  li a3, 633
+  divuw a3, s7, a3  # normal
+
+  li s3, 1434
+  li a1, 1505
+  divuw s9, s3, a1  # normal
+
+  li a2, 1757
+  li s6, 107
+  divuw t4, a2, s6  # normal
+
+  li s9, 738
+  li s10, 1119
+  divuw s7, s9, s10  # normal
+
+  li a3, 743
+  li a4, 586
+  divuw s10, a3, a4  # normal
+
+  li s9, 125
+  li a6, 375
+  divuw s6, s9, a6  # normal
+
+  li s4, 1858
+  li a0, 1396
+  divuw s11, s4, a0  # normal
+
+  li a5, 347
+  li a3, 215
+  divuw t6, a5, a3  # normal
+
+  li t6, 334
+  li s7, 1114
+  divuw t5, t6, s7  # normal
+
+  li s9, 1810
+  li a7, 1696
+  divuw s2, s9, a7  # normal
+
+  li a0, 1760
+  li s4, 454
+  divuw a2, a0, s4  # normal
+
+  li s9, 1263
+  li s9, 186
+  divuw a3, s9, s9  # normal
+
+  li a6, 837
+  li s7, 1234
+  divuw a1, a6, s7  # normal
+
+  li t5, 491
+  li a2, 31
+  divuw a0, t5, a2  # normal
+
+  li s11, 1557
+  li a7, 942
+  divuw s3, s11, a7  # normal
+
+  li s5, 295
+  li s9, 1626
+  divuw s4, s5, s9  # normal
+
+  li t2, 318
+  li a7, 1282
+  divuw s11, t2, a7  # normal
+
+  li a7, 1710
+  li s6, 1185
+  divuw s6, a7, s6  # normal
+
+  li a6, 703
+  li t1, 1884
+  divuw t4, a6, t1  # normal
+
+  li a5, 433
+  li t3, 996
+  divuw s10, a5, t3  # normal
+
+  li s6, 1621
+  li a6, 1270
+  divuw a7, s6, a6  # normal
+
+  li a4, 688
+  li a1, 312
+  divuw s11, a4, a1  # normal
+
+  li s8, 794
+  li t4, 1431
+  divuw s4, s8, t4  # normal
+
+  li s11, 967
+  li s8, 421
+  divuw a5, s11, s8  # normal
+
+  li a2, 626
+  li a0, 308
+  divuw t5, a2, a0  # normal
+
+  li s8, 1838
+  li s3, 1323
+  divuw t6, s8, s3  # normal
+
+  li a4, 1920
+  li t5, 1811
+  divuw s8, a4, t5  # normal
+
+  li a3, 1441
+  li a2, 303
+  divuw s8, a3, a2  # normal
+
+  li s2, 1510
+  li s2, 1175
+  divuw a3, s2, s2  # normal
+
+  li s8, 1574
+  li t3, 1895
+  divuw t3, s8, t3  # normal
+
+  li s5, 1842
+  li s11, 771
+  divuw s6, s5, s11  # normal
+
+  li s7, 253
+  li s3, 1845
+  divuw a4, s7, s3  # normal
+
+  li a4, 706
+  li s10, 160
+  divuw t4, a4, s10  # normal
+
+  li s10, 650
+  li s2, 1490
+  divuw a1, s10, s2  # normal
+
+  li a3, 1385
+  li a6, 214
+  divuw a5, a3, a6  # normal
+
+  li s8, 387
+  li a4, 1583
+  divuw s8, s8, a4  # normal
+
+  li a2, 615
+  li s11, 1365
+  divuw a3, a2, s11  # normal
+
+  li s6, 1432
+  li s9, 1270
+  divuw t3, s6, s9  # normal
+
+  li s10, 347
+  li s9, 1268
+  divuw s8, s10, s9  # normal
+
+  li a6, 523
+  li s8, 382
+  divuw s5, a6, s8  # normal
+
+  li s9, 74
+  li a7, 1485
   divuw s8, s9, a7  # normal
 
-  li t5, 2033747850
-  li a3, 3647891535
-  divuw a7, t5, a3  # normal
+  li t6, 1991
+  li a0, 786
+  divuw a3, t6, a0  # normal
 
-  li s10, 3928783441
-  li t5, 2415429277
-  divuw a3, s10, t5  # normal
+  li t5, 414
+  li t5, 154
+  divuw a1, t5, t5  # normal
 
-  li s5, 1043069385
-  li s4, 873324617
-  divuw a7, s5, s4  # normal
+  li a4, 1543
+  li s7, 631
+  divuw s9, a4, s7  # normal
 
-  li t3, 818112342
-  li s2, 1153033730
-  divuw s8, t3, s2  # normal
+  li t6, 678
+  li s10, 1792
+  divuw t6, t6, s10  # normal
 
-  li s7, 312606333
-  li s7, 0
-  divuw s9, s7, s7  # div-by-zero
+  li a7, 972
+  li a5, 1819
+  divuw t2, a7, a5  # normal
 
-  li s11, 2058982440
-  li s9, 1430070821
-  divuw s6, s11, s9  # normal
+  li a3, 958
+  li s11, 979
+  divuw s7, a3, s11  # normal
 
-  li a0, 878377268
-  li a0, 3930438209
-  divuw t1, a0, a0  # normal
+  li s3, 1804
+  li a0, 1891
+  divuw a3, s3, a0  # normal
 
-  li a4, 1543008060
-  li a3, 1123398645
-  divuw s5, a4, a3  # normal
+  li a6, 663
+  li s4, 817
+  divuw a3, a6, s4  # normal
 
-  li s3, 3606617978
-  li s2, 3927019611
-  divuw s4, s3, s2  # normal
+  li t5, 1968
+  li a2, 1520
+  divuw s7, t5, a2  # normal
 
-  li a4, 3711216152
-  li a7, 0
-  divuw a5, a4, a7  # div-by-zero
+  li t4, 510
+  li s10, 1167
+  divuw s5, t4, s10  # normal
 
-  li t5, 1793484162
-  li t1, 654602021
-  divuw s11, t5, t1  # normal
+  li t6, 603
+  li a2, 1791
+  divuw t3, t6, a2  # normal
 
-  li a1, 1055402371
-  li a6, 1449827559
-  divuw a4, a1, a6  # normal
+  li a1, 109
+  li s2, 1699
+  divuw t3, a1, s2  # normal
 
-  li s11, 1979245480
-  li s8, 1512585138
-  divuw s3, s11, s8  # normal
+  li a6, 1581
+  li s4, 334
+  divuw t2, a6, s4  # normal
 
-  li s11, 3636537575
-  li s5, 2869963931
-  divuw t5, s11, s5  # normal
+  li a1, 405
+  li t1, 1373
+  divuw a5, a1, t1  # normal
 
-  li a7, 993998848
-  li t5, 3037270171
-  divuw t1, a7, t5  # normal
+  li t5, 1935
+  li t2, 568
+  divuw t5, t5, t2  # normal
 
-  li a0, 3920237643
-  li s4, 2831604672
-  divuw t1, a0, s4  # normal
+  li s3, 324
+  li s2, 77
+  divuw s10, s3, s2  # normal
 
-  li t1, 50899550
-  li s5, 4198241832
+  li a0, 1733
+  li t5, 455
+  divuw a2, a0, t5  # normal
+
+  li a1, 976
+  li a3, 1719
+  divuw a3, a1, a3  # normal
+
+  li s7, 2047
+  li s2, 67
+  divuw s8, s7, s2  # normal
+
+  li s4, 588
+  li s6, 1193
+  divuw s8, s4, s6  # normal
+
+  li t1, 1706
+  li s7, 767
+  divuw a7, t1, s7  # normal
+
+  li s9, 1477
+  li t3, 277
+  divuw s9, s9, t3  # normal
+
+  li s5, 83
+  li s4, 1599
+  divuw s4, s5, s4  # normal
+
+  li t2, 1529
+  li s8, 1038
+  divuw s3, t2, s8  # normal
+
+  li t1, 1412
+  li a5, 987
+  divuw s11, t1, a5  # normal
+
+  li s9, 1361
+  li s8, 546
+  divuw s11, s9, s8  # normal
+
+  li a5, 717
+  li s5, 1903
+  divuw t2, a5, s5  # normal
+
+  li s3, 552
+  li s8, 258
+  divuw s10, s3, s8  # normal
+
+  li s2, 179
+  li t2, 817
+  divuw s10, s2, t2  # normal
+
+  li a4, 1939
+  li a3, 1037
+  divuw t2, a4, a3  # normal
+
+  li s8, 195
+  li a0, 1359
+  divuw t2, s8, a0  # normal
+
+  li t4, 1638
+  li a5, 1801
+  divuw a2, t4, a5  # normal
+
+  li a4, 2037
+  li t6, 1504
+  divuw a6, a4, t6  # normal
+
+  li a2, 323
+  li t3, 1763
+  divuw s4, a2, t3  # normal
+
+  li t6, 420
+  li s5, 327
+  divuw s7, t6, s5  # normal
+
+  li s9, 1745
+  li a3, 682
+  divuw a4, s9, a3  # normal
+
+  li s2, 1444
+  li a5, 1781
+  divuw s10, s2, a5  # normal
+
+  li s8, 1663
+  li t2, 1488
+  divuw a2, s8, t2  # normal
+
+  li s11, 127
+  li s9, 584
+  divuw s4, s11, s9  # normal
+
+  li s9, 275
+  li s2, 966
+  divuw s7, s9, s2  # normal
+
+  li a5, 132
+  li a5, 628
+  divuw s8, a5, a5  # normal
+
+  li s2, 314
+  li a5, 563
+  divuw s9, s2, a5  # normal
+
+  li a5, 1141
+  li a6, 1022
+  divuw s4, a5, a6  # normal
+
+  li t1, 1585
+  li s11, 482
+  divuw t4, t1, s11  # normal
+
+  li a2, 1169
+  li s10, 2011
+  divuw a2, a2, s10  # normal
+
+  li t4, 1851
+  li t5, 707
+  divuw a0, t4, t5  # normal
+
+  li s2, 1309
+  li t3, 1423
+  divuw s10, s2, t3  # normal
+
+  li t3, 1228
+  li s5, 645
+  divuw s10, t3, s5  # normal
+
+  li s10, 1480
+  li s10, 918
+  divuw s10, s10, s10  # normal
+
+  li a0, 2023
+  li t5, 107
+  divuw t4, a0, t5  # normal
+
+  li s5, 531
+  li s6, 353
+  divuw a5, s5, s6  # normal
+
+  li a3, 1960
+  li a6, 1682
+  divuw t3, a3, a6  # normal
+
+  li s6, 1298
+  li t3, 303
+  divuw a7, s6, t3  # normal
+
+  li s2, 525
+  li s9, 745
+  divuw s2, s2, s9  # normal
+
+  li a7, 226
+  li s4, 508
+  divuw t5, a7, s4  # normal
+
+  li t5, 1321
+  li a3, 923
+  divuw s4, t5, a3  # normal
+
+  li s4, 1026
+  li a3, 804
+  divuw a5, s4, a3  # normal
+
+  li s5, 1240
+  li a2, 382
+  divuw s8, s5, a2  # normal
+
+  li s8, 631
+  li t6, 701
+  divuw s4, s8, t6  # normal
+
+  li s7, 1382
+  li s11, 168
+  divuw s9, s7, s11  # normal
+
+  li t3, 1084
+  li t2, 863
+  divuw t1, t3, t2  # normal
+
+  li a7, 2039
+  li s7, 1186
+  divuw s6, a7, s7  # normal
+
+  li a3, 1663
+  li s3, 1218
+  divuw s8, a3, s3  # normal
+
+  li t3, 1800
+  li s10, 1702
+  divuw s2, t3, s10  # normal
+
+  li s2, 588
+  li a0, 1280
+  divuw s3, s2, a0  # normal
+
+  li a4, 1414
+  li s11, 1633
+  divuw s10, a4, s11  # normal
+
+  li a5, 1307
+  li s4, 990
+  divuw t5, a5, s4  # normal
+
+  li t4, 577
+  li a2, 396
+  divuw s2, t4, a2  # normal
+
+  li a3, 1712
+  li a6, 1016
+  divuw t2, a3, a6  # normal
+
+  li a4, 777
+  li s6, 652
+  divuw t6, a4, s6  # normal
+
+  li s4, 1263
+  li s2, 2037
+  divuw s3, s4, s2  # normal
+
+  li t3, 986
+  li a6, 881
+  divuw t1, t3, a6  # normal
+
+  li a5, 2027
+  li t2, 1927
+  divuw s6, a5, t2  # normal
+
+  li s5, 1765
+  li t1, 548
+  divuw a3, s5, t1  # normal
+
+  li s11, 1498
+  li a5, 185
+  divuw a2, s11, a5  # normal
+
+  li t2, 1484
+  li s6, 1182
+  divuw a6, t2, s6  # normal
+
+  li a6, 1145
+  li s4, 486
+  divuw t3, a6, s4  # normal
+
+  li t4, 1388
+  li a6, 1497
+  divuw t5, t4, a6  # normal
+
+  li a0, 164
+  li s7, 185
+  divuw t5, a0, s7  # normal
+
+  li t5, 1940
+  li s10, 1871
+  divuw t2, t5, s10  # normal
+
+  li s7, 1304
+  li s4, 665
+  divuw t5, s7, s4  # normal
+
+  li s7, 1377
+  li s11, 2006
+  divuw a6, s7, s11  # normal
+
+  li s6, 68
+  li a3, 1508
+  divuw s10, s6, a3  # normal
+
+  li s9, 1260
+  li t4, 109
+  divuw a4, s9, t4  # normal
+
+  li s3, 932
+  li a2, 210
+  divuw s7, s3, a2  # normal
+
+  li s3, 1557
+  li t6, 605
+  divuw s6, s3, t6  # normal
+
+  li a1, 450
+  li t2, 781
+  divuw s9, a1, t2  # normal
+
+  li s2, 1691
+  li a4, 835
+  divuw t1, s2, a4  # normal
+
+  li s4, 255
+  li s7, 565
+  divuw a7, s4, s7  # normal
+
+  li a0, 1959
+  li s5, 1543
+  divuw s4, a0, s5  # normal
+
+  li t6, 1402
+  li s2, 1451
+  divuw a4, t6, s2  # normal
+
+  li s11, 1082
+  li s9, 1983
+  divuw s9, s11, s9  # normal
+
+  li a1, 921
+  li a2, 1219
+  divuw a0, a1, a2  # normal
+
+  li s10, 2002
+  li a0, 1298
+  divuw a3, s10, a0  # normal
+
+  li a5, 1120
+  li s5, 1178
+  divuw s3, a5, s5  # normal
+
+  li s6, 1616
+  li s9, 1413
+  divuw t4, s6, s9  # normal
+
+  li a3, 323
+  li t2, 1418
+  divuw t5, a3, t2  # normal
+
+  li s8, 876
+  li a2, 827
+  divuw s2, s8, a2  # normal
+
+  li a2, 562
+  li s5, 447
+  divuw s5, a2, s5  # normal
+
+  li s11, 207
+  li s6, 924
+  divuw s7, s11, s6  # normal
+
+  li a1, 1352
+  li t2, 1934
+  divuw s8, a1, t2  # normal
+
+  li s9, 646
+  li t5, 1666
+  divuw t4, s9, t5  # normal
+
+  li s3, 1176
+  li s3, 1315
+  divuw s8, s3, s3  # normal
+
+  li s8, 366
+  li t2, 951
+  divuw a3, s8, t2  # normal
+
+  li s11, 152
+  li s11, 717
+  divuw s5, s11, s11  # normal
+
+  li t6, 1626
+  li t2, 2029
+  divuw a7, t6, t2  # normal
+
+  li s11, 37
+  li a3, 1222
+  divuw t6, s11, a3  # normal
+
+  li s7, 1372
+  li t4, 1165
+  divuw s6, s7, t4  # normal
+
+  li s8, 549
+  li s5, 1917
+  divuw s2, s8, s5  # normal
+
+  li a0, 1879
+  li t4, 1053
+  divuw a2, a0, t4  # normal
+
+  li t6, 1208
+  li t1, 791
+  divuw s10, t6, t1  # normal
+
+  li s7, 1751
+  li s8, 1343
+  divuw t6, s7, s8  # normal
+
+  li a6, 575
+  li s9, 1955
+  divuw t3, a6, s9  # normal
+
+  li a1, 964
+  li t1, 1829
+  divuw a4, a1, t1  # normal
+
+  li a4, 46
+  li a3, 1071
+  divuw a2, a4, a3  # normal
+
+  li a5, 484
+  li s10, 1906
+  divuw s8, a5, s10  # normal
+
+  li t6, 1273
+  li a6, 480
+  divuw a3, t6, a6  # normal
+
+  li a3, 897
+  li a5, 547
+  divuw s8, a3, a5  # normal
+
+  li t5, 1530
+  li s2, 1703
+  divuw s3, t5, s2  # normal
+
+  li s5, 894
+  li s3, 1013
+  divuw s10, s5, s3  # normal
+
+  li s7, 1481
+  li t3, 319
+  divuw s9, s7, t3  # normal
+
+  li t4, 828
+  li t2, 613
+  divuw s6, t4, t2  # normal
+
+  li a4, 841
+  li s4, 2002
+  divuw t6, a4, s4  # normal
+
+  li s4, 1857
+  li s2, 540
+  divuw t3, s4, s2  # normal
+
+  li a7, 1893
+  li s2, 1262
+  divuw s4, a7, s2  # normal
+
+  li t1, 12
+  li a6, 892
+  divuw s11, t1, a6  # normal
+
+  li t3, 261
+  li t2, 246
+  divuw s6, t3, t2  # normal
+
+  li s3, 737
+  li t2, 554
+  divuw t3, s3, t2  # normal
+
+  li s11, 1533
+  li s8, 1566
+  divuw s8, s11, s8  # normal
+
+  li a6, 544
+  li a6, 1424
+  divuw s2, a6, a6  # normal
+
+  li t6, 521
+  li s5, 912
+  divuw t4, t6, s5  # normal
+
+  li t1, 1737
+  li a3, 1553
+  divuw t1, t1, a3  # normal
+
+  li a1, 1129
+  li s2, 772
+  divuw a1, a1, s2  # normal
+
+  li t4, 1717
+  li t2, 64
+  divuw s11, t4, t2  # normal
+
+  li a0, 137
+  li t3, 1828
+  divuw a1, a0, t3  # normal
+
+  li s9, 1002
+  li s10, 181
+  divuw s7, s9, s10  # normal
+
+  li s2, 231
+  li a1, 573
+  divuw a6, s2, a1  # normal
+
+  li a3, 1306
+  li a1, 1313
+  divuw s4, a3, a1  # normal
+
+  li a3, 905
+  li t5, 1693
+  divuw a1, a3, t5  # normal
+
+  li a2, 717
+  li t2, 1749
+  divuw a3, a2, t2  # normal
+
+  li s3, 1561
+  li t2, 1305
+  divuw s5, s3, t2  # normal
+
+  li a7, 1541
+  li a7, 753
+  divuw s10, a7, a7  # normal
+
+  li s3, 1231
+  li a1, 591
+  divuw s5, s3, a1  # normal
+
+  li t2, 1706
+  li s5, 549
+  divuw s2, t2, s5  # normal
+
+  li a1, 323
+  li a2, 1842
+  divuw a6, a1, a2  # normal
+
+  li t3, 780
+  li s5, 211
+  divuw a5, t3, s5  # normal
+
+  li a6, 161
+  li s9, 298
+  divuw a2, a6, s9  # normal
+
+  li s6, 888
+  li s11, 1963
+  divuw a0, s6, s11  # normal
+
+  li a4, 62
+  li a3, 867
+  divuw a0, a4, a3  # normal
+
+  li s11, 1961
+  li t4, 993
+  divuw a0, s11, t4  # normal
+
+  li s7, 980
+  li s10, 1317
+  divuw s10, s7, s10  # normal
+
+  li a6, 1471
+  li s2, 1263
+  divuw a3, a6, s2  # normal
+
+  li a5, 1908
+  li s4, 403
+  divuw a2, a5, s4  # normal
+
+  li s3, 1518
+  li a4, 1281
+  divuw s11, s3, a4  # normal
+
+  li t2, 597
+  li s6, 66
+  divuw a7, t2, s6  # normal
+
+  li s5, 1710
+  li s6, 1209
+  divuw a2, s5, s6  # normal
+
+  li a0, 1006
+  li a4, 2045
+  divuw t5, a0, a4  # normal
+
+  li s8, 2001
+  li s9, 2009
+  divuw s5, s8, s9  # normal
+
+  li t6, 693
+  li s11, 573
+  divuw s2, t6, s11  # normal
+
+  li s5, 240
+  li s3, 138
+  divuw s11, s5, s3  # normal
+
+  li s9, 1689
+  li t2, 563
+  divuw t3, s9, t2  # normal
+
+  li a1, 37
+  li t3, 895
+  divuw s8, a1, t3  # normal
+
+  li s2, 1979
+  li a5, 1998
+  divuw s4, s2, a5  # normal
+
+  li t1, 48
+  li s5, 68
   divuw t1, t1, s5  # normal
 
-  li s4, 3907446848
-  li s10, 639509845
-  divuw t1, s4, s10  # normal
+  li s11, 1174
+  li a2, 70
+  divuw s4, s11, a2  # normal
 
-  li s7, 1522312933
-  li s4, 3414225544
-  divuw a0, s7, s4  # normal
+  li s10, 734
+  li s9, 438
+  divuw s4, s10, s9  # normal
 
-  li a5, 2994607170
-  li a6, 136083924
-  divuw t3, a5, a6  # normal
+  li s4, 1033
+  li t5, 1451
+  divuw t4, s4, t5  # normal
 
-  li a6, 736086849
-  li a6, 3368870594
-  divuw a6, a6, a6  # normal
+  li a6, 1663
+  li t3, 1880
+  divuw a2, a6, t3  # normal
 
-  li t4, 986839603
-  li s4, 2434319360
-  divuw s6, t4, s4  # normal
+  li a1, 330
+  li s10, 129
+  divuw s6, a1, s10  # normal
 
-  li t2, 2826557688
-  li t3, 3652558724
-  divuw a2, t2, t3  # normal
+  li a6, 1949
+  li a6, 229
+  divuw t3, a6, a6  # normal
 
-  li a0, 3525748915
-  li s6, 3989487508
-  divuw t1, a0, s6  # normal
+  li t1, 2047
+  li s10, 1777
+  divuw s8, t1, s10  # normal
 
-  li t6, 1424768819
-  li s6, 3110258855
+  li a4, 390
+  li s6, 174
+  divuw s8, a4, s6  # normal
+
+  li a0, 1947
+  li s10, 1110
+  divuw a1, a0, s10  # normal
+
+  li t3, 134
+  li s9, 734
+  divuw t2, t3, s9  # normal
+
+  li t1, 1631
+  li a0, 315
+  divuw a4, t1, a0  # normal
+
+  li t6, 1593
+  li s6, 1358
   divuw a3, t6, s6  # normal
 
-  li s11, 1877279755
-  li a5, 3602080228
-  divuw s4, s11, a5  # normal
+  li s11, 321
+  li t5, 1416
+  divuw a6, s11, t5  # normal
 
-  li s7, 3322393065
-  li s7, 4263123881
-  divuw a4, s7, s7  # normal
+  li t4, 311
+  li a7, 1395
+  divuw t2, t4, a7  # normal
 
-  li a1, 1612446667
-  li a5, 1632399901
-  divuw s3, a1, a5  # normal
+  li s7, 1336
+  li s7, 121
+  divuw s7, s7, s7  # normal
 
-  li a3, 352350576
-  li a1, 662373991
+  li a2, 1457
+  li s2, 1537
+  divuw s8, a2, s2  # normal
+
+  li t6, 1556
+  li s9, 351
+  divuw a7, t6, s9  # normal
+
+  li a3, 336
+  li a1, 1097
   divuw s7, a3, a1  # normal
 
-  li s8, 1360122653
-  li t5, 457632732
-  divuw s10, s8, t5  # normal
+  li a6, 631
+  li s10, 1595
+  divuw t5, a6, s10  # normal
 
-  li a3, 1158638062
-  li s2, 569113257
-  divuw t1, a3, s2  # normal
+  li a5, 1262
+  li t4, 1821
+  divuw a4, a5, t4  # normal
 
-  li a7, 2200916676
-  li s2, 443639751
-  divuw t6, a7, s2  # normal
+  li a2, 767
+  li t4, 1765
+  divuw a5, a2, t4  # normal
 
-  li a5, 1654584280
-  li s5, 1253474844
+  li s5, 423
+  li s5, 107
+  divuw s2, s5, s5  # normal
+
+  li a5, 1328
+  li s5, 1577
   divuw t3, a5, s5  # normal
 
-  li t3, 4201221330
-  li s11, 1635231601
-  divuw a6, t3, s11  # normal
+  li a3, 346
+  li a7, 994
+  divuw t1, a3, a7  # normal
 
-  li a2, 626785308
-  li a3, 718150313
-  divuw t5, a2, a3  # normal
+  li s4, 694
+  li t6, 568
+  divuw s6, s4, t6  # normal
 
-  li a7, 330374745
-  li a3, 2684499242
-  divuw a2, a7, a3  # normal
+  li a3, 259
+  li a2, 684
+  divuw a2, a3, a2  # normal
 
-  li s7, 581923103
-  li a0, 1699484121
-  divuw s7, s7, a0  # normal
+  li a2, 315
+  li a7, 1479
+  divuw a7, a2, a7  # normal
 
-  li a6, 2552898167
-  li a4, 1290359719
+  li a1, 800
+  li s11, 1875
+  divuw a2, a1, s11  # normal
+
+  li t5, 1620
+  li a3, 1360
+  divuw t4, t5, a3  # normal
+
+  li a6, 1763
+  li a4, 557
   divuw s7, a6, a4  # normal
 
-  li s10, 1370685826
-  li a0, 2718295375
-  divuw s7, s10, a0  # normal
+  li a4, 822
+  li s7, 1962
+  divuw a3, a4, s7  # normal
 
-  li a1, 1687643539
-  li a4, 2421719519
+  li t6, 1193
+  li a6, 2011
+  divuw a4, t6, a6  # normal
+
+  li a1, 1609
+  li a4, 1495
   divuw s6, a1, a4  # normal
 
-  li s5, 2362657890
-  li t6, 3042413312
-  divuw s6, s5, t6  # normal
+  li s6, 736
+  li a0, 110
+  divuw t4, s6, a0  # normal
 
-  li a3, 3414694962
-  li s10, 2890416998
-  divuw s2, a3, s10  # normal
+  li s2, 1193
+  li s10, 283
+  divuw s11, s2, s10  # normal
 
-  li s8, 2828935922
-  li a3, 3071916904
-  divuw t5, s8, a3  # normal
+  li s9, 1240
+  li s3, 991
+  divuw a7, s9, s3  # normal
 
-  li t3, 2970866955
-  li s2, 2334938378
-  divuw a6, t3, s2  # normal
+  li s9, 1544
+  li t5, 302
+  divuw a2, s9, t5  # normal
 
-  li s10, 3927323476
-  li s5, 2854838525
+  li s7, 1713
+  li s3, 150
+  divuw s2, s7, s3  # normal
+
+  li s10, 348
+  li s5, 447
   divuw a5, s10, s5  # normal
 
-  li s8, 3232747923
-  li s7, 0
-  divuw t6, s8, s7  # div-by-zero
+  li s9, 181
+  li s9, 1636
+  divuw a1, s9, s9  # normal
 
-  li t4, 949324089
-  li t1, 1606831312
-  divuw a7, t4, t1  # normal
+  li a7, 1059
+  li t4, 909
+  divuw a4, a7, t4  # normal
 
-  li s9, 647444557
-  li s6, 4285100605
-  divuw s2, s9, s6  # normal
+  li s11, 905
+  li s4, 1825
+  divuw s4, s11, s4  # normal
 
-  li t4, 4130589741
-  li a3, 608490241
-  divuw s3, t4, a3  # normal
+  li a6, 617
+  li s2, 1412
+  divuw a5, a6, s2  # normal
 
-  li a4, 2238171141
-  li s2, 1495938377
-  divuw a3, a4, s2  # normal
+  li s3, 351
+  li t4, 475
+  divuw t1, s3, t4  # normal
 
-  li s2, 1369705770
-  li s11, 1289624427
-  divuw t4, s2, s11  # normal
+  li t5, 1865
+  li a5, 847
+  divuw s11, t5, a5  # normal
 
-  li t4, 2783009621
-  li t1, 687777633
-  divuw s10, t4, t1  # normal
+  li s3, 1794
+  li a5, 1853
+  divuw s4, s3, a5  # normal
 
-  li a7, 792214339
-  li s2, 1856003347
-  divuw s5, a7, s2  # normal
+  li t3, 471
+  li a3, 92
+  divuw a4, t3, a3  # normal
 
-  li s11, 1844915411
-  li s7, 922542252
+  li s8, 673
+  li t4, 999
+  divuw a4, s8, t4  # normal
+
+  li t6, 1746
+  li s5, 1892
+  divuw s4, t6, s5  # normal
+
+  li a6, 1770
+  li s8, 1620
+  divuw a1, a6, s8  # normal
+
+  li s11, 1841
+  li s7, 1759
   divuw t1, s11, s7  # normal
 
-  li s10, 2305920746
-  li t3, 1571069113
-  divuw a2, s10, t3  # normal
+  li t1, 1140
+  li s10, 256
+  divuw a6, t1, s10  # normal
 
-  li s2, 3704995758
-  li t4, 2744950470
-  divuw a0, s2, t4  # normal
+  li t4, 1335
+  li s5, 807
+  divuw s6, t4, s5  # normal
 
-  li a6, 490623034
-  li s7, 3438608304
+  li t4, 2004
+  li a2, 1283
+  divuw s2, t4, a2  # normal
+
+  li a6, 467
+  li s7, 1425
   divuw s7, a6, s7  # normal
 
-  li s6, 1345122542
-  li t3, 1024662077
-  divuw s7, s6, t3  # normal
+  li s2, 1218
+  li s7, 347
+  divuw a5, s2, s7  # normal
 
-  li t6, 2193976097
-  li a5, 1648021756
-  divuw t4, t6, a5  # normal
+  li t5, 1250
+  li a4, 479
+  divuw s9, t5, a4  # normal
 
-  li s3, 716681967
-  li s8, 1240535933
-  divuw t6, s3, s8  # normal
+  li a5, 1591
+  li s10, 1713
+  divuw t6, a5, s10  # normal
 
-  li a4, 3717389692
-  li s2, 4088130061
-  divuw t6, a4, s2  # normal
+  li t5, 760
+  li s6, 1993
+  divuw s7, t5, s6  # normal
 
-  li t5, 2125879326
-  li a0, 2940749808
-  divuw s3, t5, a0  # normal
+  li s5, 709
+  li s10, 683
+  divuw s8, s5, s10  # normal
 
-  li s10, 3268713302
-  li s2, 1254516608
-  divuw a7, s10, s2  # normal
+  li a3, 1847
+  li t5, 219
+  divuw s3, a3, t5  # normal
 
-  li a1, 3353253610
-  li s5, 2193894984
-  divuw a2, a1, s5  # normal
+  li t1, 1572
+  li s3, 2027
+  divuw a5, t1, s3  # normal
 
-  li t4, 3087996613
-  li a2, 2346569443
-  divuw s6, t4, a2  # normal
+  li s9, 1818
+  li s3, 2001
+  divuw a7, s9, s3  # normal
 
-  li t4, 3227004325
-  li s11, 4292015249
-  divuw a7, t4, s11  # normal
+  li t3, 903
+  li s6, 1196
+  divuw t6, t3, s6  # normal
 
-  li a2, 373589152
-  li a5, 3487036345
-  divuw s2, a2, a5  # normal
+  li a2, 688
+  li a1, 1873
+  divuw t2, a2, a1  # normal
 
-  li s11, 1838963536
-  li s6, 2646349248
-  divuw a0, s11, s6  # normal
+  li s11, 463
+  li s3, 467
+  divuw s6, s11, s3  # normal
 
-  li a0, 2286128610
-  li t2, 723175276
-  divuw a0, a0, t2  # normal
+  li s5, 170
+  li a5, 1807
+  divuw a2, s5, a5  # normal
 
-  li a3, 3501175349
-  li a3, 2817053070
+  li a0, 1013
+  li a7, 1219
+  divuw s5, a0, a7  # normal
+
+  li s2, 356
+  li a2, 1798
+  divuw t2, s2, a2  # normal
+
+  li a1, 1436
+  li a0, 1753
+  divuw t4, a1, a0  # normal
+
+  li s7, 847
+  li t5, 243
+  divuw t6, s7, t5  # normal
+
+  li a5, 689
+  li s5, 1325
+  divuw s6, a5, s5  # normal
+
+  li a3, 390
+  li a3, 555
   divuw s10, a3, a3  # normal
 
-  li t5, 1686636869
-  li a1, 2716145826
-  divuw s10, t5, a1  # normal
+  li t2, 519
+  li a2, 543
+  divuw a7, t2, a2  # normal
 
-  li a7, 399839065
-  li a6, 1585148616
-  divuw s8, a7, a6  # normal
+  li t5, 1013
+  li s10, 1608
+  divuw a1, t5, s10  # normal
 
-  li a4, 3147025728
+  li t5, 1696
+  li s6, 1536
+  divuw s3, t5, s6  # normal
+
+  li t3, 381
+  li s8, 1650
+  divuw s2, t3, s8  # normal
+
+  li s11, 1511
+  li a2, 1862
+  divuw s4, s11, a2  # normal
+
+  li a4, 381
   li s6, 0
   divuw s3, a4, s6  # div-by-zero
 
-  li s2, 2295335613
-  li s8, 909895115
+  li s2, 1467
+  li s8, 259
   divuw s11, s2, s8  # normal
 
-  li a4, 2482206102
-  li a3, 207916194
+  li a6, 867
+  li a0, 2026
+  divuw s5, a6, a0  # normal
+
+  li a4, 534
+  li a3, 1987
   divuw a2, a4, a3  # normal
 
-  li s8, 678534043
-  li s2, 0
-  divuw t4, s8, s2  # div-by-zero
+  li s9, 1882
+  li t2, 66
+  divuw a4, s9, t2  # normal
 
-  li t1, 2791716713
-  li a7, 1176904638
-  divuw s2, t1, a7  # normal
-
-  li a5, 2787052438
-  li a2, 222424647
-  divuw s8, a5, a2  # normal
-
-  li a3, 1005640129
-  li s11, 2815287619
-  divuw s8, a3, s11  # normal
-
-  li t4, 334744286
-  li t1, 2549834042
-  divuw s10, t4, t1  # normal
-
-  li s9, 2987566830
-  li s2, 0
-  divuw s4, s9, s2  # div-by-zero
-
-  li a7, 304205279
-  li s10, 1645272822
-  divuw t4, a7, s10  # normal
-
-  li t4, 3783818927
-  li t4, 588965831
-  divuw s11, t4, t4  # normal
-
-  li s8, 2791815554
-  li s9, 1890212621
-  divuw t5, s8, s9  # normal
-
-  li a0, 3950915172
-  li s8, 933058809
-  divuw s11, a0, s8  # normal
-
-  li t5, 1649404491
-  li t4, 4137121697
-  divuw t4, t5, t4  # normal
-
-  li t5, 361845490
-  li a1, 2609592494
-  divuw a4, t5, a1  # normal
-
-  li t1, 1682557807
-  li s9, 2775278048
-  divuw s10, t1, s9  # normal
-
-  li s3, 2550908958
-  li a6, 4199176431
-  divuw a1, s3, a6  # normal
-
-  li a4, 1807595119
-  li t5, 313497572
-  divuw a5, a4, t5  # normal
-
-  li t3, 3389974724
-  li t1, 2175875968
-  divuw s6, t3, t1  # normal
-
-  li s10, 1727768349
-  li s4, 655757505
-  divuw s8, s10, s4  # normal
-
-  li a3, 3470591645
-  li t3, 2303778262
-  divuw t3, a3, t3  # normal
-
-  li s6, 2762327862
-  li s8, 1024939794
-  divuw a6, s6, s8  # normal
-
-  li t3, 236346130
-  li a7, 754393408
-  divuw a1, t3, a7  # normal
-
-  li s10, 703655804
-  li t5, 4093173412
-  divuw t1, s10, t5  # normal
-
-  li s4, 1597167064
-  li s11, 3751482398
-  divuw s4, s4, s11  # normal
-
-  li t4, 1843934986
-  li t1, 2249936731
-  divuw s11, t4, t1  # normal
-
-  li s10, 2130937594
-  li s6, 2193791472
-  divuw a2, s10, s6  # normal
-
-  li s3, 675641216
-  li s6, 3321422584
-  divuw t2, s3, s6  # normal
-
-  li s9, 11031667
-  li s11, 52776893
-  divuw s6, s9, s11  # normal
-
-  li s3, 644608746
-  li a5, 3682870880
-  divuw t2, s3, a5  # normal
-
-  li s10, 964285941
-  li s11, 1066282253
-  divuw s5, s10, s11  # normal
-
-  li a4, 2454728281
-  li a2, 226225156
-  divuw s11, a4, a2  # normal
-
-  li s4, 3628588115
-  li t2, 1405746777
-  divuw a1, s4, t2  # normal
-
-  li s2, 3369432855
-  li t1, 1041890333
-  divuw s5, s2, t1  # normal
-
-  li s6, 3332404822
-  li s3, 3418680334
-  divuw a5, s6, s3  # normal
-
-  li t1, 2325918921
-  li a7, 0
-  divuw t5, t1, a7  # div-by-zero
-
-  li s10, 2823098529
-  li t1, 3123364825
-  divuw s8, s10, t1  # normal
-
-  li a0, 1803095297
-  li s4, 4128258411
-  divuw t4, a0, s4  # normal
-
-  li s10, 3956843441
-  li a2, 2232348845
-  divuw t5, s10, a2  # normal
-
-  li a5, 3521713809
-  li s2, 2438771483
-  divuw s10, a5, s2  # normal
-
-  li s9, 3439482075
-  li t5, 3158316538
-  divuw a7, s9, t5  # normal
-
-  li s2, 4052536540
-  li a2, 468034755
-  divuw a4, s2, a2  # normal
-
-  li t6, 1745958114
-  li s2, 2301778419
+  li t6, 1752
+  li s2, 828
   divuw t4, t6, s2  # normal
 
-  li s2, 3661383114
-  li a3, 388354759
-  divuw a0, s2, a3  # normal
+  li t5, 1122
+  li s8, 382
+  divuw s10, t5, s8  # normal
 
-  li a3, 173215225
-  li s10, 1407863065
-  divuw s9, a3, s10  # normal
+  li a5, 677
+  li a2, 212
+  divuw s8, a5, a2  # normal
 
-  li s10, 1283511098
-  li a1, 746756255
-  divuw t3, s10, a1  # normal
+  li s8, 959
+  li a3, 1758
+  divuw a6, s8, a3  # normal
 
-  li s2, 1073108894
-  li s5, 1984460654
-  divuw a6, s2, s5  # normal
+  li t3, 874
+  li s10, 1953
+  divuw s8, t3, s10  # normal
 
-  li t4, 954720281
-  li t1, 1720485787
-  divuw t5, t4, t1  # normal
+  li t5, 1822
+  li s6, 38
+  divuw t3, t5, s6  # normal
 
-  li s8, 2517360884
-  li s8, 322067505
-  divuw s9, s8, s8  # normal
+  li s10, 1729
+  li a4, 541
+  divuw t1, s10, a4  # normal
 
-  li a0, 553155490
-  li s8, 1423995953
-  divuw t3, a0, s8  # normal
+  li t3, 419
+  li a1, 422
+  divuw s3, t3, a1  # normal
 
-  li s2, 2464813860
-  li t2, 1696506450
-  divuw t2, s2, t2  # normal
+  li a5, 545
+  li a3, 585
+  divuw a4, a5, a3  # normal
 
-  li a6, 1520174713
-  li s9, 3901136913
+  li s4, 672
+  li s6, 1802
+  divuw t3, s4, s6  # normal
+
+  li s11, 620
+  li a0, 1686
+  divuw a5, s11, a0  # normal
+
+  li s9, 355
+  li s2, 411
+  divuw s7, s9, s2  # normal
+
+  li t4, 1439
+  li s6, 1758
+  divuw t5, t4, s6  # normal
+
+  li t5, 345
+  li a1, 1016
+  divuw a4, t5, a1  # normal
+
+  li s7, 1167
+  li s7, 109
+  divuw s5, s7, s7  # normal
+
+  li a3, 772
+  li a0, 1604
+  divuw s9, a3, a0  # normal
+
+  li s8, 980
+  li t2, 2027
+  divuw a3, s8, t2  # normal
+
+  li t4, 290
+  li a1, 49
+  divuw a6, t4, a1  # normal
+
+  li a4, 1723
+  li t5, 1496
+  divuw a5, a4, t5  # normal
+
+  li s9, 298
+  li t6, 68
+  divuw s5, s9, t6  # normal
+
+  li t3, 163
+  li t1, 247
+  divuw s6, t3, t1  # normal
+
+  li s4, 1701
+  li a3, 1734
+  divuw a6, s4, a3  # normal
+
+  li a6, 625
+  li t3, 1136
+  divuw s10, a6, t3  # normal
+
+  li a3, 832
+  li t3, 636
+  divuw t3, a3, t3  # normal
+
+  li a4, 270
+  li a6, 1270
+  divuw s5, a4, a6  # normal
+
+  li a7, 977
+  li s11, 237
+  divuw s10, a7, s11  # normal
+
+  li t3, 225
+  li a7, 1266
+  divuw a1, t3, a7  # normal
+
+  li s11, 489
+  li s9, 51
+  divuw s9, s11, s9  # normal
+
+  li t5, 2033
+  li s10, 1420
+  divuw s10, t5, s10  # normal
+
+  li s4, 1523
+  li s11, 519
+  divuw s4, s4, s11  # normal
+
+  li a2, 120
+  li s11, 1372
+  divuw s11, a2, s11  # normal
+
+  li a2, 315
+  li s4, 2032
+  divuw a7, a2, s4  # normal
+
+  li s4, 683
+  li a5, 1506
+  divuw s2, s4, a5  # normal
+
+  li a2, 472
+  li t4, 935
+  divuw t6, a2, t4  # normal
+
+  li s4, 50
+  li t1, 1001
+  divuw s11, s4, t1  # normal
+
+  li s3, 614
+  li a5, 733
+  divuw t2, s3, a5  # normal
+
+  li s5, 1717
+  li s10, 919
+  divuw t2, s5, s10  # normal
+
+  li a1, 1310
+  li a7, 1111
+  divuw a4, a1, a7  # normal
+
+  li s6, 215
+  li a5, 734
+  divuw t3, s6, a5  # normal
+
+  li s4, 282
+  li t2, 1905
+  divuw a1, s4, t2  # normal
+
+  li a3, 1870
+  li a4, 32
+  divuw a3, a3, a4  # normal
+
+  li a0, 1244
+  li a3, 993
+  divuw a5, a0, a3  # normal
+
+  li a5, 800
+  li s6, 1004
+  divuw s2, a5, s6  # normal
+
+  li t1, 1418
+  li a7, 39
+  divuw t5, t1, a7  # normal
+
+  li t1, 1259
+  li s9, 425
+  divuw a4, t1, s9  # normal
+
+  li s4, 245
+  li a1, 583
+  divuw a0, s4, a1  # normal
+
+  li a2, 948
+  li t3, 1691
+  divuw s10, a2, t3  # normal
+
+  li a5, 347
+  li s2, 391
+  divuw s10, a5, s2  # normal
+
+  li t5, 306
+  li s8, 255
+  divuw s4, t5, s8  # normal
+
+  li s9, 1069
+  li t5, 1290
+  divuw a7, s9, t5  # normal
+
+  li s10, 1854
+  li s11, 1113
+  divuw a6, s10, s11  # normal
+
+  li t3, 446
+  li a0, 636
+  divuw a1, t3, a0  # normal
+
+  li t6, 1665
+  li s2, 494
+  divuw t4, t6, s2  # normal
+
+  li a5, 1897
+  li a0, 1085
+  divuw s5, a5, a0  # normal
+
+  li t3, 1246
+  li t6, 165
+  divuw t4, t3, t6  # normal
+
+  li a4, 1016
+  li t5, 1457
+  divuw a0, a4, t5  # normal
+
+  li s4, 1065
+  li t2, 712
+  divuw a6, s4, t2  # normal
+
+  li a6, 1023
+  li s2, 387
+  divuw t1, a6, s2  # normal
+
+  li t4, 252
+  li t5, 910
+  divuw s2, t4, t5  # normal
+
+  li a0, 344
+  li a6, 1060
+  divuw t5, a0, a6  # normal
+
+  li t1, 1816
+  li t3, 527
+  divuw t3, t1, t3  # normal
+
+  li a4, 1888
+  li t4, 207
+  divuw t3, a4, t4  # normal
+
+  li s6, 1617
+  li a7, 2032
+  divuw t6, s6, a7  # normal
+
+  li a6, 1449
+  li s9, 879
   divuw t1, a6, s9  # normal
 
-  li a2, 1267467039
-  li s2, 2365189801
-  divuw a2, a2, s2  # normal
-
-  li t3, 1800599868
-  li a2, 3063903685
-  divuw t2, t3, a2  # normal
-
-  li s5, 1381280467
-  li s3, 1161512446
-  divuw s3, s5, s3  # normal
-
-  li a4, 3343796479
-  li s7, 4258594593
-  divuw t1, a4, s7  # normal
-
-  li a5, 4183211669
-  li s6, 430073711
-  divuw s4, a5, s6  # normal
-
-  li a1, 3165649201
-  li a2, 4070780669
-  divuw s9, a1, a2  # normal
-
-  li a6, 746087503
-  li a5, 2540741595
-  divuw s6, a6, a5  # normal
-
-  li s10, 2420671425
-  li a5, 1327372855
-  divuw s10, s10, a5  # normal
-
-  li t2, 2584122005
-  li t3, 2052947074
-  divuw s3, t2, t3  # normal
-
-  li s7, 3728964043
-  li a0, 255790920
-  divuw a4, s7, a0  # normal
-
-  li s6, 3325878813
-  li s10, 3696547227
-  divuw t5, s6, s10  # normal
-
-  li a5, 433929868
-  li s10, 1296071464
-  divuw t3, a5, s10  # normal
-
-  li t6, 4126012290
-  li s11, 2788208029
-  divuw t5, t6, s11  # normal
-
-  li s10, 3380104018
-  li s5, 753129506
-  divuw t6, s10, s5  # normal
-
-  li s11, 2460306692
-  li s10, 2437319900
-  divuw a3, s11, s10  # normal
-
-  li s7, 2429019820
-  li a4, 4023043447
-  divuw t6, s7, a4  # normal
-
-  li a4, 1372322277
-  li s11, 4136395494
-  divuw t5, a4, s11  # normal
-
-  li s9, 1442032976
-  li s8, 48943839
-  divuw s10, s9, s8  # normal
-
-  li a1, 5502537
-  li s10, 1657587204
-  divuw a0, a1, s10  # normal
-
-  li a7, 1626558140
-  li t6, 2345155074
-  divuw s11, a7, t6  # normal
-
-  li s3, 2951331472
-  li s6, 698604397
-  divuw t4, s3, s6  # normal
-
-  li t2, 449790661
-  li a3, 0
-  divuw t3, t2, a3  # div-by-zero
-
-  li t6, 4200656353
-  li a6, 3836377197
-  divuw a4, t6, a6  # normal
-
-  li t1, 3821461211
-  li a7, 674755608
-  divuw s10, t1, a7  # normal
-
-  li a4, 2319821061
-  li a0, 2837246354
-  divuw t4, a4, a0  # normal
-
-  li a1, 3607147617
-  li t4, 0
-  divuw a3, a1, t4  # div-by-zero
-
-  li t2, 376360931
-  li a5, 0
-  divuw t5, t2, a5  # div-by-zero
-
-  li s8, 416555576
-  li s7, 888856289
-  divuw s9, s8, s7  # normal
-
-  li a3, 496107065
-  li t3, 3371019229
-  divuw s8, a3, t3  # normal
-
-  li s3, 1664416298
-  li s9, 1638294596
-  divuw s3, s3, s9  # normal
-
-  li s2, 1997408731
-  li t2, 264739091
-  divuw t6, s2, t2  # normal
-
-  li s9, 2325505783
-  li t4, 2532855799
-  divuw s10, s9, t4  # normal
-
-  li t2, 3786674545
-  li a6, 2045530940
-  divuw s5, t2, a6  # normal
-
-  li a6, 633282877
-  li s10, 0
-  divuw t3, a6, s10  # div-by-zero
-
-  li t6, 3472312361
-  li t6, 541964762
-  divuw s2, t6, t6  # normal
-
-  li t3, 2693916084
-  li s9, 1107613491
-  divuw a7, t3, s9  # normal
-
-  li t3, 3751509023
-  li t3, 1802141793
-  divuw s11, t3, t3  # normal
-
-  li t5, 3348118981
-  li t5, 3374751777
-  divuw a7, t5, t5  # normal
-
-  li a5, 2812291645
-  li a7, 2031719772
-  divuw s5, a5, a7  # normal
-
-  li a2, 2979252408
-  li a6, 166569717
-  divuw t6, a2, a6  # normal
-
-  li s10, 1599620611
-  li a1, 0
-  divuw a4, s10, a1  # div-by-zero
-
-  li a3, 3731897202
-  li a3, 577181411
-  divuw a4, a3, a3  # normal
-
-  li s2, 2772636814
-  li a4, 807177651
-  divuw s11, s2, a4  # normal
-
-  li a7, 3399425369
-  li s11, 281822724
-  divuw a0, a7, s11  # normal
-
-  li s4, 124331395
-  li a6, 3577406847
-  divuw s10, s4, a6  # normal
-
-  li a1, 3942913436
-  li t2, 3026379752
-  divuw t2, a1, t2  # normal
-
-  li a5, 131267917
-  li s2, 1599732557
-  divuw a2, a5, s2  # normal
-
-  li s2, 2367960313
-  li t6, 1478538226
-  divuw s7, s2, t6  # normal
-
-  li s11, 117898946
-  li s10, 213249628
-  divuw a2, s11, s10  # normal
-
-  li a0, 2910678913
-  li a1, 38216544
-  divuw s6, a0, a1  # normal
-
-  li s8, 36351450
-  li t6, 2760548616
-  divuw t5, s8, t6  # normal
-
-  li a6, 937200760
-  li a5, 2678367783
-  divuw a7, a6, a5  # normal
-
-  li t4, 2615850281
-  li t1, 464305421
-  divuw s6, t4, t1  # normal
-
-  li a4, 3700078247
-  li a2, 1283298067
-  divuw t3, a4, a2  # normal
-
-  li s4, 2577123417
-  li a1, 2836956156
-  divuw t5, s4, a1  # normal
-
-  li t5, 1269612255
-  li s11, 0
-  divuw s9, t5, s11  # div-by-zero
-
-  li a6, 3504756453
-  li a6, 3063897771
-  divuw a7, a6, a6  # normal
-
-  li s5, 2885653126
-  li s8, 2178900724
-  divuw s9, s5, s8  # normal
-
-  li s9, 419201975
-  li s5, 383539822
-  divuw t6, s9, s5  # normal
-
-  li a1, 3808964060
-  li s11, 1596363878
-  divuw a5, a1, s11  # normal
-
-  li a3, 2020939193
-  li s2, 305869263
-  divuw s6, a3, s2  # normal
-
-  li s4, 1281428200
-  li t4, 3668931881
-  divuw a0, s4, t4  # normal
-
-  li a0, 1965254350
-  li a4, 3073772623
-  divuw t5, a0, a4  # normal
-
-  li s3, 759454456
-  li a4, 2725152347
-  divuw t3, s3, a4  # normal
-
-  li s2, 3322338756
-  li a2, 680473653
-  divuw t1, s2, a2  # normal
-
-  li t5, 1844300709
-  li s7, 2050418568
-  divuw t3, t5, s7  # normal
-
-  li t2, 818520766
-  li s5, 2906611156
-  divuw t1, t2, s5  # normal
-
-  li s11, 3766622488
-  li a1, 1340426053
-  divuw s8, s11, a1  # normal
-
-  li a6, 717346250
-  li s4, 3538382315
-  divuw t4, a6, s4  # normal
-
-  li a3, 1450990916
-  li s2, 4275521470
-  divuw a3, a3, s2  # normal
-
-  li s3, 3487549177
-  li a5, 82140117
-  divuw a4, s3, a5  # normal
-
-  li s11, 2167384632
-  li t5, 528976690
-  divuw a1, s11, t5  # normal
-
-  li s8, 2750158124
-  li t2, 2676343517
-  divuw s10, s8, t2  # normal
-
-  li t2, 3591108099
-  li s9, 497313534
-  divuw s7, t2, s9  # normal
-
-  li a6, 657675888
-  li t4, 2707166618
-  divuw s2, a6, t4  # normal
-
-  li a7, 2234711156
-  li s9, 3009596757
-  divuw a3, a7, s9  # normal
-
-  li t4, 505666123
-  li s4, 456399159
-  divuw a7, t4, s4  # normal
-
-  li s7, 4179517389
-  li a0, 1759889613
-  divuw a0, s7, a0  # normal
-
-  li t2, 4007738542
-  li s5, 1419931729
-  divuw t6, t2, s5  # normal
-
-  li t1, 2122160665
-  li s9, 4077839614
-  divuw t1, t1, s9  # normal
-
-  li t3, 3885997885
-  li s11, 2767405445
-  divuw s4, t3, s11  # normal
-
-  li a3, 1247976542
-  li a2, 1343066791
-  divuw s2, a3, a2  # normal
-
-  li t4, 3823775103
-  li t4, 2779696951
-  divuw s11, t4, t4  # normal
-
-  li a5, 3148502863
-  li s2, 1471982906
-  divuw a4, a5, s2  # normal
-
-  li a6, 3653606617
-  li a6, 3435540461
-  divuw t4, a6, a6  # normal
-
-  li t6, 3119911995
-  li t4, 3626454979
-  divuw s8, t6, t4  # normal
-
-  li a7, 1881894932
-  li s6, 2625612966
-  divuw t4, a7, s6  # normal
-
-  li s7, 3830092090
-  li t1, 2096471391
-  divuw a5, s7, t1  # normal
-
-  li s2, 2813090060
-  li t2, 3750123059
-  divuw a7, s2, t2  # normal
-
-  li s4, 409061875
-  li s10, 1067630048
-  divuw s4, s4, s10  # normal
-
-  li s9, 2632445649
-  li s9, 4013094698
-  divuw a5, s9, s9  # normal
-
-  li s3, 2111611923
-  li s3, 1034622484
-  divuw s4, s3, s3  # normal
-
-  li t2, 2763026830
-  li s4, 1009317340
-  divuw a2, t2, s4  # normal
-
-  li s2, 3679022701
-  li s6, 1920142971
-  divuw s2, s2, s6  # normal
-
-  li s3, 440849718
-  li s11, 1770980600
-  divuw t4, s3, s11  # normal
-
-  li s5, 2738205384
-  li t1, 2415200001
-  divuw s5, s5, t1  # normal
-
-  li s9, 1951890759
-  li s2, 2822511659
-  divuw s8, s9, s2  # normal
-
-  li s2, 2829998009
-  li t4, 9435833
-  divuw s10, s2, t4  # normal
-
-  li s8, 456650521
-  li a3, 3852057916
-  divuw a5, s8, a3  # normal
-
-  li t5, 1757546829
-  li s10, 841476312
-  divuw s3, t5, s10  # normal
-
-  li a6, 3356175095
-  li a0, 3078580665
-  divuw t4, a6, a0  # normal
-
-  li a7, 2528924461
-  li t2, 1934902523
-  divuw t4, a7, t2  # normal
-
-  li s6, 2142452709
-  li s4, 4017118465
-  divuw s9, s6, s4  # normal
-
-  li s3, 3909199720
-  li s4, 3501446994
-  divuw s6, s3, s4  # normal
-
-  li a6, 3791149875
-  li s9, 1652113468
-  divuw t4, a6, s9  # normal
-
-  li s10, 4138602728
-  li a1, 4168229907
-  divuw s7, s10, a1  # normal
-
-  li t5, 3696710765
-  li t5, 2716924538
-  divuw s2, t5, t5  # normal
-
-  li a0, 2948973070
-  li s7, 2735367768
-  divuw a0, a0, s7  # normal
-
-  li t4, 3049957779
-  li a5, 2293095089
-  divuw s10, t4, a5  # normal
-
-  li t1, 1635825546
-  li s4, 243115672
-  divuw a7, t1, s4  # normal
-
-  li t6, 3368789394
-  li a3, 2324316421
-  divuw a2, t6, a3  # normal
-
-  li s2, 1670255496
-  li t4, 2989849148
-  divuw a5, s2, t4  # normal
-
-  li s9, 1664534549
-  li t2, 2371357111
-  divuw s10, s9, t2  # normal
-
-  li s11, 831066348
-  li a2, 1927645417
-  divuw t1, s11, a2  # normal
-
-  li t3, 512620717
-  li t6, 174522691
-  divuw s9, t3, t6  # normal
-
-  li s5, 1095286033
-  li a2, 1419756364
-  divuw a2, s5, a2  # normal
-
-  li t5, 2842796831
-  li t2, 1537965898
-  divuw s10, t5, t2  # normal
-
-  li a4, 2169561289
-  li s4, 2306551869
-  divuw s10, a4, s4  # normal
-
-  li a5, 2848999900
-  li a1, 1421919938
-  divuw t3, a5, a1  # normal
-
-  li a0, 37811610
-  li s7, 2873068834
-  divuw a3, a0, s7  # normal
-
-  li a1, 2667740351
-  li s8, 4118430494
-  divuw s2, a1, s8  # normal
-
-  li a4, 4058691146
-  li a6, 1657324532
-  divuw s9, a4, a6  # normal
-
-  li s11, 3309247923
-  li a3, 0
-  divuw s5, s11, a3  # div-by-zero
-
-  li s4, 2798292304
-  li s2, 412129737
-  divuw s4, s4, s2  # normal
-
-  li s5, 2943792834
-  li t1, 3589154183
-  divuw s5, s5, t1  # normal
-
-  li s5, 2946534590
-  li s10, 102018113
-  divuw a0, s5, s10  # normal
-
-  li a4, 233079614
-  li t2, 3411126545
-  divuw s10, a4, t2  # normal
-
-  li t3, 3912657541
-  li s6, 1750769451
-  divuw s5, t3, s6  # normal
-
-  li s8, 72546169
-  li a6, 2891796055
-  divuw s2, s8, a6  # normal
-
-  li t1, 3643211329
-  li s8, 2159668272
-  divuw s5, t1, s8  # normal
-
-  li s9, 3980107027
-  li a3, 1638158847
-  divuw a3, s9, a3  # normal
-
-  li t1, 944316108
-  li s3, 3207283636
-  divuw s9, t1, s3  # normal
-
-  li a3, 4077921573
-  li s8, 2384006407
-  divuw s5, a3, s8  # normal
-
-  li t2, 365617071
-  li t1, 3117877161
-  divuw t4, t2, t1  # normal
-
-  li a7, 611840071
-  li s8, 790242728
-  divuw a0, a7, s8  # normal
-
-  li a2, 2357297588
-  li a0, 314153552
-  divuw s7, a2, a0  # normal
-
-  li t3, 1420993922
-  li a2, 2815235019
-  divuw s9, t3, a2  # normal
-
-  li a3, 831070024
-  li s7, 2086758111
-  divuw t4, a3, s7  # normal
-
-  li s7, 2508990774
-  li s9, 1839566253
-  divuw a4, s7, s9  # normal
-
-  li a4, 2752380581
-  li a1, 1543980627
-  divuw t1, a4, a1  # normal
-
-  li s11, 1987918631
-  li a4, 1311991364
-  divuw s9, s11, a4  # normal
-
-  li t4, 3549548567
-  li t6, 843668735
-  divuw s5, t4, t6  # normal
-
-  li s8, 3831562592
-  li t3, 2712815143
-  divuw s11, s8, t3  # normal
-
-  li s6, 2317895570
-  li a6, 638373812
-  divuw s6, s6, a6  # normal
-
-  li a1, 1249831874
-  li s6, 2192202822
-  divuw a6, a1, s6  # normal
-
-  li a5, 2938451957
-  li s4, 0
-  divuw a6, a5, s4  # div-by-zero
-
-  li t5, 3143935269
-  li s2, 4033727012
-  divuw s4, t5, s2  # normal
-
-  li a1, 1135405173
-  li s3, 1005102559
-  divuw t2, a1, s3  # normal
-
-  li a0, 1551562813
-  li s4, 199447370
-  divuw s9, a0, s4  # normal
-
-  li a4, 3563307395
-  li t4, 746679280
-  divuw s8, a4, t4  # normal
-
-  li a6, 1080555408
-  li a5, 1743078982
-  divuw s8, a6, a5  # normal
-
-  li s3, 3788308237
-  li s3, 1889350539
-  divuw a5, s3, s3  # normal
-
-  li t3, 908459040
-  li s4, 802753761
-  divuw a1, t3, s4  # normal
-
-  li s7, 2839444315
-  li s10, 486786005
-  divuw a5, s7, s10  # normal
-
-  li s3, 3579275417
-  li s3, 96405016
-  divuw s9, s3, s3  # normal
-
-  li t5, 2201784149
-  li s6, 630780803
-  divuw t2, t5, s6  # normal
-
-  li a2, 2738568701
-  li t6, 3527470850
-  divuw t6, a2, t6  # normal
-
-  li a0, 2068750029
-  li s2, 3296344958
-  divuw t3, a0, s2  # normal
-
-  li s9, 2536590481
-  li s4, 987042690
-  divuw s7, s9, s4  # normal
-
-  li t5, 2939337464
-  li t4, 0
-  divuw a6, t5, t4  # div-by-zero
-
-  li s7, 2576180666
-  li t4, 3231461054
-  divuw t5, s7, t4  # normal
-
-  li s3, 3554178984
-  li s9, 2788429082
-  divuw t3, s3, s9  # normal
-
-  li a7, 1842353139
-  li a5, 3301419700
-  divuw s4, a7, a5  # normal
-
-  li s6, 2474420092
-  li s11, 1827463042
-  divuw a5, s6, s11  # normal
-
-  li s3, 359993773
-  li a1, 2335306968
-  divuw a2, s3, a1  # normal
-
-  li a0, 3390543744
-  li t1, 30898225
-  divuw a2, a0, t1  # normal
-
-  li a0, 1755976246
-  li s10, 457771446
-  divuw s8, a0, s10  # normal
-
-  li s8, 2923179238
-  li s6, 3242579642
-  divuw a7, s8, s6  # normal
-
-  li s5, 2383326135
-  li s5, 3030076274
-  divuw a7, s5, s5  # normal
-
-  li t5, 986860232
-  li s9, 4076977004
-  divuw s11, t5, s9  # normal
-
-  li a0, 3035639663
-  li s4, 690364509
-  divuw t4, a0, s4  # normal
-
-  li t1, 2578034538
-  li t3, 378561387
-  divuw s8, t1, t3  # normal
-
-  li a1, 4228172410
-  li a5, 2237701770
-  divuw a2, a1, a5  # normal
-
-  li s7, 3522855590
-  li t2, 2750030242
-  divuw s10, s7, t2  # normal
-
-  li t1, 2225451403
-  li a0, 836429847
-  divuw s2, t1, a0  # normal
-
-  li s4, 2642220886
-  li s4, 2894912687
-  divuw s7, s4, s4  # normal
-
-  li a1, 676220116
-  li s8, 0
-  divuw a5, a1, s8  # div-by-zero
-
-  li a6, 3022033155
-  li a5, 3947836984
-  divuw a2, a6, a5  # normal
-
-  li a3, 1495057700
-  li s11, 1187592160
-  divuw s5, a3, s11  # normal
-
-  li a0, 2469205576
-  li s2, 1121448210
-  divuw s7, a0, s2  # normal
-
-  li s4, 2161095131
-  li t4, 3331171506
-  divuw a7, s4, t4  # normal
-
-  li s2, 2070046110
-  li s6, 1107327477
-  divuw s9, s2, s6  # normal
-
-  li s8, 1356052995
-  li a1, 4103607981
-  divuw a6, s8, a1  # normal
-
-  li s5, 1131078331
-  li t1, 1233899367
-  divuw s4, s5, t1  # normal
-
-  li s9, 4000316394
-  li s11, 2046790105
-  divuw a6, s9, s11  # normal
-
-  li a0, 3908108692
-  li s6, 857561275
-  divuw a5, a0, s6  # normal
-
-  li a1, 2656853453
-  li a2, 458227039
-  divuw s11, a1, a2  # normal
-
-  li s9, 4114549022
-  li s9, 3642177784
-  divuw t3, s9, s9  # normal
-
-  li s7, 3731333752
-  li a4, 2107992942
-  divuw a5, s7, a4  # normal
-
-  li a2, 2476758136
-  li a6, 3432838172
-  divuw s4, a2, a6  # normal
-
-  li s5, 750761833
-  li t2, 4194066484
-  divuw s3, s5, t2  # normal
-
-  li s4, 36157653
-  li s2, 2895250612
-  divuw s10, s4, s2  # normal
-
-  li s6, 1115406331
-  li t4, 2356061869
-  divuw a6, s6, t4  # normal
-
-  li a2, 1473588088
-  li s3, 789903223
-  divuw a1, a2, s3  # normal
-
-  li a0, 1599057680
-  li a7, 3669302613
-  divuw a7, a0, a7  # normal
-
-  li s2, 2946398734
-  li t6, 3496922300
-  divuw a2, s2, t6  # normal
-
-  li a2, 3677818023
-  li a1, 842085114
-  divuw s11, a2, a1  # normal
-
-  li t5, 758522476
-  li s3, 2145756342
-  divuw s11, t5, s3  # normal
-
-  li s4, 3372979284
-  li s5, 1288637003
-  divuw s8, s4, s5  # normal
-
-  li s6, 2965860354
-  li t2, 257854279
-  divuw s5, s6, t2  # normal
-
-  li s3, 3198003537
-  li s8, 1115699872
-  divuw a2, s3, s8  # normal
-
-  li s5, 1106876746
-  li s5, 85192104
-  divuw a5, s5, s5  # normal
-
-  li a5, 3351402058
-  li s9, 1525181720
-  divuw t4, a5, s9  # normal
-
-  li s4, 336757755
-  li s3, 2635665829
-  divuw s9, s4, s3  # normal
-
-  li s8, 3988163457
-  li t5, 3895849088
-  divuw s2, s8, t5  # normal
-
-  li t6, 2768726167
-  li a4, 4146902728
-  divuw t3, t6, a4  # normal
-
-  li t6, 3220107677
-  li t6, 904397668
-  divuw a7, t6, t6  # normal
-
-  li t4, 3773949004
-  li t4, 2355504998
-  divuw a6, t4, t4  # normal
-
-  li a6, 357561213
-  li s4, 666898313
-  divuw t1, a6, s4  # normal
-
-  li a6, 3167938795
-  li a3, 542934161
-  divuw s8, a6, a3  # normal
-
-  li t6, 3931064960
-  li t1, 0
-  divuw s4, t6, t1  # div-by-zero
-
-  li s2, 2355984014
-  li s5, 2316222488
-  divuw s3, s2, s5  # normal
-
-  li s7, 2422294927
-  li s2, 1491076495
-  divuw s6, s7, s2  # normal
-
-  li a1, 1571027407
-  li t3, 1115862756
-  divuw s5, a1, t3  # normal
-
-  li t1, 585405992
-  li t1, 1231634482
-  divuw a3, t1, t1  # normal
-
-  li t1, 2048987473
-  li s10, 1604788242
-  divuw s5, t1, s10  # normal
-
-  li s5, 1625035499
-  li a7, 1129491690
-  divuw a7, s5, a7  # normal
-
-  li s8, 1167651784
-  li a1, 1154581796
-  divuw a7, s8, a1  # normal
-
-  li t3, 1944620470
-  li t6, 2113106808
-  divuw a0, t3, t6  # normal
-
-  li t1, 2297681898
-  li t5, 0
-  divuw a4, t1, t5  # div-by-zero
-
-  li t4, 3071743181
-  li a3, 3122901114
-  divuw t6, t4, a3  # normal
-
-  li t3, 932815734
-  li t5, 0
-  divuw a1, t3, t5  # div-by-zero
-
-  li a3, 3399143287
-  li s3, 1418407139
-  divuw a7, a3, s3  # normal
-
-  li t2, 2019265031
-  li a2, 3614383717
-  divuw t5, t2, a2  # normal
-
-  li t1, 3069538076
-  li t4, 4187473785
-  divuw a6, t1, t4  # normal
-
-  li s11, 895273628
-  li t2, 4128382252
-  divuw a1, s11, t2  # normal
-
-  li t6, 524593800
-  li s8, 1283392443
-  divuw a4, t6, s8  # normal
-
-  li t2, 485024047
-  li s9, 2718323324
-  divuw a5, t2, s9  # normal
-
-  li t1, 2511253899
-  li t6, 1044060736
-  divuw a4, t1, t6  # normal
-
-  li s6, 2560712271
-  li s10, 384313264
-  divuw t2, s6, s10  # normal
-
-  li s3, 257922823
-  li t3, 461243650
-  divuw t6, s3, t3  # normal
-
-  li a1, 3249991124
-  li a4, 828779668
-  divuw s3, a1, a4  # normal
-
-  li a6, 169602003
-  li a5, 3034935482
-  divuw s10, a6, a5  # normal
-
-  li a3, 1493208421
-  li s5, 3145644409
-  divuw s5, a3, s5  # normal
-
-  li s7, 2281217890
-  li s5, 1930090462
-  divuw a2, s7, s5  # normal
-
-  li s5, 2173071915
-  li a5, 3151036012
-  divuw a2, s5, a5  # normal
-
-  li s7, 1025580463
-  li a5, 3096686730
-  divuw t1, s7, a5  # normal
-
-  li s5, 2934425509
-  li a6, 1216030167
-  divuw s9, s5, a6  # normal
-
-  li s8, 286387753
-  li a4, 557376230
-  divuw a7, s8, a4  # normal
-
-  li a0, 424143426
-  li t4, 3591879104
-  divuw t2, a0, t4  # normal
-
-  li s3, 2535323133
-  li s4, 210821160
-  divuw s9, s3, s4  # normal
-
-  li s7, 343411869
-  li s10, 260705324
-  divuw a1, s7, s10  # normal
-
-  li s11, 2649708468
-  li a7, 2272127173
-  divuw s5, s11, a7  # normal
-
-  li t3, 2231172272
-  li a3, 1654984428
-  divuw s11, t3, a3  # normal
-
-  li s4, 2857194152
-  li s9, 3791700311
-  divuw a0, s4, s9  # normal
-
-  li t6, 1596523152
-  li s5, 3117577972
-  divuw t6, t6, s5  # normal
-
-  li a1, 3197939663
-  li s6, 1943058119
-  divuw s7, a1, s6  # normal
-
-  li t1, 3823914858
-  li s11, 0
-  divuw a6, t1, s11  # div-by-zero
-
-  li a3, 1352505293
-  li a1, 3531912488
-  divuw t1, a3, a1  # normal
-
-  li s4, 2455054143
-  li s5, 404960131
-  divuw s5, s4, s5  # normal
-
-  li a5, 2500339713
-  li t5, 1000702246
-  divuw s2, a5, t5  # normal
-
-  li t3, 3942272347
-  li s6, 3153648273
-  divuw a3, t3, s6  # normal
-
-  li a4, 3898351305
-  li s3, 1290179211
-  divuw s11, a4, s3  # normal
-
-  li s6, 3310996751
-  li a6, 3509596891
-  divuw s11, s6, a6  # normal
-
-  li t4, 3988535000
-  li a1, 2715250922
-  divuw a7, t4, a1  # normal
-
-  li a3, 642441295
-  li s4, 0
-  divuw t2, a3, s4  # div-by-zero
-
-  li s10, 4283659940
-  li a1, 4170586106
-  divuw s4, s10, a1  # normal
-
-  li s6, 1855149589
-  li s4, 3377426131
-  divuw s7, s6, s4  # normal
-
-  li t5, 1714513575
-  li a4, 365411459
-  divuw t5, t5, a4  # normal
-
-  li a7, 579265528
-  li s10, 2402158803
-  divuw s4, a7, s10  # normal
-
-  li a6, 2251627092
-  li s8, 1040735415
-  divuw s3, a6, s8  # normal
-
-  li a7, 2473979489
-  li a4, 1776321392
-  divuw a2, a7, a4  # normal
-
-  li a5, 1309186996
-  li a0, 4241932686
-  divuw a5, a5, a0  # normal
-
-  li s2, 3514021643
-  li s7, 1605548088
-  divuw s7, s2, s7  # normal
-
-  li t3, 1235598059
-  li t4, 3454359624
-  divuw s11, t3, t4  # normal
-
-  li s2, 2310715848
-  li s3, 0
-  divuw a3, s2, s3  # div-by-zero
-
-  li s5, 2357078276
-  li s4, 4261905194
-  divuw a0, s5, s4  # normal
-
-  li s10, 186753800
-  li s9, 0
-  divuw s10, s10, s9  # div-by-zero
-
-  li t2, 1165144965
-  li a3, 4059502085
-  divuw t6, t2, a3  # normal
-
-  li a6, 2835109520
-  li s9, 3712064103
-  divuw t3, a6, s9  # normal
-
-  li a3, 4208178252
-  li s8, 3048090198
-  divuw t1, a3, s8  # normal
-
-  li s3, 800656591
-  li s7, 92292243
-  divuw a4, s3, s7  # normal
-
-  li s4, 674332429
-  li a3, 1511455193
-  divuw a1, s4, a3  # normal
-
-  li a3, 4253570650
-  li a1, 4076423980
-  divuw s8, a3, a1  # normal
-
-  li t5, 2821500440
-  li a4, 976795716
-  divuw a1, t5, a4  # normal
-
-  li s6, 2600039571
-  li t5, 565956995
-  divuw a1, s6, t5  # normal
-
-  li t5, 3436425084
-  li s6, 3704785815
-  divuw s8, t5, s6  # normal
-
-  li s10, 3906542112
-  li s10, 3307339566
-  divuw a3, s10, s10  # normal
-
-  li s6, 508469555
-  li t6, 3778016973
-  divuw s8, s6, t6  # normal
-
-  li t1, 1766312876
-  li a4, 1175945569
-  divuw s11, t1, a4  # normal
-
-  li t4, 997216402
-  li t5, 2952265565
-  divuw a0, t4, t5  # normal
-
-  li t3, 2789875688
-  li s10, 1664129261
-  divuw a5, t3, s10  # normal
-
-  li t5, 138424884
-  li t6, 1774010584
-  divuw s3, t5, t6  # normal
-
-  li s9, 284053367
-  li a0, 4233238476
-  divuw s11, s9, a0  # normal
-
-  li s3, 1059928520
-  li s10, 1343884495
-  divuw s7, s3, s10  # normal
-
-  li s11, 3379795093
-  li s6, 2236170837
-  divuw s7, s11, s6  # normal
-
-  li s2, 2310130385
-  li t2, 4134302513
-  divuw s2, s2, t2  # normal
-
-  li a3, 3554605180
-  li s2, 1981470996
-  divuw a0, a3, s2  # normal
-
-  li a3, 3881257367
-  li s7, 2774984836
-  divuw a7, a3, s7  # normal
-
-  li s11, 581137750
-  li s4, 1776223687
-  divuw t3, s11, s4  # normal
-
-  li t1, 3847409832
-  li t6, 3790516721
-  divuw s2, t1, t6  # normal
-
-  li a2, 3420882289
-  li a4, 530618370
-  divuw t3, a2, a4  # normal
-
-  li s10, 3037740700
-  li s2, 686763846
-  divuw t4, s10, s2  # normal
-
-  li a6, 3918095858
-  li t2, 644630523
-  divuw s5, a6, t2  # normal
-
-  li t6, 1323117098
-  li s10, 4127318021
-  divuw t5, t6, s10  # normal
-
-  li s8, 871241447
-  li t6, 1087103368
-  divuw a3, s8, t6  # normal
-
-  li s3, 3791180178
-  li s3, 1021679756
-  divuw s2, s3, s3  # normal
-
-  li s9, 1897840239
-  li s3, 28230917
-  divuw s6, s9, s3  # normal
-
-  li a2, 891796718
-  li s7, 793881710
-  divuw s5, a2, s7  # normal
-
-  li s8, 3667168880
-  li a5, 0
-  divuw t2, s8, a5  # div-by-zero
-
-  li s6, 3953022176
-  li s7, 210588114
-  divuw s9, s6, s7  # normal
-
-  li t6, 2486641280
-  li t6, 4000675383
-  divuw a7, t6, t6  # normal
-
-  li a3, 2364255319
-  li a4, 1257706935
-  divuw t3, a3, a4  # normal
-
-  li t4, 249900899
-  li s10, 376538681
-  divuw t5, t4, s10  # normal
-
-  li s10, 1233460089
-  li s7, 1359308025
-  divuw s11, s10, s7  # normal
-
-  li s6, 2416496073
-  li s7, 2713807766
-  divuw s4, s6, s7  # normal
-
-  li t6, 831314297
-  li s7, 507695800
-  divuw s3, t6, s7  # normal
-
-  li s8, 1780831278
-  li t4, 195387472
-  divuw s2, s8, t4  # normal
-
-  li s5, 2751434706
-  li s8, 2963600727
-  divuw a5, s5, s8  # normal
-
-  li t3, 2362204542
-  li a3, 3294379963
-  divuw a2, t3, a3  # normal
-
-  li s9, 754321211
-  li a4, 2888249353
-  divuw t4, s9, a4  # normal
-
-  li t2, 3847984045
-  li s8, 3496819011
-  divuw s3, t2, s8  # normal
-
-  li t2, 2301610601
-  li s4, 2944171307
-  divuw s11, t2, s4  # normal
-
-  li t3, 133887735
-  li t5, 4224610439
-  divuw a5, t3, t5  # normal
-
-  li s5, 1673174406
-  li t6, 2556329609
-  divuw s8, s5, t6  # normal
-
-  li s10, 1166072514
-  li a4, 372793655
-  divuw a3, s10, a4  # normal
-
-  li a5, 1299780396
-  li s2, 2255289131
-  divuw a1, a5, s2  # normal
-
-  li t4, 3340584292
-  li a5, 3922824898
-  divuw t6, t4, a5  # normal
-
-  li s4, 661759010
-  li t1, 1405905813
-  divuw s2, s4, t1  # normal
-
-  li s4, 156991958
-  li s9, 497511785
-  divuw t4, s4, s9  # normal
-
-  li t2, 3744675014
-  li s9, 1431468604
-  divuw a3, t2, s9  # normal
-
-  li t4, 3202133175
-  li s4, 3257706152
-  divuw t2, t4, s4  # normal
-
-  li a0, 1230797512
-  li a4, 2286107192
-  divuw s8, a0, a4  # normal
-
-  li s9, 676440254
-  li t4, 491603670
-  divuw s2, s9, t4  # normal
-
-  li s5, 2330143102
-  li s4, 2359507540
-  divuw s7, s5, s4  # normal
-
-  li t5, 2465667475
-  li s10, 735620429
-  divuw a2, t5, s10  # normal
-
-  li s7, 217867296
-  li a4, 124522637
-  divuw a3, s7, a4  # normal
-
-  li t2, 369880788
-  li t4, 1683269674
-  divuw s9, t2, t4  # normal
-
-  li s7, 1527394794
-  li s6, 3283194491
-  divuw s10, s7, s6  # normal
-
-  li t5, 2011229698
-  li t3, 1956719117
-  divuw s6, t5, t3  # normal
-
-  li s8, 2020979143
-  li s10, 4069259334
-  divuw s9, s8, s10  # normal
-
-  li s7, 1683957564
-  li a2, 2856929012
-  divuw t5, s7, a2  # normal
-
-  li s2, 2041545544
-  li s3, 0
-  divuw a4, s2, s3  # div-by-zero
-
-  li s3, 2468224333
-  li s2, 2181627202
-  divuw a5, s3, s2  # normal
-
-  li s10, 2789372578
-  li t4, 3403464975
-  divuw a6, s10, t4  # normal
-
-  li s2, 2071783372
-  li a6, 283725262
-  divuw s5, s2, a6  # normal
-
-  li s10, 4209949389
-  li s6, 2981279224
-  divuw a0, s10, s6  # normal
-
-  li s9, 2090061251
-  li s9, 1988176599
-  divuw t6, s9, s9  # normal
-
-  li t4, 4105488132
-  li s2, 1627410430
-  divuw s5, t4, s2  # normal
-
-  li s8, 3478233603
-  li s9, 3251624056
-  divuw s3, s8, s9  # normal
-
-  li t5, 2482196541
-  li s2, 840381733
-  divuw s9, t5, s2  # normal
-
-  li a4, 1263513519
-  li a3, 228180081
-  divuw s9, a4, a3  # normal
-
-  li s5, 133937440
-  li a5, 2534734556
-  divuw s10, s5, a5  # normal
-
-  li a4, 1638809377
-  li s10, 2341267390
-  divuw s8, a4, s10  # normal
-
-  li t6, 2385517516
-  li s3, 1792012815
-  divuw s9, t6, s3  # normal
-
-  li s9, 67464491
-  li t5, 4252952412
-  divuw a3, s9, t5  # normal
-
-  li t5, 3694327968
-  li s8, 3995655373
-  divuw t3, t5, s8  # normal
-
-  li t6, 1932931842
-  li s2, 1526032931
-  divuw s7, t6, s2  # normal
-
-  li a7, 3139249064
-  li s7, 0
-  divuw t6, a7, s7  # div-by-zero
-
-  li s4, 1576124271
-  li a2, 4201480686
-  divuw s10, s4, a2  # normal
-
-  li s3, 2492235444
-  li s10, 343868435
-  divuw s6, s3, s10  # normal
-
-  li s11, 3345220398
-  li s4, 379874179
-  divuw s11, s11, s4  # normal
-
-  li s8, 2872118270
-  li s11, 2489485190
-  divuw s3, s8, s11  # normal
-
-  li t2, 46314343
-  li a4, 3891476956
-  divuw s7, t2, a4  # normal
-
-  li s11, 3428342624
-  li a4, 1242140808
-  divuw s6, s11, a4  # normal
-
-  li s10, 2421100023
-  li s7, 4253584573
-  divuw t2, s10, s7  # normal
-
-  li s7, 354378489
-  li t1, 2171518770
-  divuw s11, s7, t1  # normal
-
-  li a2, 1103616435
-  li t5, 3184414029
-  divuw a2, a2, t5  # normal
-
-  li t6, 2831051904
-  li s6, 753334536
-  divuw s7, t6, s6  # normal
-
-  li a1, 142122736
-  li s3, 4226555608
-  divuw s10, a1, s3  # normal
-
-  li s7, 1645689727
-  li t5, 2837544412
-  divuw t5, s7, t5  # normal
-
-  li s8, 1482088956
-  li t6, 2758490418
-  divuw s11, s8, t6  # normal
-
-  li t2, 2045400609
-  li t6, 1003567683
-  divuw t4, t2, t6  # normal
-
-  li s10, 3737814424
-  li a6, 50951360
-  divuw s9, s10, a6  # normal
-
-  li a6, 4105433614
-  li s9, 3625980113
-  divuw s2, a6, s9  # normal
-
-  li s8, 422095589
-  li a2, 1679992638
-  divuw s7, s8, a2  # normal
-
-  li s11, 772736132
-  li a1, 2351978047
-  divuw s9, s11, a1  # normal
-
-  li t1, 1915307177
-  li t3, 0
-  divuw s9, t1, t3  # div-by-zero
-
-  li s11, 146208285
-  li a3, 2660290823
-  divuw a1, s11, a3  # normal
-
-  li s7, 4113699666
-  li s9, 2597105677
-  divuw t2, s7, s9  # normal
-
-  li s9, 4153944226
-  li s8, 3848297723
-  divuw a6, s9, s8  # normal
-
-  li t6, 4274554937
-  li a2, 3304372292
-  divuw s10, t6, a2  # normal
-
-  li s9, 3353215401
-  li a4, 267951754
-  divuw s10, s9, a4  # normal
-
-  li a4, 3490953123
-  li t2, 764201331
-  divuw a6, a4, t2  # normal
-
-  li s3, 2113370001
-  li a0, 3301572823
-  divuw t3, s3, a0  # normal
-
-  li s7, 1112380464
-  li s8, 149726408
-  divuw a0, s7, s8  # normal
-
-  li s6, 1915048861
-  li s11, 3850491393
-  divuw t3, s6, s11  # normal
-
-  li s8, 1677115255
-  li s8, 0
-  divuw t5, s8, s8  # div-by-zero
-
-  li s10, 2468061102
-  li a4, 2107452219
-  divuw t5, s10, a4  # normal
-
-  li a6, 3373188745
-  li s11, 2319835182
-  divuw a7, a6, s11  # normal
-
-  li a6, 2070459171
-  li s10, 1541542479
-  divuw t1, a6, s10  # normal
-
-  li a3, 2779163450
-  li a6, 1460558581
-  divuw s9, a3, a6  # normal
-
-  li a3, 2381454037
-  li s8, 4155436520
-  divuw s2, a3, s8  # normal
-
-  li a0, 3850269395
-  li a3, 1543014759
-  divuw s9, a0, a3  # normal
-
-  li s8, 601050402
-  li s2, 829326917
-  divuw t3, s8, s2  # normal
-
-  li s6, 1321694065
-  li a1, 4277072865
-  divuw s11, s6, a1  # normal
-
-  li a4, 3096722936
-  li t2, 1741642976
-  divuw t2, a4, t2  # normal
-
-  li s8, 2304513663
-  li s9, 309381429
-  divuw a0, s8, s9  # normal
-
-  li t5, 196716790
-  li s3, 560655311
-  divuw s11, t5, s3  # normal
-
-  li s8, 417866985
-  li t2, 2625195227
-  divuw t6, s8, t2  # normal
-
-  li t3, 2644104389
-  li t4, 870337080
-  divuw s6, t3, t4  # normal
-
-  li s11, 2344557360
-  li s9, 744951997
-  divuw a4, s11, s9  # normal
-
-  li t4, 1783074271
-  li a2, 2990567626
-  divuw t3, t4, a2  # normal
-
-  li t6, 2499610004
-  li s2, 572823571
-  divuw s5, t6, s2  # normal
-
-  li s7, 2091509391
-  li a6, 27271239
-  divuw s8, s7, a6  # normal
-
-  li t3, 3809271522
-  li s10, 3318131581
-  divuw t6, t3, s10  # normal
-
-  li t5, 1934535440
-  li a0, 2970715367
-  divuw s10, t5, a0  # normal
-
-  li t6, 4081499111
-  li s10, 3361168522
-  divuw s7, t6, s10  # normal
-
-  li a7, 824216542
-  li t1, 4195287460
-  divuw a5, a7, t1  # normal
-
-  li a5, 893820081
-  li s5, 227929714
-  divuw s7, a5, s5  # normal
-
-  li t5, 3914795562
-  li s9, 2136809970
-  divuw t4, t5, s9  # normal
-
-  li s9, 1564197331
-  li t2, 900181147
-  divuw t6, s9, t2  # normal
-
-  li a4, 3257337656
-  li s7, 186047172
-  divuw a2, a4, s7  # normal
-
-  li t2, 3373662535
-  li s5, 498495745
-  divuw s11, t2, s5  # normal
-
-  li s11, 1400040429
-  li s2, 1398806247
-  divuw a1, s11, s2  # normal
-
-  li a4, 3168602952
-  li a1, 3736133245
-  divuw t4, a4, a1  # normal
-
-  li a1, 2080515301
-  li t3, 3824620455
-  divuw a6, a1, t3  # normal
-
-  li a0, 1663571006
-  li s7, 585853361
-  divuw t5, a0, s7  # normal
-
-  li a0, 1158329197
-  li s8, 1442642321
-  divuw s11, a0, s8  # normal
-
-  li s10, 586269483
-  li s6, 3657814780
-  divuw t2, s10, s6  # normal
-
-  li a7, 3889428336
-  li t6, 986563860
-  divuw s2, a7, t6  # normal
-
-  li s4, 1987551590
-  li s3, 3747781900
-  divuw a7, s4, s3  # normal
-
-  li a4, 21808033
-  li a7, 4209858423
-  divuw a1, a4, a7  # normal
-
-  li s3, 144399177
-  li s11, 2281150458
-  divuw t2, s3, s11  # normal
-
-  li s10, 1032989010
-  li t4, 3142998155
-  divuw s3, s10, t4  # normal
-
-  li t5, 389680278
-  li a5, 1309263254
-  divuw a0, t5, a5  # normal
-
-  li s2, 1953526348
-  li s6, 3315006135
-  divuw s10, s2, s6  # normal
-
-  li a6, 2720442203
-  li t6, 303648148
-  divuw s10, a6, t6  # normal
-
-  li a4, 3412260278
-  li s4, 0
-  divuw s10, a4, s4  # div-by-zero
-
-  li t3, 2897612417
-  li s7, 3813836089
-  divuw s9, t3, s7  # normal
-
-  li a6, 175553937
-  li a5, 1573817755
-  divuw t4, a6, a5  # normal
-
-  li s5, 879233902
-  li s10, 4214443617
-  divuw s8, s5, s10  # normal
-
-  li s5, 3018690355
-  li t4, 3267980072
-  divuw a1, s5, t4  # normal
-
-  li a5, 1816466752
-  li a2, 233903914
-  divuw a4, a5, a2  # normal
-
-  li a5, 527033009
-  li s2, 1255265844
-  divuw a5, a5, s2  # normal
-
-  li a5, 281868383
-  li s9, 1966554388
-  divuw s7, a5, s9  # normal
-
-  li a6, 4108681386
-  li t6, 469718772
-  divuw t3, a6, t6  # normal
-
-  li t4, 97453982
-  li s10, 4001713266
-  divuw a2, t4, s10  # normal
-
-  li a5, 2768898601
-  li a7, 1252055106
-  divuw s3, a5, a7  # normal
-
-  li t1, 1442582315
-  li a1, 2485517370
-  divuw t3, t1, a1  # normal
-
-  li s8, 2355655182
-  li a4, 1967125474
-  divuw s8, s8, a4  # normal
-
-  li t5, 1116723521
-  li a3, 2079808343
-  divuw s6, t5, a3  # normal
-
-  li t2, 3969115197
-  li t5, 1225124755
-  divuw a3, t2, t5  # normal
-
-  li s10, 3412168053
-  li s10, 692583718
-  divuw t6, s10, s10  # normal
-
-  li t2, 1893602300
-  li a4, 1587729771
-  divuw t4, t2, a4  # normal
-
-  li s5, 1476811694
-  li s10, 0
-  divuw a0, s5, s10  # div-by-zero
-
-  li s2, 2291979069
-  li s5, 107052949
-  divuw a5, s2, s5  # normal
-
-  li t5, 670243704
-  li s2, 2179305198
-  divuw s3, t5, s2  # normal
-
-  li s10, 1898828806
-  li a3, 2959863754
-  divuw s8, s10, a3  # normal
-
-  li s3, 2366355159
-  li t2, 1323202998
-  divuw s11, s3, t2  # normal
-
-  li s7, 397203433
-  li a1, 2754416885
-  divuw a6, s7, a1  # normal
-
-  li s4, 3294648470
-  li a1, 840592447
-  divuw s6, s4, a1  # normal
-
-  li s5, 4112962480
-  li s2, 1694036518
-  divuw t3, s5, s2  # normal
-
-  li a4, 4051881463
-  li s7, 1550761818
-  divuw s3, a4, s7  # normal
-
-  li s10, 1601297604
-  li a7, 1222564030
-  divuw t5, s10, a7  # normal
-
-  li a3, 376233267
-  li s2, 4263172357
-  divuw a5, a3, s2  # normal
-
-  li a3, 3850132482
-  li t6, 369702097
-  divuw s2, a3, t6  # normal
-
-  li a3, 1440603960
-  li s3, 1613930214
-  divuw a0, a3, s3  # normal
-
-  li a7, 1780324145
-  li s8, 2387202297
-  divuw t1, a7, s8  # normal
-
-  li s6, 3574631360
-  li t5, 2107049214
-  divuw s10, s6, t5  # normal
-
-  li s6, 3177657432
-  li a3, 964307023
-  divuw a3, s6, a3  # normal
-
-  li t5, 2734007947
-  li a2, 1235614989
-  divuw t1, t5, a2  # normal
-
-  li s3, 122159993
-  li s10, 3284440326
-  divuw t6, s3, s10  # normal
-
-  li t3, 2495658464
-  li s7, 2429124352
-  divuw s3, t3, s7  # normal
-
-  li s8, 513608027
-  li s9, 2470738735
-  divuw a2, s8, s9  # normal
-
-  li t6, 1373019921
-  li s6, 581956867
-  divuw a2, t6, s6  # normal
-
-  li t2, 4102365320
-  li a2, 209228923
-  divuw t6, t2, a2  # normal
-
-  li s4, 2207039799
-  li s8, 3232514826
-  divuw a3, s4, s8  # normal
-
-  li a4, 1293095736
-  li a4, 2956426322
-  divuw s5, a4, a4  # normal
-
-  li s5, 617262027
-  li s6, 1208680095
-  divuw t4, s5, s6  # normal
-
-  li a7, 700204852
-  li a4, 935771229
-  divuw s3, a7, a4  # normal
-
-  li a1, 3447056094
-  li a0, 1792488531
-  divuw s4, a1, a0  # normal
-
-  li t4, 2059515129
-  li t5, 1557220130
-  divuw t3, t4, t5  # normal
-
-  li s7, 1469072661
-  li s4, 3048975310
-  divuw s2, s7, s4  # normal
-
-  li s11, 973129790
-  li t4, 538349165
-  divuw t1, s11, t4  # normal
-
-  li t3, 3367382040
-  li a7, 333870589
-  divuw t5, t3, a7  # normal
-
-  li a7, 2547672267
-  li t2, 2014693343
-  divuw s3, a7, t2  # normal
-
-  li t2, 2584676841
-  li t3, 859098375
-  divuw a2, t2, t3  # normal
-
-  li a5, 4045193380
-  li t1, 1493946566
-  divuw s9, a5, t1  # normal
-
-  li s4, 293505358
-  li s11, 3278108191
-  divuw t6, s4, s11  # normal
-
-  li a0, 1210565696
-  li s10, 2306940725
-  divuw s4, a0, s10  # normal
-
-  li t4, 2038887576
-  li a0, 795109167
-  divuw s11, t4, a0  # normal
-
-  li t4, 4214656244
-  li t6, 1821460610
-  divuw s9, t4, t6  # normal
-
-  li a1, 4228879565
-  li a7, 530924113
-  divuw s4, a1, a7  # normal
-
-  li s4, 3101552989
-  li t5, 353252232
-  divuw t4, s4, t5  # normal
-
-  li t4, 1906775938
-  li a6, 2379050651
-  divuw s3, t4, a6  # normal
-
-  li a7, 3446438109
-  li a0, 1578148768
-  divuw a3, a7, a0  # normal
-
-  li s9, 1702395148
-  li s3, 2905625550
-  divuw t1, s9, s3  # normal
-
-  li t5, 4199848083
-  li a6, 277929117
-  divuw t4, t5, a6  # normal
-
-  li a4, 4254857971
-  li a0, 527259496
-  divuw a0, a4, a0  # normal
-
-  li s11, 1718998498
-  li s3, 1197826153
-  divuw a7, s11, s3  # normal
-
-  li t4, 2135774649
-  li t4, 578138594
-  divuw s2, t4, t4  # normal
-
-  li s11, 769210137
-  li t2, 1404264843
-  divuw t4, s11, t2  # normal
-
-  li s7, 3296697093
-  li s7, 3404755494
-  divuw a3, s7, s7  # normal
-
-  li a3, 2168076965
-  li s9, 2329753974
-  divuw a0, a3, s9  # normal
-
-  li s5, 3929633791
-  li t1, 1647677764
-  divuw s5, s5, t1  # normal
-
-  li a6, 141131770
-  li s2, 3032501215
-  divuw a4, a6, s2  # normal
-
-  li a7, 1671087985
-  li t5, 3281402873
-  divuw s3, a7, t5  # normal
-
-  li s9, 2457624231
-  li s3, 3669411645
-  divuw s6, s9, s3  # normal
-
-  li t2, 2905492920
-  li a6, 1221649922
-  divuw s4, t2, a6  # normal
-
-  li t1, 3594604802
-  li s6, 0
-  divuw t2, t1, s6  # div-by-zero
-
-  li s11, 1465685609
-  li s6, 0
-  divuw a5, s11, s6  # div-by-zero
-
-  li a7, 1769224170
-  li a5, 1048955076
-  divuw t4, a7, a5  # normal
-
-  li s8, 1309589038
-  li a3, 1449956300
-  divuw a1, s8, a3  # normal
-
-  li s5, 1808922662
-  li a4, 0
-  divuw t1, s5, a4  # div-by-zero
-
-  li s10, 4233827517
-  li s3, 1676329121
-  divuw t1, s10, s3  # normal
-
-  li t4, 2899580938
-  li s3, 1442969253
-  divuw s6, t4, s3  # normal
-
-  li s9, 1286432453
-  li a4, 4163660504
-  divuw s4, s9, a4  # normal
-
-  li s3, 3380781824
-  li s8, 2301389619
-  divuw a0, s3, s8  # normal
-
-  li a2, 2463252622
-  li t2, 3455743663
-  divuw a3, a2, t2  # normal
-
-  li s11, 2483321097
-  li t3, 2542039357
-  divuw s7, s11, t3  # normal
-
-  li t3, 2041262104
-  li s6, 900822844
-  divuw a2, t3, s6  # normal
-
-  li s8, 1288099454
-  li a3, 1345840745
-  divuw t3, s8, a3  # normal
-
-  li a6, 3705310401
-  li a2, 2477523098
-  divuw a7, a6, a2  # normal
-
-  li s9, 3894830212
-  li s11, 861776710
-  divuw a0, s9, s11  # normal
-
-  li t5, 1869980594
-  li a1, 1771409361
-  divuw s2, t5, a1  # normal
-
-  li s8, 2582272957
-  li t6, 1743180954
-  divuw a3, s8, t6  # normal
-
-  li t5, 1333761598
-  li a0, 0
-  divuw t4, t5, a0  # div-by-zero
-
-  li s5, 3889761307
-  li a7, 867542631
-  divuw s3, s5, a7  # normal
-
-  li t5, 3451170219
-  li t1, 3661549914
-  divuw a2, t5, t1  # normal
-
-  li s3, 3850461711
-  li t1, 4102073765
-  divuw s11, s3, t1  # normal
-
-  li s9, 3619584847
-  li s9, 1013789043
-  divuw a5, s9, s9  # normal
-
-  li s11, 1081507361
-  li s4, 3799177162
-  divuw s6, s11, s4  # normal
-
-  li s7, 1346087107
-  li t4, 3166406042
-  divuw a1, s7, t4  # normal
-
-  li s11, 936338890
-  li a1, 458762697
-  divuw s11, s11, a1  # normal
-
-  li a2, 240197763
-  li s2, 2291236085
-  divuw a0, a2, s2  # normal
-
-  li t4, 622390281
-  li a4, 1323586087
-  divuw s10, t4, a4  # normal
-
-  li s7, 4040912587
-  li t2, 1029399861
-  divuw s8, s7, t2  # normal
-
-  li a6, 3009126264
-  li a3, 2943119201
-  divuw s5, a6, a3  # normal
-
-  li a1, 1097508854
-  li s2, 1011294963
-  divuw s5, a1, s2  # normal
-
-  li t6, 145520719
-  li s2, 3721351171
-  divuw a0, t6, s2  # normal
-
-  li s3, 3612769589
-  li s11, 3081149490
-  divuw s3, s3, s11  # normal
-
-  li t6, 285045092
-  li s10, 1403459353
-  divuw t4, t6, s10  # normal
-
-  li t1, 2753498424
-  li t2, 13210480
-  divuw s10, t1, t2  # normal
-
-  li s8, 353183979
-  li a3, 677842235
-  divuw a0, s8, a3  # normal
-
-  li s10, 2945288333
-  li s8, 1371808827
-  divuw s4, s10, s8  # normal
-
-  li s11, 3550944131
-  li t5, 3433949486
-  divuw s3, s11, t5  # normal
-
-  li t3, 2449808800
-  li a7, 1986099771
-  divuw a0, t3, a7  # normal
-
-  li s10, 2654307183
-  li t6, 0
-  divuw a2, s10, t6  # div-by-zero
-
-  li a2, 1580205025
-  li t5, 504016658
-  divuw s7, a2, t5  # normal
-
-  li s4, 3986953158
-  li a7, 2122353925
-  divuw s10, s4, a7  # normal
-
-  li s10, 3359188183
-  li a0, 2122436090
-  divuw a1, s10, a0  # normal
-
-  li a7, 2908503113
-  li a0, 1796717941
+  li a2, 608
+  li a2, 141
+  divuw t6, a2, a2  # normal
+
+  li s7, 1208
+  li s7, 2043
+  divuw s7, s7, s7  # normal
+
+  li s5, 1145
+  li s3, 1568
+  divuw a7, s5, s3  # normal
+
+  li a7, 1020
+  li a0, 79
   divuw t5, a7, a0  # normal
 
-  li t5, 1124420145
-  li t1, 2652916423
-  divuw a7, t5, t1  # normal
+  li s10, 1985
+  li a5, 1409
+  divuw a6, s10, a5  # normal
 
-  li a5, 1967799880
-  li s6, 44325089
-  divuw a1, a5, s6  # normal
+  li s4, 736
+  li a4, 106
+  divuw s6, s4, a4  # normal
 
-  li a4, 2564937036
-  li s10, 313771499
-  divuw t5, a4, s10  # normal
+  li s7, 1150
+  li a1, 239
+  divuw a4, s7, a1  # normal
 
-  li t2, 1008636315
-  li t2, 3900803267
-  divuw s5, t2, t2  # normal
+  li s4, 953
+  li a5, 653
+  divuw s3, s4, a5  # normal
 
-  li s9, 3478291959
-  li s7, 23025260
-  divuw s7, s9, s7  # normal
+  li a1, 229
+  li s9, 898
+  divuw t4, a1, s9  # normal
 
-  li s7, 1593008578
-  li a6, 2403293589
-  divuw s4, s7, a6  # normal
+  li a6, 711
+  li a5, 721
+  divuw s6, a6, a5  # normal
 
-  li t6, 2010409194
-  li a2, 385035155
-  divuw s6, t6, a2  # normal
+  li s6, 1469
+  li a4, 115
+  divuw a1, s6, a4  # normal
 
-  li s4, 501832818
-  li a7, 549203872
-  divuw s10, s4, a7  # normal
+  li s10, 582
+  li a5, 771
+  divuw s10, s10, a5  # normal
 
-  li s11, 3766413089
-  li a5, 1344369085
-  divuw a2, s11, a5  # normal
+  li s5, 155
+  li a3, 369
+  divuw s3, s5, a3  # normal
 
-  li a4, 3428329586
-  li s11, 228587581
-  divuw t6, a4, s11  # normal
+  li a1, 1957
+  li s7, 2
+  divuw t2, a1, s7  # normal
 
-  li t2, 2019697772
-  li a1, 2006320271
-  divuw t5, t2, a1  # normal
+  li s7, 1395
+  li a0, 726
+  divuw a4, s7, a0  # normal
 
-  li s3, 2408851831
-  li t2, 1966062974
-  divuw t4, s3, t2  # normal
+  li t2, 580
+  li t1, 454
+  divuw a4, t2, t1  # normal
 
-  li s11, 401913949
-  li t5, 3728775107
-  divuw t4, s11, t5  # normal
+  li a5, 1620
+  li t3, 413
+  divuw s4, a5, t3  # normal
 
-  li t6, 2515465308
-  li s11, 4173107724
-  divuw t6, t6, s11  # normal
+  li a3, 645
+  li a4, 1789
+  divuw a4, a3, a4  # normal
 
-  li s6, 330005804
-  li t6, 3299623349
-  divuw s4, s6, t6  # normal
+  li s3, 1461
+  li s8, 914
+  divuw s8, s3, s8  # normal
 
-  li t4, 2923324008
-  li a4, 0
-  divuw s9, t4, a4  # div-by-zero
+  li s6, 1206
+  li t6, 521
+  divuw s9, s6, t6  # normal
 
-  li a5, 1389586583
-  li s6, 124015059
-  divuw a6, a5, s6  # normal
+  li s11, 1603
+  li t1, 132
+  divuw t6, s11, t1  # normal
 
-  li s10, 2826115582
-  li s9, 1946058269
-  divuw s2, s10, s9  # normal
+  li s7, 904
+  li a4, 426
+  divuw t6, s7, a4  # normal
 
-  li s11, 3707754422
-  li s6, 1215278223
-  divuw s11, s11, s6  # normal
+  li t5, 974
+  li a4, 1420
+  divuw s3, t5, a4  # normal
 
-  li s11, 2586822401
-  li t3, 397503555
-  divuw t2, s11, t3  # normal
+  li t6, 363
+  li s8, 1375
+  divuw a4, t6, s8  # normal
 
-  li t6, 3717360831
-  li a1, 383060868
-  divuw a2, t6, a1  # normal
+  li t1, 277
+  li a2, 1435
+  divuw s2, t1, a2  # normal
 
-  li t6, 2809184791
-  li a6, 517981598
-  divuw a0, t6, a6  # normal
+  li t4, 1580
+  li s11, 0
+  divuw a2, t4, s11  # div-by-zero
 
-  li a7, 563871947
-  li s11, 2858387914
-  divuw s3, a7, s11  # normal
+  li s11, 1695
+  li a7, 2019
+  divuw s2, s11, a7  # normal
 
-  li s4, 3802820039
-  li a0, 2046292876
-  divuw a5, s4, a0  # normal
+  li a5, 1963
+  li s5, 923
+  divuw a6, a5, s5  # normal
 
-  li s7, 800392193
-  li a7, 2708776837
-  divuw s6, s7, a7  # normal
+  li s2, 136
+  li t3, 1207
+  divuw t6, s2, t3  # normal
 
-  li t2, 2253473926
-  li s4, 1248559979
-  divuw t3, t2, s4  # normal
+  li a4, 303
+  li a2, 1400
+  divuw t1, a4, a2  # normal
 
-  li t3, 4227047686
-  li s3, 1837094114
-  divuw a7, t3, s3  # normal
+  li a6, 381
+  li t6, 1384
+  divuw t6, a6, t6  # normal
 
-  li t2, 1824989680
-  li s5, 405807234
-  divuw s6, t2, s5  # normal
+  li s7, 1766
+  li s3, 675
+  divuw s7, s7, s3  # normal
 
-  li s11, 1526678932
-  li s6, 2514994916
-  divuw s9, s11, s6  # normal
+  li a7, 1356
+  li t6, 841
+  divuw s7, a7, t6  # normal
 
-  li t1, 1988049941
-  li t4, 3376604904
-  divuw s4, t1, t4  # normal
+  li a7, 1086
+  li s10, 1153
+  divuw a0, a7, s10  # normal
 
-  li t2, 3025282872
-  li t3, 3109962979
-  divuw a6, t2, t3  # normal
+  li a1, 2010
+  li t4, 629
+  divuw a3, a1, t4  # normal
 
-  li s2, 3478949331
-  li s7, 906531762
-  divuw s9, s2, s7  # normal
+  li a5, 1206
+  li t1, 1967
+  divuw t2, a5, t1  # normal
 
-  li s11, 2892268633
-  li s7, 76945301
-  divuw t3, s11, s7  # normal
+  li t4, 1195
+  li t1, 335
+  divuw a0, t4, t1  # normal
 
-  li t4, 2049214240
-  li t1, 2971285142
-  divuw a6, t4, t1  # normal
+  li t4, 1928
+  li a3, 2003
+  divuw s3, t4, a3  # normal
 
-  li s11, 2648898879
-  li s7, 2899542255
-  divuw s9, s11, s7  # normal
+  li a2, 1587
+  li t3, 757
+  divuw s9, a2, t3  # normal
 
-  li t3, 819488717
-  li t5, 3504556843
-  divuw a3, t3, t5  # normal
+  li a6, 182
+  li a5, 1078
+  divuw a5, a6, a5  # normal
 
-  li a0, 2785815533
-  li t1, 2790611308
-  divuw s10, a0, t1  # normal
+  li s2, 1100
+  li a2, 252
+  divuw s2, s2, a2  # normal
 
-  li s8, 1990397616
-  li s5, 2035767647
-  divuw a7, s8, s5  # normal
+  li s10, 1408
+  li s9, 1695
+  divuw t5, s10, s9  # normal
 
-  li t4, 2083260305
-  li t6, 1042086420
-  divuw t1, t4, t6  # normal
+  li a1, 1585
+  li s5, 1714
+  divuw s6, a1, s5  # normal
 
-  li s6, 33819777
-  li a6, 3062710327
-  divuw a3, s6, a6  # normal
+  li s9, 965
+  li s3, 1950
+  divuw s5, s9, s3  # normal
 
-  li s3, 4290785590
-  li s11, 158987731
-  divuw a7, s3, s11  # normal
+  li t3, 142
+  li a6, 603
+  divuw a3, t3, a6  # normal
 
-  li s3, 2095520970
-  li s4, 3067853612
-  divuw a6, s3, s4  # normal
+  li s2, 684
+  li t6, 867
+  divuw t4, s2, t6  # normal
 
-  li t1, 2376215097
-  li a7, 2784428542
-  divuw s4, t1, a7  # normal
+  li t5, 1783
+  li t2, 827
+  divuw a0, t5, t2  # normal
 
-  li t4, 2775321174
-  li s3, 1873593613
-  divuw s3, t4, s3  # normal
+  li t5, 274
+  li s7, 356
+  divuw s8, t5, s7  # normal
 
-  li a3, 1476813297
-  li s11, 2821613705
-  divuw t6, a3, s11  # normal
+  li s5, 1131
+  li a6, 1876
+  divuw a6, s5, a6  # normal
 
-  li a3, 4122324081
-  li s11, 3155016979
-  divuw t5, a3, s11  # normal
+  li s10, 1718
+  li s7, 460
+  divuw t1, s10, s7  # normal
 
-  li t6, 2073995755
-  li s7, 744279636
-  divuw s3, t6, s7  # normal
+  li t5, 410
+  li t5, 432
+  divuw a7, t5, t5  # normal
 
-  li s7, 4268197783
-  li s3, 1304174972
-  divuw t6, s7, s3  # normal
+  li t4, 1408
+  li a3, 1683
+  divuw s6, t4, a3  # normal
 
-  li s5, 1120161857
-  li t2, 2907383020
-  divuw a0, s5, t2  # normal
+  li a6, 1937
+  li s8, 153
+  divuw a2, a6, s8  # normal
 
-  li s4, 1450559731
-  li t2, 973627242
-  divuw t6, s4, t2  # normal
+  li a2, 1645
+  li a6, 158
+  divuw t6, a2, a6  # normal
 
-  li a1, 2875420006
-  li s3, 3033986022
-  divuw s5, a1, s3  # normal
+  li a4, 1946
+  li s10, 1100
+  divuw a6, a4, s10  # normal
 
-  li s2, 2415802569
-  li t4, 2178861531
-  divuw s2, s2, t4  # normal
+  li t1, 1241
+  li a4, 1273
+  divuw a5, t1, a4  # normal
 
-  li s8, 3912654107
-  li t4, 2172809426
-  divuw t6, s8, t4  # normal
+  li s3, 933
+  li s10, 550
+  divuw a2, s3, s10  # normal
 
-  li t4, 591728242
-  li t5, 3644688162
-  divuw s11, t4, t5  # normal
+  li s11, 1314
+  li s2, 1103
+  divuw a3, s11, s2  # normal
 
-  li a7, 3475252243
-  li t1, 1465958548
-  divuw s2, a7, t1  # normal
+  li a7, 769
+  li s7, 1809
+  divuw s11, a7, s7  # normal
 
-  li t6, 1782448387
-  li t3, 1054205230
+  li a7, 1531
+  li s11, 230
+  divuw a0, a7, s11  # normal
+
+  li t6, 1652
+  li t3, 555
   divuw s4, t6, t3  # normal
 
-  li a7, 1841780103
-  li a1, 3942866138
-  divuw s4, a7, a1  # normal
+  li s6, 822
+  li t1, 236
+  divuw s4, s6, t1  # normal
+
+  li t2, 1476
+  li s2, 815
+  divuw a1, t2, s2  # normal
+
+  li a5, 507
+  li s2, 125
+  divuw a2, a5, s2  # normal
+
+  li a5, 727
+  li s3, 1943
+  divuw a1, a5, s3  # normal
+
+  li s5, 1059
+  li a5, 370
+  divuw s6, s5, a5  # normal
+
+  li t1, 877
+  li a6, 906
+  divuw a3, t1, a6  # normal
+
+  li a1, 1677
+  li s9, 82
+  divuw s8, a1, s9  # normal
+
+  li t1, 709
+  li s3, 34
+  divuw s9, t1, s3  # normal
+
+  li a2, 1251
+  li s7, 1127
+  divuw a1, a2, s7  # normal
+
+  li a6, 893
+  li a5, 1911
+  divuw a7, a6, a5  # normal
+
+  li s9, 1626
+  li s4, 419
+  divuw a3, s9, s4  # normal
+
+  li s4, 1532
+  li s9, 1157
+  divuw t1, s4, s9  # normal
+
+  li s9, 1377
+  li t4, 1132
+  divuw a3, s9, t4  # normal
+
+  li a4, 1223
+  li a2, 771
+  divuw s8, a4, a2  # normal
+
+  li s4, 1655
+  li a1, 1309
+  divuw t5, s4, a1  # normal
+
+  li t5, 2037
+  li s11, 1210
+  divuw s9, t5, s11  # normal
+
+  li a7, 144
+  li a6, 777
+  divuw a2, a7, a6  # normal
+
+  li s11, 1948
+  li s10, 1468
+  divuw a4, s11, s10  # normal
+
+  li a3, 741
+  li t6, 1203
+  divuw s4, a3, t6  # normal
+
+  li s3, 749
+  li t5, 1374
+  divuw t4, s3, t5  # normal
+
+  li t3, 1257
+  li a1, 1722
+  divuw s8, t3, a1  # normal
+
+  li a5, 1899
+  li a2, 482
+  divuw a4, a5, a2  # normal
+
+  li t2, 291
+  li s8, 1934
+  divuw s3, t2, s8  # normal
+
+  li s4, 1563
+  li t4, 1222
+  divuw a0, s4, t4  # normal
+
+  li t2, 820
+  li t5, 1403
+  divuw a7, t2, t5  # normal
+
+  li s6, 738
+  li s2, 331
+  divuw a7, s6, s2  # normal
+
+  li a4, 1283
+  li s8, 237
+  divuw s3, a4, s8  # normal
+
+  li s2, 690
+  li a2, 648
+  divuw t1, s2, a2  # normal
+
+  li t3, 1758
+  li t5, 1652
+  divuw s3, t3, t5  # normal
+
+  li s3, 816
+  li a6, 0
+  divuw a7, s3, a6  # div-by-zero
+
+  li a5, 780
+  li t1, 73
+  divuw s11, a5, t1  # normal
+
+  li t1, 926
+  li s8, 1410
+  divuw s9, t1, s8  # normal
+
+  li t5, 1253
+  li t4, 684
+  divuw a3, t5, t4  # normal
+
+  li t2, 1867
+  li a3, 1383
+  divuw t3, t2, a3  # normal
+
+  li s9, 2007
+  li t5, 1471
+  divuw a7, s9, t5  # normal
+
+  li t6, 918
+  li a6, 537
+  divuw a0, t6, a6  # normal
+
+  li s11, 692
+  li t1, 504
+  divuw a0, s11, t1  # normal
+
+  li s10, 1536
+  li s8, 1047
+  divuw a5, s10, s8  # normal
+
+  li s7, 196
+  li t2, 442
+  divuw s5, s7, t2  # normal
+
+  li t1, 1707
+  li t2, 1819
+  divuw s8, t1, t2  # normal
+
+  li t4, 627
+  li s5, 841
+  divuw a6, t4, s5  # normal
+
+  li s9, 1723
+  li s8, 413
+  divuw s10, s9, s8  # normal
+
+  li s4, 561
+  li a2, 1715
+  divuw s9, s4, a2  # normal
+
+  li s4, 1157
+  li s11, 466
+  divuw t4, s4, s11  # normal
+
+  li s3, 1077
+  li a0, 826
+  divuw t4, s3, a0  # normal
+
+  li s10, 161
+  li a7, 2033
+  divuw a5, s10, a7  # normal
+
+  li s10, 11
+  li s3, 52
+  divuw a0, s10, s3  # normal
+
+  li t3, 2023
+  li t4, 610
+  divuw s9, t3, t4  # normal
+
+  li s4, 414
+  li t3, 1048
+  divuw t3, s4, t3  # normal
+
+  li a1, 1212
+  li s2, 1081
+  divuw s8, a1, s2  # normal
+
+  li t2, 161
+  li t4, 1190
+  divuw s2, t2, t4  # normal
+
+  li s9, 474
+  li a4, 389
+  divuw a5, s9, a4  # normal
+
+  li t1, 698
+  li t5, 1346
+  divuw t2, t1, t5  # normal
+
+  li s2, 380
+  li s7, 1526
+  divuw a5, s2, s7  # normal
+
+  li t6, 1869
+  li t4, 1113
+  divuw a4, t6, t4  # normal
+
+  li s10, 683
+  li s3, 463
+  divuw a6, s10, s3  # normal
+
+  li s10, 652
+  li s11, 424
+  divuw t5, s10, s11  # normal
+
+  li s6, 1794
+  li s3, 742
+  divuw a7, s6, s3  # normal
+
+  li a6, 535
+  li a5, 1978
+  divuw s7, a6, a5  # normal
+
+  li t4, 259
+  li a7, 1071
+  divuw s3, t4, a7  # normal
+
+  li a4, 917
+  li t1, 1385
+  divuw s8, a4, t1  # normal
+
+  li s4, 390
+  li s10, 1772
+  divuw s4, s4, s10  # normal
+
+  li s11, 1576
+  li a1, 608
+  divuw s9, s11, a1  # normal
+
+  li s7, 642
+  li t2, 1922
+  divuw s5, s7, t2  # normal
+
+  li t6, 1313
+  li t3, 986
+  divuw s3, t6, t3  # normal
+
+  li a2, 1550
+  li t2, 1651
+  divuw a4, a2, t2  # normal
+
+  li t3, 1835
+  li s2, 360
+  divuw a1, t3, s2  # normal
+
+  li s2, 2037
+  li a4, 72
+  divuw s3, s2, a4  # normal
+
+  li a6, 0
+  li a7, 372
+  divuw t4, a6, a7  # normal
+
+  li s7, 847
+  li s8, 1868
+  divuw s7, s7, s8  # normal
+
+  li a5, 1861
+  li t2, 1359
+  divuw a4, a5, t2  # normal
+
+  li s7, 1488
+  li s7, 1853
+  divuw s5, s7, s7  # normal
+
+  li t4, 1398
+  li s9, 1454
+  divuw t4, t4, s9  # normal
+
+  li a3, 435
+  li s5, 187
+  divuw s8, a3, s5  # normal
+
+  li s3, 1676
+  li t5, 438
+  divuw t6, s3, t5  # normal
+
+  li s7, 1609
+  li a0, 883
+  divuw a2, s7, a0  # normal
+
+  li a0, 1697
+  li s10, 190
+  divuw s2, a0, s10  # normal
+
+  li s9, 1845
+  li s6, 1873
+  divuw s8, s9, s6  # normal
+
+  li s6, 2043
+  li s4, 17
+  divuw s9, s6, s4  # normal
+
+  li s11, 1772
+  li t2, 1978
+  divuw s4, s11, t2  # normal
+
+  li t6, 525
+  li s10, 424
+  divuw s4, t6, s10  # normal
+
+  li s9, 1318
+  li s7, 1575
+  divuw a6, s9, s7  # normal
+
+  li s7, 1120
+  li s10, 1629
+  divuw a7, s7, s10  # normal
+
+  li a3, 565
+  li s2, 1690
+  divuw a4, a3, s2  # normal
+
+  li s10, 1285
+  li s11, 890
+  divuw s7, s10, s11  # normal
+
+  li a0, 1414
+  li s7, 543
+  divuw a0, a0, s7  # normal
+
+  li s8, 1320
+  li t6, 472
+  divuw s10, s8, t6  # normal
+
+  li s5, 1709
+  li s3, 1171
+  divuw a5, s5, s3  # normal
+
+  li t1, 1560
+  li s4, 595
+  divuw a7, t1, s4  # normal
+
+  li s9, 659
+  li t2, 1173
+  divuw t2, s9, t2  # normal
+
+  li a2, 1208
+  li t5, 835
+  divuw s9, a2, t5  # normal
+
+  li t2, 419
+  li a5, 918
+  divuw s5, t2, a5  # normal
+
+  li s8, 1178
+  li s5, 192
+  divuw s11, s8, s5  # normal
+
+  li a6, 1280
+  li a7, 220
+  divuw a6, a6, a7  # normal
+
+  li s11, 1814
+  li a2, 923
+  divuw t1, s11, a2  # normal
+
+  li s10, 804
+  li s10, 792
+  divuw s8, s10, s10  # normal
+
+  li s2, 305
+  li t6, 765
+  divuw a3, s2, t6  # normal
+
+  li s11, 166
+  li s4, 1755
+  divuw t6, s11, s4  # normal
+
+  li s5, 1044
+  li a2, 23
+  divuw a2, s5, a2  # normal
+
+  li s2, 163
+  li s10, 629
+  divuw a4, s2, s10  # normal
+
+  li s7, 1233
+  li t2, 2009
+  divuw a4, s7, t2  # normal
+
+  li s5, 1301
+  li a5, 900
+  divuw s6, s5, a5  # normal
+
+  li s4, 652
+  li t3, 1703
+  divuw t6, s4, t3  # normal
+
+  li s5, 906
+  li a6, 873
+  divuw s5, s5, a6  # normal
+
+  li a4, 894
+  li a4, 1945
+  divuw s9, a4, a4  # normal
+
+  li s8, 1417
+  li t1, 1825
+  divuw s5, s8, t1  # normal
+
+  li s8, 998
+  li s7, 163
+  divuw a1, s8, s7  # normal
+
+  li a4, 464
+  li a6, 1580
+  divuw s9, a4, a6  # normal
+
+  li s5, 1535
+  li s11, 1825
+  divuw a2, s5, s11  # normal
+
+  li t2, 788
+  li a3, 1312
+  divuw s3, t2, a3  # normal
+
+  li t3, 30
+  li t4, 268
+  divuw s4, t3, t4  # normal
+
+  li s9, 1737
+  li s8, 425
+  divuw a0, s9, s8  # normal
+
+  li s5, 1782
+  li s10, 295
+  divuw a0, s5, s10  # normal
+
+  li s9, 1358
+  li t5, 155
+  divuw s11, s9, t5  # normal
+
+  li t3, 1031
+  li t2, 288
+  divuw t3, t3, t2  # normal
+
+  li a1, 1847
+  li a2, 1656
+  divuw s6, a1, a2  # normal
+
+  li a4, 484
+  li t1, 24
+  divuw a7, a4, t1  # normal
+
+  li s11, 186
+  li s7, 297
+  divuw s8, s11, s7  # normal
+
+  li s4, 1234
+  li t4, 354
+  divuw a5, s4, t4  # normal
+
+  li s2, 126
+  li a6, 1941
+  divuw a3, s2, a6  # normal
+
+  li s5, 1601
+  li a1, 1208
+  divuw t6, s5, a1  # normal
+
+  li t5, 1528
+  li a3, 45
+  divuw s8, t5, a3  # normal
+
+  li s5, 20
+  li t5, 1614
+  divuw s5, s5, t5  # normal
+
+  li s5, 1408
+  li t3, 867
+  divuw s5, s5, t3  # normal
+
+  li s8, 753
+  li s4, 904
+  divuw a7, s8, s4  # normal
+
+  li a2, 222
+  li a0, 1889
+  divuw s7, a2, a0  # normal
+
+  li s5, 275
+  li t3, 1026
+  divuw s8, s5, t3  # normal
+
+  li a0, 1355
+  li s11, 1462
+  divuw t4, a0, s11  # normal
+
+  li s9, 1167
+  li s8, 285
+  divuw t5, s9, s8  # normal
+
+  li a4, 1252
+  li s3, 624
+  divuw a0, a4, s3  # normal
+
+  li s6, 1754
+  li a5, 690
+  divuw s6, s6, a5  # normal
+
+  li a4, 1786
+  li a1, 1133
+  divuw t1, a4, a1  # normal
+
+  li t5, 1965
+  li s9, 1895
+  divuw a5, t5, s9  # normal
+
+  li a5, 445
+  li a3, 719
+  divuw s2, a5, a3  # normal
+
+  li s7, 573
+  li t3, 804
+  divuw s8, s7, t3  # normal
+
+  li s11, 308
+  li s8, 76
+  divuw a2, s11, s8  # normal
+
+  li s8, 1659
+  li t1, 871
+  divuw s4, s8, t1  # normal
+
+  li s5, 1933
+  li a2, 608
+  divuw t2, s5, a2  # normal
+
+  li a6, 1191
+  li a1, 548
+  divuw a5, a6, a1  # normal
+
+  li s4, 1490
+  li s4, 43
+  divuw s2, s4, s4  # normal
+
+  li a1, 574
+  li s7, 1827
+  divuw s9, a1, s7  # normal
+
+  li t6, 598
+  li s6, 1980
+  divuw t6, t6, s6  # normal
+
+  li t2, 949
+  li a1, 257
+  divuw a5, t2, a1  # normal
+
+  li a5, 846
+  li a1, 1479
+  divuw a2, a5, a1  # normal
+
+  li s3, 163
+  li s2, 1327
+  divuw a6, s3, s2  # normal
+
+  li s10, 1120
+  li s4, 1078
+  divuw t4, s10, s4  # normal
+
+  li s5, 1550
+  li s6, 1496
+  divuw s6, s5, s6  # normal
+
+  li s8, 1541
+  li t3, 912
+  divuw s6, s8, t3  # normal
+
+  li a6, 1413
+  li a5, 1994
+  divuw s4, a6, a5  # normal
+
+  li s7, 569
+  li t1, 1801
+  divuw s3, s7, t1  # normal
+
+  li a1, 1150
+  li t3, 866
+  divuw t6, a1, t3  # normal
+
+  li t6, 484
+  li t6, 943
+  divuw t5, t6, t6  # normal
+
+  li a4, 1961
+  li s11, 1962
+  divuw a7, a4, s11  # normal
+
+  li s6, 1683
+  li t6, 91
+  divuw a0, s6, t6  # normal
+
+  li t2, 659
+  li t5, 551
+  divuw a1, t2, t5  # normal
+
+  li s4, 601
+  li t2, 229
+  divuw s8, s4, t2  # normal
+
+  li a2, 1660
+  li t6, 76
+  divuw t6, a2, t6  # normal
+
+  li s11, 351
+  li s9, 887
+  divuw s11, s11, s9  # normal
+
+  li s7, 698
+  li s3, 898
+  divuw s2, s7, s3  # normal
+
+  li s7, 744
+  li t5, 1083
+  divuw a7, s7, t5  # normal
+
+  li s11, 1857
+  li s9, 281
+  divuw t6, s11, s9  # normal
+
+  li a6, 67
+  li a6, 828
+  divuw a1, a6, a6  # normal
+
+  li s4, 612
+  li s9, 394
+  divuw s4, s4, s9  # normal
+
+  li s3, 481
+  li s7, 381
+  divuw t6, s3, s7  # normal
+
+  li s9, 4
+  li t5, 1767
+  divuw s3, s9, t5  # normal
+
+  li a7, 1757
+  li a5, 939
+  divuw s4, a7, a5  # normal
+
+  li a6, 400
+  li a5, 1742
+  divuw s3, a6, a5  # normal
+
+  li a2, 343
+  li s3, 1160
+  divuw t5, a2, s3  # normal
+
+  li s5, 22
+  li a7, 29
+  divuw s7, s5, a7  # normal
+
+  li s4, 1536
+  li t4, 841
+  divuw s6, s4, t4  # normal
+
+  li a4, 633
+  li a7, 1745
+  divuw s10, a4, a7  # normal
+
+  li s6, 1734
+  li a2, 1497
+  divuw s8, s6, a2  # normal
+
+  li a2, 834
+  li s9, 1692
+  divuw s7, a2, s9  # normal
+
+  li s5, 1981
+  li s3, 1039
+  divuw s5, s5, s3  # normal
+
+  li s6, 1630
+  li a5, 565
+  divuw a3, s6, a5  # normal
+
+  li t4, 662
+  li s11, 410
+  divuw s9, t4, s11  # normal
+
+  li s4, 213
+  li a6, 658
+  divuw a0, s4, a6  # normal
+
+  li s8, 595
+  li t1, 1931
+  divuw a6, s8, t1  # normal
+
+  li a7, 908
+  li t3, 1518
+  divuw s7, a7, t3  # normal
+
+  li s7, 1641
+  li t2, 1173
+  divuw t3, s7, t2  # normal
+
+  li s7, 717
+  li t2, 2024
+  divuw s10, s7, t2  # normal
+
+  li t1, 1171
+  li a0, 797
+  divuw s2, t1, a0  # normal
+
+  li s7, 948
+  li s4, 694
+  divuw t2, s7, s4  # normal
+
+  li t2, 1
+  li a5, 644
+  divuw s9, t2, a5  # normal
+
+  li a2, 1618
+  li a6, 1660
+  divuw t3, a2, a6  # normal
+
+  li a0, 281
+  li s4, 369
+  divuw s6, a0, s4  # normal
+
+  li a3, 1425
+  li s11, 1423
+  divuw s5, a3, s11  # normal
+
+  li a1, 1862
+  li s7, 1654
+  divuw a2, a1, s7  # normal
+
+  li t1, 436
+  li a2, 296
+  divuw s6, t1, a2  # normal
+
+  li a3, 1055
+  li a4, 1024
+  divuw s4, a3, a4  # normal
+
+  li s2, 996
+  li a6, 1391
+  divuw s10, s2, a6  # normal
+
+  li s9, 112
+  li s2, 1974
+  divuw s2, s9, s2  # normal
+
+  li a2, 902
+  li t3, 941
+  divuw t4, a2, t3  # normal
+
+  li a7, 39
+  li a5, 1078
+  divuw a4, a7, a5  # normal
+
+  li a3, 1400
+  li t3, 311
+  divuw a1, a3, t3  # normal
+
+  li t6, 895
+  li s3, 1102
+  divuw s5, t6, s3  # normal
+
+  li s11, 778
+  li s9, 2043
+  divuw t6, s11, s9  # normal
+
+  li a0, 1087
+  li a1, 846
+  divuw s11, a0, a1  # normal
+
+  li a0, 1458
+  li a1, 638
+  divuw a1, a0, a1  # normal
+
+  li t4, 2017
+  li t3, 27
+  divuw t4, t4, t3  # normal
+
+  li t2, 1291
+  li s3, 2016
+  divuw s5, t2, s3  # normal
+
+  li a2, 1147
+  li s3, 1629
+  divuw s6, a2, s3  # normal
+
+  li s6, 1733
+  li t5, 1959
+  divuw a1, s6, t5  # normal
+
+  li t2, 715
+  li s4, 1872
+  divuw s5, t2, s4  # normal
+
+  li s10, 34
+  li s4, 48
+  divuw t4, s10, s4  # normal
+
+  li a0, 1332
+  li a6, 1481
+  divuw s9, a0, a6  # normal
+
+  li a2, 971
+  li t6, 1103
+  divuw s7, a2, t6  # normal
+
+  li s7, 2042
+  li a4, 1736
+  divuw s3, s7, a4  # normal
+
+  li a7, 1495
+  li s10, 1640
+  divuw a0, a7, s10  # normal
+
+  li s2, 936
+  li t6, 409
+  divuw a2, s2, t6  # normal
+
+  li a2, 1560
+  li a1, 803
+  divuw s11, a2, a1  # normal
+
+  li s11, 39
+  li t5, 723
+  divuw t5, s11, t5  # normal
+
+  li s3, 1293
+  li t5, 1993
+  divuw a7, s3, t5  # normal
+
+  li a2, 195
+  li s5, 1631
+  divuw a3, a2, s5  # normal
+
+  li s10, 1041
+  li t6, 1951
+  divuw t4, s10, t6  # normal
+
+  li t4, 1064
+  li s2, 1478
+  divuw s8, t4, s2  # normal
+
+  li s5, 1055
+  li s5, 1409
+  divuw a5, s5, s5  # normal
+
+  li a7, 814
+  li t4, 714
+  divuw t1, a7, t4  # normal
+
+  li a5, 1996
+  li a4, 1830
+  divuw a3, a5, a4  # normal
+
+  li a6, 593
+  li s7, 686
+  divuw t3, a6, s7  # normal
+
+  li a4, 1657
+  li a7, 292
+  divuw s8, a4, a7  # normal
+
+  li t6, 1297
+  li a4, 1193
+  divuw t3, t6, a4  # normal
+
+  li a2, 1111
+  li s7, 1822
+  divuw s10, a2, s7  # normal
+
+  li s11, 1844
+  li s6, 1695
+  divuw a5, s11, s6  # normal
+
+  li t6, 961
+  li t1, 1030
+  divuw t6, t6, t1  # normal
+
+  li s10, 683
+  li s11, 1626
+  divuw s11, s10, s11  # normal
+
+  li t4, 1938
+  li t3, 220
+  divuw t4, t4, t3  # normal
+
+  li a6, 340
+  li s4, 425
+  divuw t1, a6, s4  # normal
+
+  li s7, 1596
+  li t5, 1267
+  divuw a2, s7, t5  # normal
+
+  li a1, 517
+  li s11, 537
+  divuw a1, a1, s11  # normal
+
+  li t6, 1461
+  li t1, 1332
+  divuw s4, t6, t1  # normal
+
+  li s2, 1822
+  li s5, 553
+  divuw s3, s2, s5  # normal
+
+  li s5, 1870
+  li t6, 1781
+  divuw s10, s5, t6  # normal
+
+  li s8, 1422
+  li s8, 1972
+  divuw s4, s8, s8  # normal
+
+  li a1, 1498
+  li t3, 1688
+  divuw s5, a1, t3  # normal
+
+  li t5, 558
+  li a3, 1408
+  divuw a2, t5, a3  # normal
+
+  li s3, 2014
+  li s5, 1954
+  divuw a3, s3, s5  # normal
+
+  li t1, 947
+  li a7, 29
+  divuw a3, t1, a7  # normal
+
+  li a5, 1790
+  li a0, 1616
+  divuw s5, a5, a0  # normal
+
+  li t6, 1596
+  li s10, 1549
+  divuw a1, t6, s10  # normal
+
+  li a2, 981
+  li t3, 1113
+  divuw a1, a2, t3  # normal
+
+  li s8, 1101
+  li s11, 1691
+  divuw a3, s8, s11  # normal
+
+  li t3, 452
+  li t6, 1865
+  divuw a0, t3, t6  # normal
+
+  li s2, 2015
+  li a2, 769
+  divuw s7, s2, a2  # normal
+
+  li t1, 90
+  li t5, 761
+  divuw a4, t1, t5  # normal
+
+  li a3, 1795
+  li a2, 33
+  divuw t4, a3, a2  # normal
+
+  li t3, 889
+  li t5, 1400
+  divuw a1, t3, t5  # normal
+
+  li a3, 1899
+  li s3, 129
+  divuw a7, a3, s3  # normal
+
+  li t3, 1607
+  li t5, 292
+  divuw a4, t3, t5  # normal
+
+  li s3, 1024
+  li t6, 1562
+  divuw s5, s3, t6  # normal
+
+  li t4, 1814
+  li s10, 1012
+  divuw t1, t4, s10  # normal
+
+  li t2, 384
+  li a0, 853
+  divuw s11, t2, a0  # normal
+
+  li a6, 1323
+  li s9, 649
+  divuw s3, a6, s9  # normal
+
+  li s11, 500
+  li t2, 1037
+  divuw s8, s11, t2  # normal
+
+  li s8, 213
+  li a3, 892
+  divuw s3, s8, a3  # normal
+
+  li a1, 61
+  li s8, 685
+  divuw t4, a1, s8  # normal
+
+  li s6, 995
+  li t4, 36
+  divuw a2, s6, t4  # normal
+
+  li s6, 634
+  li s10, 1521
+  divuw t2, s6, s10  # normal
+
+  li a1, 1386
+  li t6, 245
+  divuw t3, a1, t6  # normal
+
+  li a5, 439
+  li s8, 515
+  divuw t2, a5, s8  # normal
+
+  li a1, 1422
+  li a4, 1796
+  divuw s3, a1, a4  # normal
+
+  li a0, 1467
+  li t1, 551
+  divuw s11, a0, t1  # normal
+
+  li t2, 1207
+  li s3, 2007
+  divuw a2, t2, s3  # normal
+
+  li s6, 1325
+  li t6, 1918
+  divuw a0, s6, t6  # normal
+
+  li s7, 634
+  li s5, 1840
+  divuw a2, s7, s5  # normal
+
+  li a2, 2
+  li s5, 1552
+  divuw a3, a2, s5  # normal
+
+  li t6, 1491
+  li t1, 978
+  divuw s11, t6, t1  # normal
+
+  li s11, 1587
+  li t3, 777
+  divuw a4, s11, t3  # normal
+
+  li s9, 631
+  li s3, 1159
+  divuw s4, s9, s3  # normal
+
+  li a7, 394
+  li s8, 273
+  divuw a4, a7, s8  # normal
+
+  li t5, 827
+  li t6, 438
+  divuw t2, t5, t6  # normal
+
+  li a0, 1591
+  li t4, 2006
+  divuw s3, a0, t4  # normal
+
+  li s7, 201
+  li s10, 1500
+  divuw s4, s7, s10  # normal
+
+  li s7, 854
+  li s10, 2012
+  divuw a1, s7, s10  # normal
+
+  li s2, 1703
+  li s8, 1511
+  divuw t3, s2, s8  # normal
+
+  li t2, 166
+  li s7, 288
+  divuw s10, t2, s7  # normal
+
+  li t3, 397
+  li a0, 414
+  divuw a3, t3, a0  # normal
+
+  li a1, 791
+  li s5, 1018
+  divuw s11, a1, s5  # normal
+
+  li s8, 1700
+  li t6, 432
+  divuw s6, s8, t6  # normal
+
+  li s6, 1749
+  li a5, 426
+  divuw s8, s6, a5  # normal
+
+  li t6, 1382
+  li s5, 647
+  divuw t6, t6, s5  # normal
+
+  li s7, 1290
+  li s2, 1329
+  divuw s5, s7, s2  # normal
+
+  li a7, 1324
+  li s8, 985
+  divuw a5, a7, s8  # normal
+
+  li s5, 1040
+  li a0, 1474
+  divuw s6, s5, a0  # normal
+
+  li s2, 141
+  li a6, 0
+  divuw s2, s2, a6  # div-by-zero
+
+  li s7, 1236
+  li t1, 26
+  divuw a3, s7, t1  # normal
+
+  li a1, 88
+  li a0, 1130
+  divuw a3, a1, a0  # normal
+
+  li s4, 633
+  li s5, 386
+  divuw s5, s4, s5  # normal
+
+  li s2, 1085
+  li a5, 1503
+  divuw t2, s2, a5  # normal
+
+  li a1, 1230
+  li a1, 376
+  divuw s6, a1, a1  # normal
+
+  li a6, 316
+  li s6, 1329
+  divuw s6, a6, s6  # normal
+
+  li t6, 390
+  li s3, 1230
+  divuw s3, t6, s3  # normal
+
+  li s11, 229
+  li s6, 1369
+  divuw t2, s11, s6  # normal
+
+  li a7, 493
+  li a7, 928
+  divuw a5, a7, a7  # normal
+
+  li s8, 1566
+  li s7, 221
+  divuw s11, s8, s7  # normal
+
+  li s4, 612
+  li t2, 1338
+  divuw a3, s4, t2  # normal
+
+  li s10, 1609
+  li a1, 1825
+  divuw s4, s10, a1  # normal
+
+  li s6, 1769
+  li s4, 1186
+  divuw s7, s6, s4  # normal
+
+  li t5, 1949
+  li t5, 201
+  divuw a6, t5, t5  # normal
+
+  li a6, 1779
+  li a2, 534
+  divuw s5, a6, a2  # normal
+
+  li s3, 1619
+  li s5, 803
+  divuw t5, s3, s5  # normal
+
+  li s7, 992
+  li s11, 293
+  divuw s5, s7, s11  # normal
+
+  li a7, 366
+  li a4, 460
+  divuw a2, a7, a4  # normal
+
+  li a7, 780
+  li a7, 1313
+  divuw s9, a7, a7  # normal
+
+  li s7, 1248
+  li s8, 693
+  divuw a5, s7, s8  # normal
+
+  li s7, 1804
+  li s2, 183
+  divuw a5, s7, s2  # normal
+
+  li a0, 351
+  li s9, 460
+  divuw a1, a0, s9  # normal
+
+  li t2, 604
+  li a1, 1178
+  divuw s11, t2, a1  # normal
+
+  li a4, 1249
+  li s10, 1843
+  divuw t1, a4, s10  # normal
+
+  li t1, 867
+  li a4, 834
+  divuw s3, t1, a4  # normal
+
+  li s4, 578
+  li a2, 75
+  divuw s5, s4, a2  # normal
+
+  li s6, 1046
+  li s9, 697
+  divuw a6, s6, s9  # normal
+
+  li a3, 1111
+  li a0, 217
+  divuw t2, a3, a0  # normal
+
+  li s8, 1111
+  li t1, 1475
+  divuw s2, s8, t1  # normal
+
+  li t1, 1583
+  li a3, 946
+  divuw t4, t1, a3  # normal
+
+  li s4, 1292
+  li s10, 1985
+  divuw a6, s4, s10  # normal
+
+  li s5, 1875
+  li t3, 88
+  divuw s7, s5, t3  # normal
+
+  li a1, 2006
+  li s4, 1611
+  divuw t2, a1, s4  # normal
+
+  li t6, 1441
+  li t1, 1455
+  divuw s11, t6, t1  # normal
+
+  li a3, 1129
+  li a1, 253
+  divuw s8, a3, a1  # normal
+
+  li a2, 120
+  li a6, 1147
+  divuw s8, a2, a6  # normal
+
+  li t5, 562
+  li a4, 359
+  divuw a1, t5, a4  # normal
+
+  li a6, 931
+  li s4, 1709
+  divuw s11, a6, s4  # normal
+
+  li s6, 1279
+  li t5, 1348
+  divuw a1, s6, t5  # normal
+
+  li s5, 567
+  li t5, 828
+  divuw s2, s5, t5  # normal
+
+  li a3, 553
+  li s10, 1761
+  divuw t5, a3, s10  # normal
+
+  li s8, 1300
+  li s6, 277
+  divuw t5, s8, s6  # normal
+
+  li s5, 1300
+  li s11, 596
+  divuw s5, s5, s11  # normal
+
+  li t1, 1695
+  li a4, 1684
+  divuw s11, t1, a4  # normal
+
+  li s2, 1121
+  li s11, 622
+  divuw a3, s2, s11  # normal
+
+  li t4, 1093
+  li t5, 945
+  divuw a0, t4, t5  # normal
+
+  li a1, 1471
+  li a1, 325
+  divuw s7, a1, a1  # normal
+
+  li s3, 1920
+  li t5, 1531
+  divuw s10, s3, t5  # normal
+
+  li a6, 670
+  li s3, 791
+  divuw t6, a6, s3  # normal
+
+  li t2, 61
+  li a7, 1105
+  divuw a1, t2, a7  # normal
+
+  li a1, 830
+  li s11, 837
+  divuw a7, a1, s11  # normal
+
+  li t6, 2006
+  li s2, 1330
+  divuw t3, t6, s2  # normal
+
+  li a1, 171
+  li a7, 1558
+  divuw s2, a1, a7  # normal
+
+  li a4, 157
+  li a6, 447
+  divuw s11, a4, a6  # normal
+
+  li s2, 1006
+  li t2, 1620
+  divuw s2, s2, t2  # normal
+
+  li t2, 201
+  li s5, 777
+  divuw s11, t2, s5  # normal
+
+  li s2, 1171
+  li a6, 1889
+  divuw a3, s2, a6  # normal
+
+  li a7, 223
+  li a3, 582
+  divuw t6, a7, a3  # normal
+
+  li s8, 463
+  li s2, 736
+  divuw s2, s8, s2  # normal
+
+  li s10, 1693
+  li s5, 1324
+  divuw s6, s10, s5  # normal
+
+  li t1, 827
+  li t6, 1862
+  divuw s2, t1, t6  # normal
+
+  li a2, 671
+  li a4, 506
+  divuw t3, a2, a4  # normal
+
+  li t4, 1486
+  li s10, 349
+  divuw t3, t4, s10  # normal
+
+  li s10, 654
+  li a6, 1551
+  divuw s4, s10, a6  # normal
+
+  li a6, 1372
+  li t2, 614
+  divuw s5, a6, t2  # normal
+
+  li t5, 210
+  li t6, 1718
+  divuw t6, t5, t6  # normal
+
+  li a3, 1827
+  li s11, 1182
+  divuw a3, a3, s11  # normal
+
+  li t6, 830
+  li t4, 14
+  divuw s8, t6, t4  # normal
+
+  li a2, 2042
+  li t1, 23
+  divuw s7, a2, t1  # normal
+
+  li s3, 1948
+  li a1, 1858
+  divuw s7, s3, a1  # normal
+
+  li s2, 26
+  li t3, 1002
+  divuw a7, s2, t3  # normal
+
+  li a2, 850
+  li s7, 200
+  divuw s5, a2, s7  # normal
+
+  li t5, 150
+  li t2, 595
+  divuw t6, t5, t2  # normal
+
+  li s9, 1222
+  li s6, 1356
+  divuw t2, s9, s6  # normal
+
+  li t2, 730
+  li t4, 660
+  divuw t3, t2, t4  # normal
+
+  li a3, 726
+  li s7, 1865
+  divuw s9, a3, s7  # normal
+
+  li s6, 381
+  li a5, 1225
+  divuw s11, s6, a5  # normal
+
+  li a5, 1750
+  li a6, 265
+  divuw a4, a5, a6  # normal
 
   addi t0, t0, -1      # decrement counter
   bnez t0, .loop       # branch if not zero
