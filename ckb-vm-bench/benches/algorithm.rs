@@ -27,6 +27,13 @@ const BINARY_PATH_BENCH_REM: &str = "../ckb-vm-bench-scripts/build/release/bench
 const BINARY_PATH_BENCH_REMW: &str = "../ckb-vm-bench-scripts/build/release/bench_remw";
 const BINARY_PATH_BENCH_WIDE_DIV: &str = "../ckb-vm-bench-scripts/build/release/bench_wide_div";
 
+const BINARY_PATH_BENCH_DIVU: &str = "../ckb-vm-bench-scripts/build/release/bench_divu";
+const BINARY_PATH_BENCH_DIVUW: &str = "../ckb-vm-bench-scripts/build/release/bench_divuw";
+const BINARY_PATH_BENCH_REMU: &str = "../ckb-vm-bench-scripts/build/release/bench_remu";
+const BINARY_PATH_BENCH_REMUW: &str = "../ckb-vm-bench-scripts/build/release/bench_remuw";
+const BINARY_PATH_BENCH_WIDE_DIVU: &str = "../ckb-vm-bench-scripts/build/release/bench_wide_divu";
+
+
 fn asm_ed25519(c: &mut Criterion) {
     c.bench_function("asm_ed25519", |b| {
         let buffer = fs::read(BINARY_PATH_ED25519).unwrap().into();
@@ -225,6 +232,41 @@ fn asm_bench_wide_div(c: &mut Criterion) {
     });
 }
 
+fn asm_bench_divu(c: &mut Criterion) {
+    c.bench_function("asm_bench_divu", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIVU).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_divuw(c: &mut Criterion) {
+    c.bench_function("asm_bench_divuw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIVUW).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_remu(c: &mut Criterion) {
+    c.bench_function("asm_bench_remu", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REMU).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_remuw(c: &mut Criterion) {
+    c.bench_function("asm_bench_remuw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REMUW).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
+fn asm_bench_wide_divu(c: &mut Criterion) {
+    c.bench_function("asm_bench_wide_divu", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_WIDE_DIVU).unwrap().into();
+        b.iter(|| run_asm(&buffer));
+    });
+}
+
 fn mop_bench_div(c: &mut Criterion) {
     c.bench_function("mop_bench_div", |b| {
         let buffer = fs::read(BINARY_PATH_BENCH_DIV).unwrap().into();
@@ -260,6 +302,41 @@ fn mop_bench_wide_div(c: &mut Criterion) {
     });
 }
 
+fn mop_bench_divu(c: &mut Criterion) {
+    c.bench_function("mop_bench_divu", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIVU).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_divuw(c: &mut Criterion) {
+    c.bench_function("mop_bench_divuw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_DIVUW).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_remu(c: &mut Criterion) {
+    c.bench_function("mop_bench_remu", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REMU).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_remuw(c: &mut Criterion) {
+    c.bench_function("mop_bench_remuw", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_REMUW).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
+fn mop_bench_wide_divu(c: &mut Criterion) {
+    c.bench_function("mop_bench_wide_divu", |b| {
+        let buffer = fs::read(BINARY_PATH_BENCH_WIDE_DIVU).unwrap().into();
+        b.iter(|| run_mop(&buffer));
+    });
+}
+
 criterion_group!(
     benches,
     asm_bench_div,
@@ -267,11 +344,22 @@ criterion_group!(
     asm_bench_rem,
     asm_bench_remw,
     asm_bench_wide_div,
+    asm_bench_divu,
+    asm_bench_divuw,
+    asm_bench_remu,
+    asm_bench_remuw,
+    asm_bench_wide_divu,
     mop_bench_div,
     mop_bench_divw,
     mop_bench_rem,
     mop_bench_remw,
     mop_bench_wide_div,
+    mop_bench_divu,
+    mop_bench_divuw,
+    mop_bench_remu,
+    mop_bench_remuw,
+    mop_bench_wide_divu,
+
     // asm_ed25519,
     // asm_k256_ecdsa,
     // asm_k256_schnorr,
