@@ -11,33 +11,29 @@ _start:
   li t0, 100  # loop counter
 .loop:
 
-  li t4, 1003
-  li t1, 914
+  li t4, 914
+  li t1, 571
   remu s8, t4, t1  # normal
 
-  li s11, 356
-  li t4, 1728
-  remu t5, s11, t4  # normal
+  li t4, 356
+  li s9, 1728
+  remu s11, t4, s9  # normal
 
   li t1, 108
   li t3, 814
   remu t2, t1, t3  # normal
 
-  li s8, 902
-  li s10, 1839
+  li s8, 1839
+  li s10, 1139
   remu s10, s8, s10  # normal
 
-  li a2, 653
-  li t1, 1731
-  remu s6, a2, t1  # normal
+  li t6, 636
+  li s10, 881
+  remu t1, t6, s10  # normal
 
-  li a2, 1378
-  li t5, 418
-  remu a4, a2, t5  # normal
-
-  li a6, 1408
-  li t4, 1083
-  remu t3, a6, t4  # normal
+  li t4, 1408
+  li t3, 1083
+  remu a4, t4, t3  # normal
 
   li s11, 1550
   li s2, 322
@@ -59,133 +55,121 @@ _start:
   li a0, 700
   remu a5, a5, a0  # normal
 
-  li s11, 1554
-  li a1, 1105
+  li s11, 1105
+  li a1, 899
   remu s5, s11, a1  # normal
 
-  li s10, 1328
-  li s5, 229
-  remu s8, s10, s5  # normal
+  li a4, 1292
+  li t2, 1643
+  remu s9, a4, t2  # normal
 
-  li t2, 271
-  li a4, 864
-  remu a1, t2, a4  # normal
+  li t3, 1288
+  li a0, 870
+  remu a2, t3, a0  # normal
 
-  li s10, 2044
-  li a4, 1620
-  remu s6, s10, a4  # normal
+  li s3, 1084
+  li a6, 571
+  remu s8, s3, a6  # normal
 
-  li s2, 1010
-  li t5, 1076
-  remu s8, s2, t5  # normal
+  li s11, 1754
+  li s5, 1635
+  remu a1, s11, s5  # normal
 
-  li s6, 1635
-  li a7, 1482
-  remu s11, s6, a7  # normal
+  li a1, 192
+  li t5, 449
+  remu a5, a1, t5  # normal
 
-  li t5, 192
-  li s4, 449
-  remu a1, t5, s4  # normal
-
-  li s8, 1729
-  li t6, 260
+  li s8, 260
+  li t6, 1576
   remu t5, s8, t6  # normal
 
-  li a6, 1029
   li s7, 47
-  remu a6, a6, s7  # normal
+  li s2, 469
+  remu a6, s7, s2  # normal
 
-  li s11, 1092
-  li t4, 1393
-  remu s9, s11, t4  # normal
+  li s5, 1202
+  li a2, 1780
+  remu s9, s5, a2  # normal
 
-  li a3, 13
-  li a7, 1078
-  remu t4, a3, a7  # normal
+  li s2, 1078
+  li t1, 731
+  remu t6, s2, t1  # normal
 
-  li t6, 1222
-  li s4, 814
-  remu s4, t6, s4  # normal
+  li t4, 814
+  li s8, 626
+  remu s4, t4, s8  # normal
 
-  li a5, 2
   li t6, 1327
-  remu t5, a5, t6  # normal
+  li s5, 2001
+  remu a5, t6, s5  # normal
 
-  li t1, 1259
-  li t4, 980
-  remu s3, t1, t4  # normal
+  li t4, 986
+  li a5, 322
+  remu t1, t4, a5  # normal
 
-  li a1, 350
-  li s6, 1990
-  remu t2, a1, s6  # normal
+  li s11, 515
+  li s3, 525
+  remu t3, s11, s3  # normal
 
-  li s5, 1946
-  li t5, 676
-  remu t3, s5, t5  # normal
+  li s3, 1733
+  li s5, 867
+  remu s9, s3, s5  # normal
 
-  li s4, 867
-  li s7, 823
-  remu a2, s4, s7  # normal
+  li s11, 1634
+  li s10, 1529
+  remu s5, s11, s10  # normal
 
-  li a3, 1529
-  li a6, 1794
-  remu s10, a3, a6  # normal
+  li s4, 262
+  li s2, 1384
+  remu s2, s4, s2  # normal
 
-  li s2, 262
-  li t4, 1384
-  remu s4, s2, t4  # normal
-
-  li s6, 902
-  li s5, 29
+  li s6, 29
+  li s5, 290
   remu t1, s6, s5  # normal
 
-  li s10, 276
   li s8, 128
-  remu t3, s10, s8  # normal
+  li t2, 1353
+  remu s10, s8, t2  # normal
 
-  li t3, 1988
   li s4, 877
-  remu a4, t3, s4  # normal
+  li a1, 541
+  remu t3, s4, a1  # normal
 
-  li t5, 1936
-  li s11, 995
-  remu s5, t5, s11  # normal
+  li s6, 1937
+  li s6, 1667
+  remu s11, s6, s6  # normal
 
-  li a7, 1765
-  li a0, 1451
-  remu s3, a7, a0  # normal
+  li t4, 1734
+  li t4, 1683
+  remu a0, t4, t4  # normal
 
-  li a7, 221
-  li s2, 403
-  remu a7, a7, s2  # normal
+  li s11, 403
+  li t2, 248
+  remu s2, s11, t2  # normal
 
-  li a6, 447
-  li s11, 1018
-  remu t2, a6, s11  # normal
+  li s11, 779
+  li a4, 1837
+  remu a6, s11, a4  # normal
 
-  li a0, 1728
-  li s5, 751
-  remu a0, a0, s5  # normal
-
-  li s2, 308
-  li a1, 1815
-  remu a2, s2, a1  # normal
+  li a7, 308
+  li t6, 1815
+  remu t5, a7, t6  # normal
 
   li t4, 60
   li t2, 382
   remu s5, t4, t2  # normal
 
-  li t6, 875
-  li a7, 1642
+  li t6, 1642
+  li a7, 240
   remu a1, t6, a7  # normal
 
-  li t6, 1599
-  li a6, 0
-  remu t2, t6, a6  # div-by-zero
+  li a6, 1863
+  li t1, 1168
+  remu t6, a6, t1  # normal
 
-  li s2, 1993
-  li a3, 634
-  remu a2, s2, a3  # normal
+  li s10, 1993
+  li s11, 634
+  remu a7, s10, s11  # normal
 
   li a3, 249
   li a0, 1284
@@ -195,29 +179,25 @@ _start:
   li s6, 232
   remu t2, t2, s6  # normal
 
-  li t3, 278
-  li t6, 963
+  li t3, 963
+  li t6, 1653
   remu s4, t3, t6  # normal
 
-  li t4, 162
   li s6, 335
-  remu a6, t4, s6  # normal
+  li a1, 1717
+  remu t4, s6, a1  # normal
 
-  li s9, 1295
   li s6, 1068
-  remu a7, s9, s6  # normal
+  li s6, 836
+  remu s9, s6, s6  # normal
 
-  li s9, 1087
-  li s10, 1621
-  remu a0, s9, s10  # normal
+  li s10, 536
+  li a4, 1228
+  remu s9, s10, a4  # normal
 
-  li s9, 1295
-  li s8, 297
-  remu t5, s9, s8  # normal
-
-  li s2, 409
-  li s7, 300
-  remu t1, s2, s7  # normal
+  li a4, 409
+  li t3, 300
+  remu s2, a4, t3  # normal
 
   li a0, 1429
   li s4, 281
@@ -227,49 +207,45 @@ _start:
   li a3, 32
   remu a1, a5, a3  # normal
 
-  li s5, 424
-  li a3, 550
+  li s5, 550
+  li a3, 1083
   remu s9, s5, a3  # normal
 
-  li t4, 636
-  li t4, 1115
-  remu a2, t4, t4  # normal
+  li t4, 1154
+  li s11, 862
+  remu t4, t4, s11  # normal
 
-  li s7, 833
-  li a0, 1081
-  remu a3, s7, a0  # normal
+  li a4, 1081
+  li a0, 2001
+  remu s10, a4, a0  # normal
 
-  li s3, 208
-  li a2, 378
-  remu s4, s3, a2  # normal
+  li t2, 1133
+  li t3, 180
+  remu a2, t2, t3  # normal
 
-  li a7, 1366
-  li a2, 535
-  remu s8, a7, a2  # normal
+  li a4, 661
+  li t5, 1809
+  remu t1, a4, t5  # normal
 
-  li a2, 1751
-  li t6, 39
-  remu s8, a2, t6  # normal
+  li s10, 308
+  li a7, 610
+  remu s5, s10, a7  # normal
 
-  li t3, 147
-  li s10, 1512
-  remu t4, t3, s10  # normal
+  li t2, 1760
+  li a5, 522
+  remu s5, t2, a5  # normal
 
-  li s5, 171
-  li t5, 1262
-  remu s6, s5, t5  # normal
+  li a3, 860
+  li a5, 1022
+  remu t2, a3, a5  # normal
 
-  li t2, 1022
-  li a5, 421
-  remu a5, t2, a5  # normal
-
-  li s5, 633
-  li a7, 969
-  remu a5, s5, a7  # normal
+  li t4, 1664
+  li a5, 633
+  remu s9, t4, a5  # normal
 
   li t6, 1360
-  li a7, 1686
-  remu t6, t6, a7  # normal
+  li t6, 1686
+  remu a1, t6, t6  # normal
 
   li s11, 442
   li a1, 1566
@@ -279,21 +255,17 @@ _start:
   li a1, 1432
   remu t2, s3, a1  # normal
 
-  li a1, 791
   li a1, 1632
+  li a1, 1344
   remu a3, a1, a1  # normal
 
-  li a2, 1143
-  li t3, 1438
-  remu a4, a2, t3  # normal
+  li t3, 1637
+  li a2, 1356
+  remu a2, t3, a2  # normal
 
-  li s4, 1356
-  li a6, 113
-  remu s8, s4, a6  # normal
-
-  li a2, 1087
-  li t6, 156
-  remu t4, a2, t6  # normal
+  li t4, 1087
+  li a2, 156
+  remu t1, t4, a2  # normal
 
   li s7, 1284
   li a7, 1787
@@ -304,276 +276,240 @@ _start:
   remu s7, s4, t4  # normal
 
   li s10, 807
-  li a7, 0
-  remu t2, s10, a7  # div-by-zero
+  li a7, 1491
+  remu t2, s10, a7  # normal
 
-  li a7, 1352
-  li t3, 1285
-  remu a5, a7, t3  # normal
+  li t3, 510
+  li s9, 1230
+  remu a7, t3, s9  # normal
 
-  li t4, 1266
-  li s11, 1672
-  remu s9, t4, s11  # normal
+  li a3, 1211
+  li s9, 521
+  remu s4, a3, s9  # normal
 
-  li a6, 521
-  li s10, 785
-  remu a4, a6, s10  # normal
+  li a7, 712
+  li s9, 1232
+  remu a0, a7, s9  # normal
 
-  li s9, 712
-  li a6, 1232
-  remu a7, s9, a6  # normal
-
-  li s5, 860
-  li t1, 1760
+  li s5, 1760
+  li t1, 1319
   remu a6, s5, t1  # normal
 
-  li s7, 1809
-  li s8, 1811
-  remu s6, s7, s8  # normal
+  li s2, 1938
+  li s2, 695
+  remu s2, s2, s2  # normal
 
-  li a0, 695
-  li s4, 347
-  remu s9, a0, s4  # normal
+  li t3, 1372
+  li a3, 382
+  remu s9, t3, a3  # normal
 
-  li s4, 1372
-  li s9, 382
-  remu a3, s4, s9  # normal
-
-  li s9, 815
-  li a3, 603
+  li s9, 603
+  li a3, 100
   remu a1, s9, a3  # normal
 
-  li t2, 298
-  li a1, 1865
-  remu t1, t2, a1  # normal
+  li a1, 298
+  li s3, 1865
+  remu t2, a1, s3  # normal
 
   li s8, 1572
   li s6, 2024
   remu a7, s8, s6  # normal
 
-  li a1, 22
-  li t5, 436
+  li a1, 436
+  li t5, 1741
   remu a6, a1, t5  # normal
 
-  li a1, 1902
-  li t6, 205
-  remu a7, a1, t6  # normal
+  li t6, 1020
+  li s10, 497
+  remu a1, t6, s10  # normal
 
-  li a1, 1903
-  li t4, 1299
-  remu s5, a1, t4  # normal
+  li t5, 1299
+  li s2, 1812
+  remu s2, t5, s2  # normal
 
-  li s7, 1747
   li s11, 1826
-  remu s2, s7, s11  # normal
+  li s4, 651
+  remu s7, s11, s4  # normal
 
-  li s11, 1012
   li s3, 1135
-  remu t6, s11, s3  # normal
+  li s2, 1984
+  remu s11, s3, s2  # normal
 
-  li s3, 1801
-  li s8, 317
-  remu s4, s3, s8  # normal
+  li a1, 1170
+  li a2, 960
+  remu s8, a1, a2  # normal
 
-  li a3, 1309
-  li a1, 330
-  remu s10, a3, a1  # normal
+  li a4, 617
+  li a4, 947
+  remu a2, a4, a4  # normal
 
-  li t5, 625
-  li a1, 876
-  remu t5, t5, a1  # normal
+  li s10, 1699
+  li t5, 1669
+  remu a6, s10, t5  # normal
 
-  li a7, 1908
-  li a7, 1703
-  remu t3, a7, a7  # normal
+  li s5, 1720
+  li s2, 1595
+  remu a4, s5, s2  # normal
 
-  li a0, 80
-  li a7, 1558
-  remu t2, a0, a7  # normal
+  li s10, 24
+  li t1, 1440
+  remu s6, s10, t1  # normal
 
-  li t1, 1597
-  li a5, 1716
-  remu s3, t1, a5  # normal
+  li a6, 903
+  li a7, 1999
+  remu a3, a6, a7  # normal
 
-  li s11, 903
-  li s11, 1999
-  remu s5, s11, s11  # normal
-
-  li a2, 1592
-  li a7, 1376
+  li a2, 1376
+  li a7, 1656
   remu a1, a2, a7  # normal
 
-  li s9, 1914
-  li a6, 522
-  remu s9, s9, a6  # normal
+  li t6, 110
+  li s2, 1613
+  remu s11, t6, s2  # normal
 
-  li s5, 111
-  li t1, 343
-  remu s7, s5, t1  # normal
+  li s6, 1755
+  li s9, 555
+  remu s6, s6, s9  # normal
 
-  li a7, 744
-  li t5, 205
-  remu s8, a7, t5  # normal
+  li t6, 866
+  li t2, 1862
+  remu s2, t6, t2  # normal
 
-  li a6, 1338
-  li a4, 1382
-  remu a2, a6, a4  # normal
+  li a4, 1726
+  li a6, 1033
+  remu a4, a4, a6  # normal
 
-  li a2, 335
-  li a7, 1926
-  remu a6, a2, a7  # normal
+  li s3, 1433
+  li t1, 918
+  remu t3, s3, t1  # normal
 
-  li s11, 1433
-  li s5, 918
-  remu t1, s11, s5  # normal
-
-  li t3, 127
-  li s8, 1012
+  li t3, 1012
+  li s8, 816
   remu s8, t3, s8  # normal
 
-  li t1, 517
-  li s7, 1939
-  remu a0, t1, s7  # normal
+  li s7, 468
+  li t5, 892
+  remu t1, s7, t5  # normal
 
-  li t4, 1904
-  li s6, 1049
-  remu s9, t4, s6  # normal
+  li s10, 469
+  li a2, 670
+  remu s2, s10, a2  # normal
 
-  li t6, 469
-  li s7, 670
-  remu a5, t6, s7  # normal
-
-  li t4, 1277
-  li s6, 1537
+  li t4, 1537
+  li s6, 1624
   remu a3, t4, s6  # normal
 
-  li s10, 994
-  li a0, 417
-  remu a6, s10, a0  # normal
+  li a0, 994
+  li t3, 417
+  remu s10, a0, t3  # normal
 
-  li a3, 495
-  li s9, 168
+  li a3, 168
+  li s9, 1422
   remu s10, a3, s9  # normal
 
-  li s5, 282
   li a7, 1397
-  remu a5, s5, a7  # normal
+  li s9, 51
+  remu s5, a7, s9  # normal
 
-  li a7, 1483
   li s3, 1883
-  remu t1, a7, s3  # normal
+  li t4, 626
+  remu a7, s3, t4  # normal
 
-  li t5, 1106
-  li a7, 1980
-  remu s10, t5, a7  # normal
+  li t6, 1106
+  li s11, 1980
+  remu a7, t6, s11  # normal
 
-  li a7, 1320
-  li s11, 1005
+  li a7, 1005
+  li s11, 354
   remu s2, a7, s11  # normal
 
-  li a2, 1903
   li s2, 1552
-  remu t3, a2, s2  # normal
+  li a1, 1377
+  remu a2, s2, a1  # normal
 
-  li t1, 744
-  li s3, 1997
-  remu a4, t1, s3  # normal
+  li s3, 1453
+  li a4, 1058
+  remu t1, s3, a4  # normal
 
-  li a5, 1131
   li a2, 41
-  remu a0, a5, a2  # normal
+  li s7, 782
+  remu a4, a2, s7  # normal
 
-  li a0, 1664
-  li t3, 2001
-  remu s4, a0, t3  # normal
+  li a1, 984
+  li s11, 1950
+  remu t3, a1, s11  # normal
 
-  li a1, 2010
-  li s10, 1835
-  remu s5, a1, s10  # normal
+  li s10, 381
+  li s3, 1205
+  remu s8, s10, s3  # normal
 
-  li t3, 996
-  li a3, 1254
-  remu t1, t3, a3  # normal
+  li a6, 1511
+  li s10, 1938
+  remu a1, a6, s10  # normal
 
-  li s6, 1408
-  li a5, 1742
-  remu s9, s6, a5  # normal
+  li s4, 1354
+  li a5, 1441
+  remu s5, s4, a5  # normal
 
-  li s5, 1858
-  li a4, 1109
-  remu s11, s5, a4  # normal
-
+  li s2, 494
   li a2, 788
-  li a1, 1292
-  remu a3, a2, a1  # normal
+  remu s10, s2, a2  # normal
 
-  li s11, 758
-  li s5, 784
-  remu t4, s11, s5  # normal
+  li t4, 758
+  li s11, 784
+  remu a4, t4, s11  # normal
 
   li s11, 1159
   li s3, 411
   remu a0, s11, s3  # normal
 
-  li a3, 1238
-  li a1, 57
+  li a3, 57
+  li a1, 518
   remu a0, a3, a1  # normal
 
-  li s5, 223
-  li t5, 1196
-  remu s10, s5, t5  # normal
+  li t2, 517
+  li t2, 2010
+  remu a2, t2, t2  # normal
 
-  li t5, 2010
-  li s8, 420
-  remu s10, t5, s8  # normal
+  li t1, 1804
+  li s6, 1395
+  remu t4, t1, s6  # normal
 
-  li s6, 1804
-  li a3, 1395
-  remu t1, s6, a3  # normal
-
-  li t2, 1956
-  li a2, 467
+  li t2, 267
+  li a2, 1641
   remu t6, t2, a2  # normal
 
-  li a6, 219
-  li s3, 621
-  remu t3, a6, s3  # normal
+  li t3, 621
+  li s6, 611
+  remu s3, t3, s6  # normal
 
-  li s6, 1016
-  li a3, 485
-  remu t5, s6, a3  # normal
+  li a3, 1704
+  li t3, 924
+  remu s6, a3, t3  # normal
 
-  li a7, 924
-  li s7, 1558
-  remu s5, a7, s7  # normal
-
-  li s2, 1756
-  li a3, 1250
-  remu s2, s2, a3  # normal
+  li a6, 1756
+  li s2, 1250
+  remu s4, a6, s2  # normal
 
   li s7, 406
   li t2, 851
   remu s6, s7, t2  # normal
 
-  li a0, 643
-  li a2, 982
+  li a0, 982
+  li a2, 711
   remu s8, a0, a2  # normal
 
-  li s5, 1673
-  li t3, 1845
-  remu t6, s5, t3  # normal
+  li t3, 1924
+  li t6, 1192
+  remu s5, t3, t6  # normal
 
-  li s7, 948
-  li s3, 1180
-  remu s10, s7, s3  # normal
-
+  li a1, 1859
   li a3, 291
-  li s10, 956
-  remu s10, a3, s10  # normal
+  remu t2, a1, a3  # normal
 
-  li s8, 810
-  li s6, 1741
-  remu a2, s8, s6  # normal
+  li a1, 810
+  li a2, 1741
+  remu s9, a1, a2  # normal
 
   li s5, 1088
   li a1, 582
@@ -583,241 +519,213 @@ _start:
   li t6, 1798
   remu t3, t2, t6  # normal
 
-  li s2, 1648
-  li s10, 1115
+  li s2, 1115
+  li s10, 2022
   remu t4, s2, s10  # normal
 
-  li s5, 163
-  li s3, 1769
-  remu s4, s5, s3  # normal
+  li t3, 1320
+  li s7, 1025
+  remu s2, t3, s7  # normal
 
-  li a4, 374
-  li s7, 937
-  remu s11, a4, s7  # normal
+  li t3, 84
+  li a1, 1103
+  remu t1, t3, a1  # normal
 
-  li s6, 1103
-  li s6, 164
-  remu s9, s6, s6  # normal
+  li t2, 1811
+  li t6, 1139
+  remu s6, t2, t6  # normal
 
-  li s3, 1139
-  li s4, 743
-  remu t6, s3, s4  # normal
+  li s6, 373
+  li a7, 1925
+  remu t6, s6, a7  # normal
 
-  li a7, 373
-  li s8, 1925
-  remu s6, a7, s8  # normal
-
-  li a7, 428
-  li a4, 658
+  li a7, 658
+  li a4, 1350
   remu a5, a7, a4  # normal
 
-  li a7, 1640
-  li s10, 150
-  remu a4, a7, s10  # normal
+  li s10, 1640
+  li s3, 150
+  remu a7, s10, s3  # normal
 
-  li t3, 474
-  li a4, 1655
+  li t3, 1655
+  li a4, 4
   remu s2, t3, a4  # normal
 
-  li t1, 1892
-  li s9, 1692
-  remu s4, t1, s9  # normal
+  li s5, 1481
+  li s2, 2041
+  remu s9, s5, s2  # normal
 
-  li a0, 2041
-  li s4, 1810
-  remu t2, a0, s4  # normal
+  li s2, 536
+  li t2, 1179
+  remu s8, s2, t2  # normal
 
-  li a0, 1179
-  li a2, 1794
-  remu t2, a0, a2  # normal
+  li s10, 980
+  li s3, 648
+  remu s2, s10, s3  # normal
 
-  li s3, 980
-  li t4, 648
-  remu s10, s3, t4  # normal
-
-  li s5, 381
-  li t1, 920
+  li s5, 920
+  li t1, 464
   remu a3, s5, t1  # normal
 
-  li s2, 630
-  li t4, 2041
-  remu t4, s2, t4  # normal
+  li t4, 1195
+  li s8, 1119
+  remu s2, t4, s8  # normal
 
-  li a3, 1701
-  li s4, 1976
-  remu s10, a3, s4  # normal
+  li s3, 592
+  li s3, 1571
+  remu a7, s3, s3  # normal
 
-  li a1, 1571
-  li s2, 780
-  remu s3, a1, s2  # normal
+  li s7, 285
+  li s4, 1131
+  remu a0, s7, s4  # normal
 
-  li s4, 285
-  li s11, 1131
-  remu s7, s4, s11  # normal
-
-  li a4, 10
-  li s4, 1158
+  li a4, 1158
+  li s4, 1222
   remu a7, a4, s4  # normal
 
-  li a3, 2005
-  li s6, 608
-  remu s11, a3, s6  # normal
+  li s6, 1829
+  li s9, 1983
+  remu s6, s6, s9  # normal
 
-  li s5, 1545
-  li s3, 1865
-  remu s2, s5, s3  # normal
+  li a4, 1318
+  li s5, 772
+  remu a5, a4, s5  # normal
 
-  li a0, 1568
-  li s10, 956
-  remu a4, a0, s10  # normal
+  li a1, 1682
+  li s6, 178
+  remu s10, a1, s6  # normal
 
-  li t2, 1561
-  li a4, 1581
-  remu a7, t2, a4  # normal
+  li s11, 1561
+  li s3, 1581
+  remu a4, s11, s3  # normal
 
-  li s8, 151
-  li t5, 517
+  li s8, 517
+  li t5, 1359
   remu s9, s8, t5  # normal
 
-  li s6, 1803
-  li a4, 408
-  remu s4, s6, a4  # normal
+  li s2, 62
+  li t4, 590
+  remu t4, s2, t4  # normal
 
-  li s2, 1679
-  li t1, 632
-  remu s4, s2, t1  # normal
+  li s8, 1085
+  li t5, 1386
+  remu a7, s8, t5  # normal
 
-  li s3, 1628
-  li a2, 328
-  remu t3, s3, a2  # normal
+  li s10, 1345
+  li a6, 1556
+  remu s7, s10, a6  # normal
 
-  li s9, 1297
-  li s5, 1998
-  remu a4, s9, s5  # normal
+  li s8, 147
+  li s10, 280
+  remu a4, s8, s10  # normal
 
-  li t2, 1177
-  li s7, 931
-  remu s5, t2, s7  # normal
+  li s8, 370
+  li s9, 1777
+  remu a1, s8, s9  # normal
 
-  li t3, 411
-  li a7, 1817
-  remu s11, t3, a7  # normal
+  li s8, 1226
+  li s10, 118
+  remu t4, s8, s10  # normal
 
-  li s10, 188
-  li a3, 1328
-  remu t6, s10, a3  # normal
+  li a4, 1764
+  li t2, 596
+  remu t2, a4, t2  # normal
 
-  li a3, 596
-  li a5, 1000
-  remu t2, a3, a5  # normal
-
-  li a7, 737
-  li s6, 696
-  remu s4, a7, s6  # normal
+  li s4, 737
+  li a7, 696
+  remu a1, s4, a7  # normal
 
   li t3, 986
   li s7, 2038
   remu t6, t3, s7  # normal
 
-  li t5, 1040
-  li a1, 1882
+  li t5, 1882
+  li a1, 1045
   remu s6, t5, a1  # normal
 
-  li s9, 1905
-  li t1, 1178
-  remu a2, s9, t1  # normal
+  li t1, 647
+  li s2, 302
+  remu s9, t1, s2  # normal
 
-  li s5, 1415
-  li t6, 1225
-  remu s9, s5, t6  # normal
+  li a5, 1737
+  li s6, 1024
+  remu s2, a5, s6  # normal
 
-  li a7, 1237
-  li s10, 815
-  remu s8, a7, s10  # normal
+  li a3, 436
+  li a0, 971
+  remu s2, a3, a0  # normal
 
-  li s3, 1470
-  li t4, 1211
-  remu a6, s3, t4  # normal
+  li s6, 1209
+  li a5, 89
+  remu a6, s6, a5  # normal
 
-  li a3, 1621
-  li t1, 1124
-  remu s10, a3, t1  # normal
+  li a6, 200
+  li a2, 2034
+  remu s9, a6, a2  # normal
 
-  li s6, 200
-  li s9, 2034
-  remu t1, s6, s9  # normal
-
-  li a1, 897
-  li s7, 778
+  li a1, 778
+  li s7, 1026
   remu a3, a1, s7  # normal
 
-  li a2, 560
-  li s9, 397
-  remu s7, a2, s9  # normal
+  li s11, 397
+  li s9, 161
+  remu s9, s11, s9  # normal
 
-  li s8, 1805
-  li t2, 136
-  remu s8, s8, t2  # normal
+  li s2, 538
+  li t2, 369
+  remu a3, s2, t2  # normal
 
-  li a5, 1208
-  li s11, 1338
-  remu s6, a5, s11  # normal
+  li a4, 541
+  li s11, 1498
+  remu a3, a4, s11  # normal
 
-  li a7, 1498
-  li t6, 1116
-  remu s11, a7, t6  # normal
-
+  li s4, 1973
   li a2, 1208
-  li s3, 1387
-  remu t6, a2, s3  # normal
+  remu s4, s4, a2  # normal
 
-  li s2, 924
-  li t3, 1627
-  remu t4, s2, t3  # normal
+  li a4, 576
+  li t4, 924
+  remu s11, a4, t4  # normal
 
-  li a5, 57
-  li t3, 1083
-  remu s5, a5, t3  # normal
+  li s11, 1498
+  li s9, 369
+  remu s9, s11, s9  # normal
 
-  li t4, 1073
-  li s2, 1560
-  remu s5, t4, s2  # normal
+  li t1, 1509
+  li a2, 1073
+  remu a6, t1, a2  # normal
 
-  li a5, 1931
-  li t4, 102
-  remu s8, a5, t4  # normal
+  li a6, 957
+  li s8, 1931
+  remu s6, a6, s8  # normal
 
-  li s5, 906
-  li a4, 258
-  remu s7, s5, a4  # normal
+  li s7, 906
+  li s5, 258
+  remu t1, s7, s5  # normal
 
-  li s2, 1672
-  li s10, 477
+  li s2, 477
+  li s10, 572
   remu s8, s2, s10  # normal
 
-  li t2, 2017
-  li t2, 475
-  remu t5, t2, t2  # normal
+  li t2, 961
+  li a3, 555
+  remu t2, t2, a3  # normal
 
-  li a1, 1858
-  li s5, 1519
-  remu t4, a1, s5  # normal
+  li s2, 1716
+  li a5, 632
+  remu a6, s2, a5  # normal
 
-  li s11, 1716
-  li s10, 632
-  remu s9, s11, s10  # normal
-
-  li s8, 1671
-  li t4, 1145
+  li s8, 1145
+  li t4, 134
   remu a7, s8, t4  # normal
 
-  li s10, 1821
   li a5, 967
-  remu t2, s10, a5  # normal
+  li a0, 1485
+  remu s10, a5, a0  # normal
 
-  li t4, 1469
-  li s9, 248
-  remu a5, t4, s9  # normal
+  li s9, 1469
+  li a5, 248
+  remu t4, s9, a5  # normal
 
   li a2, 1862
   li a0, 375
@@ -827,209 +735,181 @@ _start:
   li s8, 207
   remu s9, a0, s8  # normal
 
-  li a1, 840
-  li t5, 281
+  li a1, 848
+  li t5, 884
   remu a4, a1, t5  # normal
 
-  li a0, 954
-  li s6, 1345
-  remu s5, a0, s6  # normal
+  li a4, 592
+  li t5, 0
+  remu a1, a4, t5  # div-by-zero
 
-  li s7, 592
-  li t1, 532
-  remu t5, s7, t1  # normal
+  li s5, 105
+  li a2, 539
+  remu t5, s5, a2  # normal
 
-  li a2, 105
-  li t6, 539
-  remu s5, a2, t6  # normal
-
-  li a5, 64
-  li a1, 713
+  li a5, 713
+  li a1, 1086
   remu t1, a5, a1  # normal
 
-  li t2, 465
   li t5, 260
-  remu a2, t2, t5  # normal
+  li s11, 1950
+  remu t2, t5, s11  # normal
 
-  li s2, 446
-  li a5, 1851
-  remu s3, s2, a5  # normal
+  li a5, 907
+  li s4, 177
+  remu s2, a5, s4  # normal
 
-  li a1, 1235
-  li s7, 1876
-  remu s4, a1, s7  # normal
+  li s9, 127
+  li s4, 249
+  remu s11, s9, s4  # normal
 
-  li t1, 1645
-  li t2, 1746
-  remu s8, t1, t2  # normal
+  li a6, 1816
+  li a7, 301
+  remu s3, a6, a7  # normal
 
-  li t4, 1816
-  li s3, 301
-  remu s9, t4, s3  # normal
-
-  li a4, 516
-  li s7, 1126
+  li a4, 1126
+  li s7, 1331
   remu t3, a4, s7  # normal
 
-  li s8, 1331
-  li s6, 1560
-  remu s7, s8, s6  # normal
-
-  li s4, 1762
-  li a3, 406
-  remu s7, s4, a3  # normal
+  li s7, 1762
+  li s4, 406
+  remu a6, s7, s4  # normal
 
   li t4, 880
   li s8, 1761
   remu s10, t4, s8  # normal
 
-  li a1, 1857
-  li a7, 1633
+  li a1, 1633
+  li a7, 1703
   remu s2, a1, a7  # normal
 
-  li s11, 1280
   li t4, 1044
-  remu a7, s11, t4  # normal
+  li a4, 1533
+  remu s11, t4, a4  # normal
 
-  li t5, 274
-  li s9, 373
-  remu a5, t5, s9  # normal
+  li s9, 349
+  li s3, 381
+  remu t5, s9, s3  # normal
 
-  li t3, 1526
-  li a7, 532
-  remu t3, t3, a7  # normal
+  li t4, 532
+  li s11, 245
+  remu a7, t4, s11  # normal
 
-  li t2, 1350
-  li s6, 500
-  remu s5, t2, s6  # normal
+  li s5, 1682
+  li s5, 1448
+  remu s6, s5, s5  # normal
 
-  li a5, 1732
-  li s9, 210
-  remu a7, a5, s9  # normal
+  li a7, 1279
+  li s11, 1440
+  remu s9, a7, s11  # normal
 
-  li s7, 871
-  li a3, 633
-  remu a3, s7, a3  # normal
+  li s6, 1975
+  li s4, 918
+  remu t4, s6, s4  # normal
 
-  li s3, 1434
-  li a1, 1505
-  remu s9, s3, a1  # normal
+  li a5, 1141
+  li s5, 926
+  remu t4, a5, s5  # normal
 
-  li a2, 1757
-  li s6, 107
-  remu t4, a2, s6  # normal
+  li s5, 107
+  li s7, 1095
+  remu a7, s5, s7  # normal
 
-  li s9, 738
-  li s10, 1119
-  remu s7, s9, s10  # normal
+  li t6, 1391
+  li a2, 1437
+  remu t1, t6, a2  # normal
 
-  li a3, 743
-  li a4, 586
-  remu s10, a3, a4  # normal
+  li t6, 285
+  li t5, 581
+  remu t1, t6, t5  # normal
 
-  li s9, 125
-  li a6, 375
-  remu s6, s9, a6  # normal
+  li s8, 881
+  li t1, 1540
+  remu s11, s8, t1  # normal
 
-  li s4, 1858
-  li a0, 1396
-  remu s11, s4, a0  # normal
+  li s2, 1328
+  li a4, 347
+  remu a7, s2, a4  # normal
 
-  li a5, 347
-  li a3, 215
-  remu t6, a5, a3  # normal
+  li t5, 334
+  li t6, 1114
+  remu t2, t5, t6  # normal
 
-  li t6, 334
-  li s7, 1114
-  remu t5, t6, s7  # normal
-
-  li s9, 1810
-  li a7, 1696
+  li s9, 1696
+  li a7, 1118
   remu s2, s9, a7  # normal
 
-  li a0, 1760
-  li s4, 454
-  remu a2, a0, s4  # normal
+  li s4, 1160
+  li t4, 1993
+  remu a0, s4, t4  # normal
 
-  li s9, 1263
-  li s9, 186
-  remu a3, s9, s9  # normal
+  li s9, 224
+  li a3, 31
+  remu s4, s9, a3  # normal
 
-  li a6, 837
-  li s7, 1234
-  remu a1, a6, s7  # normal
+  li a3, 1185
+  li a0, 1343
+  remu a0, a3, a0  # normal
 
-  li t5, 491
-  li a2, 31
-  remu a0, t5, a2  # normal
+  li t1, 529
+  li s3, 1557
+  remu t4, t1, s3  # normal
 
-  li s11, 1557
-  li a7, 942
-  remu s3, s11, a7  # normal
+  li s10, 1450
+  li a1, 295
+  remu s5, s10, a1  # normal
 
-  li s5, 295
-  li s9, 1626
-  remu s4, s5, s9  # normal
-
-  li t2, 318
-  li a7, 1282
-  remu s11, t2, a7  # normal
+  li s11, 318
+  li t2, 1282
+  remu a6, s11, t2  # normal
 
   li a7, 1710
   li s6, 1185
   remu s6, a7, s6  # normal
 
-  li a6, 703
-  li t1, 1884
+  li a6, 1884
+  li t1, 1482
   remu t4, a6, t1  # normal
 
-  li a5, 433
-  li t3, 996
-  remu s10, a5, t3  # normal
+  li a7, 1640
+  li t4, 322
+  remu t3, a7, t4  # normal
 
-  li s6, 1621
-  li a6, 1270
-  remu a7, s6, a6  # normal
+  li a3, 688
+  li s11, 312
+  remu a6, a3, s11  # normal
 
-  li a4, 688
-  li a1, 312
-  remu s11, a4, a1  # normal
-
-  li s8, 794
-  li t4, 1431
+  li s8, 1431
+  li t4, 1438
   remu s4, s8, t4  # normal
 
-  li s11, 967
-  li s8, 421
-  remu a5, s11, s8  # normal
+  li s8, 1048
+  li t5, 808
+  remu s11, s8, t5  # normal
 
-  li a2, 626
-  li a0, 308
-  remu t5, a2, a0  # normal
+  li s7, 2023
+  li t5, 1900
+  remu t6, s7, t5  # normal
 
-  li s8, 1838
-  li s3, 1323
-  remu t6, s8, s3  # normal
+  li s6, 1323
+  li s2, 1294
+  remu s6, s6, s2  # normal
 
-  li a4, 1920
-  li t5, 1811
-  remu s8, a4, t5  # normal
+  li s2, 1240
+  li t3, 1125
+  remu t5, s2, t3  # normal
 
-  li a3, 1441
-  li a2, 303
-  remu s8, a3, a2  # normal
+  li t2, 1891
+  li a5, 1851
+  remu s6, t2, a5  # normal
 
-  li s2, 1510
-  li s2, 1175
-  remu a3, s2, s2  # normal
+  li t2, 369
+  li a5, 1574
+  remu t2, t2, a5  # normal
 
-  li s8, 1574
-  li t3, 1895
-  remu t3, s8, t3  # normal
-
-  li s5, 1842
-  li s11, 771
-  remu s6, s5, s11  # normal
+  li s6, 1842
+  li s5, 771
+  remu s2, s6, s5  # normal
 
   li s7, 253
   li s3, 1845
@@ -1043,193 +923,165 @@ _start:
   li s2, 1490
   remu a1, s10, s2  # normal
 
-  li a3, 1385
-  li a6, 214
+  li a3, 214
+  li a6, 1370
   remu a5, a3, a6  # normal
 
-  li s8, 387
-  li a4, 1583
-  remu s8, s8, a4  # normal
+  li a4, 1163
+  li t4, 1032
+  remu t3, a4, t4  # normal
 
-  li a2, 615
-  li s11, 1365
-  remu a3, a2, s11  # normal
+  li s9, 579
+  li s7, 1432
+  remu s11, s9, s7  # normal
 
-  li s6, 1432
-  li s9, 1270
-  remu t3, s6, s9  # normal
+  li s8, 347
+  li s10, 1268
+  remu a3, s8, s10  # normal
 
-  li s10, 347
-  li s9, 1268
-  remu s8, s10, s9  # normal
-
-  li a6, 523
-  li s8, 382
+  li a6, 382
+  li s8, 1734
   remu s5, a6, s8  # normal
 
-  li s9, 74
-  li a7, 1485
-  remu s8, s9, a7  # normal
+  li a5, 877
+  li t1, 1399
+  remu s4, a5, t1  # normal
 
-  li t6, 1991
-  li a0, 786
-  remu a3, t6, a0  # normal
+  li a0, 1211
+  li a1, 414
+  remu s3, a0, a1  # normal
 
-  li t5, 414
-  li t5, 154
-  remu a1, t5, t5  # normal
+  li s5, 1379
+  li s11, 536
+  remu s4, s5, s11  # normal
 
-  li a4, 1543
-  li s7, 631
-  remu s9, a4, s7  # normal
+  li a6, 678
+  li t5, 1792
+  remu s7, a6, t5  # normal
 
-  li t6, 678
-  li s10, 1792
-  remu t6, t6, s10  # normal
-
-  li a7, 972
-  li a5, 1819
+  li a7, 1819
+  li a5, 1167
   remu t2, a7, a5  # normal
 
-  li a3, 958
-  li s11, 979
-  remu s7, a3, s11  # normal
+  li s2, 1921
+  li a1, 794
+  remu s11, s2, a1  # normal
 
-  li s3, 1804
-  li a0, 1891
-  remu a3, s3, a0  # normal
+  li s9, 1154
+  li s6, 1564
+  remu a5, s9, s6  # normal
 
-  li a6, 663
-  li s4, 817
-  remu a3, a6, s4  # normal
+  li s4, 566
+  li a7, 1024
+  remu s4, s4, a7  # normal
 
-  li t5, 1968
-  li a2, 1520
-  remu s7, t5, a2  # normal
+  li s8, 420
+  li s3, 510
+  remu t2, s8, s3  # normal
 
-  li t4, 510
-  li s10, 1167
-  remu s5, t4, s10  # normal
+  li t3, 603
+  li t6, 1791
+  remu a3, t3, t6  # normal
 
-  li t6, 603
-  li a2, 1791
-  remu t3, t6, a2  # normal
-
-  li a1, 109
-  li s2, 1699
+  li a1, 1699
+  li s2, 218
   remu t3, a1, s2  # normal
 
-  li a6, 1581
   li s4, 334
-  remu t2, a6, s4  # normal
+  li a5, 1535
+  remu a6, s4, a5  # normal
 
-  li a1, 405
   li t1, 1373
-  remu a5, a1, t1  # normal
+  li a4, 598
+  remu a1, t1, a4  # normal
 
-  li t5, 1935
   li t2, 568
-  remu t5, t5, t2  # normal
+  li a3, 1921
+  remu t5, t2, a3  # normal
 
-  li s3, 324
-  li s2, 77
-  remu s10, s3, s2  # normal
+  li s7, 883
+  li t1, 612
+  remu s2, s7, t1  # normal
 
-  li a0, 1733
-  li t5, 455
-  remu a2, a0, t5  # normal
+  li s11, 1180
+  li s7, 973
+  remu s5, s11, s7  # normal
 
-  li a1, 976
-  li a3, 1719
-  remu a3, a1, a3  # normal
+  li t4, 1872
+  li t2, 257
+  remu a3, t4, t2  # normal
 
-  li s7, 2047
-  li s2, 67
-  remu s8, s7, s2  # normal
+  li s3, 990
+  li s7, 588
+  remu t4, s3, s7  # normal
 
-  li s4, 588
-  li s6, 1193
-  remu s8, s4, s6  # normal
+  li a7, 1706
+  li t1, 767
+  remu a3, a7, t1  # normal
 
-  li t1, 1706
-  li s7, 767
-  remu a7, t1, s7  # normal
-
-  li s9, 1477
-  li t3, 277
+  li s9, 277
+  li t3, 83
   remu s9, s9, t3  # normal
 
-  li s5, 83
-  li s4, 1599
-  remu s4, s5, s4  # normal
+  li s3, 1529
+  li t2, 1038
+  remu a6, s3, t2  # normal
 
-  li t2, 1529
-  li s8, 1038
-  remu s3, t2, s8  # normal
-
-  li t1, 1412
-  li a5, 987
+  li t1, 424
+  li a5, 1361
   remu s11, t1, a5  # normal
 
-  li s9, 1361
-  li s8, 546
-  remu s11, s9, s8  # normal
+  li t2, 717
+  li a5, 1903
+  remu t5, t2, a5  # normal
 
-  li a5, 717
-  li s5, 1903
-  remu t2, a5, s5  # normal
-
-  li s3, 552
-  li s8, 258
+  li s3, 258
+  li s8, 1874
   remu s10, s3, s8  # normal
 
-  li s2, 179
-  li t2, 817
-  remu s10, s2, t2  # normal
+  li a3, 171
+  li a0, 1292
+  remu t2, a3, a0  # normal
 
-  li a4, 1939
-  li a3, 1037
-  remu t2, a4, a3  # normal
+  li s4, 149
+  li a6, 782
+  remu a3, s4, a6  # normal
 
-  li s8, 195
-  li a0, 1359
-  remu t2, s8, a0  # normal
+  li a5, 509
+  li t2, 1507
+  remu a3, a5, t2  # normal
 
-  li t4, 1638
-  li a5, 1801
-  remu a2, t4, a5  # normal
+  li a6, 1583
+  li s11, 1388
+  remu a7, a6, s11  # normal
 
-  li a4, 2037
-  li t6, 1504
-  remu a6, a4, t6  # normal
+  li s3, 1092
+  li s10, 338
+  remu t6, s3, s10  # normal
 
-  li a2, 323
-  li t3, 1763
-  remu s4, a2, t3  # normal
+  li a7, 739
+  li t3, 1203
+  remu s11, a7, t3  # normal
 
-  li t6, 420
-  li s5, 327
-  remu s7, t6, s5  # normal
+  li t4, 1255
+  li t3, 1826
+  remu a4, t4, t3  # normal
 
-  li s9, 1745
-  li a3, 682
-  remu a4, s9, a3  # normal
+  li s10, 1439
+  li a7, 1831
+  remu s7, s10, a7  # normal
 
-  li s2, 1444
-  li a5, 1781
-  remu s10, s2, a5  # normal
+  li s11, 1124
+  li a5, 234
+  remu t2, s11, a5  # normal
 
-  li s8, 1663
-  li t2, 1488
-  remu a2, s8, t2  # normal
+  li s9, 655
+  li s8, 127
+  remu t3, s9, s8  # normal
 
-  li s11, 127
-  li s9, 584
-  remu s4, s11, s9  # normal
-
-  li s9, 275
-  li s2, 966
-  remu s7, s9, s2  # normal
+  li s7, 275
+  li s9, 966
+  remu t5, s7, s9  # normal
 
   li a5, 132
   li a5, 628
@@ -1239,141 +1091,125 @@ _start:
   li a5, 563
   remu s9, s2, a5  # normal
 
-  li a5, 1141
-  li a6, 1022
+  li a5, 1022
+  li a6, 464
   remu s4, a5, a6  # normal
 
-  li t1, 1585
   li s11, 482
-  remu t4, t1, s11  # normal
+  li t6, 1072
+  remu t1, s11, t6  # normal
 
-  li a2, 1169
-  li s10, 2011
-  remu a2, a2, s10  # normal
+  li s10, 1169
+  li s2, 2011
+  remu a2, s10, s2  # normal
 
-  li t4, 1851
-  li t5, 707
+  li t4, 1823
+  li t5, 359
   remu a0, t4, t5  # normal
 
-  li s2, 1309
-  li t3, 1423
-  remu s10, s2, t3  # normal
-
-  li t3, 1228
-  li s5, 645
-  remu s10, t3, s5  # normal
+  li a4, 1189
+  li s9, 1228
+  remu s9, a4, s9  # normal
 
   li s10, 1480
   li s10, 918
-  remu s10, s10, s10  # normal
+  remu t6, s10, s10  # normal
 
-  li a0, 2023
-  li t5, 107
+  li a0, 107
+  li t5, 1478
   remu t4, a0, t5  # normal
 
-  li s5, 531
-  li s6, 353
-  remu a5, s5, s6  # normal
+  li s6, 531
+  li a5, 353
+  remu s5, s6, a5  # normal
 
-  li a3, 1960
-  li a6, 1682
+  li a3, 1682
+  li a6, 1677
   remu t3, a3, a6  # normal
 
-  li s6, 1298
-  li t3, 303
-  remu a7, s6, t3  # normal
+  li t3, 1843
+  li t5, 1908
+  remu s6, t3, t5  # normal
 
-  li s2, 525
-  li s9, 745
-  remu s2, s2, s9  # normal
+  li s4, 745
+  li a5, 528
+  remu s9, s4, a5  # normal
 
-  li a7, 226
-  li s4, 508
-  remu t5, a7, s4  # normal
+  li s4, 1245
+  li t2, 674
+  remu a7, s4, t2  # normal
 
-  li t5, 1321
-  li a3, 923
-  remu s4, t5, a3  # normal
+  li a4, 1163
+  li s10, 323
+  remu t6, a4, s10  # normal
 
-  li s4, 1026
-  li a3, 804
-  remu a5, s4, a3  # normal
-
-  li s5, 1240
-  li a2, 382
-  remu s8, s5, a2  # normal
+  li a0, 1240
+  li s8, 382
+  remu a2, a0, s8  # normal
 
   li s8, 631
   li t6, 701
   remu s4, s8, t6  # normal
 
-  li s7, 1382
-  li s11, 168
+  li s7, 168
+  li s11, 116
   remu s9, s7, s11  # normal
 
-  li t3, 1084
   li t2, 863
-  remu t1, t3, t2  # normal
+  li s8, 1706
+  remu t3, t2, s8  # normal
 
-  li a7, 2039
-  li s7, 1186
-  remu s6, a7, s7  # normal
+  li s8, 1186
+  li t1, 1237
+  remu s7, s8, t1  # normal
 
-  li a3, 1663
-  li s3, 1218
-  remu s8, a3, s3  # normal
+  li a1, 298
+  li s9, 245
+  remu s3, a1, s9  # normal
 
-  li t3, 1800
-  li s10, 1702
-  remu s2, t3, s10  # normal
+  li s2, 1393
+  li a7, 588
+  remu t6, s2, a7  # normal
 
-  li s2, 588
-  li a0, 1280
-  remu s3, s2, a0  # normal
+  li s10, 1414
+  li a4, 1633
+  remu a4, s10, a4  # normal
 
-  li a4, 1414
-  li s11, 1633
-  remu s10, a4, s11  # normal
-
-  li a5, 1307
-  li s4, 990
+  li a5, 990
+  li s4, 1910
   remu t5, a5, s4  # normal
 
-  li t4, 577
-  li a2, 396
-  remu s2, t4, a2  # normal
+  li a2, 207
+  li s2, 1188
+  remu t4, a2, s2  # normal
 
-  li a3, 1712
-  li a6, 1016
-  remu t2, a3, a6  # normal
+  li s7, 654
+  li a7, 1341
+  remu a6, s7, a7  # normal
 
-  li a4, 777
-  li s6, 652
-  remu t6, a4, s6  # normal
+  li s11, 2040
+  li a4, 1912
+  remu s6, s11, a4  # normal
 
-  li s4, 1263
-  li s2, 2037
-  remu s3, s4, s2  # normal
+  li a3, 1610
+  li s3, 1872
+  remu s3, a3, s3  # normal
 
-  li t3, 986
-  li a6, 881
-  remu t1, t3, a6  # normal
+  li a0, 1152
+  li s6, 2027
+  remu a1, a0, s6  # normal
 
-  li a5, 2027
-  li t2, 1927
-  remu s6, a5, t2  # normal
+  li s8, 33
+  li s9, 440
+  remu s7, s8, s9  # normal
 
-  li s5, 1765
-  li t1, 548
-  remu a3, s5, t1  # normal
+  li t5, 1651
+  li a2, 1498
+  remu a7, t5, a2  # normal
 
-  li s11, 1498
-  li a5, 185
-  remu a2, s11, a5  # normal
-
-  li t2, 1484
-  li s6, 1182
-  remu a6, t2, s6  # normal
+  li a6, 1484
+  li t2, 1182
+  remu t2, a6, t2  # normal
 
   li a6, 1145
   li s4, 486
@@ -1387,121 +1223,101 @@ _start:
   li s7, 185
   remu t5, a0, s7  # normal
 
-  li t5, 1940
-  li s10, 1871
+  li t5, 1871
+  li s10, 610
   remu t2, t5, s10  # normal
 
-  li s7, 1304
-  li s4, 665
-  remu t5, s7, s4  # normal
+  li s4, 1304
+  li t5, 665
+  remu s7, s4, t5  # normal
 
-  li s7, 1377
-  li s11, 2006
+  li s7, 2006
+  li s11, 1227
   remu a6, s7, s11  # normal
 
-  li s6, 68
-  li a3, 1508
-  remu s10, s6, a3  # normal
+  li t1, 1706
+  li a5, 1260
+  remu s3, t1, a5  # normal
 
-  li s9, 1260
-  li t4, 109
-  remu a4, s9, t4  # normal
+  li s10, 1087
+  li s8, 932
+  remu s11, s10, s8  # normal
 
-  li s3, 932
-  li a2, 210
-  remu s7, s3, a2  # normal
-
-  li s3, 1557
-  li t6, 605
-  remu s6, s3, t6  # normal
+  li t2, 1557
+  li s6, 605
+  remu s11, t2, s6  # normal
 
   li a1, 450
   li t2, 781
   remu s9, a1, t2  # normal
 
-  li s2, 1691
-  li a4, 835
+  li s2, 835
+  li a4, 1680
   remu t1, s2, a4  # normal
 
-  li s4, 255
   li s7, 565
-  remu a7, s4, s7  # normal
+  li s3, 849
+  remu s4, s7, s3  # normal
 
-  li a0, 1959
-  li s5, 1543
-  remu s4, a0, s5  # normal
+  li a4, 1285
+  li s9, 709
+  remu s5, a4, s9  # normal
 
-  li t6, 1402
-  li s2, 1451
-  remu a4, t6, s2  # normal
+  li s5, 1082
+  li a4, 1983
+  remu s2, s5, a4  # normal
 
-  li s11, 1082
-  li s9, 1983
-  remu s9, s11, s9  # normal
-
-  li a1, 921
-  li a2, 1219
+  li a1, 1219
+  li a2, 1183
   remu a0, a1, a2  # normal
 
-  li s10, 2002
-  li a0, 1298
-  remu a3, s10, a0  # normal
+  li a0, 1965
+  li s10, 1428
+  remu s10, a0, s10  # normal
 
-  li a5, 1120
-  li s5, 1178
-  remu s3, a5, s5  # normal
+  li s11, 1555
+  li a2, 1616
+  remu s5, s11, a2  # normal
 
-  li s6, 1616
-  li s9, 1413
-  remu t4, s6, s9  # normal
+  li t5, 323
+  li a3, 1418
+  remu a5, t5, a3  # normal
 
-  li a3, 323
-  li t2, 1418
-  remu t5, a3, t2  # normal
-
-  li s8, 876
-  li a2, 827
+  li s8, 827
+  li a2, 1110
   remu s2, s8, a2  # normal
 
-  li a2, 562
-  li s5, 447
-  remu s5, a2, s5  # normal
+  li s10, 980
+  li a2, 993
+  remu s5, s10, a2  # normal
 
-  li s11, 207
-  li s6, 924
-  remu s7, s11, s6  # normal
+  li s9, 215
+  li s4, 410
+  remu t2, s9, s4  # normal
 
-  li a1, 1352
-  li t2, 1934
-  remu s8, a1, t2  # normal
+  li a4, 563
+  li s10, 21
+  remu a7, a4, s10  # normal
 
-  li s9, 646
-  li t5, 1666
-  remu t4, s9, t5  # normal
+  li t6, 1948
+  li a7, 1955
+  remu s5, t6, a7  # normal
 
-  li s3, 1176
-  li s3, 1315
-  remu s8, s3, s3  # normal
+  li a0, 242
+  li a3, 366
+  remu s8, a0, a3  # normal
 
-  li s8, 366
-  li t2, 951
-  remu a3, s8, t2  # normal
+  li s6, 152
+  li a1, 717
+  remu s8, s6, a1  # normal
 
-  li s11, 152
-  li s11, 717
-  remu s5, s11, s11  # normal
-
-  li t6, 1626
-  li t2, 2029
+  li t6, 763
+  li t2, 1185
   remu a7, t6, t2  # normal
 
-  li s11, 37
-  li a3, 1222
-  remu t6, s11, a3  # normal
-
-  li s7, 1372
-  li t4, 1165
-  remu s6, s7, t4  # normal
+  li t1, 1372
+  li a3, 1165
+  remu t2, t1, a3  # normal
 
   li s8, 549
   li s5, 1917
@@ -1515,37 +1331,33 @@ _start:
   li t1, 791
   remu s10, t6, t1  # normal
 
-  li s7, 1751
-  li s8, 1343
+  li s7, 1343
+  li s8, 355
   remu t6, s7, s8  # normal
 
-  li a6, 575
   li s9, 1955
-  remu t3, a6, s9  # normal
+  li t4, 1325
+  remu a6, s9, t4  # normal
 
-  li a1, 964
-  li t1, 1829
-  remu a4, a1, t1  # normal
+  li t1, 1093
+  li a2, 1350
+  remu a1, t1, a2  # normal
 
-  li a4, 46
-  li a3, 1071
-  remu a2, a4, a3  # normal
+  li s6, 1472
+  li s11, 967
+  remu a3, s6, s11  # normal
 
-  li a5, 484
-  li s10, 1906
-  remu s8, a5, s10  # normal
+  li s9, 1660
+  li t4, 1273
+  remu t2, s9, t4  # normal
 
-  li t6, 1273
-  li a6, 480
-  remu a3, t6, a6  # normal
+  li t4, 904
+  li s8, 897
+  remu s10, t4, s8  # normal
 
-  li a3, 897
-  li a5, 547
-  remu s8, a3, a5  # normal
-
-  li t5, 1530
-  li s2, 1703
-  remu s3, t5, s2  # normal
+  li s3, 1530
+  li t5, 1703
+  remu t5, s3, t5  # normal
 
   li s5, 894
   li s3, 1013
@@ -1563,137 +1375,117 @@ _start:
   li s4, 2002
   remu t6, a4, s4  # normal
 
-  li s4, 1857
-  li s2, 540
+  li s4, 1701
+  li s2, 1871
   remu t3, s4, s2  # normal
 
-  li a7, 1893
-  li s2, 1262
-  remu s4, a7, s2  # normal
+  li t2, 1262
+  li s5, 89
+  remu s6, t2, s5  # normal
 
-  li t1, 12
-  li a6, 892
-  remu s11, t1, a6  # normal
+  li a2, 299
+  li t1, 185
+  remu a6, a2, t1  # normal
 
-  li t3, 261
-  li t2, 246
-  remu s6, t3, t2  # normal
+  li a5, 246
+  li s10, 282
+  remu a7, a5, s10  # normal
 
-  li s3, 737
   li t2, 554
-  remu t3, s3, t2  # normal
-
-  li s11, 1533
-  li s8, 1566
-  remu s8, s11, s8  # normal
+  li a3, 1721
+  remu s3, t2, a3  # normal
 
   li a6, 544
-  li a6, 1424
-  remu s2, a6, a6  # normal
+  li s2, 1424
+  remu a5, a6, s2  # normal
 
-  li t6, 521
-  li s5, 912
+  li t6, 912
+  li s5, 14
   remu t4, t6, s5  # normal
 
-  li t1, 1737
-  li a3, 1553
-  remu t1, t1, a3  # normal
+  li a3, 1737
+  li s2, 1553
+  remu t1, a3, s2  # normal
 
-  li a1, 1129
-  li s2, 772
+  li a1, 772
+  li s2, 462
   remu a1, a1, s2  # normal
 
-  li t4, 1717
-  li t2, 64
-  remu s11, t4, t2  # normal
+  li s9, 64
+  li a7, 985
+  remu t2, s9, a7  # normal
 
-  li a0, 137
-  li t3, 1828
-  remu a1, a0, t3  # normal
+  li t3, 199
+  li t4, 1002
+  remu a0, t3, t4  # normal
 
-  li s9, 1002
-  li s10, 181
-  remu s7, s9, s10  # normal
+  li t2, 889
+  li a6, 231
+  remu s11, t2, a6  # normal
 
-  li s2, 231
-  li a1, 573
-  remu a6, s2, a1  # normal
+  li s4, 1306
+  li a3, 1313
+  remu t5, s4, a3  # normal
 
-  li a3, 1306
-  li a1, 1313
-  remu s4, a3, a1  # normal
-
-  li a3, 905
-  li t5, 1693
+  li a3, 1693
+  li t5, 1230
   remu a1, a3, t5  # normal
 
-  li a2, 717
-  li t2, 1749
-  remu a3, a2, t2  # normal
+  li t2, 717
+  li s5, 1749
+  remu a2, t2, s5  # normal
 
   li s3, 1561
   li t2, 1305
   remu s5, s3, t2  # normal
 
-  li a7, 1541
   li a7, 753
+  li a7, 1939
   remu s10, a7, a7  # normal
 
-  li s3, 1231
-  li a1, 591
-  remu s5, s3, a1  # normal
+  li a1, 1896
+  li a3, 236
+  remu a1, a1, a3  # normal
 
-  li t2, 1706
-  li s5, 549
-  remu s2, t2, s5  # normal
+  li a7, 1590
+  li a7, 994
+  remu s5, a7, a7  # normal
 
-  li a1, 323
-  li a2, 1842
-  remu a6, a1, a2  # normal
+  li a0, 1842
+  li a4, 1519
+  remu a2, a0, a4  # normal
 
-  li t3, 780
-  li s5, 211
-  remu a5, t3, s5  # normal
+  li s5, 1544
+  li s11, 161
+  remu t3, s5, s11  # normal
 
-  li a6, 161
-  li s9, 298
-  remu a2, a6, s9  # normal
+  li a0, 888
+  li s6, 1963
+  remu t3, a0, s6  # normal
 
-  li s6, 888
-  li s11, 1963
-  remu a0, s6, s11  # normal
-
-  li a4, 62
-  li a3, 867
+  li a4, 778
+  li a3, 480
   remu a0, a4, a3  # normal
 
-  li s11, 1961
-  li t4, 993
-  remu a0, s11, t4  # normal
+  li s3, 837
+  li a1, 1624
+  remu s11, s3, a1  # normal
 
-  li s7, 980
-  li s10, 1317
-  remu s10, s7, s10  # normal
+  li s5, 1471
+  li a4, 1263
+  remu a1, s5, a4  # normal
 
-  li a6, 1471
-  li s2, 1263
-  remu a3, a6, s2  # normal
-
-  li a5, 1908
-  li s4, 403
+  li a5, 1923
+  li s4, 1311
   remu a2, a5, s4  # normal
 
-  li s3, 1518
-  li a4, 1281
-  remu s11, s3, a4  # normal
+  li a5, 906
+  li a4, 597
+  remu a0, a5, a4  # normal
 
-  li t2, 597
-  li s6, 66
-  remu a7, t2, s6  # normal
-
-  li s5, 1710
-  li s6, 1209
-  remu a2, s5, s6  # normal
+  li a2, 1710
+  li s5, 1209
+  remu t1, a2, s5  # normal
 
   li a0, 1006
   li a4, 2045
@@ -1703,65 +1495,53 @@ _start:
   li s9, 2009
   remu s5, s8, s9  # normal
 
-  li t6, 693
-  li s11, 573
+  li t6, 2000
+  li s11, 753
   remu s2, t6, s11  # normal
 
-  li s5, 240
-  li s3, 138
-  remu s11, s5, s3  # normal
+  li s8, 304
+  li t2, 198
+  remu s5, s8, t2  # normal
 
-  li s9, 1689
-  li t2, 563
-  remu t3, s9, t2  # normal
+  li a7, 618
+  li t5, 37
+  remu t1, a7, t5  # normal
 
-  li a1, 37
-  li t3, 895
-  remu s8, a1, t3  # normal
+  li s4, 1979
+  li s2, 1998
+  remu a0, s4, s2  # normal
 
-  li s2, 1979
-  li a5, 1998
-  remu s4, s2, a5  # normal
-
-  li t1, 48
-  li s5, 68
+  li t1, 68
+  li s5, 1125
   remu t1, t1, s5  # normal
 
-  li s11, 1174
-  li a2, 70
-  remu s4, s11, a2  # normal
+  li a3, 1763
+  li t1, 734
+  remu s5, a3, t1  # normal
 
-  li s10, 734
-  li s9, 438
-  remu s4, s10, s9  # normal
+  li t4, 1033
+  li s4, 1451
+  remu t4, t4, s4  # normal
 
-  li s4, 1033
-  li t5, 1451
-  remu t4, s4, t5  # normal
-
-  li a6, 1663
-  li t3, 1880
+  li a6, 1880
+  li t3, 996
   remu a2, a6, t3  # normal
 
   li a1, 330
-  li s10, 129
-  remu s6, a1, s10  # normal
+  li a3, 129
+  remu s10, a1, a3  # normal
 
-  li a6, 1949
   li a6, 229
+  li a6, 38
   remu t3, a6, a6  # normal
 
-  li t1, 2047
-  li s10, 1777
-  remu s8, t1, s10  # normal
+  li t6, 1356
+  li t3, 390
+  remu s10, t6, t3  # normal
 
-  li a4, 390
-  li s6, 174
-  remu s8, a4, s6  # normal
-
-  li a0, 1947
-  li s10, 1110
-  remu a1, a0, s10  # normal
+  li t2, 1947
+  li a1, 1110
+  remu s4, t2, a1  # normal
 
   li t3, 134
   li s9, 734
@@ -1775,105 +1555,89 @@ _start:
   li s6, 1358
   remu a3, t6, s6  # normal
 
-  li s11, 321
-  li t5, 1416
+  li s11, 1416
+  li t5, 219
   remu a6, s11, t5  # normal
 
-  li t4, 311
-  li a7, 1395
-  remu t2, t4, a7  # normal
+  li a7, 1624
+  li a1, 1336
+  remu t4, a7, a1  # normal
 
-  li s7, 1336
-  li s7, 121
-  remu s7, s7, s7  # normal
+  li s8, 1457
+  li a2, 1537
+  remu t1, s8, a2  # normal
 
-  li a2, 1457
-  li s2, 1537
-  remu s8, a2, s2  # normal
-
-  li t6, 1556
-  li s9, 351
+  li t6, 351
+  li s9, 1209
   remu a7, t6, s9  # normal
 
-  li a3, 336
-  li a1, 1097
-  remu s7, a3, a1  # normal
+  li s10, 1556
+  li t3, 631
+  remu a1, s10, t3  # normal
 
-  li a6, 631
-  li s10, 1595
-  remu t5, a6, s10  # normal
+  li a6, 21
+  li a4, 1262
+  remu s11, a6, a4  # normal
 
-  li a5, 1262
-  li t4, 1821
-  remu a4, a5, t4  # normal
+  li a5, 767
+  li a2, 1765
+  remu s2, a5, a2  # normal
 
-  li a2, 767
-  li t4, 1765
-  remu a5, a2, t4  # normal
-
-  li s5, 423
   li s5, 107
+  li s5, 367
   remu s2, s5, s5  # normal
 
-  li a5, 1328
-  li s5, 1577
-  remu t3, a5, s5  # normal
+  li s5, 1328
+  li t3, 1577
+  remu a5, s5, t3  # normal
 
-  li a3, 346
-  li a7, 994
+  li a3, 994
+  li a7, 694
   remu t1, a3, a7  # normal
 
-  li s4, 694
-  li t6, 568
-  remu s6, s4, t6  # normal
+  li a6, 1099
+  li t6, 2019
+  remu s9, a6, t6  # normal
 
-  li a3, 259
-  li a2, 684
-  remu a2, a3, a2  # normal
+  li t3, 1227
+  li t6, 1983
+  remu t5, t3, t6  # normal
 
-  li a2, 315
-  li a7, 1479
-  remu a7, a2, a7  # normal
+  li a5, 2030
+  li a2, 800
+  remu t3, a5, a2  # normal
 
-  li a1, 800
-  li s11, 1875
-  remu a2, a1, s11  # normal
+  li t4, 1620
+  li t5, 1360
+  remu s2, t4, t5  # normal
 
-  li t5, 1620
-  li a3, 1360
-  remu t4, t5, a3  # normal
-
-  li a6, 1763
-  li a4, 557
+  li a6, 557
+  li a4, 1230
   remu s7, a6, a4  # normal
 
-  li a4, 822
-  li s7, 1962
-  remu a3, a4, s7  # normal
+  li s7, 727
+  li s10, 1631
+  remu a4, s7, s10  # normal
 
-  li t6, 1193
-  li a6, 2011
-  remu a4, t6, a6  # normal
+  li a3, 992
+  li s11, 1334
+  remu a4, a3, s11  # normal
 
-  li a1, 1609
-  li a4, 1495
-  remu s6, a1, a4  # normal
+  li a2, 818
+  li a6, 736
+  remu a6, a2, a6  # normal
 
-  li s6, 736
-  li a0, 110
-  remu t4, s6, a0  # normal
+  li s5, 858
+  li t1, 1795
+  remu s9, s5, t1  # normal
 
-  li s2, 1193
-  li s10, 283
-  remu s11, s2, s10  # normal
+  li s10, 570
+  li t3, 1240
+  remu a3, s10, t3  # normal
 
-  li s9, 1240
-  li s3, 991
-  remu a7, s9, s3  # normal
-
-  li s9, 1544
-  li t5, 302
-  remu a2, s9, t5  # normal
+  li a2, 1544
+  li s9, 302
+  remu a1, a2, s9  # normal
 
   li s7, 1713
   li s3, 150
@@ -1887,85 +1651,73 @@ _start:
   li s9, 1636
   remu a1, s9, s9  # normal
 
-  li a7, 1059
-  li t4, 909
+  li a7, 909
+  li t4, 905
   remu a4, a7, t4  # normal
 
-  li s11, 905
-  li s4, 1825
-  remu s4, s11, s4  # normal
-
-  li a6, 617
-  li s2, 1412
-  remu a5, a6, s2  # normal
+  li a5, 617
+  li a6, 1412
+  remu s2, a5, a6  # normal
 
   li s3, 351
   li t4, 475
   remu t1, s3, t4  # normal
 
-  li t5, 1865
-  li a5, 847
+  li t5, 847
+  li a5, 1978
   remu s11, t5, a5  # normal
 
-  li s3, 1794
-  li a5, 1853
-  remu s4, s3, a5  # normal
+  li s3, 1853
+  li t4, 1306
+  remu a5, s3, t4  # normal
 
-  li t3, 471
-  li a3, 92
-  remu a4, t3, a3  # normal
+  li a3, 1405
+  li t2, 447
+  remu t3, a3, t2  # normal
 
-  li s8, 673
-  li t4, 999
-  remu a4, s8, t4  # normal
+  li t6, 655
+  li s11, 1355
+  remu s9, t6, s11  # normal
 
-  li t6, 1746
-  li s5, 1892
-  remu s4, t6, s5  # normal
+  li a7, 755
+  li s2, 763
+  remu s5, a7, s2  # normal
 
-  li a6, 1770
-  li s8, 1620
-  remu a1, a6, s8  # normal
+  li s9, 808
+  li a7, 1841
+  remu s8, s9, a7  # normal
 
-  li s11, 1841
-  li s7, 1759
-  remu t1, s11, s7  # normal
+  li a7, 842
+  li a6, 1140
+  remu s6, a7, a6  # normal
 
-  li t1, 1140
-  li s10, 256
-  remu a6, t1, s10  # normal
+  li t3, 765
+  li s6, 1498
+  remu s10, t3, s6  # normal
 
-  li t4, 1335
-  li s5, 807
-  remu s6, t4, s5  # normal
+  li a0, 2004
+  li s2, 1283
+  remu a4, a0, s2  # normal
 
-  li t4, 2004
-  li a2, 1283
-  remu s2, t4, a2  # normal
-
-  li a6, 467
-  li s7, 1425
+  li a6, 1425
+  li s7, 1441
   remu s7, a6, s7  # normal
 
-  li s2, 1218
-  li s7, 347
-  remu a5, s2, s7  # normal
+  li s7, 1218
+  li t6, 347
+  remu s2, s7, t6  # normal
 
-  li t5, 1250
-  li a4, 479
+  li t5, 479
+  li a4, 749
   remu s9, t5, a4  # normal
 
-  li a5, 1591
-  li s10, 1713
-  remu t6, a5, s10  # normal
+  li s10, 564
+  li t5, 1571
+  remu a5, s10, t5  # normal
 
-  li t5, 760
-  li s6, 1993
-  remu s7, t5, s6  # normal
-
-  li s5, 709
-  li s10, 683
-  remu s8, s5, s10  # normal
+  li t6, 709
+  li s3, 683
+  remu a7, t6, s3  # normal
 
   li a3, 1847
   li t5, 219
@@ -1983,101 +1735,89 @@ _start:
   li s6, 1196
   remu t6, t3, s6  # normal
 
-  li a2, 688
-  li a1, 1873
+  li a2, 1873
+  li a1, 2028
   remu t2, a2, a1  # normal
 
-  li s11, 463
-  li s3, 467
-  remu s6, s11, s3  # normal
+  li s4, 1502
+  li t4, 170
+  remu s5, s4, t4  # normal
 
-  li s5, 170
-  li a5, 1807
-  remu a2, s5, a5  # normal
+  li s2, 419
+  li s5, 1013
+  remu s11, s2, s5  # normal
 
-  li a0, 1013
-  li a7, 1219
-  remu s5, a0, a7  # normal
-
-  li s2, 356
-  li a2, 1798
-  remu t2, s2, a2  # normal
+  li t2, 356
+  li s2, 1798
+  remu a3, t2, s2  # normal
 
   li a1, 1436
   li a0, 1753
   remu t4, a1, a0  # normal
 
-  li s7, 847
-  li t5, 243
+  li s7, 243
+  li t5, 1436
   remu t6, s7, t5  # normal
 
-  li a5, 689
-  li s5, 1325
-  remu s6, a5, s5  # normal
+  li a2, 1198
+  li s7, 1185
+  remu s5, a2, s7  # normal
 
-  li a3, 390
-  li a3, 555
-  remu s10, a3, a3  # normal
+  li a2, 555
+  li s4, 1685
+  remu s6, a2, s4  # normal
 
-  li t2, 519
   li a2, 543
-  remu a7, t2, a2  # normal
+  li s8, 1022
+  remu t2, a2, s8  # normal
 
-  li t5, 1013
   li s10, 1608
-  remu a1, t5, s10  # normal
+  li a4, 2004
+  remu t5, s10, a4  # normal
 
-  li t5, 1696
   li s6, 1536
-  remu s3, t5, s6  # normal
+  li s8, 1851
+  remu t5, s6, s8  # normal
 
-  li t3, 381
-  li s8, 1650
-  remu s2, t3, s8  # normal
+  li s8, 1139
+  li t3, 1511
+  remu t3, s8, t3  # normal
 
-  li s11, 1511
-  li a2, 1862
-  remu s4, s11, a2  # normal
+  li s3, 381
+  li a4, 0
+  remu s2, s3, a4  # div-by-zero
 
-  li a4, 381
-  li s6, 0
-  remu s3, a4, s6  # div-by-zero
-
-  li s2, 1467
-  li s8, 259
+  li s2, 259
+  li s8, 1629
   remu s11, s2, s8  # normal
 
-  li a6, 867
-  li a0, 2026
-  remu s5, a6, a0  # normal
+  li a7, 1161
+  li a0, 1383
+  remu a0, a7, a0  # normal
 
-  li a4, 534
-  li a3, 1987
-  remu a2, a4, a3  # normal
+  li s6, 1407
+  li t5, 198
+  remu s5, s6, t5  # normal
 
-  li s9, 1882
-  li t2, 66
-  remu a4, s9, t2  # normal
+  li t4, 647
+  li s8, 1807
+  remu t2, t4, s8  # normal
 
-  li t6, 1752
-  li s2, 828
-  remu t4, t6, s2  # normal
+  li t1, 540
+  li a7, 1236
+  remu s2, t1, a7  # normal
 
-  li t5, 1122
-  li s8, 382
-  remu s10, t5, s8  # normal
+  li a2, 337
+  li t3, 1523
+  remu t6, a2, t3  # normal
 
-  li a5, 677
-  li a2, 212
-  remu s8, a5, a2  # normal
+  li s8, 1251
+  li t6, 959
+  remu s9, s8, t6  # normal
 
-  li s8, 959
-  li a3, 1758
-  remu a6, s8, a3  # normal
-
-  li t3, 874
-  li s10, 1953
-  remu s8, t3, s10  # normal
+  li s8, 874
+  li t3, 1953
+  remu a7, s8, t3  # normal
 
   li t5, 1822
   li s6, 38
@@ -2099,297 +1839,261 @@ _start:
   li s6, 1802
   remu t3, s4, s6  # normal
 
-  li s11, 620
-  li a0, 1686
+  li s11, 1686
+  li a0, 1812
   remu a5, s11, a0  # normal
 
-  li s9, 355
-  li s2, 411
-  remu s7, s9, s2  # normal
-
+  li t3, 1572
   li t4, 1439
-  li s6, 1758
-  remu t5, t4, s6  # normal
+  remu a0, t3, t4  # normal
 
-  li t5, 345
-  li a1, 1016
-  remu a4, t5, a1  # normal
+  li a4, 345
+  li t5, 1016
+  remu a7, a4, t5  # normal
 
-  li s7, 1167
   li s7, 109
+  li s7, 1235
   remu s5, s7, s7  # normal
 
-  li a3, 772
-  li a0, 1604
-  remu s9, a3, a0  # normal
+  li s4, 1604
+  li s7, 1210
+  remu a0, s4, s7  # normal
 
-  li s8, 980
-  li t2, 2027
-  remu a3, s8, t2  # normal
+  li t2, 987
+  li a1, 2046
+  remu s8, t2, a1  # normal
 
-  li t4, 290
-  li a1, 49
-  remu a6, t4, a1  # normal
+  li s7, 49
+  li t3, 1479
+  remu s8, s7, t3  # normal
 
-  li a4, 1723
-  li t5, 1496
-  remu a5, a4, t5  # normal
+  li t5, 707
+  li a6, 1929
+  remu a4, t5, a6  # normal
 
-  li s9, 298
-  li t6, 68
-  remu s5, s9, t6  # normal
+  li t1, 883
+  li s6, 163
+  remu t3, t1, s6  # normal
 
-  li t3, 163
-  li t1, 247
-  remu s6, t3, t1  # normal
-
-  li s4, 1701
-  li a3, 1734
-  remu a6, s4, a3  # normal
+  li a6, 1701
+  li s4, 1734
+  remu t2, a6, s4  # normal
 
   li a6, 625
   li t3, 1136
   remu s10, a6, t3  # normal
 
-  li a3, 832
-  li t3, 636
+  li a3, 636
+  li t3, 1338
   remu t3, a3, t3  # normal
 
-  li a4, 270
-  li a6, 1270
-  remu s5, a4, a6  # normal
+  li s6, 270
+  li s8, 1270
+  remu a6, s6, s8  # normal
 
-  li a7, 977
-  li s11, 237
+  li a7, 353
+  li s11, 1779
   remu s10, a7, s11  # normal
 
-  li t3, 225
-  li a7, 1266
-  remu a1, t3, a7  # normal
+  li s2, 719
+  li s7, 489
+  remu t4, s2, s7  # normal
 
-  li s11, 489
-  li s9, 51
-  remu s9, s11, s9  # normal
+  li s10, 2033
+  li t5, 1420
+  remu t1, s10, t5  # normal
 
-  li t5, 2033
-  li s10, 1420
-  remu s10, t5, s10  # normal
-
-  li s4, 1523
-  li s11, 519
+  li s4, 519
+  li s11, 1100
   remu s4, s4, s11  # normal
 
-  li a2, 120
-  li s11, 1372
-  remu s11, a2, s11  # normal
+  li t4, 1114
+  li t1, 261
+  remu s11, t4, t1  # normal
 
-  li a2, 315
-  li s4, 2032
-  remu a7, a2, s4  # normal
+  li s10, 1864
+  li s6, 1475
+  remu a2, s10, s6  # normal
 
-  li s4, 683
-  li a5, 1506
-  remu s2, s4, a5  # normal
+  li s3, 1044
+  li s6, 421
+  remu t2, s3, s6  # normal
 
-  li a2, 472
-  li t4, 935
-  remu t6, a2, t4  # normal
+  li s9, 10
+  li s11, 180
+  remu s6, s9, s11  # normal
 
-  li s4, 50
-  li t1, 1001
-  remu s11, s4, t1  # normal
+  li a1, 614
+  li t2, 733
+  remu t1, a1, t2  # normal
 
-  li s3, 614
-  li a5, 733
-  remu t2, s3, a5  # normal
-
-  li s5, 1717
-  li s10, 919
+  li s5, 919
+  li s10, 1318
   remu t2, s5, s10  # normal
 
-  li a1, 1310
-  li a7, 1111
-  remu a4, a1, a7  # normal
+  li a7, 319
+  li s11, 1527
+  remu a1, a7, s11  # normal
 
-  li s6, 215
-  li a5, 734
-  remu t3, s6, a5  # normal
+  li s4, 188
+  li s9, 1642
+  remu t4, s4, s9  # normal
 
-  li s4, 282
-  li t2, 1905
-  remu a1, s4, t2  # normal
+  li s2, 1870
+  li a3, 32
+  remu t3, s2, a3  # normal
 
-  li a3, 1870
-  li a4, 32
-  remu a3, a3, a4  # normal
-
-  li a0, 1244
-  li a3, 993
+  li a0, 993
+  li a3, 1900
   remu a5, a0, a3  # normal
 
-  li a5, 800
   li s6, 1004
-  remu s2, a5, s6  # normal
+  li s3, 616
+  remu a5, s6, s3  # normal
 
-  li t1, 1418
   li a7, 39
-  remu t5, t1, a7  # normal
+  li t1, 1372
+  remu t1, a7, t1  # normal
 
-  li t1, 1259
   li s9, 425
-  remu a4, t1, s9  # normal
+  li a6, 840
+  remu t1, s9, a6  # normal
 
-  li s4, 245
   li a1, 583
-  remu a0, s4, a1  # normal
+  li a7, 1146
+  remu s4, a1, a7  # normal
 
-  li a2, 948
-  li t3, 1691
-  remu s10, a2, t3  # normal
+  li t2, 1525
+  li a1, 1877
+  remu t3, t2, a1  # normal
 
-  li a5, 347
-  li s2, 391
-  remu s10, a5, s2  # normal
+  li t3, 1615
+  li s6, 306
+  remu s11, t3, s6  # normal
 
-  li t5, 306
-  li s8, 255
-  remu s4, t5, s8  # normal
+  li s6, 535
+  li t2, 969
+  remu s6, s6, t2  # normal
 
-  li s9, 1069
-  li t5, 1290
-  remu a7, s9, t5  # normal
+  li a2, 1336
+  li a4, 1302
+  remu a3, a2, a4  # normal
 
-  li s10, 1854
-  li s11, 1113
-  remu a6, s10, s11  # normal
+  li a2, 557
+  li a1, 446
+  remu s2, a2, a1  # normal
 
-  li t3, 446
-  li a0, 636
-  remu a1, t3, a0  # normal
+  li t4, 1665
+  li t6, 494
+  remu t5, t4, t6  # normal
 
-  li t6, 1665
-  li s2, 494
-  remu t4, t6, s2  # normal
-
-  li a5, 1897
-  li a0, 1085
+  li a5, 1085
+  li a0, 491
   remu s5, a5, a0  # normal
 
-  li t3, 1246
   li t6, 165
-  remu t4, t3, t6  # normal
+  li s9, 880
+  remu t3, t6, s9  # normal
 
-  li a4, 1016
   li t5, 1457
-  remu a0, a4, t5  # normal
+  li t3, 1623
+  remu a4, t5, t3  # normal
 
-  li s4, 1065
   li t2, 712
-  remu a6, s4, t2  # normal
+  li s9, 127
+  remu s4, t2, s9  # normal
 
-  li a6, 1023
   li s2, 387
-  remu t1, a6, s2  # normal
+  li s5, 1892
+  remu a6, s2, s5  # normal
 
-  li t4, 252
   li t5, 910
-  remu s2, t4, t5  # normal
+  li t4, 535
+  remu t4, t5, t4  # normal
 
-  li a0, 344
-  li a6, 1060
-  remu t5, a0, a6  # normal
+  li a6, 344
+  li a5, 1060
+  remu a0, a6, a5  # normal
 
   li t1, 1816
   li t3, 527
   remu t3, t1, t3  # normal
 
-  li a4, 1888
-  li t4, 207
+  li a4, 207
+  li t4, 688
   remu t3, a4, t4  # normal
 
-  li s6, 1617
-  li a7, 2032
-  remu t6, s6, a7  # normal
+  li a7, 1567
+  li s11, 1747
+  remu s6, a7, s11  # normal
 
-  li a6, 1449
-  li s9, 879
-  remu t1, a6, s9  # normal
-
-  li a2, 608
-  li a2, 141
-  remu t6, a2, a2  # normal
+  li a5, 1826
+  li a0, 608
+  remu t6, a5, a0  # normal
 
   li s7, 1208
   li s7, 2043
-  remu s7, s7, s7  # normal
+  remu t2, s7, s7  # normal
 
-  li s5, 1145
-  li s3, 1568
+  li s5, 1568
+  li s3, 562
   remu a7, s5, s3  # normal
 
-  li a7, 1020
   li a0, 79
-  remu t5, a7, a0  # normal
+  li s8, 1566
+  remu a7, a0, s8  # normal
 
-  li s10, 1985
   li a5, 1409
-  remu a6, s10, a5  # normal
+  li s3, 1317
+  remu s10, a5, s3  # normal
 
-  li s4, 736
-  li a4, 106
-  remu s6, s4, a4  # normal
+  li a2, 897
+  li t6, 120
+  remu a6, a2, t6  # normal
 
-  li s7, 1150
-  li a1, 239
-  remu a4, s7, a1  # normal
-
-  li s4, 953
-  li a5, 653
-  remu s3, s4, a5  # normal
+  li t2, 953
+  li s3, 653
+  remu a2, t2, s3  # normal
 
   li a1, 229
   li s9, 898
   remu t4, a1, s9  # normal
 
-  li a6, 711
-  li a5, 721
+  li a6, 1302
+  li a5, 1469
   remu s6, a6, a5  # normal
 
-  li s6, 1469
-  li a4, 115
-  remu a1, s6, a4  # normal
+  li t1, 582
+  li s10, 771
+  remu s6, t1, s10  # normal
 
-  li s10, 582
-  li a5, 771
-  remu s10, s10, a5  # normal
-
-  li s5, 155
-  li a3, 369
+  li s5, 369
+  li a3, 230
   remu s3, s5, a3  # normal
 
-  li a1, 1957
   li s7, 2
-  remu t2, a1, s7  # normal
+  li a1, 1358
+  remu a1, s7, a1  # normal
 
-  li s7, 1395
-  li a0, 726
-  remu a4, s7, a0  # normal
+  li a0, 1325
+  li t5, 243
+  remu s7, a0, t5  # normal
 
-  li t2, 580
-  li t1, 454
-  remu a4, t2, t1  # normal
+  li t5, 454
+  li s6, 1494
+  remu t1, t5, s6  # normal
 
-  li a5, 1620
-  li t3, 413
-  remu s4, a5, t3  # normal
+  li a5, 413
+  li s10, 1378
+  remu t3, a5, s10  # normal
 
-  li a3, 645
   li a4, 1789
-  remu a4, a3, a4  # normal
+  li t5, 1995
+  remu a3, a4, t5  # normal
 
-  li s3, 1461
-  li s8, 914
-  remu s8, s3, s8  # normal
+  li a4, 1461
+  li t6, 914
+  remu s8, a4, t6  # normal
 
   li s6, 1206
   li t6, 521
@@ -2399,185 +2103,165 @@ _start:
   li t1, 132
   remu t6, s11, t1  # normal
 
-  li s7, 904
-  li a4, 426
+  li s7, 426
+  li a4, 2032
   remu t6, s7, a4  # normal
 
-  li t5, 974
-  li a4, 1420
-  remu s3, t5, a4  # normal
+  li a4, 1308
+  li s11, 687
+  remu t5, a4, s11  # normal
 
-  li t6, 363
-  li s8, 1375
-  remu a4, t6, s8  # normal
+  li t3, 1375
+  li s10, 1829
+  remu s8, t3, s10  # normal
 
-  li t1, 277
   li a2, 1435
-  remu s2, t1, a2  # normal
+  li a0, 1051
+  remu t1, a2, a0  # normal
 
-  li t4, 1580
-  li s11, 0
-  remu a2, t4, s11  # div-by-zero
+  li s11, 1718
+  li t1, 681
+  remu t4, s11, t1  # normal
 
-  li s11, 1695
-  li a7, 2019
-  remu s2, s11, a7  # normal
+  li s3, 415
+  li a6, 1963
+  remu a7, s3, a6  # normal
 
-  li a5, 1963
-  li s5, 923
-  remu a6, a5, s5  # normal
+  li s8, 301
+  li s9, 136
+  remu s6, s8, s9  # normal
 
-  li s2, 136
-  li t3, 1207
-  remu t6, s2, t3  # normal
-
-  li a4, 303
-  li a2, 1400
-  remu t1, a4, a2  # normal
+  li t1, 303
+  li a4, 1400
+  remu a3, t1, a4  # normal
 
   li a6, 381
   li t6, 1384
   remu t6, a6, t6  # normal
 
-  li s7, 1766
-  li s3, 675
+  li s7, 675
+  li s3, 1778
   remu s7, s7, s3  # normal
 
-  li a7, 1356
-  li t6, 841
-  remu s7, a7, t6  # normal
+  li t2, 778
+  li t4, 1676
+  remu t6, t2, t4  # normal
 
-  li a7, 1086
-  li s10, 1153
-  remu a0, a7, s10  # normal
+  li s5, 1153
+  li s11, 1218
+  remu s10, s5, s11  # normal
 
-  li a1, 2010
-  li t4, 629
-  remu a3, a1, t4  # normal
+  li t4, 2010
+  li t2, 629
+  remu a1, t4, t2  # normal
 
-  li a5, 1206
-  li t1, 1967
+  li a5, 1967
+  li t1, 817
   remu t2, a5, t1  # normal
 
-  li t4, 1195
   li t1, 335
-  remu a0, t4, t1  # normal
+  li a0, 1939
+  remu t4, t1, a0  # normal
 
-  li t4, 1928
-  li a3, 2003
-  remu s3, t4, a3  # normal
+  li a3, 1085
+  li a6, 373
+  remu t4, a3, a6  # normal
 
-  li a2, 1587
-  li t3, 757
-  remu s9, a2, t3  # normal
+  li s5, 1562
+  li a6, 1513
+  remu s8, s5, a6  # normal
 
-  li a6, 182
-  li a5, 1078
-  remu a5, a6, a5  # normal
+  li s2, 1078
+  li t2, 926
+  remu t6, s2, t2  # normal
 
-  li s2, 1100
-  li a2, 252
-  remu s2, s2, a2  # normal
+  li s6, 396
+  li t2, 351
+  remu a2, s6, t2  # normal
 
-  li s10, 1408
-  li s9, 1695
-  remu t5, s10, s9  # normal
+  li a5, 931
+  li s5, 249
+  remu s9, a5, s5  # normal
 
-  li a1, 1585
-  li s5, 1714
-  remu s6, a1, s5  # normal
+  li s4, 1944
+  li a7, 965
+  remu a6, s4, a7  # normal
 
-  li s9, 965
-  li s3, 1950
-  remu s5, s9, s3  # normal
+  li a3, 142
+  li t3, 603
+  remu s3, a3, t3  # normal
 
-  li t3, 142
-  li a6, 603
-  remu a3, t3, a6  # normal
-
-  li s2, 684
-  li t6, 867
+  li s2, 789
+  li t6, 516
   remu t4, s2, t6  # normal
 
-  li t5, 1783
-  li t2, 827
-  remu a0, t5, t2  # normal
+  li a7, 605
+  li t3, 1056
+  remu t2, a7, t3  # normal
 
-  li t5, 274
-  li s7, 356
-  remu s8, t5, s7  # normal
+  li s11, 1627
+  li t3, 1335
+  remu a4, s11, t3  # normal
 
-  li s5, 1131
-  li a6, 1876
-  remu a6, s5, a6  # normal
-
-  li s10, 1718
-  li s7, 460
-  remu t1, s10, s7  # normal
+  li s4, 1718
+  li s2, 460
+  remu a2, s4, s2  # normal
 
   li t5, 410
   li t5, 432
   remu a7, t5, t5  # normal
 
-  li t4, 1408
-  li a3, 1683
+  li t4, 1683
+  li a3, 1081
   remu s6, t4, a3  # normal
 
-  li a6, 1937
   li s8, 153
-  remu a2, a6, s8  # normal
+  li s3, 705
+  remu a6, s8, s3  # normal
 
-  li a2, 1645
-  li a6, 158
-  remu t6, a2, a6  # normal
+  li a6, 1645
+  li t5, 158
+  remu a2, a6, t5  # normal
 
   li a4, 1946
   li s10, 1100
   remu a6, a4, s10  # normal
 
-  li t1, 1241
-  li a4, 1273
+  li t1, 2013
+  li a4, 402
   remu a5, t1, a4  # normal
 
-  li s3, 933
-  li s10, 550
-  remu a2, s3, s10  # normal
+  li t5, 1314
+  li a3, 1103
+  remu a1, t5, a3  # normal
 
-  li s11, 1314
-  li s2, 1103
-  remu a3, s11, s2  # normal
-
-  li a7, 769
-  li s7, 1809
+  li a7, 1809
+  li s7, 865
   remu s11, a7, s7  # normal
 
-  li a7, 1531
   li s11, 230
-  remu a0, a7, s11  # normal
+  li s3, 651
+  remu a7, s11, s3  # normal
 
-  li t6, 1652
-  li t3, 555
-  remu s4, t6, t3  # normal
+  li a3, 118
+  li s10, 711
+  remu t3, a3, s10  # normal
 
-  li s6, 822
-  li t1, 236
-  remu s4, s6, t1  # normal
-
+  li a0, 207
   li t2, 1476
-  li s2, 815
-  remu a1, t2, s2  # normal
+  remu a0, a0, t2  # normal
 
-  li a5, 507
-  li s2, 125
-  remu a2, a5, s2  # normal
+  li a0, 1625
+  li a2, 507
+  remu s10, a0, a2  # normal
 
-  li a5, 727
-  li s3, 1943
-  remu a1, a5, s3  # normal
+  li t1, 1827
+  li a1, 727
+  remu s9, t1, a1  # normal
 
-  li s5, 1059
-  li a5, 370
-  remu s6, s5, a5  # normal
+  li s6, 1059
+  li s5, 370
+  remu s3, s6, s5  # normal
 
   li t1, 877
   li a6, 906
@@ -2587,49 +2271,45 @@ _start:
   li s9, 82
   remu s8, a1, s9  # normal
 
-  li t1, 709
-  li s3, 34
+  li t1, 34
+  li s3, 916
   remu s9, t1, s3  # normal
 
-  li a2, 1251
   li s7, 1127
-  remu a1, a2, s7  # normal
+  li a3, 1735
+  remu a2, s7, a3  # normal
 
-  li a6, 893
-  li a5, 1911
-  remu a7, a6, a5  # normal
+  li a5, 1237
+  li s2, 1626
+  remu a6, a5, s2  # normal
 
-  li s9, 1626
-  li s4, 419
-  remu a3, s9, s4  # normal
+  li t4, 1532
+  li t1, 1157
+  remu s6, t4, t1  # normal
 
-  li s4, 1532
-  li s9, 1157
-  remu t1, s4, s9  # normal
-
-  li s9, 1377
-  li t4, 1132
+  li s9, 1132
+  li t4, 1331
   remu a3, s9, t4  # normal
 
-  li a4, 1223
-  li a2, 771
-  remu s8, a4, a2  # normal
+  li a2, 1223
+  li s8, 771
+  remu a2, a2, s8  # normal
 
   li s4, 1655
   li a1, 1309
   remu t5, s4, a1  # normal
 
-  li t5, 2037
-  li s11, 1210
+  li t5, 1210
+  li s11, 1062
   remu s9, t5, s11  # normal
 
-  li a7, 144
   li a6, 777
-  remu a2, a7, a6  # normal
+  li a6, 1405
+  remu a7, a6, a6  # normal
 
-  li s11, 1948
-  li s10, 1468
-  remu a4, s11, s10  # normal
+  li s10, 1948
+  li a1, 1468
+  remu s11, s10, a1  # normal
 
   li a3, 741
   li t6, 1203
@@ -2643,221 +2323,193 @@ _start:
   li a1, 1722
   remu s8, t3, a1  # normal
 
-  li a5, 1899
-  li a2, 482
+  li a5, 482
+  li a2, 1927
   remu a4, a5, a2  # normal
 
-  li t2, 291
-  li s8, 1934
-  remu s3, t2, s8  # normal
+  li s8, 291
+  li s6, 1934
+  remu t2, s8, s6  # normal
 
-  li s4, 1563
-  li t4, 1222
+  li s4, 1222
+  li t4, 1692
   remu a0, s4, t4  # normal
 
-  li t2, 820
-  li t5, 1403
-  remu a7, t2, t5  # normal
+  li t5, 1874
+  li t5, 586
+  remu t2, t5, t5  # normal
 
-  li s6, 738
-  li s2, 331
-  remu a7, s6, s2  # normal
+  li s10, 724
+  li t6, 1283
+  remu a4, s10, t6  # normal
 
-  li a4, 1283
-  li s8, 237
-  remu s3, a4, s8  # normal
-
-  li s2, 690
-  li a2, 648
-  remu t1, s2, a2  # normal
+  li t2, 690
+  li t1, 648
+  remu s8, t2, t1  # normal
 
   li t3, 1758
   li t5, 1652
   remu s3, t3, t5  # normal
 
   li s3, 816
-  li a6, 0
-  remu a7, s3, a6  # div-by-zero
+  li a6, 1528
+  remu a7, s3, a6  # normal
 
-  li a5, 780
-  li t1, 73
-  remu s11, a5, t1  # normal
+  li a4, 16
+  li s4, 1019
+  remu t1, a4, s4  # normal
 
-  li t1, 926
-  li s8, 1410
-  remu s9, t1, s8  # normal
+  li s10, 1571
+  li a5, 1253
+  remu a1, s10, a5  # normal
 
-  li t5, 1253
-  li t4, 684
-  remu a3, t5, t4  # normal
-
-  li t2, 1867
-  li a3, 1383
-  remu t3, t2, a3  # normal
+  li t3, 1867
+  li t2, 1383
+  remu t6, t3, t2  # normal
 
   li s9, 2007
   li t5, 1471
   remu a7, s9, t5  # normal
 
-  li t6, 918
-  li a6, 537
+  li t6, 537
+  li a6, 865
   remu a0, t6, a6  # normal
 
-  li s11, 692
-  li t1, 504
-  remu a0, s11, t1  # normal
+  li t1, 1501
+  li s6, 153
+  remu s11, t1, s6  # normal
 
-  li s10, 1536
-  li s8, 1047
-  remu a5, s10, s8  # normal
+  li s8, 196
+  li a2, 442
+  remu a6, s8, a2  # normal
 
-  li s7, 196
-  li t2, 442
-  remu s5, s7, t2  # normal
-
-  li t1, 1707
-  li t2, 1819
+  li t1, 1819
+  li t2, 1557
   remu s8, t1, t2  # normal
 
-  li t4, 627
   li s5, 841
-  remu a6, t4, s5  # normal
+  li a2, 38
+  remu t4, s5, a2  # normal
 
-  li s9, 1723
-  li s8, 413
-  remu s10, s9, s8  # normal
+  li a7, 1105
+  li s9, 561
+  remu a3, a7, s9  # normal
 
-  li s4, 561
-  li a2, 1715
-  remu s9, s4, a2  # normal
-
-  li s4, 1157
-  li s11, 466
-  remu t4, s4, s11  # normal
+  li t4, 1157
+  li s4, 466
+  remu a7, t4, s4  # normal
 
   li s3, 1077
   li a0, 826
   remu t4, s3, a0  # normal
 
-  li s10, 161
-  li a7, 2033
+  li s10, 2033
+  li a7, 850
   remu a5, s10, a7  # normal
 
-  li s10, 11
-  li s3, 52
-  remu a0, s10, s3  # normal
+  li s3, 364
+  li a4, 0
+  remu s10, s3, a4  # div-by-zero
 
-  li t3, 2023
-  li t4, 610
-  remu s9, t3, t4  # normal
+  li s6, 368
+  li s9, 307
+  remu t4, s6, s9  # normal
 
-  li s4, 414
-  li t3, 1048
-  remu t3, s4, t3  # normal
+  li s11, 1870
+  li t4, 1212
+  remu s11, s11, t4  # normal
 
-  li a1, 1212
-  li s2, 1081
-  remu s8, a1, s2  # normal
+  li s2, 161
+  li t2, 1190
+  remu a2, s2, t2  # normal
 
-  li t2, 161
-  li t4, 1190
-  remu s2, t2, t4  # normal
-
-  li s9, 474
-  li a4, 389
+  li s9, 389
+  li a4, 187
   remu a5, s9, a4  # normal
 
-  li t1, 698
-  li t5, 1346
-  remu t2, t1, t5  # normal
+  li t5, 1464
+  li s9, 1792
+  remu t1, t5, s9  # normal
 
-  li s2, 380
-  li s7, 1526
-  remu a5, s2, s7  # normal
+  li a2, 1403
+  li s11, 749
+  remu s7, a2, s11  # normal
 
-  li t6, 1869
-  li t4, 1113
-  remu a4, t6, t4  # normal
+  li a6, 1579
+  li a6, 1958
+  remu t4, a6, a6  # normal
 
-  li s10, 683
-  li s3, 463
-  remu a6, s10, s3  # normal
+  li s8, 240
+  li t6, 652
+  remu a7, s8, t6  # normal
 
-  li s10, 652
-  li s11, 424
-  remu t5, s10, s11  # normal
-
-  li s6, 1794
-  li s3, 742
-  remu a7, s6, s3  # normal
+  li a7, 1794
+  li s6, 742
+  remu t4, a7, s6  # normal
 
   li a6, 535
   li a5, 1978
   remu s7, a6, a5  # normal
 
-  li t4, 259
-  li a7, 1071
+  li t4, 1071
+  li a7, 1287
   remu s3, t4, a7  # normal
 
-  li a4, 917
-  li t1, 1385
-  remu s8, a4, t1  # normal
+  li s10, 917
+  li s9, 1385
+  remu t1, s10, s9  # normal
 
-  li s4, 390
-  li s10, 1772
+  li s4, 1772
+  li s10, 1018
   remu s4, s4, s10  # normal
 
-  li s11, 1576
-  li a1, 608
-  remu s9, s11, a1  # normal
+  li a5, 608
+  li s9, 223
+  remu s3, a5, s9  # normal
 
-  li s7, 642
-  li t2, 1922
-  remu s5, s7, t2  # normal
+  li s8, 2030
+  li t6, 677
+  remu t1, s8, t6  # normal
 
-  li t6, 1313
-  li t3, 986
-  remu s3, t6, t3  # normal
+  li s3, 1139
+  li a4, 206
+  remu t3, s3, a4  # normal
 
-  li a2, 1550
-  li t2, 1651
-  remu a4, a2, t2  # normal
+  li a1, 962
+  li s5, 322
+  remu s4, a1, s5  # normal
 
-  li t3, 1835
-  li s2, 360
-  remu a1, t3, s2  # normal
+  li s2, 2041
+  li s6, 1831
+  remu s2, s2, s6  # normal
 
-  li s2, 2037
-  li a4, 72
-  remu s3, s2, a4  # normal
+  li t4, 420
+  li s3, 1652
+  remu a4, t4, s3  # normal
 
-  li a6, 0
-  li a7, 372
-  remu t4, a6, a7  # normal
+  li t2, 372
+  li s5, 0
+  remu a7, t2, s5  # div-by-zero
 
   li s7, 847
   li s8, 1868
   remu s7, s7, s8  # normal
 
-  li a5, 1861
-  li t2, 1359
+  li a5, 1359
+  li t2, 1937
   remu a4, a5, t2  # normal
 
-  li s7, 1488
-  li s7, 1853
-  remu s5, s7, s7  # normal
+  li s9, 399
+  li a5, 908
+  remu s10, s9, a5  # normal
 
-  li t4, 1398
-  li s9, 1454
-  remu t4, t4, s9  # normal
+  li a4, 1195
+  li a5, 1531
+  remu t1, a4, a5  # normal
 
-  li a3, 435
-  li s5, 187
-  remu s8, a3, s5  # normal
-
-  li s3, 1676
-  li t5, 438
-  remu t6, s3, t5  # normal
+  li t4, 1676
+  li t2, 438
+  remu s10, t4, t2  # normal
 
   li s7, 1609
   li a0, 883
@@ -2871,241 +2523,209 @@ _start:
   li s6, 1873
   remu s8, s9, s6  # normal
 
-  li s6, 2043
-  li s4, 17
+  li s6, 17
+  li s4, 198
   remu s9, s6, s4  # normal
 
-  li s11, 1772
-  li t2, 1978
-  remu s4, s11, t2  # normal
+  li a7, 725
+  li s6, 711
+  remu s5, a7, s6  # normal
 
-  li t6, 525
-  li s10, 424
-  remu s4, t6, s10  # normal
+  li t5, 1318
+  li t4, 1575
+  remu s11, t5, t4  # normal
 
-  li s9, 1318
-  li s7, 1575
-  remu a6, s9, s7  # normal
-
-  li s7, 1120
-  li s10, 1629
+  li s7, 1404
+  li s10, 1204
   remu a7, s7, s10  # normal
 
-  li a3, 565
-  li s2, 1690
-  remu a4, a3, s2  # normal
+  li t5, 1224
+  li t5, 1285
+  remu s2, t5, t5  # normal
 
-  li s10, 1285
-  li s11, 890
-  remu s7, s10, s11  # normal
+  li s11, 858
+  li s5, 1190
+  remu s10, s11, s5  # normal
 
-  li a0, 1414
-  li s7, 543
-  remu a0, a0, s7  # normal
+  li a5, 728
+  li s9, 1320
+  remu s9, a5, s9  # normal
 
-  li s8, 1320
-  li t6, 472
-  remu s10, s8, t6  # normal
+  li t4, 1709
+  li a5, 1171
+  remu s10, t4, a5  # normal
 
-  li s5, 1709
-  li s3, 1171
-  remu a5, s5, s3  # normal
-
-  li t1, 1560
-  li s4, 595
+  li t1, 595
+  li s4, 217
   remu a7, t1, s4  # normal
 
-  li s9, 659
-  li t2, 1173
-  remu t2, s9, t2  # normal
+  li t2, 659
+  li a0, 1173
+  remu s9, t2, a0  # normal
 
   li a2, 1208
   li t5, 835
   remu s9, a2, t5  # normal
 
-  li t2, 419
-  li a5, 918
+  li t2, 918
+  li a5, 1592
   remu s5, t2, a5  # normal
 
-  li s8, 1178
-  li s5, 192
-  remu s11, s8, s5  # normal
+  li s4, 192
+  li s10, 1562
+  remu a1, s4, s10  # normal
 
-  li a6, 1280
   li a7, 220
-  remu a6, a6, a7  # normal
+  li s9, 53
+  remu a6, a7, s9  # normal
 
-  li s11, 1814
-  li a2, 923
-  remu t1, s11, a2  # normal
+  li a2, 1814
+  li a0, 923
+  remu s11, a2, a0  # normal
 
   li s10, 804
   li s10, 792
   remu s8, s10, s10  # normal
 
-  li s2, 305
-  li t6, 765
+  li s2, 711
+  li t6, 488
   remu a3, s2, t6  # normal
 
-  li s11, 166
-  li s4, 1755
-  remu t6, s11, s4  # normal
+  li t2, 532
+  li a7, 659
+  remu a6, t2, a7  # normal
 
-  li s5, 1044
-  li a2, 23
-  remu a2, s5, a2  # normal
+  li a2, 634
+  li t1, 163
+  remu s6, a2, t1  # normal
 
-  li s2, 163
-  li s10, 629
-  remu a4, s2, s10  # normal
-
-  li s7, 1233
-  li t2, 2009
-  remu a4, s7, t2  # normal
+  li a4, 1233
+  li s7, 2009
+  remu t5, a4, s7  # normal
 
   li s5, 1301
   li a5, 900
   remu s6, s5, a5  # normal
 
-  li s4, 652
-  li t3, 1703
+  li s4, 1652
+  li t3, 376
   remu t6, s4, t3  # normal
 
-  li s5, 906
-  li a6, 873
-  remu s5, s5, a6  # normal
+  li a1, 1477
+  li a0, 1202
+  remu a5, a1, a0  # normal
 
-  li a4, 894
-  li a4, 1945
-  remu s9, a4, a4  # normal
+  li s7, 36
+  li s4, 469
+  remu a0, s7, s4  # normal
 
-  li s8, 1417
-  li t1, 1825
-  remu s5, s8, t1  # normal
+  li a5, 998
+  li s2, 163
+  remu s9, a5, s2  # normal
 
-  li s8, 998
-  li s7, 163
-  remu a1, s8, s7  # normal
-
-  li a4, 464
-  li a6, 1580
+  li a4, 1158
+  li a6, 101
   remu s9, a4, a6  # normal
 
-  li s5, 1535
-  li s11, 1825
-  remu a2, s5, s11  # normal
+  li a5, 179
+  li s4, 1214
+  remu s4, a5, s4  # normal
 
-  li t2, 788
-  li a3, 1312
-  remu s3, t2, a3  # normal
+  li a0, 393
+  li a4, 685
+  remu s8, a0, a4  # normal
 
-  li t3, 30
-  li t4, 268
-  remu s4, t3, t4  # normal
+  li s5, 873
+  li t1, 1737
+  remu s5, s5, t1  # normal
 
-  li s9, 1737
-  li s8, 425
-  remu a0, s9, s8  # normal
-
-  li s5, 1782
-  li s10, 295
-  remu a0, s5, s10  # normal
+  li a0, 1782
+  li s5, 295
+  remu t4, a0, s5  # normal
 
   li s9, 1358
   li t5, 155
   remu s11, s9, t5  # normal
 
-  li t3, 1031
-  li t2, 288
+  li t3, 288
+  li t2, 932
   remu t3, t3, t2  # normal
 
-  li a1, 1847
-  li a2, 1656
-  remu s6, a1, a2  # normal
+  li a7, 1773
+  li a6, 1295
+  remu a2, a7, a6  # normal
 
-  li a4, 484
-  li t1, 24
-  remu a7, a4, t1  # normal
+  li a6, 259
+  li s9, 186
+  remu t1, a6, s9  # normal
 
-  li s11, 186
-  li s7, 297
-  remu s8, s11, s7  # normal
-
-  li s4, 1234
-  li t4, 354
-  remu a5, s4, t4  # normal
+  li t3, 1234
+  li a5, 354
+  remu s10, t3, a5  # normal
 
   li s2, 126
   li a6, 1941
   remu a3, s2, a6  # normal
 
-  li s5, 1601
-  li a1, 1208
+  li s5, 1208
+  li a1, 590
   remu t6, s5, a1  # normal
 
-  li t5, 1528
-  li a3, 45
-  remu s8, t5, a3  # normal
+  li s9, 45
+  li s11, 579
+  remu a3, s9, s11  # normal
 
-  li s5, 20
-  li t5, 1614
-  remu s5, s5, t5  # normal
+  li t2, 348
+  li t1, 1248
+  remu t4, t2, t1  # normal
 
-  li s5, 1408
-  li t3, 867
-  remu s5, s5, t3  # normal
+  li s11, 1690
+  li s11, 583
+  remu a0, s11, s11  # normal
 
-  li s8, 753
-  li s4, 904
-  remu a7, s8, s4  # normal
+  li t6, 795
+  li a1, 469
+  remu t6, t6, a1  # normal
 
-  li a2, 222
-  li a0, 1889
-  remu s7, a2, a0  # normal
+  li s9, 1889
+  li s6, 299
+  remu t6, s9, s6  # normal
 
-  li s5, 275
-  li t3, 1026
-  remu s8, s5, t3  # normal
+  li s9, 1995
+  li t3, 1355
+  remu a3, s9, t3  # normal
 
-  li a0, 1355
-  li s11, 1462
-  remu t4, a0, s11  # normal
-
-  li s9, 1167
-  li s8, 285
-  remu t5, s9, s8  # normal
+  li t5, 1167
+  li s9, 285
+  remu a5, t5, s9  # normal
 
   li a4, 1252
   li s3, 624
   remu a0, a4, s3  # normal
 
-  li s6, 1754
-  li a5, 690
+  li s6, 690
+  li a5, 19
   remu s6, s6, a5  # normal
 
-  li a4, 1786
+  li a1, 1786
   li a1, 1133
-  remu t1, a4, a1  # normal
+  remu a4, a1, a1  # normal
 
   li t5, 1965
   li s9, 1895
   remu a5, t5, s9  # normal
 
-  li a5, 445
-  li a3, 719
+  li a5, 719
+  li a3, 335
   remu s2, a5, a3  # normal
 
-  li s7, 573
-  li t3, 804
-  remu s8, s7, t3  # normal
+  li t5, 313
+  li s5, 308
+  remu a2, t5, s5  # normal
 
-  li s11, 308
-  li s8, 76
-  remu a2, s11, s8  # normal
-
-  li s8, 1659
-  li t1, 871
-  remu s4, s8, t1  # normal
+  li s4, 1659
+  li s8, 871
+  remu t1, s4, s8  # normal
 
   li s5, 1933
   li a2, 608
@@ -3115,109 +2735,97 @@ _start:
   li a1, 548
   remu a5, a6, a1  # normal
 
-  li s4, 1490
   li s4, 43
+  li s4, 978
   remu s2, s4, s4  # normal
 
-  li a1, 574
-  li s7, 1827
-  remu s9, a1, s7  # normal
+  li s9, 652
+  li t6, 733
+  remu s7, s9, t6  # normal
 
-  li t6, 598
   li s6, 1980
-  remu t6, t6, s6  # normal
+  li s9, 1469
+  remu s6, s6, s9  # normal
 
-  li t2, 949
-  li a1, 257
-  remu a5, t2, a1  # normal
+  li a1, 1513
+  li s3, 958
+  remu t2, a1, s3  # normal
 
-  li a5, 846
-  li a1, 1479
-  remu a2, a5, a1  # normal
+  li s9, 1479
+  li a0, 1589
+  remu t2, s9, a0  # normal
 
-  li s3, 163
   li s2, 1327
-  remu a6, s3, s2  # normal
+  li t2, 422
+  remu s3, s2, t2  # normal
 
-  li s10, 1120
   li s4, 1078
-  remu t4, s10, s4  # normal
+  li s8, 712
+  remu s10, s4, s8  # normal
 
-  li s5, 1550
-  li s6, 1496
-  remu s6, s5, s6  # normal
+  li s8, 318
+  li a6, 1030
+  remu a6, s8, a6  # normal
 
-  li s8, 1541
-  li t3, 912
-  remu s6, s8, t3  # normal
+  li a1, 1413
+  li s4, 1994
+  remu a6, a1, s4  # normal
 
-  li a6, 1413
-  li a5, 1994
-  remu s4, a6, a5  # normal
-
-  li s7, 569
-  li t1, 1801
+  li s7, 1801
+  li t1, 678
   remu s3, s7, t1  # normal
 
-  li a1, 1150
-  li t3, 866
-  remu t6, a1, t3  # normal
+  li t3, 615
+  li s4, 765
+  remu a1, t3, s4  # normal
 
-  li t6, 484
-  li t6, 943
-  remu t5, t6, t6  # normal
+  li a5, 943
+  li s7, 1698
+  remu t6, a5, s7  # normal
 
-  li a4, 1961
   li s11, 1962
-  remu a7, a4, s11  # normal
+  li t4, 863
+  remu a4, s11, t4  # normal
 
-  li s6, 1683
-  li t6, 91
-  remu a0, s6, t6  # normal
+  li t6, 176
+  li s8, 523
+  remu s6, t6, s8  # normal
 
-  li t2, 659
-  li t5, 551
-  remu a1, t2, t5  # normal
+  li s6, 160
+  li t6, 601
+  remu s6, s6, t6  # normal
 
-  li s4, 601
-  li t2, 229
-  remu s8, s4, t2  # normal
+  li t6, 1660
+  li a2, 76
+  remu t2, t6, a2  # normal
 
-  li a2, 1660
-  li t6, 76
-  remu t6, a2, t6  # normal
-
-  li s11, 351
-  li s9, 887
+  li s11, 887
+  li s9, 1839
   remu s11, s11, s9  # normal
 
-  li s7, 698
-  li s3, 898
-  remu s2, s7, s3  # normal
+  li s3, 1682
+  li s3, 584
+  remu s7, s3, s3  # normal
 
-  li s7, 744
-  li t5, 1083
-  remu a7, s7, t5  # normal
+  li t6, 686
+  li s7, 1403
+  remu s6, t6, s7  # normal
 
-  li s11, 1857
-  li s9, 281
-  remu t6, s11, s9  # normal
+  li s7, 1578
+  li s6, 541
+  remu s2, s7, s6  # normal
 
-  li a6, 67
-  li a6, 828
-  remu a1, a6, a6  # normal
+  li t1, 1719
+  li a0, 612
+  remu t4, t1, a0  # normal
 
-  li s4, 612
-  li s9, 394
-  remu s4, s4, s9  # normal
+  li t4, 159
+  li t6, 481
+  remu s7, t4, t6  # normal
 
-  li s3, 481
-  li s7, 381
-  remu t6, s3, s7  # normal
-
-  li s9, 4
-  li t5, 1767
-  remu s3, s9, t5  # normal
+  li s3, 4
+  li s9, 1767
+  remu t3, s3, s9  # normal
 
   li a7, 1757
   li a5, 939
@@ -3231,365 +2839,309 @@ _start:
   li s3, 1160
   remu t5, a2, s3  # normal
 
-  li s5, 22
-  li a7, 29
+  li s5, 29
+  li a7, 482
   remu s7, s5, a7  # normal
 
-  li s4, 1536
-  li t4, 841
-  remu s6, s4, t4  # normal
+  li t1, 1293
+  li a6, 1674
+  remu s4, t1, a6  # normal
 
-  li a4, 633
-  li a7, 1745
-  remu s10, a4, a7  # normal
+  li t4, 1038
+  li t5, 1070
+  remu a5, t4, t5  # normal
 
-  li s6, 1734
-  li a2, 1497
-  remu s8, s6, a2  # normal
-
-  li a2, 834
-  li s9, 1692
-  remu s7, a2, s9  # normal
+  li a7, 1627
+  li s6, 834
+  remu s5, a7, s6  # normal
 
   li s5, 1981
-  li s3, 1039
-  remu s5, s5, s3  # normal
+  li s5, 1039
+  remu a7, s5, s5  # normal
 
-  li s6, 1630
-  li a5, 565
+  li s6, 565
+  li a5, 487
   remu a3, s6, a5  # normal
 
-  li t4, 662
-  li s11, 410
-  remu s9, t4, s11  # normal
+  li a1, 410
+  li s2, 878
+  remu s11, a1, s2  # normal
 
-  li s4, 213
-  li a6, 658
-  remu a0, s4, a6  # normal
+  li a6, 213
+  li a4, 658
+  remu s4, a6, a4  # normal
 
-  li s8, 595
-  li t1, 1931
+  li s8, 1931
+  li t1, 1783
   remu a6, s8, t1  # normal
 
-  li a7, 908
-  li t3, 1518
-  remu s7, a7, t3  # normal
+  li t3, 154
+  li a2, 1574
+  remu t3, t3, a2  # normal
 
-  li s7, 1641
-  li t2, 1173
-  remu t3, s7, t2  # normal
+  li s7, 235
+  li s8, 717
+  remu a6, s7, s8  # normal
 
-  li s7, 717
-  li t2, 2024
-  remu s10, s7, t2  # normal
+  li s3, 1171
+  li s2, 797
+  remu s8, s3, s2  # normal
 
-  li t1, 1171
-  li a0, 797
-  remu s2, t1, a0  # normal
-
-  li s7, 948
-  li s4, 694
+  li s7, 694
+  li s4, 147
   remu t2, s7, s4  # normal
 
-  li t2, 1
-  li a5, 644
-  remu s9, t2, a5  # normal
+  li a1, 355
+  li s8, 1130
+  remu a5, a1, s8  # normal
 
-  li a2, 1618
-  li a6, 1660
-  remu t3, a2, a6  # normal
+  li a5, 820
+  li s9, 62
+  remu a6, a5, s9  # normal
 
-  li a0, 281
-  li s4, 369
-  remu s6, a0, s4  # normal
+  li s10, 1425
+  li t3, 1423
+  remu s11, s10, t3  # normal
 
-  li a3, 1425
-  li s11, 1423
-  remu s5, a3, s11  # normal
-
-  li a1, 1862
-  li s7, 1654
+  li a1, 1654
+  li s7, 19
   remu a2, a1, s7  # normal
 
-  li t1, 436
-  li a2, 296
-  remu s6, t1, a2  # normal
+  li t6, 296
+  li a7, 1205
+  remu a2, t6, a7  # normal
 
-  li a3, 1055
-  li a4, 1024
-  remu s4, a3, a4  # normal
+  li t4, 1024
+  li s4, 1813
+  remu a4, t4, s4  # normal
 
-  li s2, 996
-  li a6, 1391
-  remu s10, s2, a6  # normal
+  li s6, 1879
+  li s3, 1887
+  remu a6, s6, s3  # normal
 
-  li s9, 112
-  li s2, 1974
-  remu s2, s9, s2  # normal
+  li t1, 1567
+  li s3, 902
+  remu s6, t1, s3  # normal
 
-  li a2, 902
-  li t3, 941
-  remu t4, a2, t3  # normal
+  li s10, 1446
+  li a1, 39
+  remu s9, s10, a1  # normal
 
-  li a7, 39
-  li a5, 1078
-  remu a4, a7, a5  # normal
+  li a2, 1400
+  li a1, 311
+  remu s10, a2, a1  # normal
 
-  li a3, 1400
-  li t3, 311
-  remu a1, a3, t3  # normal
-
-  li t6, 895
-  li s3, 1102
+  li t6, 1102
+  li s3, 748
   remu s5, t6, s3  # normal
 
-  li s11, 778
-  li s9, 2043
-  remu t6, s11, s9  # normal
-
-  li a0, 1087
-  li a1, 846
-  remu s11, a0, a1  # normal
+  li s9, 961
+  li a0, 991
+  remu s11, s9, a0  # normal
 
   li a0, 1458
   li a1, 638
-  remu a1, a0, a1  # normal
+  remu a2, a0, a1  # normal
 
   li t4, 2017
   li t3, 27
   remu t4, t4, t3  # normal
 
-  li t2, 1291
-  li s3, 2016
+  li t2, 2016
+  li s3, 1125
   remu s5, t2, s3  # normal
 
-  li a2, 1147
-  li s3, 1629
-  remu s6, a2, s3  # normal
+  li t6, 525
+  li s4, 221
+  remu s3, t6, s4  # normal
 
-  li s6, 1733
-  li t5, 1959
-  remu a1, s6, t5  # normal
+  li a7, 1422
+  li s3, 1612
+  remu s4, a7, s3  # normal
 
-  li t2, 715
-  li s4, 1872
-  remu s5, t2, s4  # normal
+  li t6, 1884
+  li s2, 1292
+  remu s9, t6, s2  # normal
 
-  li s10, 34
-  li s4, 48
-  remu t4, s10, s4  # normal
+  li t1, 412
+  li t1, 1332
+  remu s10, t1, t1  # normal
 
-  li a0, 1332
-  li a6, 1481
-  remu s9, a0, a6  # normal
+  li s7, 971
+  li a2, 1103
+  remu a5, s7, a2  # normal
 
-  li a2, 971
-  li t6, 1103
-  remu s7, a2, t6  # normal
-
-  li s7, 2042
-  li a4, 1736
+  li s7, 1736
+  li a4, 862
   remu s3, s7, a4  # normal
 
-  li a7, 1495
-  li s10, 1640
-  remu a0, a7, s10  # normal
+  li s10, 1145
+  li a5, 1846
+  remu a7, s10, a5  # normal
 
-  li s2, 936
-  li t6, 409
-  remu a2, s2, t6  # normal
+  li s6, 409
+  li t5, 1105
+  remu t6, s6, t5  # normal
 
-  li a2, 1560
-  li a1, 803
-  remu s11, a2, a1  # normal
+  li s5, 612
+  li a7, 1937
+  remu a1, s5, a7  # normal
 
-  li s11, 39
-  li t5, 723
-  remu t5, s11, t5  # normal
+  li t6, 1293
+  li a7, 1993
+  remu t1, t6, a7  # normal
 
-  li s3, 1293
-  li t5, 1993
-  remu a7, s3, t5  # normal
-
-  li a2, 195
-  li s5, 1631
+  li a2, 405
+  li s5, 669
   remu a3, a2, s5  # normal
 
-  li s10, 1041
-  li t6, 1951
-  remu t4, s10, t6  # normal
+  li a0, 394
+  li a2, 1842
+  remu t2, a0, a2  # normal
 
-  li t4, 1064
-  li s2, 1478
-  remu s8, t4, s2  # normal
-
-  li s5, 1055
-  li s5, 1409
-  remu a5, s5, s5  # normal
+  li a4, 1055
+  li a2, 1409
+  remu s11, a4, a2  # normal
 
   li a7, 814
   li t4, 714
   remu t1, a7, t4  # normal
 
-  li a5, 1996
-  li a4, 1830
+  li a5, 1830
+  li a4, 321
   remu a3, a5, a4  # normal
 
-  li a6, 593
-  li s7, 686
-  remu t3, a6, s7  # normal
+  li s7, 593
+  li a3, 686
+  remu a6, s7, a3  # normal
 
   li a4, 1657
   li a7, 292
   remu s8, a4, a7  # normal
 
-  li t6, 1297
-  li a4, 1193
+  li t6, 1193
+  li a4, 1095
   remu t3, t6, a4  # normal
 
-  li a2, 1111
-  li s7, 1822
-  remu s10, a2, s7  # normal
-
-  li s11, 1844
-  li s6, 1695
-  remu a5, s11, s6  # normal
+  li s8, 1487
+  li a6, 1844
+  remu s7, s8, a6  # normal
 
   li t6, 961
-  li t1, 1030
-  remu t6, t6, t1  # normal
+  li t6, 1030
+  remu a7, t6, t6  # normal
 
-  li s10, 683
-  li s11, 1626
+  li s10, 1626
+  li s11, 421
   remu s11, s10, s11  # normal
 
-  li t4, 1938
-  li t3, 220
-  remu t4, t4, t3  # normal
+  li t3, 1626
+  li s3, 340
+  remu t4, t3, s3  # normal
 
-  li a6, 340
-  li s4, 425
-  remu t1, a6, s4  # normal
-
-  li s7, 1596
-  li t5, 1267
-  remu a2, s7, t5  # normal
+  li a2, 1596
+  li s7, 1267
+  remu t4, a2, s7  # normal
 
   li a1, 517
   li s11, 537
   remu a1, a1, s11  # normal
 
-  li t6, 1461
-  li t1, 1332
+  li t6, 1332
+  li t1, 1950
   remu s4, t6, t1  # normal
 
-  li s2, 1822
-  li s5, 553
-  remu s3, s2, s5  # normal
+  li s5, 725
+  li a2, 1870
+  remu s2, s5, a2  # normal
 
-  li s5, 1870
-  li t6, 1781
-  remu s10, s5, t6  # normal
-
+  li s11, 1268
   li s8, 1422
-  li s8, 1972
-  remu s4, s8, s8  # normal
+  remu s8, s11, s8  # normal
 
-  li a1, 1498
-  li t3, 1688
-  remu s5, a1, t3  # normal
+  li s5, 1498
+  li a1, 1688
+  remu s3, s5, a1  # normal
 
   li t5, 558
-  li a3, 1408
-  remu a2, t5, a3  # normal
+  li a3, 0
+  remu a2, t5, a3  # div-by-zero
 
-  li s3, 2014
-  li s5, 1954
-  remu a3, s3, s5  # normal
+  li a3, 2014
+  li s3, 1954
+  remu a5, a3, s3  # normal
 
-  li t1, 947
-  li a7, 29
+  li t1, 29
+  li a7, 1530
   remu a3, t1, a7  # normal
 
-  li a5, 1790
-  li a0, 1616
-  remu s5, a5, a0  # normal
+  li a7, 668
+  li s5, 1596
+  remu a0, a7, s5  # normal
 
-  li t6, 1596
-  li s10, 1549
-  remu a1, t6, s10  # normal
+  li a1, 981
+  li a2, 1113
+  remu a6, a1, a2  # normal
 
-  li a2, 981
-  li t3, 1113
-  remu a1, a2, t3  # normal
-
-  li s8, 1101
-  li s11, 1691
+  li s8, 1691
+  li s11, 770
   remu a3, s8, s11  # normal
 
-  li t3, 452
   li t6, 1865
-  remu a0, t3, t6  # normal
+  li t5, 1854
+  remu t3, t6, t5  # normal
 
-  li s2, 2015
-  li a2, 769
-  remu s7, s2, a2  # normal
+  li s10, 79
+  li s7, 623
+  remu a2, s10, s7  # normal
 
-  li t1, 90
-  li t5, 761
-  remu a4, t1, t5  # normal
+  li s5, 1155
+  li t1, 1102
+  remu t2, s5, t1  # normal
 
-  li a3, 1795
-  li a2, 33
-  remu t4, a3, a2  # normal
+  li s10, 369
+  li s2, 617
+  remu t5, s10, s2  # normal
 
-  li t3, 889
-  li t5, 1400
-  remu a1, t3, t5  # normal
+  li s3, 2041
+  li a0, 1521
+  remu t1, s3, a0  # normal
 
-  li a3, 1899
-  li s3, 129
-  remu a7, a3, s3  # normal
+  li s10, 598
+  li t2, 229
+  remu s2, s10, t2  # normal
 
-  li t3, 1607
-  li t5, 292
-  remu a4, t3, t5  # normal
+  li a6, 787
+  li t3, 1024
+  remu a2, a6, t3  # normal
 
-  li s3, 1024
-  li t6, 1562
-  remu s5, s3, t6  # normal
-
-  li t4, 1814
-  li s10, 1012
-  remu t1, t4, s10  # normal
+  li t1, 1814
+  li t4, 1012
+  remu a6, t1, t4  # normal
 
   li t2, 384
   li a0, 853
   remu s11, t2, a0  # normal
 
-  li a6, 1323
-  li s9, 649
+  li a6, 649
+  li s9, 172
   remu s3, a6, s9  # normal
 
-  li s11, 500
-  li t2, 1037
-  remu s8, s11, t2  # normal
+  li s5, 1223
+  li s4, 813
+  remu s11, s5, s4  # normal
 
-  li s8, 213
-  li a3, 892
-  remu s3, s8, a3  # normal
+  li t2, 966
+  li s9, 1778
+  remu a5, t2, s9  # normal
 
-  li a1, 61
-  li s8, 685
-  remu t4, a1, s8  # normal
+  li t1, 1621
+  li t6, 995
+  remu a4, t1, t6  # normal
 
-  li s6, 995
-  li t4, 36
-  remu a2, s6, t4  # normal
-
-  li s6, 634
-  li s10, 1521
-  remu t2, s6, s10  # normal
+  li t2, 634
+  li s6, 1521
+  remu t1, t2, s6  # normal
 
   li a1, 1386
   li t6, 245
@@ -3603,277 +3155,241 @@ _start:
   li a4, 1796
   remu s3, a1, a4  # normal
 
-  li a0, 1467
-  li t1, 551
+  li a0, 551
+  li t1, 1026
   remu s11, a0, t1  # normal
 
-  li t2, 1207
   li s3, 2007
-  remu a2, t2, s3  # normal
+  li s10, 777
+  remu t2, s3, s10  # normal
 
-  li s6, 1325
   li t6, 1918
-  remu a0, s6, t6  # normal
+  li s5, 1127
+  remu s6, t6, s5  # normal
 
-  li s7, 634
   li s5, 1840
-  remu a2, s7, s5  # normal
+  li t6, 1211
+  remu s7, s5, t6  # normal
 
-  li a2, 2
   li s5, 1552
-  remu a3, a2, s5  # normal
+  li a5, 0
+  remu a2, s5, a5  # div-by-zero
 
-  li t6, 1491
-  li t1, 978
+  li t6, 978
+  li t1, 1313
   remu s11, t6, t1  # normal
 
-  li s11, 1587
   li t3, 777
-  remu a4, s11, t3  # normal
+  li s9, 2037
+  remu s11, t3, s9  # normal
 
-  li s9, 631
-  li s3, 1159
-  remu s4, s9, s3  # normal
+  li t5, 1319
+  li s7, 452
+  remu s5, t5, s7  # normal
 
-  li a7, 394
-  li s8, 273
-  remu a4, a7, s8  # normal
+  li s4, 531
+  li s9, 731
+  remu t4, s4, s9  # normal
 
-  li t5, 827
-  li t6, 438
-  remu t2, t5, t6  # normal
+  li a0, 130
+  li t4, 1591
+  remu t2, a0, t4  # normal
 
-  li a0, 1591
-  li t4, 2006
-  remu s3, a0, t4  # normal
+  li s3, 1048
+  li s4, 201
+  remu s9, s3, s4  # normal
 
-  li s7, 201
-  li s10, 1500
-  remu s4, s7, s10  # normal
-
-  li s7, 854
-  li s10, 2012
-  remu a1, s7, s10  # normal
+  li a1, 854
+  li s7, 2012
+  remu a5, a1, s7  # normal
 
   li s2, 1703
   li s8, 1511
   remu t3, s2, s8  # normal
 
-  li t2, 166
-  li s7, 288
+  li t2, 288
+  li s7, 1244
   remu s10, t2, s7  # normal
 
-  li t3, 397
-  li a0, 414
-  remu a3, t3, a0  # normal
+  li a0, 946
+  li s4, 1578
+  remu t3, a0, s4  # normal
 
-  li a1, 791
-  li s5, 1018
-  remu s11, a1, s5  # normal
+  li a0, 732
+  li s4, 1700
+  remu a0, a0, s4  # normal
 
-  li s8, 1700
-  li t6, 432
-  remu s6, s8, t6  # normal
-
-  li s6, 1749
-  li a5, 426
-  remu s8, s6, a5  # normal
+  li t4, 1878
+  li s8, 1749
+  remu s11, t4, s8  # normal
 
   li t6, 1382
-  li s5, 647
-  remu t6, t6, s5  # normal
+  li t6, 647
+  remu t4, t6, t6  # normal
 
-  li s7, 1290
-  li s2, 1329
+  li s7, 1329
+  li s2, 1522
   remu s5, s7, s2  # normal
 
-  li a7, 1324
   li s8, 985
-  remu a5, a7, s8  # normal
+  li a7, 876
+  remu a7, s8, a7  # normal
 
-  li s5, 1040
-  li a0, 1474
-  remu s6, s5, a0  # normal
+  li s5, 1853
+  li s11, 1832
+  remu a6, s5, s11  # normal
 
-  li s2, 141
-  li a6, 0
-  remu s2, s2, a6  # div-by-zero
+  li t1, 66
+  li s11, 553
+  remu a6, t1, s11  # normal
 
-  li s7, 1236
-  li t1, 26
-  remu a3, s7, t1  # normal
+  li t1, 1289
+  li a3, 88
+  remu a3, t1, a3  # normal
 
-  li a1, 88
-  li a0, 1130
-  remu a3, a1, a0  # normal
-
-  li s4, 633
+  li a2, 633
   li s5, 386
-  remu s5, s4, s5  # normal
+  remu s10, a2, s5  # normal
 
-  li s2, 1085
-  li a5, 1503
+  li s2, 1503
+  li a5, 1023
   remu t2, s2, a5  # normal
 
-  li a1, 1230
-  li a1, 376
-  remu s6, a1, a1  # normal
+  li a2, 890
+  li a3, 316
+  remu a1, a2, a3  # normal
 
-  li a6, 316
-  li s6, 1329
-  remu s6, a6, s6  # normal
-
-  li t6, 390
+  li a4, 390
   li s3, 1230
-  remu s3, t6, s3  # normal
+  remu s11, a4, s3  # normal
 
   li s11, 229
   li s6, 1369
   remu t2, s11, s6  # normal
 
-  li a7, 493
   li a7, 928
+  li a7, 46
   remu a5, a7, a7  # normal
 
-  li s8, 1566
-  li s7, 221
-  remu s11, s8, s7  # normal
+  li s8, 168
+  li a6, 1307
+  remu s8, s8, a6  # normal
 
-  li s4, 612
-  li t2, 1338
-  remu a3, s4, t2  # normal
+  li s6, 904
+  li t5, 627
+  remu s5, s6, t5  # normal
 
-  li s10, 1609
-  li a1, 1825
-  remu s4, s10, a1  # normal
+  li s9, 368
+  li s11, 909
+  remu t2, s9, s11  # normal
 
-  li s6, 1769
-  li s4, 1186
-  remu s7, s6, s4  # normal
+  li a3, 338
+  li a6, 1949
+  remu a7, a3, a6  # normal
 
-  li t5, 1949
-  li t5, 201
-  remu a6, t5, t5  # normal
+  li s11, 348
+  li t2, 1632
+  remu s6, s11, t2  # normal
 
-  li a6, 1779
-  li a2, 534
-  remu s5, a6, a2  # normal
+  li a7, 1969
+  li s10, 811
+  remu s4, a7, s10  # normal
 
-  li s3, 1619
-  li s5, 803
-  remu t5, s3, s5  # normal
+  li a6, 1008
+  li s8, 992
+  remu s3, a6, s8  # normal
 
-  li s7, 992
-  li s11, 293
-  remu s5, s7, s11  # normal
+  li a2, 366
+  li a7, 460
+  remu t3, a2, a7  # normal
 
-  li a7, 366
-  li a4, 460
-  remu a2, a7, a4  # normal
-
-  li a7, 780
   li a7, 1313
+  li a7, 1411
   remu s9, a7, a7  # normal
 
-  li s7, 1248
-  li s8, 693
-  remu a5, s7, s8  # normal
+  li s8, 1432
+  li t1, 1811
+  remu s7, s8, t1  # normal
 
-  li s7, 1804
-  li s2, 183
-  remu a5, s7, s2  # normal
+  li t5, 956
+  li s2, 817
+  remu s7, t5, s2  # normal
 
-  li a0, 351
-  li s9, 460
-  remu a1, a0, s9  # normal
+  li a5, 460
+  li t5, 223
+  remu s9, a5, t5  # normal
 
-  li t2, 604
-  li a1, 1178
-  remu s11, t2, a1  # normal
+  li s7, 455
+  li t5, 1249
+  remu a1, s7, t5  # normal
 
-  li a4, 1249
-  li s10, 1843
-  remu t1, a4, s10  # normal
-
-  li t1, 867
-  li a4, 834
-  remu s3, t1, a4  # normal
+  li s3, 867
+  li t1, 834
+  remu s2, s3, t1  # normal
 
   li s4, 578
   li a2, 75
   remu s5, s4, a2  # normal
 
-  li s6, 1046
-  li s9, 697
+  li s6, 697
+  li s9, 246
   remu a6, s6, s9  # normal
 
-  li a3, 1111
-  li a0, 217
-  remu t2, a3, a0  # normal
+  li a0, 1904
+  li s10, 34
+  remu a3, a0, s10  # normal
 
-  li s8, 1111
-  li t1, 1475
-  remu s2, s8, t1  # normal
+  li a6, 1475
+  li s9, 441
+  remu t3, a6, s9  # normal
 
-  li t1, 1583
-  li a3, 946
-  remu t4, t1, a3  # normal
+  li a3, 1559
+  li s8, 407
+  remu t1, a3, s8  # normal
 
-  li s4, 1292
-  li s10, 1985
-  remu a6, s4, s10  # normal
+  li s3, 814
+  li s7, 1875
+  remu a4, s3, s7  # normal
 
-  li s5, 1875
-  li t3, 88
-  remu s7, s5, t3  # normal
+  li s10, 1248
+  li t1, 1366
+  remu s5, s10, t1  # normal
 
-  li a1, 2006
-  li s4, 1611
-  remu t2, a1, s4  # normal
+  li a6, 1441
+  li s11, 1455
+  remu s3, a6, s11  # normal
 
-  li t6, 1441
-  li t1, 1455
-  remu s11, t6, t1  # normal
-
-  li a3, 1129
-  li a1, 253
+  li a3, 253
+  li a1, 1055
   remu s8, a3, a1  # normal
 
-  li a2, 120
-  li a6, 1147
-  remu s8, a2, a6  # normal
+  li t1, 1399
+  li s5, 1609
+  remu a6, t1, s5  # normal
 
-  li t5, 562
-  li a4, 359
-  remu a1, t5, a4  # normal
+  li t5, 931
+  li t3, 1709
+  remu s9, t5, t3  # normal
 
-  li a6, 931
-  li s4, 1709
-  remu s11, a6, s4  # normal
-
-  li s6, 1279
-  li t5, 1348
+  li s6, 1348
+  li t5, 1839
   remu a1, s6, t5  # normal
 
-  li s5, 567
   li t5, 828
-  remu s2, s5, t5  # normal
+  li a0, 565
+  remu s5, t5, a0  # normal
 
-  li a3, 553
   li s10, 1761
-  remu t5, a3, s10  # normal
+  li s10, 594
+  remu a3, s10, s10  # normal
 
-  li s8, 1300
-  li s6, 277
-  remu t5, s8, s6  # normal
+  li s6, 484
+  li t6, 754
+  remu s8, s6, t6  # normal
 
-  li s5, 1300
-  li s11, 596
-  remu s5, s5, s11  # normal
-
-  li t1, 1695
-  li a4, 1684
-  remu s11, t1, a4  # normal
+  li t5, 1695
+  li s11, 1684
+  remu a4, t5, s11  # normal
 
   li s2, 1121
   li s11, 622
@@ -3883,133 +3399,617 @@ _start:
   li t5, 945
   remu a0, t4, t5  # normal
 
-  li a1, 1471
   li a1, 325
+  li a1, 1952
   remu s7, a1, a1  # normal
 
-  li s3, 1920
-  li t5, 1531
-  remu s10, s3, t5  # normal
+  li s4, 1531
+  li s7, 753
+  remu t5, s4, s7  # normal
 
-  li a6, 670
-  li s3, 791
-  remu t6, a6, s3  # normal
+  li s3, 926
+  li s3, 132
+  remu a6, s3, s3  # normal
 
-  li t2, 61
-  li a7, 1105
-  remu a1, t2, a7  # normal
+  li t1, 830
+  li a2, 837
+  remu a7, t1, a2  # normal
 
-  li a1, 830
-  li s11, 837
-  remu a7, a1, s11  # normal
-
-  li t6, 2006
-  li s2, 1330
+  li t6, 1330
+  li s2, 1874
   remu t3, t6, s2  # normal
 
-  li a1, 171
   li a7, 1558
-  remu s2, a1, a7  # normal
+  li a6, 1281
+  remu a1, a7, a6  # normal
 
-  li a4, 157
-  li a6, 447
-  remu s11, a4, a6  # normal
+  li s7, 157
+  li s11, 447
+  remu a6, s7, s11  # normal
 
-  li s2, 1006
-  li t2, 1620
+  li s2, 1620
+  li t2, 160
   remu s2, s2, t2  # normal
 
-  li t2, 201
-  li s5, 777
-  remu s11, t2, s5  # normal
+  li a6, 777
+  li s4, 1192
+  remu s5, a6, s4  # normal
 
-  li s2, 1171
-  li a6, 1889
-  remu a3, s2, a6  # normal
+  li a6, 1730
+  li a3, 1205
+  remu s2, a6, a3  # normal
 
-  li a7, 223
-  li a3, 582
-  remu t6, a7, a3  # normal
+  li t2, 1898
+  li s10, 1850
+  remu s7, t2, s10  # normal
 
-  li s8, 463
-  li s2, 736
-  remu s2, s8, s2  # normal
+  li s11, 554
+  li s4, 1610
+  remu t3, s11, s4  # normal
 
-  li s10, 1693
-  li s5, 1324
-  remu s6, s10, s5  # normal
-
-  li t1, 827
-  li t6, 1862
-  remu s2, t1, t6  # normal
+  li a4, 827
+  li s2, 1862
+  remu a7, a4, s2  # normal
 
   li a2, 671
   li a4, 506
   remu t3, a2, a4  # normal
 
-  li t4, 1486
-  li s10, 349
+  li t4, 349
+  li s10, 1573
   remu t3, t4, s10  # normal
 
-  li s10, 654
-  li a6, 1551
-  remu s4, s10, a6  # normal
+  li s4, 1558
+  li s7, 179
+  remu s11, s4, s7  # normal
 
-  li a6, 1372
-  li t2, 614
-  remu s5, a6, t2  # normal
+  li a4, 664
+  li s6, 592
+  remu t6, a4, s6  # normal
 
-  li t5, 210
-  li t6, 1718
-  remu t6, t5, t6  # normal
+  li s10, 1827
+  li t2, 1182
+  remu t6, s10, t2  # normal
 
-  li a3, 1827
-  li s11, 1182
-  remu a3, a3, s11  # normal
-
-  li t6, 830
-  li t4, 14
+  li t6, 14
+  li t4, 1036
   remu s8, t6, t4  # normal
 
-  li a2, 2042
-  li t1, 23
-  remu s7, a2, t1  # normal
+  li s2, 23
+  li s3, 2021
+  remu t1, s2, s3  # normal
 
-  li s3, 1948
-  li a1, 1858
-  remu s7, s3, a1  # normal
+  li a0, 1679
+  li s6, 1809
+  remu a1, a0, s6  # normal
 
-  li s2, 26
-  li t3, 1002
-  remu a7, s2, t3  # normal
+  li s7, 1139
+  li s7, 850
+  remu t3, s7, s7  # normal
 
-  li a2, 850
-  li s7, 200
-  remu s5, a2, s7  # normal
+  li t6, 150
+  li t5, 595
+  remu t2, t6, t5  # normal
 
-  li t5, 150
-  li t2, 595
-  remu t6, t5, t2  # normal
-
-  li s9, 1222
-  li s6, 1356
+  li s9, 359
+  li s6, 200
   remu t2, s9, s6  # normal
 
-  li t2, 730
-  li t4, 660
-  remu t3, t2, t4  # normal
+  li a7, 726
+  li t6, 1865
+  remu t4, a7, t6  # normal
 
-  li a3, 726
-  li s7, 1865
-  remu s9, a3, s7  # normal
-
-  li s6, 381
-  li a5, 1225
+  li s6, 1225
+  li a5, 1322
   remu s11, s6, a5  # normal
 
-  li a5, 1750
   li a6, 265
-  remu a4, a5, a6  # normal
+  li t3, 1199
+  remu a5, a6, t3  # normal
+
+  li t5, 1348
+  li t4, 1694
+  remu s3, t5, t4  # normal
+
+  li a0, 447
+  li s10, 359
+  remu s4, a0, s10  # normal
+
+  li s11, 1176
+  li s10, 1749
+  remu s3, s11, s10  # normal
+
+  li a4, 1449
+  li a2, 531
+  remu s7, a4, a2  # normal
+
+  li s6, 2038
+  li s3, 2017
+  remu s7, s6, s3  # normal
+
+  li s7, 792
+  li a1, 6
+  remu t6, s7, a1  # normal
+
+  li t1, 849
+  li s2, 1698
+  remu t4, t1, s2  # normal
+
+  li t2, 869
+  li a4, 46
+  remu a7, t2, a4  # normal
+
+  li a0, 277
+  li s10, 1260
+  remu s8, a0, s10  # normal
+
+  li s4, 466
+  li s5, 1365
+  remu a3, s4, s5  # normal
+
+  li a6, 119
+  li s11, 719
+  remu a4, a6, s11  # normal
+
+  li a4, 1943
+  li a4, 145
+  remu a0, a4, a4  # normal
+
+  li t5, 1372
+  li s3, 1894
+  remu s8, t5, s3  # normal
+
+  li s11, 1292
+  li t2, 76
+  remu a7, s11, t2  # normal
+
+  li s6, 1448
+  li s9, 271
+  remu a0, s6, s9  # normal
+
+  li a2, 679
+  li t1, 1595
+  remu t5, a2, t1  # normal
+
+  li s7, 1288
+  li t4, 129
+  remu t6, s7, t4  # normal
+
+  li a7, 1522
+  li t3, 1851
+  remu a2, a7, t3  # normal
+
+  li a0, 1532
+  li s4, 153
+  remu a3, a0, s4  # normal
+
+  li t3, 1976
+  li s2, 631
+  remu a0, t3, s2  # normal
+
+  li a4, 1271
+  li s3, 1340
+  remu a0, a4, s3  # normal
+
+  li t4, 840
+  li s4, 149
+  remu t5, t4, s4  # normal
+
+  li a6, 1273
+  li s10, 180
+  remu s2, a6, s10  # normal
+
+  li s7, 188
+  li t3, 422
+  remu s9, s7, t3  # normal
+
+  li s9, 1278
+  li s11, 859
+  remu s4, s9, s11  # normal
+
+  li a0, 1307
+  li a0, 1806
+  remu a4, a0, a0  # normal
+
+  li t4, 468
+  li a2, 62
+  remu s9, t4, a2  # normal
+
+  li s5, 1434
+  li s4, 1304
+  remu s7, s5, s4  # normal
+
+  li t5, 701
+  li s10, 291
+  remu a2, t5, s10  # normal
+
+  li s7, 532
+  li a4, 118
+  remu a3, s7, a4  # normal
+
+  li s9, 352
+  li t2, 1746
+  remu s3, s9, t2  # normal
+
+  li t6, 1826
+  li s10, 1456
+  remu a6, t6, s10  # normal
+
+  li a4, 321
+  li a0, 1907
+  remu a3, a4, a0  # normal
+
+  li t5, 1866
+  li t3, 1271
+  remu s6, t5, t3  # normal
+
+  li s8, 916
+  li s10, 588
+  remu s9, s8, s10  # normal
+
+  li a2, 1353
+  li a5, 1330
+  remu s7, a2, a5  # normal
+
+  li s3, 1439
+  li t1, 1960
+  remu s2, s3, t1  # normal
+
+  li t6, 521
+  li a3, 421
+  remu s2, t6, a3  # normal
+
+  li s10, 290
+  li t4, 1237
+  remu a6, s10, t4  # normal
+
+  li s2, 998
+  li a6, 651
+  remu s5, s2, a6  # normal
+
+  li a6, 1765
+  li t3, 1783
+  remu s3, a6, t3  # normal
+
+  li a4, 319
+  li s5, 1993
+  remu s6, a4, s5  # normal
+
+  li s6, 399
+  li s7, 1823
+  remu t4, s6, s7  # normal
+
+  li a3, 1552
+  li a6, 1341
+  remu t6, a3, a6  # normal
+
+  li s8, 569
+  li s9, 600
+  remu s3, s8, s9  # normal
+
+  li t5, 1831
+  li s2, 801
+  remu s9, t5, s2  # normal
+
+  li s9, 1247
+  li a4, 1780
+  remu a0, s9, a4  # normal
+
+  li a5, 1655
+  li t3, 522
+  remu s10, a5, t3  # normal
+
+  li t2, 3
+  li a5, 1471
+  remu a3, t2, a5  # normal
+
+  li a3, 1614
+  li t1, 1303
+  remu t4, a3, t1  # normal
+
+  li a6, 865
+  li a6, 710
+  remu s10, a6, a6  # normal
+
+  li t5, 1475
+  li a0, 1708
+  remu s3, t5, a0  # normal
+
+  li a3, 293
+  li s9, 64
+  remu t5, a3, s9  # normal
+
+  li s11, 556
+  li s3, 346
+  remu t5, s11, s3  # normal
+
+  li s8, 1743
+  li a7, 736
+  remu t5, s8, a7  # normal
+
+  li s4, 1575
+  li a7, 1455
+  remu s2, s4, a7  # normal
+
+  li t6, 2040
+  li a7, 969
+  remu a1, t6, a7  # normal
+
+  li s4, 1503
+  li a2, 137
+  remu s10, s4, a2  # normal
+
+  li s6, 1972
+  li s3, 327
+  remu t2, s6, s3  # normal
+
+  li s11, 1144
+  li s11, 1904
+  remu t5, s11, s11  # normal
+
+  li t3, 1935
+  li s4, 319
+  remu s4, t3, s4  # normal
+
+  li s8, 216
+  li s5, 1407
+  remu s9, s8, s5  # normal
+
+  li t1, 1921
+  li s3, 1357
+  remu s5, t1, s3  # normal
+
+  li a5, 1245
+  li a3, 1066
+  remu a7, a5, a3  # normal
+
+  li s8, 211
+  li s3, 1195
+  remu t2, s8, s3  # normal
+
+  li s7, 519
+  li t1, 314
+  remu s11, s7, t1  # normal
+
+  li a2, 1052
+  li t5, 58
+  remu a2, a2, t5  # normal
+
+  li t4, 619
+  li s7, 1829
+  remu s11, t4, s7  # normal
+
+  li t6, 740
+  li a2, 135
+  remu a5, t6, a2  # normal
+
+  li t3, 631
+  li t5, 2031
+  remu a4, t3, t5  # normal
+
+  li a6, 685
+  li a1, 863
+  remu a7, a6, a1  # normal
+
+  li s11, 475
+  li a5, 215
+  remu s6, s11, a5  # normal
+
+  li s2, 957
+  li a6, 1555
+  remu t6, s2, a6  # normal
+
+  li s10, 1780
+  li a6, 48
+  remu s9, s10, a6  # normal
+
+  li s2, 168
+  li a6, 398
+  remu a3, s2, a6  # normal
+
+  li s8, 1116
+  li a5, 1372
+  remu s5, s8, a5  # normal
+
+  li a2, 1602
+  li t4, 1888
+  remu a2, a2, t4  # normal
+
+  li s11, 798
+  li a1, 1382
+  remu s9, s11, a1  # normal
+
+  li s10, 34
+  li t6, 278
+  remu s9, s10, t6  # normal
+
+  li a7, 1826
+  li t4, 1439
+  remu t1, a7, t4  # normal
+
+  li s11, 97
+  li a3, 376
+  remu a1, s11, a3  # normal
+
+  li s7, 498
+  li s9, 491
+  remu t2, s7, s9  # normal
+
+  li s7, 756
+  li t5, 454
+  remu t3, s7, t5  # normal
+
+  li t6, 310
+  li a2, 1857
+  remu s10, t6, a2  # normal
+
+  li a7, 1324
+  li s10, 1054
+  remu a2, a7, s10  # normal
+
+  li t3, 1362
+  li a2, 246
+  remu t6, t3, a2  # normal
+
+  li a2, 821
+  li t6, 1608
+  remu a2, a2, t6  # normal
+
+  li s8, 1766
+  li s3, 894
+  remu t6, s8, s3  # normal
+
+  li s8, 423
+  li t4, 142
+  remu s7, s8, t4  # normal
+
+  li t3, 1826
+  li s6, 76
+  remu t3, t3, s6  # normal
+
+  li t5, 154
+  li s8, 0
+  remu s3, t5, s8  # div-by-zero
+
+  li a6, 1602
+  li a2, 15
+  remu s9, a6, a2  # normal
+
+  li s10, 287
+  li s3, 925
+  remu s4, s10, s3  # normal
+
+  li a6, 1470
+  li s10, 1365
+  remu t1, a6, s10  # normal
+
+  li a3, 371
+  li a6, 1496
+  remu s9, a3, a6  # normal
+
+  li a4, 1187
+  li t3, 831
+  remu s5, a4, t3  # normal
+
+  li s5, 1224
+  li t2, 1597
+  remu t6, s5, t2  # normal
+
+  li s8, 1793
+  li s10, 776
+  remu t4, s8, s10  # normal
+
+  li t2, 976
+  li a0, 2003
+  remu t5, t2, a0  # normal
+
+  li t3, 1840
+  li s5, 67
+  remu a6, t3, s5  # normal
+
+  li a4, 175
+  li t2, 1660
+  remu t2, a4, t2  # normal
+
+  li a0, 610
+  li s8, 954
+  remu t4, a0, s8  # normal
+
+  li t2, 78
+  li s11, 1930
+  remu t3, t2, s11  # normal
+
+  li t2, 58
+  li a1, 705
+  remu s7, t2, a1  # normal
+
+  li t2, 699
+  li a3, 261
+  remu s8, t2, a3  # normal
+
+  li t4, 903
+  li s3, 258
+  remu t4, t4, s3  # normal
+
+  li a7, 1328
+  li a4, 494
+  remu a0, a7, a4  # normal
+
+  li s6, 873
+  li s5, 186
+  remu s9, s6, s5  # normal
+
+  li t6, 578
+  li a4, 1700
+  remu s6, t6, a4  # normal
+
+  li s10, 997
+  li a5, 166
+  remu t6, s10, a5  # normal
+
+  li t4, 646
+  li s8, 64
+  remu t5, t4, s8  # normal
+
+  li t3, 365
+  li t1, 1162
+  remu s3, t3, t1  # normal
+
+  li s10, 586
+  li s3, 1109
+  remu a7, s10, s3  # normal
+
+  li s2, 154
+  li a7, 737
+  remu s4, s2, a7  # normal
+
+  li s3, 1233
+  li s7, 1424
+  remu s10, s3, s7  # normal
+
+  li t1, 391
+  li s5, 1482
+  remu a7, t1, s5  # normal
+
+  li s4, 852
+  li a1, 1132
+  remu s5, s4, a1  # normal
+
+  li a0, 1943
+  li t4, 2037
+  remu t2, a0, t4  # normal
+
+  li t6, 1491
+  li s9, 1167
+  remu t6, t6, s9  # normal
+
+  li a7, 1856
+  li a2, 177
+  remu a0, a7, a2  # normal
+
+  li s11, 119
+  li t2, 1986
+  remu t4, s11, t2  # normal
+
+  li t4, 1335
+  li t3, 1716
+  remu s4, t4, t3  # normal
+
+  li s11, 451
+  li s9, 1335
+  remu a0, s11, s9  # normal
+
+  li t4, 819
+  li a1, 1538
+  remu a1, t4, a1  # normal
+
+  li t3, 1785
+  li s3, 593
+  remu a1, t3, s3  # normal
+
+  li s7, 558
+  li s2, 1874
+  remu a0, s7, s2  # normal
 
   addi t0, t0, -1      # decrement counter
   bnez t0, .loop       # branch if not zero

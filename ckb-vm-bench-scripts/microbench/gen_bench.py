@@ -41,9 +41,7 @@ def generate_instruction(instruction, div_by_zero_rate, overflow_rate):
     rd = random.choice(TEMP_REGS)
     rs1 = random.choice(TEMP_REGS)
     rs2 = random.choice(TEMP_REGS)
-
-    if instruction in ["wide_div", "wide_divu"]:
-        rd2 = random.choice(TEMP_REGS)
+    rd2 = random.choice(TEMP_REGS)  # Always select rd2 to keep random sequence consistent
 
     is_unsigned = instruction in ['divu', 'remu', 'divuw', 'remuw', 'wide_divu']
     is_word = instruction in ['divw', 'divuw', 'remw', 'remuw']
