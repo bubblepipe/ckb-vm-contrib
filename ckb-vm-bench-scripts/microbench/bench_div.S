@@ -1,15 +1,15 @@
 # Auto-generated RISC-V assembly microbenchmark
 # Instruction: DIV
 # Count: 10000
-# Iterations: 10000
-# Total instructions: 100000000
+# Iterations: 1000
+# Total instructions: 10000000
 # Div-by-zero rate: 0.50%
 # Overflow rate: 0.10%
 
 .global _start
 _start:
 
-  li t0, 10000  # loop counter
+  li t0, 1000  # loop counter
 .loop:
 
   li t4, -220
