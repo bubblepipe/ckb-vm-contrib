@@ -1,0 +1,217 @@
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+asm_bench_div           time:   [230.37 ms 230.47 ms 230.62 ms]
+                        change: [-1.4800% -1.4356% -1.3681%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+
+asm_bench_divw          time:   [230.63 ms 230.66 ms 230.69 ms]
+                        change: [-0.6648% -0.6050% -0.5668%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+
+asm_bench_rem           time:   [220.17 ms 220.40 ms 220.68 ms]
+                        change: [-0.6452% -0.5439% -0.4247%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 8 outliers among 100 measurements (8.00%)
+  1 (1.00%) high mild
+  7 (7.00%) high severe
+
+asm_bench_remw          time:   [224.42 ms 224.50 ms 224.60 ms]
+                        change: [-2.9990% -2.8725% -2.7369%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 9 outliers among 100 measurements (9.00%)
+  2 (2.00%) high mild
+  7 (7.00%) high severe
+
+asm_bench_wide_div      time:   [322.21 ms 322.70 ms 323.21 ms]
+                        change: [-0.8137% -0.6857% -0.5441%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+
+asm_bench_divu          time:   [221.36 ms 221.38 ms 221.40 ms]
+                        change: [-0.0561% -0.0459% -0.0353%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 10 outliers among 100 measurements (10.00%)
+  9 (9.00%) high mild
+  1 (1.00%) high severe
+
+asm_bench_divuw         time:   [221.38 ms 221.77 ms 222.12 ms]
+                        change: [+1.6337% +1.8698% +2.1153%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 14 outliers among 100 measurements (14.00%)
+  14 (14.00%) low severe
+
+asm_bench_remu          time:   [222.45 ms 222.67 ms 222.85 ms]
+                        change: [+0.7067% +0.9495% +1.1927%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 5 outliers among 100 measurements (5.00%)
+  5 (5.00%) low severe
+
+asm_bench_remuw         time:   [222.74 ms 223.13 ms 223.48 ms]
+                        change: [-0.6387% -0.4796% -0.3211%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 21 outliers among 100 measurements (21.00%)
+  17 (17.00%) low severe
+  4 (4.00%) high mild
+
+asm_bench_wide_divu     time:   [344.12 ms 344.20 ms 344.33 ms]
+                        change: [+0.0482% +0.0893% +0.1464%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low severe
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+mop_bench_div           time:   [243.07 ms 243.24 ms 243.35 ms]
+                        change: [-0.0169% +0.2042% +0.4269%] (p = 0.07 > 0.05)
+                        No change in performance detected.
+Found 8 outliers among 100 measurements (8.00%)
+  3 (3.00%) low severe
+  3 (3.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+mop_bench_divw          time:   [227.07 ms 227.15 ms 227.28 ms]
+                        change: [-2.6750% -2.5589% -2.4240%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 11 outliers among 100 measurements (11.00%)
+  1 (1.00%) low severe
+  2 (2.00%) low mild
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+
+mop_bench_rem           time:   [224.82 ms 224.87 ms 224.93 ms]
+                        change: [-0.3010% -0.0816% +0.1305%] (p = 0.46 > 0.05)
+                        No change in performance detected.
+Found 7 outliers among 100 measurements (7.00%)
+  4 (4.00%) high mild
+  3 (3.00%) high severe
+
+mop_bench_remw          time:   [231.17 ms 231.28 ms 231.41 ms]
+                        change: [+0.5470% +0.7625% +0.9720%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 10 outliers among 100 measurements (10.00%)
+  10 (10.00%) high severe
+
+mop_bench_wide_div      time:   [244.10 ms 244.12 ms 244.15 ms]
+                        change: [+0.9182% +0.9730% +1.0074%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+
+mop_bench_divu          time:   [234.59 ms 234.73 ms 234.81 ms]
+                        change: [-0.6383% -0.5733% -0.5182%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 9 outliers among 100 measurements (9.00%)
+  2 (2.00%) low severe
+  7 (7.00%) high mild
+
+mop_bench_divuw         time:   [224.02 ms 224.27 ms 224.55 ms]
+                        change: [+1.2822% +1.4019% +1.5511%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) low severe
+  1 (1.00%) high severe
+
+mop_bench_remu          time:   [224.23 ms 224.27 ms 224.32 ms]
+                        change: [+2.0244% +2.0531% +2.0835%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) high mild
+  5 (5.00%) high severe
+
+mop_bench_remuw         time:   [222.53 ms 222.93 ms 223.32 ms]
+                        change: [-1.4480% -1.2671% -1.1095%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+mop_bench_wide_divu     time:   [205.96 ms 206.19 ms 206.43 ms]
+                        change: [+0.8109% +0.9210% +1.0234%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+
+asm_ed25519             time:   [3.2226 ms 3.2239 ms 3.2253 ms]
+                        change: [-1.3763% -1.3160% -1.2549%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) low mild
+  2 (2.00%) high mild
+
+asm_k256_ecdsa          time:   [11.316 ms 11.323 ms 11.330 ms]
+                        change: [-1.3678% -1.2938% -1.2197%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+
+asm_k256_schnorr        time:   [6.4204 ms 6.4239 ms 6.4274 ms]
+                        change: [-2.0336% -1.9548% -1.8734%] (p = 0.00 < 0.05)
+                        Performance has improved.
+
+asm_p256                time:   [11.578 ms 11.599 ms 11.620 ms]
+                        change: [-1.9156% -1.5863% -1.3037%] (p = 0.00 < 0.05)
+                        Performance has improved.
+
+asm_rsa                 time:   [10.767 ms 10.772 ms 10.778 ms]
+                        change: [+6.3804% +6.4390% +6.5007%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) high mild
+  5 (5.00%) high severe
+
+asm_secp256k1_ecdsa     time:   [3.4281 ms 3.4294 ms 3.4307 ms]
+                        change: [+1.4346% +1.4821% +1.5254%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+asm_secp256k1_schnorr   time:   [3.4413 ms 3.4424 ms 3.4435 ms]
+                        change: [+0.6064% +0.6467% +0.6884%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+
+mop_ed25519             time:   [3.1518 ms 3.1529 ms 3.1541 ms]
+                        change: [-1.8405% -1.6385% -1.4979%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+mop_k256_ecdsa          time:   [10.475 ms 10.480 ms 10.485 ms]
+                        change: [-0.9662% -0.8971% -0.8284%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+
+mop_k256_schnorr        time:   [6.2479 ms 6.2510 ms 6.2542 ms]
+                        change: [-1.3839% -1.3145% -1.2485%] (p = 0.00 < 0.05)
+                        Performance has improved.
+
+mop_p256                time:   [8.7710 ms 8.7819 ms 8.7926 ms]
+                        change: [-1.7331% -1.5434% -1.3437%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+
+mop_rsa                 time:   [9.6410 ms 9.6433 ms 9.6457 ms]
+                        change: [+6.7076% +6.7380% +6.7705%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+
+mop_secp256k1_ecdsa     time:   [3.4432 ms 3.4482 ms 3.4534 ms]
+                        change: [-0.3066% -0.1461% +0.0241%] (p = 0.06 > 0.05)
+                        No change in performance detected.
+Found 21 outliers among 100 measurements (21.00%)
+  21 (21.00%) high severe
+
+mop_secp256k1_schnorr   time:   [3.4282 ms 3.4291 ms 3.4300 ms]
+                        change: [-0.8371% -0.7976% -0.7591%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+
